@@ -2,10 +2,9 @@
 
 Artificial Netlist Generator
 
-Construction of Realistic Place-and-route Benchmarks for Machine Learning Applications <https://ieeexplore.ieee.org/document/9904912>
+Construction of Realistic Place-and-route Benchmarks for Machine Learning Applications [(link)]<https://ieeexplore.ieee.org/document/9904912>
 
-This code is based on OpenROAD project
-https://github.com/The-OpenROAD-Project/OpenROAD
+This code is based on OpenROAD project [(link)]<https://github.com/The-OpenROAD-Project/OpenROAD>
 
 # Submodule List
 
