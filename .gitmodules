@@ -1,0 +1,6 @@
+[submodule "src/OpenDB"]
+	path = src/OpenDB
+	url = https://github.com/The-OpenROAD-Project/OpenDB.git
+[submodule "src/OpenSTA"]
+	path = src/OpenSTA
+	url = https://github.com/The-OpenROAD-Project/OpenSTA.git
