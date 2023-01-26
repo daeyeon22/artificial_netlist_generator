@@ -16,6 +16,17 @@ ANG can create any artificial gate-level netlist from user-specified parameters 
 
 ## How to build
 
+  git clone --recursive https://github.com/daeyeon22/artificial_netlist_generator.git
+  
+  cd artificial_netlist_generator
+
+  mkdir build
+  
+  cd build
+  
+  cmake ..
+  
+  make -j
 
 ## Features
 Construction of Realistic Place-and-route Benchmarks for Machine Learning Applications [(link)](https://ieeexplore.ieee.org/document/9904912)
