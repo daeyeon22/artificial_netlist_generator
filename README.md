@@ -14,6 +14,25 @@ ANG can create any artificial gate-level netlist from user-specified parameters 
 
 ## Usage
 
+    ./openroad
+    read_lef <lef path>
+    artnetgen_create_spec -num_insts <number of instances>
+                          -num_primary_ios <number of primary input and output>
+                          -comb_ratio <ratio of combinational gates>
+                          -avg_bbox <average size of net bounding box>
+                          -avg_net_degrere <average net degree>
+                          -avg_topo_order <average depth of timing paths>
+                          -cell_list <cell list to use>
+                          -out_file <spec path>
+              
+    
+    generate_artificial_netlist -top_module <top module name>
+                                -spec_file <spec path>
+                                
+    artnetgen_write_verilog -out_file <verilog path>
+    artnetgen_write_sdc -out_file <sdc path>
+
+
 ## How to build
 
     git clone --recursive https://github.com/daeyeon22/artificial_netlist_generator.git
