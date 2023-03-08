@@ -10,7 +10,21 @@ Researchers somtimes create several new versions of circuits by combining multip
 One of the solutions to mitigate the lack of circuit benchmarks is to generate artificial circuits that represent realistic circuit characteristics. Artificial circuits can be generated using specific rules and programs so that it is cost-less compared to real-world data in terms of data scalability. 
 This is a strong motivartion why we developed this program called 'artificla netlist generator' (ANG).
 
-ANG can create any artificial gate-level netlist from user-specified parameters representing the topological characteristics of the circuit. ANG takes six topological parameters as inputs: (1) number of instances, (2) number of primary input and outputs, (3) average net degree (=average number of fanouts), (4) average size of net bounding box (=average hpwl after placement), (5) average depth of timing paths (= average depth of leaf nodes), (6) ratio of sequential logic gates.
+ANG can create any artificial gate-level netlist from user-specified parameters representing the topological characteristics of the circuit. ANG takes six topological parameters as inputs
+
+---
+**Topological parameters**
+|Flag|Description|Recommended value|
+|------|---|---|
+|-num_insts|number of instances||
+|-num_primary_ios|number of primary input and outputs|upto 10% of the number of instances|
+|-avg_net_degree|average net degree(=average number of fanouts)|2.5 ~ 4.0|
+|-avg_net_bbox|average size of net bounding box (=average hpwl after placement)|0.1 ~ 2.0|
+|-avg_topo_order|average depth of timing paths (= average depth of leaf nodes)|5.0 ~ 15.0|
+|-comb_ratio|ratio of combinational logic gates over the number of instances|0.75 ~ 0.95|
+
+
+---
 
 ## Usage
 
