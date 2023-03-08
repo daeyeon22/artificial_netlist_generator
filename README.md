@@ -26,7 +26,7 @@ ANG can create any artificial gate-level netlist from user-specified parameters 
 |-avg_topo_order|average depth of timing paths (= average depth of leaf nodes)|5.0 ~ 15.0|
 |-comb_ratio|ratio of combinational logic gates over the number of instances|0.75 ~ 0.95|
 
-* Components in a gate-level netlist
+* **Components in a gate-level netlist**
 
 |Graph representation|Decomposition into path groups|
 |:---:|:---:|
