@@ -14,17 +14,18 @@ ANG can create any artificial gate-level netlist from user-specified parameters 
 
 ---
 **Topological parameters**
-|Flag|Description|Recommended value|
-|------|---|---|
+|Flag|Description|Recommended Value|
+|---|---|---|
 |-num_insts|number of instances||
-|-num_primary_ios|number of primary input and outputs|upto 10% of the number of instances|
+|-num_primary_ios|number of primary input and outputs|~10% of *-num_insts*|
 |-avg_net_degree|average net degree(=average number of fanouts)|2.5 ~ 4.0|
 |-avg_net_bbox|average size of net bounding box (=average hpwl after placement)|0.1 ~ 2.0|
 |-avg_topo_order|average depth of timing paths (= average depth of leaf nodes)|5.0 ~ 15.0|
 |-comb_ratio|ratio of combinational logic gates over the number of instances|0.75 ~ 0.95|
-
-
 ---
+
+
+
 
 ## Usage
 
@@ -58,9 +59,11 @@ ANG can create any artificial gate-level netlist from user-specified parameters 
     make -j
 
 ## Features
-Construction of Realistic Place-and-route Benchmarks for Machine Learning Applications [(link)](https://ieeexplore.ieee.org/document/9904912)
 This code is based on OpenROAD project [(link)](https://github.com/The-OpenROAD-Project/OpenROAD)
 
 # Submodule List
 
+
 # Authors
+
+* Paper reference: **Daeyeon Kim**, Sung-Yun Lee, Kyungjun Min, and Seokhyeon Kang, "Construction of Realistic Place-and-route Benchmarks for Machine Learning Applications," *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems* (TCAD), 2022 [(link)](https://ieeexplore.ieee.org/document/9904912).
