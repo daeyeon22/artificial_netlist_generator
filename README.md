@@ -66,4 +66,7 @@ This code is based on OpenROAD project [(link)](https://github.com/The-OpenROAD-
 
 # Authors
 
-* Paper reference: **Daeyeon Kim**, Sung-Yun Lee, Kyungjun Min, and Seokhyeon Kang, "Construction of Realistic Place-and-route Benchmarks for Machine Learning Applications," *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems* (TCAD), 2022 [(link)](https://ieeexplore.ieee.org/document/9904912).
+* Paper reference
+    * **Daeyeon Kim**, Sung-Yun Lee, Kyungjun Min, and Seokhyeon Kang, "Construction of Realistic Place-and-route Benchmarks for Machine Learning Applications," *IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems* (TCAD), 2022 [(link)](https://ieeexplore.ieee.org/document/9904912).
+    * **Daeyeon Kim**, Hyunjeong Kwon, Sung-Yun Lee, Seungwon Kim, Mingyu Woo, and Seokhyeong Kang, ``Machine Learning Framework for Early Routability Prediction with Artificial Netlist Generator," *Design, Automation & Test in Europe Conference & Exhibition* (DATE), 2021 [(link)](https://ieeexplore.ieee.org/document/9473966).
+
