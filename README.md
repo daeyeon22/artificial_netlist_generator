@@ -44,7 +44,12 @@ ANG can be used to perform (a) data augmentation by modifying topolgical paramet
 ## Usage
 
     ./openroad
-    read_lef <lef path>
+    
+    #Read both tech_lef and std_lef
+    read_lef <tech_lef path>
+    read_lef <std_lef path>
+    
+    #Create circuit spec
     artnetgen_create_spec -num_insts <number of instances>
                           -num_primary_ios <number of primary input and output>
                           -comb_ratio <ratio of combinational gates>
@@ -54,18 +59,20 @@ ANG can be used to perform (a) data augmentation by modifying topolgical paramet
                           -cell_list <cell list to use>
                           -out_file <spec path>
               
-    
+    #Initialize netlist
     artnetgen_init  -top_module <top module name>
                     -spec_file <spec path>
-    
-    # If you want to check MACROs to be mapped
+                    
+    #If you want to check MACROs to be mapped, use this following command
     artnetgen_print_masters
     
-    # If you want to remove specific MACROs in the list
+    #If you want to remove specific MACROs in the list, use this following command
     artnetgen_set_parameter -dont_use <MACRO name>
-    
+
+    #Run artificial netlist generator    
     artnetgen_run
-                   
+    
+    #Write output files
     artnetgen_write_verilog -out_file <verilog path>
     artnetgen_write_sdc -out_file <sdc path>
 
@@ -73,11 +80,8 @@ ANG can be used to perform (a) data augmentation by modifying topolgical paramet
 ## How to build
 
     git clone --recursive https://github.com/daeyeon22/artificial_netlist_generator.git
-  
     cd artificial_netlist_generator
-
     mkdir build & cd build & cmake ..
-  
     make -j
 
 ## Features
