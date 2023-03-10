@@ -55,9 +55,17 @@ ANG can be used to perform (a) data augmentation by modifying topolgical paramet
                           -out_file <spec path>
               
     
-    generate_artificial_netlist -top_module <top module name>
-                                -spec_file <spec path>
-                                
+    artnetgen_init  -top_module <top module name>
+                    -spec_file <spec path>
+    
+    # If you want to check MACROs to be mapped
+    artnetgen_print_masters
+    
+    # If you want to remove specific MACROs in the list
+    artnetgen_set_parameter -dont_use <MACRO name>
+    
+    artnetgen_run
+                   
     artnetgen_write_verilog -out_file <verilog path>
     artnetgen_write_sdc -out_file <sdc path>
 
