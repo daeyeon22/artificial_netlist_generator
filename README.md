@@ -75,8 +75,17 @@ ANG can be used to perform (a) data augmentation by modifying topolgical paramet
 ## Features
 This code is based on OpenROAD project [(link)](https://github.com/The-OpenROAD-Project/OpenROAD)
 
-# Submodule List
+# Requirements
 
+- swig 3.0
+- gcc 8.3.1
+- cmake 3.20
+
+# Submodules
+
+- The-OpenROAD-Project/OpenDB [(link)](https://github.com/The-OpenROAD-Project/OpenDB)
+- The-OpenROAD-Project/OpenSTA [(link)](https://github.com/The-OpenROAD-Project/OpenSTA)
+- The-OpenROAD-Project/OpenROAD/src/dbSta [(link)](https://github.com/The-OpenROAD-Project/OpenROAD/tree/master/src/dbSta)
 
 # Authors
 
