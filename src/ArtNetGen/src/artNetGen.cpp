@@ -53,11 +53,57 @@ using std::to_string;
 
 namespace artnetgen {
 
-MasterInfo::MasterInfo(
-    odb::dbMaster* master, 
-    double ratio) : 
-  master_(master),
-  ratio_(ratio) {}
+unordered_map<string,int> getPortInfo(dbMaster* master) {
+    dbSet<dbMTerm> terms = master->getMTerms();
+    
+    unordered_map<string,int> ioCount;
+    ioCount["input_signal"] = 0;
+    ioCount["input_clock"] = 0;
+    ioCount["input_scan"] = 0;
+    ioCount["input_reset"] = 0;
+    ioCount["output_signal"] = 0;
+    ioCount["output_clock"] = 0;
+    ioCount["output_scan"] = 0;
+    ioCount["output_reset"] = 0;
+    for(auto it = terms.begin(); it != terms.end(); it++) {
+        string termName = it->getName();
+        if(termName == "si" || termName == "ssb") {
+            ioCount["input_scan"]++;
+        } else {
+            dbSigType sigType = it->getSigType();
+            dbIoType ioType = it->getIoType();
+            if(sigType.getValue() == dbSigType::SIGNAL) {
+                if(ioType.getValue() == dbIoType::INPUT)
+                    ioCount["input_signal"]++;
+                else if(ioType.getValue() == dbIoType::OUTPUT)
+                    ioCount["output_signal"]++;
+            } else if(sigType.getValue() == dbSigType::CLOCK) {
+                if(ioType.getValue() == dbIoType::INPUT)
+                    ioCount["input_clock"]++;
+                else if(ioType.getValue() == dbIoType::OUTPUT)
+                    ioCount["output_clock"]++;
+            } else if(sigType.getValue() == dbSigType::RESET) {
+                if(ioType.getValue() == dbIoType::INPUT)
+                    ioCount["input_reset"]++;
+                else if(ioType.getValue() == dbIoType::OUTPUT)
+                    ioCount["output_reset"]++;
+            } else if(sigType.getValue() == dbSigType::SCAN) {
+                if(ioType.getValue() == dbIoType::INPUT)
+                    ioCount["input_scan"]++;
+                else if(ioType.getValue() == dbIoType::OUTPUT)
+                    ioCount["output_scan"]++;
+            } else {
+
+            }
+        }
+    }
+
+    return ioCount;
+}
+
+
+MasterInfo::MasterInfo( odb::dbMaster* master, double ratio) : 
+  master_(master),  ratio_(ratio) {}
 
 MasterInfo::~MasterInfo() {
   master_ = nullptr;
@@ -66,29 +112,12 @@ MasterInfo::~MasterInfo() {
 
 void 
 MasterInfo::print() {
-  std::cout << "  " << master_->getConstName() 
-    << " " << ratio_ << std::endl;
+    std::cout << "  " << master_->getConstName();
+    unordered_map<string, int> ioCount = getPortInfo(master_);
+    std::cout   << "[in " << ioCount["input_signal"] 
+                << " out " << ioCount["output_signal"] 
+                << " clk " << ioCount["input_clock"] << "]" << std::endl;
 }
-
-/*
-DistributionInfo::DistributionInfo(
-    int value, int count, double ratio) :
-  value_(value),
-  count_(count),
-  ratio_(ratio) {}
-
-DistributionInfo::~DistributionInfo() {
-  value_ = count_ = ratio_ = 0;
-}
-
-void
-DistributionInfo::print() {
-  std::cout << "  " << value_ 
-    << " " << count_ 
-    << " " << ratio_
-    << std::endl;
-}
-*/
 
 ArtNetGen::ArtNetGen() : 
     db_(nullptr), sta_(nullptr),
@@ -97,8 +126,6 @@ ArtNetGen::ArtNetGen() :
     outputPinCnt_(20),
     avgTopoOrder_(10.0), 
     avgGateDelay_(0.1),
-    //binSqrt_(10),
-    //maxChainDepth_(10),
     combRatio_(0.9),
     verbose_(1) {
     specFile_ = "";
@@ -117,8 +144,6 @@ ArtNetGen::clear() {
   instanceCnt_ = 5000;
   inputPinCnt_ = 20;
   outputPinCnt_ = 20;
-  //binSqrt_ = 10;
-  //maxChainDepth_ = 10;
     avgTopoOrder_ = 10.0;
     avgGateDelay_ = 0.1;
   combRatio_ = 0.9;
@@ -135,14 +160,6 @@ ArtNetGen::clear() {
   foDist_.clear();
   bboxDist_.clear();
   edgeDist_.clear();
-  //fanIns_.clear();
-  //fanIns_.shrink_to_fit();
-  //fanOuts_.clear();
-  //fanOuts_.shrink_to_fit();
-  //windows_.clear();
-  //windows_.shrink_to_fit();
-  //netBBoxes_.clear();
-  //netBBoxes_.shrink_to_fit();
 }
 
 void 
@@ -150,8 +167,34 @@ ArtNetGen::init() {
   if( !log_ ) {
     log_ = std::make_shared<Logger>("ANG", verbose_);
   }
+  if (specFile_ != "" ) {
+        readSpec();
+  }
+  else {
+      // spec file must be specified
+      log_->errorQuit("Spec file must be specified", 1);
+  }
+
+  checkMasters();
+  printAllVars();
 }
 
+void
+ArtNetGen::setDontUse(const char* macroName) {
+    vector<MasterInfo>::iterator it= masters_.begin();
+    while(it!=masters_.end()) {
+        if(it->master()->getName() == macroName)
+            break;
+        it++;
+    }
+
+    if(it == masters_.end()) {
+        cout << "[WARN] " << macroName << " does not exist in the list" << endl;
+    } else {
+        masters_.erase(it);
+        cout << "[INFO] " << macroName << " has been removed from the list" << endl;
+    }
+}
 
 
 void
@@ -343,125 +386,10 @@ ArtNetGen::writeSdc(const char* fileName) {
 
 void
 ArtNetGen::run() {
-    if (specFile_ != "" ) {
-        readSpec();
-    }
-    else {
-        // spec file must be specified
-        log_->errorQuit("Spec file must be specified", 1);
-    }
-
-    checkMasters();
-    printAllVars();
-
-
     artnet_ = new Netlist(); 
     artnet_->setArtNetGen(this);
     artnet_->generate();
 
-
-// update later... (crash here)
-// somtime net has multiple primary outputs
-//
-/*
-    vector<Net*> nets = artnet_->getNetlist();
-
-    // dbChip create
-    dbChip* chip = nullptr;
-    if( db_->getChip() == nullptr) {
-      chip = dbChip::create(db_);
-    } else {
-        chip = db_->getChip();
-    }
-
-
-    // dbBlock create
-    dbBlock* block = nullptr;
-    if( db_->getChip()->getBlock() == nullptr) {
-      block = dbBlock::create(chip, topModule_.c_str()); 
-    } else {
-      block = db_->getChip()->getBlock();
-    }
-
-cout << "here1" << endl;
-
-    db_->getTech()->setDbUnitsPerMicron(2000);
-    block->setDefUnits(2000);
- 
-    unordered_map<Node*, dbInst*> node2inst;
-
-    for(Net* net : nets) {
-        dbNet* dbnet = dbNet::create(block, net->getName().c_str());
-
-        vector<pair<Node*, string>> terms = net->getTerms();
-
-
-cout << "here2" << endl;
-cout << net->getName() << endl;
-
-        for(int i=0; i < terms.size(); i++) {
-cout << i << " here2-1" << endl;
-            Node* node = terms[i].first;
-            string termName = terms[i].second;
-cout << node->getName() << " " << termName << endl;
-
-            if(i==0) {
-                switch(node->getType()) {
-                    case NodeType::ClockIn:
-                        dbnet->setSigType(dbSigType::CLOCK); break;
-                    case NodeType::ResetIn:
-                        dbnet->setSigType(dbSigType::RESET); break;
-                    default:
-                        dbnet->setSigType(dbSigType::SIGNAL); break;
-                }
-            }
-
-
-cout << "here3" << endl;
-            if(node->isPIO()) {
-                dbBTerm* bTerm = dbBTerm::create(dbnet, dbnet->getConstName()); 
-
-cout << "here4" << endl;
-                switch(node->getType()) {
-                    case NodeType::ClockIn:
-                        bTerm->setSigType(dbSigType::CLOCK); 
-                        bTerm->setIoType(dbIoType::INPUT); 
-                        break;
-                    case NodeType::ResetIn:
-                        bTerm->setSigType(dbSigType::RESET); 
-                        bTerm->setIoType(dbIoType::INPUT);
-                        break;
-                    case NodeType::PrimaryIn:
-                        bTerm->setSigType(dbSigType::SIGNAL);
-                        bTerm->setIoType(dbIoType::INPUT);
-                        break;
-                    case NodeType::PrimaryOut:
-                        bTerm->setSigType(dbSigType::SIGNAL);
-                        bTerm->setIoType(dbIoType::OUTPUT);
-                        break;
-                }                   
-cout << "here4-1" << endl;
-
-            } else {
-cout << "here5" << endl;
-                if(node2inst.find(node) == node2inst.end()) {
-                    dbInst* inst = dbInst::create(block, node->getDbMaster(), node->getName().c_str());
-                    node2inst[node] = inst;
-                }
-
-                dbInst* inst = node2inst[node];
-                dbITerm* iTerm = inst->findITerm(termName.c_str());
-                dbITerm::connect(iTerm, dbnet);
-            }
-        }
-cout << "here6" << endl;
-    }
-    // get timing info
-    // sta_->updateTiming(false);
-    // sta::dbNetwork* network = sta_->getDbNetwork();
-    // sta::Graph* graph = sta_->ensureGraph();
-cout << "here7" << endl;
-*/
 }
 
 // parse the spec file
@@ -525,11 +453,7 @@ ArtNetGen::readSpec() {
             double ratio;
 
             ss >> value >> target >> ratio;
-
-
             totInstCnt += target;
-
-
             maxFi = max(value, maxFi);
             fanIns.push_back(DistributionInfo(value, target, 0, ratio));
         }
@@ -620,76 +544,40 @@ ArtNetGen::readSpec() {
 
   ifs.close();
   log_->infoInt("NumMasters", masters_.size());
-  //log_->infoInt("NumFanIns", fanIns_.size());
-  //log_->infoInt("NumFanOuts", fanOuts_.size());
-  //log_->infoInt("NumWindows", windows_.size());
-  //log_->infoInt("NumNetBBoxes", netBBoxes_.size());
-
   log_->procEnd("Read Spec",1);
 }
+
+void 
+ArtNetGen::printMasters() {
+
+    cout << "Available Masters" << endl;
+    for(auto& master : masters_) {
+        cout << " - " << master.master()->getName() << endl;
+    }
+    cout << endl;
+}
+
 
 void
 ArtNetGen::printAllVars() {
   if( verbose_ >= 5) {
     log_->infoString("Master");
-    for(auto& master : masters_) {
-      master.print(); 
-    }
-
-    //log_->infoString("FanIn");
-    //fiDist_.print();
-
-    //log_->infoString("FanOut");
-    //foDist_.print();
-
-    //log_->infoString("netBBox");
-    //bboxDist_.print();
-
-    //log_->infoString("Window");
-    //edgeDist_.print();
-
-
-
-    /*
-    for(auto& fanIn : fanIns_ ) {    
-      fanIn.print();
-    }
-
-    log_->infoString("FanOut");
-    for(auto& fanOut : fanOuts_) {
-      fanOut.print();
-    }
-
-    log_->infoString("Window");
-    for(auto& window: windows_) {
-      window.print();
-    }
-    
-    log_->infoString("netBBox");
-    for(auto& netBBox: netBBoxes_) {
-    netBBox.print();
-    }
-    */
+    printMasters();
   }
-
   log_->infoInt("TargetInstCnt", instanceCnt_);
   log_->infoFloat("CombinationRatio", combRatio_);
   log_->infoInt("InputPinCnt", inputPinCnt_);
   log_->infoInt("OutputPinCnt", outputPinCnt_);
-  //log_->infoInt("BinSqrt", binSqrt_);
-  //log_->infoInt("MaxChainDepth", maxChainDepth_);
-  //log_->infoFloat("SynClkPeriod", synClkPeriod_);
   log_->infoFloat("AvgTopoOrder", avgTopoOrder_);
   log_->infoFloat("AvgGateDelay", avgGateDelay_);
-
 }
+
 
 void
 ArtNetGen::checkMasters() {
     
     unordered_map<int,vector<MasterInfo>> fi2TotCombMasters;
     unordered_map<int,vector<MasterInfo>> fi2TotSequMasters;
-
     unordered_map<int,vector<MasterInfo>> fi2OnlyUseCombMasters;
     unordered_map<int,vector<MasterInfo>> fi2OnlyUseSequMasters;
 
@@ -701,76 +589,28 @@ ArtNetGen::checkMasters() {
         for(auto itm = masters.begin(); itm != masters.end(); itm++) {
             
             string masterName = itm->getName();
-
             dbMaster* master = db_->findMaster(masterName.c_str());
-            dbSet<dbMTerm> terms = master->getMTerms();
+            unordered_map<string, int> ioCount = getPortInfo(master);
 
-            int inSigCnt = 0;
-            int inClkCnt = 0;
-            int inRstCnt = 0;
-            int inScanCnt = 0;
-            int outSigCnt = 0;
-            int outClkCnt = 0;
-            int outRstCnt = 0;
-            int outScanCnt = 0;
-
-            for(auto it = terms.begin(); it != terms.end(); it++) {
-
-                string termName = it->getName();
-
-                if(termName == "si" || termName == "ssb") {
-                    inScanCnt++;
-                } else {
-                    dbSigType sigType = it->getSigType();
-                    dbIoType ioType = it->getIoType();
-
-                    if(sigType.getValue() == dbSigType::SIGNAL) {
-                        if(ioType.getValue() == dbIoType::INPUT) {
-                            inSigCnt++;
-                        } else if(ioType.getValue() == dbIoType::OUTPUT) {
-                            outSigCnt++;
-                        }
-                        //cout << termName << " " << sigType.getString() << " " << ioType.getString() << endl;
-                    } else if(sigType.getValue() == dbSigType::CLOCK) {
-                        if(ioType.getValue() == dbIoType::INPUT) {
-                            inClkCnt++;
-                        } else if(ioType.getValue() == dbIoType::OUTPUT) {
-                            outClkCnt++;
-                        }
-                    } else if(sigType.getValue() == dbSigType::RESET) {
-                        if(ioType.getValue() == dbIoType::INPUT) {
-                            inRstCnt++;
-                        } else if(ioType.getValue() == dbIoType::OUTPUT) {
-                            outRstCnt++;
-                        }
-                    } else if(sigType.getValue() == dbSigType::SCAN) {
-                        if(ioType.getValue() == dbIoType::INPUT) {
-                            inScanCnt++;
-                        } else if(ioType.getValue() == dbIoType::OUTPUT) {
-                            outScanCnt++;
-                        }
-                    } else {
-
-                    }
-                }
-            }
-
-        cout << master->getName() << " inSig " 
-             << inSigCnt << " outSig " << outSigCnt << " inClk " << inClkCnt << " outClk " << outClkCnt << " inRst " 
-             << inRstCnt << " outRst " << outRstCnt << " inScn " << inScanCnt << " outScn " << outScanCnt << endl;
-            if(outSigCnt == 0)
+            //cout << " - " << master->getName() 
+            //<< " (#in " << ioCount["input_signal"] 
+            //<< " #out " << ioCount["output_signal"] <<")";
+            //if(ioCount["input_clock"] > 0) 
+            //cout << " clock";
+            //cout << endl;
+            if(ioCount["output_signal"] == 0)
                 continue;
 
-            if(inScanCnt > 0) {
+            if(ioCount["input_scan"] > 0) {
                 cout << "current version does not support scan-chain cell... (" << master->getName() << ")" <<  endl;
                 continue;
             }
 
-            if(inClkCnt > 0) {
-                fi2TotSequMasters[inSigCnt].push_back(MasterInfo(master, 1.0));
+            if(ioCount["input_clock"] > 0) {
+                fi2TotSequMasters[ioCount["input_signal"]].push_back(MasterInfo(master, 1.0));
             } else {
                 // combinational cell
-                fi2TotCombMasters[inSigCnt].push_back(MasterInfo(master, 1.0));
+                fi2TotCombMasters[ioCount["input_signal"]].push_back(MasterInfo(master, 1.0));
             }
         }
     }
@@ -779,72 +619,29 @@ ArtNetGen::checkMasters() {
         dbMaster* master = info.master();
         float ratio = info.ratio();
         dbSet<dbMTerm> terms = master->getMTerms();
-
-        int inSigCnt = 0;
-        int inClkCnt = 0;
-        int inRstCnt = 0;
-        int inScanCnt = 0;
-        int outSigCnt = 0;
-        int outClkCnt = 0;
-        int outRstCnt = 0;
-        int outScanCnt = 0;
-
-        for(auto it = terms.begin(); it != terms.end(); it++) {
-
-            string termName = it->getName();
-
-            dbSigType sigType = it->getSigType();
-            dbIoType ioType = it->getIoType();
-
-            if(termName == "si" || termName == "ssb") {
-                inScanCnt++;
-            } else {
-                if(sigType.getValue() == dbSigType::SIGNAL) {
-                    if(ioType.getValue() == dbIoType::INPUT) {
-                        inSigCnt++;
-                    } else if(ioType.getValue() == dbIoType::OUTPUT) {
-                        outSigCnt++;
-                    }
-                    //cout << termName << " " << sigType.getString() << " " << ioType.getString() << endl;
-                } else if(sigType.getValue() == dbSigType::CLOCK) {
-                    if(ioType.getValue() == dbIoType::INPUT) {
-                        inClkCnt++;
-                    } else if(ioType.getValue() == dbIoType::OUTPUT) {
-                        outClkCnt++;
-                    }
-                } else if(sigType.getValue() == dbSigType::RESET) {
-                    if(ioType.getValue() == dbIoType::INPUT) {
-                        inRstCnt++;
-                    } else if(ioType.getValue() == dbIoType::OUTPUT) {
-                        outRstCnt++;
-                    }
-                } else if(sigType.getValue() == dbSigType::SCAN) {
-                    if(ioType.getValue() == dbIoType::INPUT) {
-                        inScanCnt++;
-                    } else if(ioType.getValue() == dbIoType::OUTPUT) {
-                        outScanCnt++;
-                    }
-                } else {
-
-                }
-            }
-        }
-
-        if(outSigCnt == 0)
+        
+        unordered_map<string, int> ioCount = getPortInfo(master);
+        //cout << " - " << master->getName() 
+        //<< " (#in " << ioCount["input_signal"] 
+        //<< " #out " << ioCount["output_signal"] <<")";
+        //if(ioCount["input_clock"] > 0) 
+        //cout << " clock";
+        //cout << endl;
+        if(ioCount["output_signal"] == 0)
             continue;
 
-        if(inScanCnt > 0) {
+        if(ioCount["input_scan"] > 0) {
             cout << "current version does not support scan-chain cell... (" << master->getName() << ")" <<  endl;
             continue;
         }
 
-        if(inClkCnt > 0) {
+        if(ioCount["input_clock"] > 0) {
             // sequential cell
-            fi2OnlyUseSequMasters[inSigCnt].push_back(MasterInfo(master,ratio));
+            fi2OnlyUseSequMasters[ioCount["input_signal"]].push_back(MasterInfo(master,ratio));
         } else {
             // combinational cell
-            fi2OnlyUseCombMasters[inSigCnt].push_back(MasterInfo(master,ratio));
-        }        
+            fi2OnlyUseCombMasters[ioCount["input_signal"]].push_back(MasterInfo(master,ratio));
+        } 
     }
 
     vector<MasterInfo> masterInfos;
@@ -862,21 +659,9 @@ ArtNetGen::checkMasters() {
             masterInfos.insert( masterInfos.end(), fi2TotSequMasters[x].begin(), fi2TotSequMasters[x].end() );
         }
 
-    
-        //cout << "Available masters where # of fanins = " << x << endl; 
-        //for(MasterInfo& info : masterInfos) {
-        //    cout << "   - " << info.master()->getName() << endl;
-        //}
-
-    
     }
 
     masters_ = masterInfos;
-
-
-    
-
-
 }
 
 void
@@ -893,84 +678,11 @@ ArtNetGen::setSta(sta::dbSta* sta) {
   sta_ = sta;
 }
 
-//void
-//ArtNetGen::setInstanceCnt(int instanceCnt) {
-//  instanceCnt_ = instanceCnt;
-//}
-//
-//void
-//ArtNetGen::setInputPinCnt(int inputPinCnt) {
-//  inputPinCnt_ = inputPinCnt;
-//}
-//
-//void
-//ArtNetGen::setOutputPinCnt(int outputPinCnt) {
-//  outputPinCnt_ = outputPinCnt; 
-//}
-//
-//void
-//ArtNetGen::setSynClkPeriod(double clkPeriod) {
-//    synClkPeriod_ = clkPeriod;
-//}
-//
 void
 ArtNetGen::setAvgGateDelay(double avgDelay) {
-    cout << "avg. gate delay changes from " << avgGateDelay_ << " to " << avgDelay << endl;
+    cout << "[INFO] avg. gate delay changes from " 
+        << avgGateDelay_ << " to " << avgDelay << endl;
 
     avgGateDelay_ = avgDelay;
 }
-//
-//void
-//ArtNetGen::setCombRatio(double combRatio) {
-//  combRatio_ = combRatio_;
-//}
-//
-//void
-//ArtNetGen::setSpecFile(const char* specFile) {
-//  specFile_ = specFile;
-//}
-//
-//void
-//ArtNetGen::setOutFile(const char* outFile) {
-//  outFile_ = outFile;
-//}
-//
-//void
-//ArtNetGen::setVerbose(int verbose) {
-//  verbose_ = verbose;
-//}
-//
-//void
-//ArtNetGen::setTopModule(const char* topModule) {
-//    topModule_ = topModule;
-//}
-//
-//
-//// getter
-//int ArtNetGen::getInstanceCnt() const {
-//    return instanceCnt_;
-//}
-//
-//int ArtNetGen::getInputPinCnt() const {
-//    return inputPinCnt_;
-//}
-//
-//int ArtNetGen::getOutputPinCnt() const {
-//    return outputPinCnt_;
-//}
-//
-//double ArtNetGen::getSynClkPeriod() const {
-//    return synClkPeriod_;
-//}
-//
-//
-//double ArtNetGen::getAvgGateDelay() const {
-//    return avgGateDelay_;
-//}
-//double ArtNetGen::getCombRatio() const {
-//    return combRatio_; 
-//}
-
-
-
 }

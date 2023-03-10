@@ -33,6 +33,22 @@ artnetgen_init_cmd()
   artNetGen->init();
 }
 
+void
+artnetgen_print_masters_cmd()
+{
+    ArtNetGen* artNetGen = getArtNetGen();
+    artNetGen->printMasters();
+}
+
+
+void
+artnetgen_set_dont_use_cmd(const char* macro_name) {
+    ArtNetGen* artNetGen = getArtNetGen();
+    artNetGen->setDontUse(macro_name);
+}
+
+
+
 
 void
 artnetgen_set_avg_gate_delay_cmd(double avg_gate_delay) {
@@ -97,7 +113,7 @@ artnetgen_set_out_file_cmd(const char* file)
 }
 
 void
-generate_netlist_cmd() 
+artnetgen_run_cmd() 
 {
   ArtNetGen* artNetGen= getArtNetGen();
   artNetGen->run(); 

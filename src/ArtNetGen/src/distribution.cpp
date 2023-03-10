@@ -65,16 +65,58 @@ Distribution::setDescription(string description) {
     description_ = description;
 }
 
+
+void Distribution::print(int maxRows) {
+    int total=totalCnt_;
+
+    cout << "[INFO] " << description_ << endl;
+    for(int x=min_; x<= max_; x++) {
+        auto it = info_[x];
+        int target = it.target();
+        int count = it.count();
+        int value = it.value();
+        double tarRatio = 1.0 * target/total;
+        double curRatio = 1.0 * count/total;
+
+        int numMarks = 20;
+        double div = 100/numMarks;
+        int tarMarks = int((tarRatio*100)/div);
+        int curMarks = int((curRatio*100)/div);
+        printf("[%2d] ", value);
+        for(int i=0; i<20; i++) {
+            if(i<tarMarks) {
+                if(i<curMarks) {
+                    cout << "*";
+                } else {
+                    cout << "-";
+                }
+            } else {
+                if(i<curMarks) {
+                    cout << "+";
+                } else {
+                    cout << " ";
+                }
+            }
+        }
+        printf(" (%.3f/%.3f)",tarRatio, curRatio);
+        cout << endl;
+        if(x > min_+maxRows) {
+            cout << "..." << endl;
+            break;
+        }
+    }
+
+
+
+}
+
+
 void
 Distribution::print() {
     //cout << endl;
     cout << " - " <<  description_ <<  std::endl;
     int numRows = min(max_, min_+15);
     for(int x=min_; x <= numRows; x++) {
-        //for(int cX=x; cX <= max_; cX+=20) {
-        //    printf("- - - - - - - - - - -   ");
-        //}   
-        //printf("\n");
         for(int cX=x; cX <= max_; cX+=15) {
             auto it = info_[cX];
             printf("(%2d) %6d/%6d    ", it.value(), it.target(), it.count());
@@ -163,7 +205,7 @@ Distribution::init(int min, int max, int totalCnt, std::vector<DistributionInfo>
     double tmp = 0.0;
 
     for(auto r:tr) tmp+=r;
-    cout << "total: " << tmp << endl;
+    //cout << "total: " << tmp << endl;
 
     /*
     //info_ = std::vector<DistributionInfo>(max_);
@@ -208,7 +250,7 @@ Distribution::init(int min, int max, int totalCnt, std::vector<DistributionInfo>
         info_[0].setCount(totalDiff);
     }
     */
-    print();
+    //print();
 }
 
 void 

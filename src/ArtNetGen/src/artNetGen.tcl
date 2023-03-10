@@ -1,5 +1,5 @@
 
-sta::define_cmd_args "generate_artificial_netlist" {
+sta::define_cmd_args "artnetgen_init" {
     [-verbose] [-spec_file] [-out_file] [-top_module]}
 
 sta::define_cmd_args "artnetgen_write_verilog" {
@@ -20,10 +20,14 @@ sta::define_cmd_args "artnetgen_create_spec" {
     [-cell_list] [-out_file]
 }
 
+sta::define_cmd_args "artnetgen_set_parameter" {
+    [-avg_gate_delay] [-cell_mapping_mode] [-dont_use] 
+}
+
 
 proc artnetgen_set_parameter { args } {
    sta::parse_key_args "artnetgen_set_parameter" args \
-    keys { -avg_gate_delay -cell_mapping_mode} flags {}
+    keys { -avg_gate_delay -cell_mapping_mode -dont_use} flags {}
 
    if { [info exists keys(-avg_gate_delay)] } {
         set avg_gate_delay $keys(-avg_gate_delay)
@@ -32,10 +36,13 @@ proc artnetgen_set_parameter { args } {
 
    if { [info exists keys(-cell_mapping_mode)] } {
         set mode $keys(-cell_mapping_mode)
-
    }
 
 
+   if { [info exists keys(-dont_use)] } {
+        set dont_use $keys(-dont_use)
+        artnetgen_set_dont_use $dont_use
+   }
 }
 
 
@@ -130,9 +137,12 @@ proc artnetgen_create_spec { args } {
 }
 
 
+proc artnetgen_print_masters { } {
+    artnetgen_print_masters_cmd
+}
 
-proc generate_artificial_netlist { args } {
-    sta::parse_key_args "generate_artificial_netlist" args \
+proc artnetgen_init { args } {
+    sta::parse_key_args "artnetgen_init" args \
         keys { -verbose -spec_file -top_module } flags {}
     # added by DYK
     if { [info exists keys(-top_module)] } {
@@ -150,8 +160,12 @@ proc generate_artificial_netlist { args } {
         artnetgen_set_spec_file_cmd $spec_file
     }
 
-    # The ArtNetGen will write verilog
     artnetgen_init_cmd 
-    generate_netlist_cmd
+}
+
+
+proc artnetgen_run { } {
+    # The ArtNetGen will write verilog
+    artnetgen_run_cmd
     #artnetgen_clear_cmd 
 }

@@ -252,7 +252,13 @@ Netlist::setPrimaryIO() {
         string ioName = "in" + to_string(i);
         primIn->setName(ioName);
 
-        cout << " - " << i << "-th primary input is in (" << primIn->x() << " " << primIn->y() << ")" << endl;
+        if(i < 5) {
+            cout << " - " << i << "-th primary input is in (" 
+                << primIn->x() << " " << primIn->y() << ")" << endl;
+            if (i==4)
+                cout << " - ..." << endl;
+        }
+
     }
 
     cout << "# of primary outputs is " << outputPinCnt << endl;
@@ -261,7 +267,12 @@ Netlist::setPrimaryIO() {
         Node* primOut = primOuts_[i];
         string ioName = "out" + to_string(i);
         primOut->setName(ioName);
-        cout << " - " << i << "-th primary output is in (" << primOut->x() << " " << primOut->y() << ")" << endl;
+        if(i < 5) {
+            cout << " - " << i << "-th primary output is in (" 
+                << primOut->x() << " " << primOut->y() << ")" << endl;
+            if (i==4)
+                cout << " - ..." << endl;
+        }
     }
 
 
@@ -464,12 +475,9 @@ Bin* Netlist::getBin(int x, int y) {
 
 void
 Netlist::print() {
-    foDist_.print();
-
-    fiDist_.print();
-
-    bboxDist_.print();
-
+    foDist_.print(5);
+    fiDist_.print(5);
+    bboxDist_.print(5);
     //edgeDist_.print();
     //
     //

@@ -10798,7 +10798,7 @@ BUFx8_ASAP7_75t_R c45(
 .Y(net20)
 );
 
-CKINVDCx10_ASAP7_75t_R c46(
+CKINVDCx5p33_ASAP7_75t_R c46(
 .A(net18),
 .Y(net21)
 );
@@ -10809,22 +10809,22 @@ NAND2x1p5_ASAP7_75t_R c47(
 .Y(net22)
 );
 
-CKINVDCx11_ASAP7_75t_R c48(
+CKINVDCx6p67_ASAP7_75t_R c48(
 .A(net15),
 .Y(net23)
 );
 
-CKINVDCx12_ASAP7_75t_R c49(
+CKINVDCx8_ASAP7_75t_R c49(
 .A(net23),
 .Y(net24)
 );
 
-CKINVDCx14_ASAP7_75t_R c50(
+CKINVDCx9p33_ASAP7_75t_R c50(
 .A(net3),
 .Y(net25)
 );
 
-CKINVDCx16_ASAP7_75t_R c51(
+HB1xp67_ASAP7_75t_R c51(
 .A(net8),
 .Y(net26)
 );
@@ -10835,12 +10835,12 @@ NAND2x2_ASAP7_75t_R c52(
 .Y(net27)
 );
 
-CKINVDCx20_ASAP7_75t_R c53(
+HB2xp67_ASAP7_75t_R c53(
 .A(net24),
 .Y(net28)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c54(
+HB3xp67_ASAP7_75t_R c54(
 .A(net1),
 .Y(net29)
 );
@@ -10852,12 +10852,12 @@ AO21x1_ASAP7_75t_R c55(
 .Y(net30)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c56(
+HB4xp67_ASAP7_75t_R c56(
 .A(net29),
 .Y(net31)
 );
 
-CKINVDCx8_ASAP7_75t_R c57(
+INVx11_ASAP7_75t_R c57(
 .A(net21),
 .Y(net32)
 );
@@ -10882,7 +10882,7 @@ AOI21x1_ASAP7_75t_R c60(
 .Y(net35)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c61(
+INVx13_ASAP7_75t_R c61(
 .A(net12),
 .Y(net36)
 );
@@ -10899,17 +10899,17 @@ NAND2xp67_ASAP7_75t_R c63(
 .Y(net38)
 );
 
-HB1xp67_ASAP7_75t_R c64(
+INVx1_ASAP7_75t_R c64(
 .A(in11),
 .Y(net39)
 );
 
-HB2xp67_ASAP7_75t_R c65(
+INVx2_ASAP7_75t_R c65(
 .A(in1),
 .Y(net40)
 );
 
-HB3xp67_ASAP7_75t_R c66(
+INVx3_ASAP7_75t_R c66(
 .A(in16),
 .Y(net41)
 );
@@ -10928,7 +10928,7 @@ AOI21xp5_ASAP7_75t_R c68(
 .Y(net43)
 );
 
-HB4xp67_ASAP7_75t_R c69(
+INVx4_ASAP7_75t_R c69(
 .A(net43),
 .Y(net44)
 );
@@ -10941,7 +10941,7 @@ FAx1_ASAP7_75t_R c70(
 .CON(net45)
 );
 
-INVx11_ASAP7_75t_R c71(
+INVx5_ASAP7_75t_R c71(
 .A(net28),
 .Y(net47)
 );
@@ -11026,12 +11026,12 @@ NOR2xp33_ASAP7_75t_R c83(
 .Y(net59)
 );
 
-INVx13_ASAP7_75t_R c84(
+INVx6_ASAP7_75t_R c84(
 .A(net9171),
 .Y(net60)
 );
 
-INVx1_ASAP7_75t_R c85(
+INVx8_ASAP7_75t_R c85(
 .A(net31),
 .Y(net61)
 );
@@ -11043,7 +11043,7 @@ NOR3xp33_ASAP7_75t_R c86(
 .Y(net62)
 );
 
-INVx2_ASAP7_75t_R c87(
+INVxp33_ASAP7_75t_R c87(
 .A(net49),
 .Y(net63)
 );
@@ -11054,37 +11054,37 @@ NOR2xp67_ASAP7_75t_R c88(
 .Y(net64)
 );
 
-INVx3_ASAP7_75t_R c89(
+INVxp67_ASAP7_75t_R c89(
 .A(net9650),
 .Y(net65)
 );
 
-INVx4_ASAP7_75t_R c90(
+BUFx10_ASAP7_75t_R c90(
 .A(in14),
 .Y(net66)
 );
 
-INVx5_ASAP7_75t_R c91(
+BUFx12_ASAP7_75t_R c91(
 .A(net41),
 .Y(net67)
 );
 
-INVx6_ASAP7_75t_R c92(
+BUFx12f_ASAP7_75t_R c92(
 .A(in13),
 .Y(net68)
 );
 
-INVx8_ASAP7_75t_R c93(
+BUFx16f_ASAP7_75t_R c93(
 .A(net37),
 .Y(net69)
 );
 
-INVxp33_ASAP7_75t_R c94(
+BUFx24_ASAP7_75t_R c94(
 .A(net44),
 .Y(net70)
 );
 
-INVxp67_ASAP7_75t_R c95(
+BUFx2_ASAP7_75t_R c95(
 .A(net9171),
 .Y(net71)
 );
@@ -11096,22 +11096,22 @@ ICGx1_ASAP7_75t_R c96(
 .GCLK(net72)
 );
 
-BUFx10_ASAP7_75t_R c97(
+BUFx3_ASAP7_75t_R c97(
 .A(net106),
 .Y(net73)
 );
 
-BUFx12_ASAP7_75t_R c98(
+BUFx4_ASAP7_75t_R c98(
 .A(net37),
 .Y(net74)
 );
 
-BUFx12f_ASAP7_75t_R c99(
+BUFx4f_ASAP7_75t_R c99(
 .A(net105),
 .Y(net75)
 );
 
-BUFx16f_ASAP7_75t_R c100(
+BUFx5_ASAP7_75t_R c100(
 .A(net73),
 .Y(net76)
 );
@@ -11134,12 +11134,12 @@ OR2x6_ASAP7_75t_R c103(
 .Y(net79)
 );
 
-BUFx24_ASAP7_75t_R c104(
+BUFx6f_ASAP7_75t_R c104(
 .A(net66),
 .Y(net80)
 );
 
-BUFx2_ASAP7_75t_R c105(
+BUFx8_ASAP7_75t_R c105(
 .A(net64),
 .Y(net81)
 );
@@ -11150,12 +11150,12 @@ XNOR2x1_ASAP7_75t_R c106(
 .Y(net82)
 );
 
-BUFx3_ASAP7_75t_R c107(
+CKINVDCx5p33_ASAP7_75t_R c107(
 .A(net72),
 .Y(net83)
 );
 
-BUFx4_ASAP7_75t_R c108(
+CKINVDCx6p67_ASAP7_75t_R c108(
 .A(net67),
 .Y(net84)
 );
@@ -11166,12 +11166,12 @@ XNOR2x2_ASAP7_75t_R c109(
 .Y(net85)
 );
 
-BUFx4f_ASAP7_75t_R c110(
+CKINVDCx8_ASAP7_75t_R c110(
 .A(net63),
 .Y(net86)
 );
 
-BUFx5_ASAP7_75t_R c111(
+CKINVDCx9p33_ASAP7_75t_R c111(
 .A(net77),
 .Y(net87)
 );
@@ -11182,22 +11182,22 @@ XNOR2xp5_ASAP7_75t_R c112(
 .Y(net88)
 );
 
-BUFx6f_ASAP7_75t_R c113(
+HB1xp67_ASAP7_75t_R c113(
 .A(net57),
 .Y(net89)
 );
 
-BUFx8_ASAP7_75t_R c114(
+HB2xp67_ASAP7_75t_R c114(
 .A(in10),
 .Y(net90)
 );
 
-CKINVDCx10_ASAP7_75t_R c115(
+HB3xp67_ASAP7_75t_R c115(
 .A(net90),
 .Y(net91)
 );
 
-CKINVDCx11_ASAP7_75t_R c116(
+HB4xp67_ASAP7_75t_R c116(
 .A(net66),
 .Y(net92)
 );
@@ -11208,17 +11208,17 @@ XOR2x1_ASAP7_75t_R c117(
 .Y(net93)
 );
 
-CKINVDCx12_ASAP7_75t_R c118(
+INVx11_ASAP7_75t_R c118(
 .A(net73),
 .Y(net94)
 );
 
-CKINVDCx14_ASAP7_75t_R c119(
+INVx13_ASAP7_75t_R c119(
 .A(net85),
 .Y(net95)
 );
 
-CKINVDCx16_ASAP7_75t_R c120(
+INVx1_ASAP7_75t_R c120(
 .A(net88),
 .Y(net96)
 );
@@ -11229,12 +11229,12 @@ XOR2x2_ASAP7_75t_R c121(
 .Y(net97)
 );
 
-CKINVDCx20_ASAP7_75t_R c122(
+INVx2_ASAP7_75t_R c122(
 .A(net65),
 .Y(net98)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c123(
+INVx3_ASAP7_75t_R c123(
 .A(net92),
 .Y(net99)
 );
@@ -11252,7 +11252,7 @@ XOR2xp5_ASAP7_75t_R c125(
 .Y(net101)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c126(
+INVx4_ASAP7_75t_R c126(
 .A(in1),
 .Y(net102)
 );
@@ -11271,27 +11271,27 @@ DFFASRHQNx1_ASAP7_75t_R c128(
 .QN(net104)
 );
 
-CKINVDCx8_ASAP7_75t_R c129(
+INVx5_ASAP7_75t_R c129(
 .A(net13),
 .Y(net105)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c130(
+INVx6_ASAP7_75t_R c130(
 .A(in14),
 .Y(net106)
 );
 
-HB1xp67_ASAP7_75t_R c131(
+INVx8_ASAP7_75t_R c131(
 .A(net57),
 .Y(net107)
 );
 
-HB2xp67_ASAP7_75t_R c132(
+INVxp33_ASAP7_75t_R c132(
 .A(in18),
 .Y(net108)
 );
 
-HB3xp67_ASAP7_75t_R c133(
+INVxp67_ASAP7_75t_R c133(
 .A(net81),
 .Y(net109)
 );
@@ -11303,17 +11303,17 @@ ICGx2p67DC_ASAP7_75t_R c134(
 .GCLK(net110)
 );
 
-HB4xp67_ASAP7_75t_R c135(
+BUFx10_ASAP7_75t_R c135(
 .A(net50),
 .Y(net111)
 );
 
-INVx11_ASAP7_75t_R c136(
+BUFx12_ASAP7_75t_R c136(
 .A(net95),
 .Y(net112)
 );
 
-INVx13_ASAP7_75t_R c137(
+BUFx12f_ASAP7_75t_R c137(
 .A(net112),
 .Y(net113)
 );
@@ -11513,12 +11513,12 @@ AND5x2_ASAP7_75t_R c165(
 .Y(net142)
 );
 
-INVx1_ASAP7_75t_R c166(
+BUFx16f_ASAP7_75t_R c166(
 .A(net78),
 .Y(net143)
 );
 
-INVx2_ASAP7_75t_R c167(
+BUFx24_ASAP7_75t_R c167(
 .A(net50),
 .Y(net144)
 );
@@ -11529,27 +11529,27 @@ NOR2x1_ASAP7_75t_R c168(
 .Y(net145)
 );
 
-INVx3_ASAP7_75t_R c169(
+BUFx2_ASAP7_75t_R c169(
 .A(net9143),
 .Y(net146)
 );
 
-INVx4_ASAP7_75t_R c170(
+BUFx3_ASAP7_75t_R c170(
 .A(in4),
 .Y(net147)
 );
 
-INVx5_ASAP7_75t_R c171(
+BUFx4_ASAP7_75t_R c171(
 .A(net10173),
 .Y(net148)
 );
 
-INVx6_ASAP7_75t_R c172(
+BUFx4f_ASAP7_75t_R c172(
 .A(net35),
 .Y(net149)
 );
 
-INVx8_ASAP7_75t_R c173(
+BUFx5_ASAP7_75t_R c173(
 .A(net145),
 .Y(net150)
 );
@@ -11560,47 +11560,47 @@ NOR2x1p5_ASAP7_75t_R c174(
 .Y(net151)
 );
 
-INVxp33_ASAP7_75t_R c175(
+BUFx6f_ASAP7_75t_R c175(
 .A(net10174),
 .Y(net152)
 );
 
-INVxp67_ASAP7_75t_R c176(
+BUFx8_ASAP7_75t_R c176(
 .A(net61),
 .Y(net153)
 );
 
-BUFx10_ASAP7_75t_R c177(
+CKINVDCx5p33_ASAP7_75t_R c177(
 .A(net114),
 .Y(net154)
 );
 
-BUFx12_ASAP7_75t_R c178(
+CKINVDCx6p67_ASAP7_75t_R c178(
 .A(net150),
 .Y(net155)
 );
 
-BUFx12f_ASAP7_75t_R c179(
+CKINVDCx8_ASAP7_75t_R c179(
 .A(net80),
 .Y(net156)
 );
 
-BUFx16f_ASAP7_75t_R c180(
+CKINVDCx9p33_ASAP7_75t_R c180(
 .A(net119),
 .Y(net157)
 );
 
-BUFx24_ASAP7_75t_R c181(
+HB1xp67_ASAP7_75t_R c181(
 .A(net10173),
 .Y(net158)
 );
 
-BUFx2_ASAP7_75t_R c182(
+HB2xp67_ASAP7_75t_R c182(
 .A(net9143),
 .Y(net159)
 );
 
-BUFx3_ASAP7_75t_R c183(
+HB3xp67_ASAP7_75t_R c183(
 .A(net158),
 .Y(net160)
 );
@@ -11618,12 +11618,12 @@ AND3x2_ASAP7_75t_R c185(
 .Y(net162)
 );
 
-BUFx4_ASAP7_75t_R c186(
+HB4xp67_ASAP7_75t_R c186(
 .A(net141),
 .Y(net163)
 );
 
-BUFx4f_ASAP7_75t_R c187(
+INVx11_ASAP7_75t_R c187(
 .A(net55),
 .Y(net164)
 );
@@ -11634,17 +11634,17 @@ NOR2xp33_ASAP7_75t_R c188(
 .Y(net165)
 );
 
-BUFx5_ASAP7_75t_R c189(
+INVx13_ASAP7_75t_R c189(
 .A(net143),
 .Y(net166)
 );
 
-BUFx6f_ASAP7_75t_R c190(
+INVx1_ASAP7_75t_R c190(
 .A(net159),
 .Y(net167)
 );
 
-BUFx8_ASAP7_75t_R c191(
+INVx2_ASAP7_75t_R c191(
 .A(net101),
 .Y(net168)
 );
@@ -11655,22 +11655,22 @@ NOR2xp67_ASAP7_75t_R c192(
 .Y(net169)
 );
 
-CKINVDCx10_ASAP7_75t_R c193(
+INVx3_ASAP7_75t_R c193(
 .A(net167),
 .Y(net170)
 );
 
-CKINVDCx11_ASAP7_75t_R c194(
+INVx4_ASAP7_75t_R c194(
 .A(net166),
 .Y(net171)
 );
 
-CKINVDCx12_ASAP7_75t_R c195(
+INVx5_ASAP7_75t_R c195(
 .A(net9232),
 .Y(net172)
 );
 
-CKINVDCx14_ASAP7_75t_R c196(
+INVx6_ASAP7_75t_R c196(
 .A(net170),
 .Y(net173)
 );
@@ -11687,22 +11687,22 @@ OR2x4_ASAP7_75t_R c198(
 .Y(net175)
 );
 
-CKINVDCx16_ASAP7_75t_R c199(
+INVx8_ASAP7_75t_R c199(
 .A(in4),
 .Y(net176)
 );
 
-CKINVDCx20_ASAP7_75t_R c200(
+INVxp33_ASAP7_75t_R c200(
 .A(net114),
 .Y(net177)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c201(
+INVxp67_ASAP7_75t_R c201(
 .A(net173),
 .Y(net178)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c202(
+BUFx10_ASAP7_75t_R c202(
 .A(in21),
 .Y(net179)
 );
@@ -11720,7 +11720,7 @@ AND3x4_ASAP7_75t_R c204(
 .Y(net181)
 );
 
-CKINVDCx8_ASAP7_75t_R c205(
+BUFx12_ASAP7_75t_R c205(
 .A(net158),
 .Y(net182)
 );
@@ -11750,17 +11750,17 @@ XNOR2xp5_ASAP7_75t_R c209(
 .Y(net186)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c210(
+BUFx12f_ASAP7_75t_R c210(
 .A(net55),
 .Y(net187)
 );
 
-HB1xp67_ASAP7_75t_R c211(
+BUFx16f_ASAP7_75t_R c211(
 .A(net9889),
 .Y(net188)
 );
 
-HB2xp67_ASAP7_75t_R c212(
+BUFx24_ASAP7_75t_R c212(
 .A(net169),
 .Y(net189)
 );
@@ -11783,12 +11783,12 @@ XOR2xp5_ASAP7_75t_R c215(
 .Y(net192)
 );
 
-HB3xp67_ASAP7_75t_R c216(
+BUFx2_ASAP7_75t_R c216(
 .A(net190),
 .Y(net193)
 );
 
-HB4xp67_ASAP7_75t_R c217(
+BUFx3_ASAP7_75t_R c217(
 .A(net190),
 .Y(net194)
 );
@@ -11812,12 +11812,12 @@ AND2x4_ASAP7_75t_R c220(
 .Y(net197)
 );
 
-INVx11_ASAP7_75t_R c221(
+BUFx4_ASAP7_75t_R c221(
 .A(net150),
 .Y(net198)
 );
 
-INVx13_ASAP7_75t_R c222(
+BUFx4f_ASAP7_75t_R c222(
 .A(net9864),
 .Y(net199)
 );
@@ -11829,7 +11829,7 @@ AOI21x1_ASAP7_75t_R c223(
 .Y(net200)
 );
 
-INVx1_ASAP7_75t_R c224(
+BUFx5_ASAP7_75t_R c224(
 .A(net101),
 .Y(net201)
 );
@@ -11860,7 +11860,7 @@ AOI21xp33_ASAP7_75t_R c228(
 .Y(net205)
 );
 
-INVx2_ASAP7_75t_R c229(
+BUFx6f_ASAP7_75t_R c229(
 .A(net195),
 .Y(net206)
 );
@@ -11905,12 +11905,12 @@ NAND2x2_ASAP7_75t_R c235(
 .Y(net213)
 );
 
-INVx3_ASAP7_75t_R c236(
+BUFx8_ASAP7_75t_R c236(
 .A(net165),
 .Y(net214)
 );
 
-INVx4_ASAP7_75t_R c237(
+CKINVDCx5p33_ASAP7_75t_R c237(
 .A(net201),
 .Y(net215)
 );
@@ -11959,7 +11959,7 @@ MAJx3_ASAP7_75t_R c243(
 .Y(net221)
 );
 
-INVx5_ASAP7_75t_R c244(
+CKINVDCx6p67_ASAP7_75t_R c244(
 .A(net10550),
 .Y(net222)
 );
@@ -11993,32 +11993,32 @@ NAND3xp33_ASAP7_75t_R c248(
 .Y(net226)
 );
 
-INVx6_ASAP7_75t_R c249(
+CKINVDCx8_ASAP7_75t_R c249(
 .A(net148),
 .Y(net227)
 );
 
-INVx8_ASAP7_75t_R c250(
+CKINVDCx9p33_ASAP7_75t_R c250(
 .A(net69),
 .Y(net228)
 );
 
-INVxp33_ASAP7_75t_R c251(
+HB1xp67_ASAP7_75t_R c251(
 .A(net238),
 .Y(net229)
 );
 
-INVxp67_ASAP7_75t_R c252(
+HB2xp67_ASAP7_75t_R c252(
 .A(net173),
 .Y(net230)
 );
 
-BUFx10_ASAP7_75t_R c253(
+HB3xp67_ASAP7_75t_R c253(
 .A(net226),
 .Y(net231)
 );
 
-BUFx12_ASAP7_75t_R c254(
+HB4xp67_ASAP7_75t_R c254(
 .A(net98),
 .Y(net232)
 );
@@ -12029,62 +12029,62 @@ NAND2xp67_ASAP7_75t_R c255(
 .Y(net233)
 );
 
-BUFx12f_ASAP7_75t_R c256(
+INVx11_ASAP7_75t_R c256(
 .A(net10088),
 .Y(net234)
 );
 
-BUFx16f_ASAP7_75t_R c257(
+INVx13_ASAP7_75t_R c257(
 .A(net9121),
 .Y(net235)
 );
 
-BUFx24_ASAP7_75t_R c258(
+INVx1_ASAP7_75t_R c258(
 .A(net17),
 .Y(net236)
 );
 
-BUFx2_ASAP7_75t_R c259(
+INVx2_ASAP7_75t_R c259(
 .A(net75),
 .Y(net237)
 );
 
-BUFx3_ASAP7_75t_R c260(
+INVx3_ASAP7_75t_R c260(
 .A(net96),
 .Y(net238)
 );
 
-BUFx4_ASAP7_75t_R c261(
+INVx4_ASAP7_75t_R c261(
 .A(net183),
 .Y(net239)
 );
 
-BUFx4f_ASAP7_75t_R c262(
+INVx5_ASAP7_75t_R c262(
 .A(net26),
 .Y(net240)
 );
 
-BUFx5_ASAP7_75t_R c263(
+INVx6_ASAP7_75t_R c263(
 .A(net75),
 .Y(net241)
 );
 
-BUFx6f_ASAP7_75t_R c264(
+INVx8_ASAP7_75t_R c264(
 .A(net5),
 .Y(net242)
 );
 
-BUFx8_ASAP7_75t_R c265(
+INVxp33_ASAP7_75t_R c265(
 .A(net213),
 .Y(net243)
 );
 
-CKINVDCx10_ASAP7_75t_R c266(
+INVxp67_ASAP7_75t_R c266(
 .A(net236),
 .Y(net244)
 );
 
-CKINVDCx11_ASAP7_75t_R c267(
+BUFx10_ASAP7_75t_R c267(
 .A(net234),
 .Y(net245)
 );
@@ -12107,17 +12107,17 @@ NOR2x2_ASAP7_75t_R c270(
 .Y(net248)
 );
 
-CKINVDCx12_ASAP7_75t_R c271(
+BUFx12_ASAP7_75t_R c271(
 .A(net182),
 .Y(net249)
 );
 
-CKINVDCx14_ASAP7_75t_R c272(
+BUFx12f_ASAP7_75t_R c272(
 .A(net226),
 .Y(net250)
 );
 
-CKINVDCx16_ASAP7_75t_R c273(
+BUFx16f_ASAP7_75t_R c273(
 .A(net247),
 .Y(net251)
 );
@@ -12128,22 +12128,22 @@ NOR2xp33_ASAP7_75t_R c274(
 .Y(net252)
 );
 
-CKINVDCx20_ASAP7_75t_R c275(
+BUFx24_ASAP7_75t_R c275(
 .A(net214),
 .Y(net253)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c276(
+BUFx2_ASAP7_75t_R c276(
 .A(net251),
 .Y(net254)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c277(
+BUFx3_ASAP7_75t_R c277(
 .A(net247),
 .Y(net255)
 );
 
-CKINVDCx8_ASAP7_75t_R c278(
+BUFx4_ASAP7_75t_R c278(
 .A(net9121),
 .Y(net256)
 );
@@ -12168,7 +12168,7 @@ NOR2xp67_ASAP7_75t_R c281(
 .Y(net259)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c282(
+BUFx4f_ASAP7_75t_R c282(
 .A(net238),
 .Y(net260)
 );
@@ -12198,32 +12198,32 @@ OR2x6_ASAP7_75t_R c286(
 .Y(net264)
 );
 
-HB1xp67_ASAP7_75t_R c287(
+BUFx5_ASAP7_75t_R c287(
 .A(net232),
 .Y(net265)
 );
 
-HB2xp67_ASAP7_75t_R c288(
+BUFx6f_ASAP7_75t_R c288(
 .A(net230),
 .Y(net266)
 );
 
-HB3xp67_ASAP7_75t_R c289(
+BUFx8_ASAP7_75t_R c289(
 .A(net10415),
 .Y(net267)
 );
 
-HB4xp67_ASAP7_75t_R c290(
+CKINVDCx5p33_ASAP7_75t_R c290(
 .A(net10031),
 .Y(net268)
 );
 
-INVx11_ASAP7_75t_R c291(
+CKINVDCx6p67_ASAP7_75t_R c291(
 .A(net9828),
 .Y(net269)
 );
 
-INVx13_ASAP7_75t_R c292(
+CKINVDCx8_ASAP7_75t_R c292(
 .A(net9934),
 .Y(net270)
 );
@@ -12241,7 +12241,7 @@ XNOR2x1_ASAP7_75t_R c294(
 .Y(net272)
 );
 
-INVx1_ASAP7_75t_R c295(
+CKINVDCx9p33_ASAP7_75t_R c295(
 .A(net161),
 .Y(net273)
 );
@@ -12263,12 +12263,12 @@ AO221x1_ASAP7_75t_R c297(
 .Y(net275)
 );
 
-INVx2_ASAP7_75t_R c298(
+HB1xp67_ASAP7_75t_R c298(
 .A(net273),
 .Y(net276)
 );
 
-INVx3_ASAP7_75t_R c299(
+HB2xp67_ASAP7_75t_R c299(
 .A(net275),
 .Y(net277)
 );
@@ -12306,12 +12306,12 @@ XOR2x1_ASAP7_75t_R c304(
 .Y(net282)
 );
 
-INVx4_ASAP7_75t_R c305(
+HB3xp67_ASAP7_75t_R c305(
 .A(net267),
 .Y(net283)
 );
 
-INVx5_ASAP7_75t_R c306(
+HB4xp67_ASAP7_75t_R c306(
 .A(net10507),
 .Y(net284)
 );
@@ -12349,7 +12349,7 @@ OR3x1_ASAP7_75t_R c311(
 .Y(net289)
 );
 
-INVx6_ASAP7_75t_R c312(
+INVx11_ASAP7_75t_R c312(
 .A(net10013),
 .Y(net290)
 );
@@ -12380,7 +12380,7 @@ AND2x4_ASAP7_75t_R c316(
 .Y(net294)
 );
 
-INVx8_ASAP7_75t_R c317(
+INVx13_ASAP7_75t_R c317(
 .A(net9926),
 .Y(net295)
 );
@@ -12400,7 +12400,7 @@ SDFLx2_ASAP7_75t_R c319(
 .QN(net297)
 );
 
-INVxp33_ASAP7_75t_R c320(
+INVx1_ASAP7_75t_R c320(
 .A(net283),
 .Y(net298)
 );
@@ -12452,7 +12452,7 @@ SDFLx4_ASAP7_75t_R c326(
 .QN(net304)
 );
 
-INVxp67_ASAP7_75t_R c327(
+INVx2_ASAP7_75t_R c327(
 .A(net9950),
 .Y(net305)
 );
@@ -12488,7 +12488,7 @@ AO32x1_ASAP7_75t_R c331(
 .Y(net310)
 );
 
-BUFx10_ASAP7_75t_R c332(
+INVx3_ASAP7_75t_R c332(
 .A(net295),
 .Y(net311)
 );
@@ -12499,12 +12499,12 @@ NAND2x1_ASAP7_75t_R c333(
 .Y(net312)
 );
 
-BUFx12_ASAP7_75t_R c334(
+INVx4_ASAP7_75t_R c334(
 .A(net154),
 .Y(net313)
 );
 
-BUFx12f_ASAP7_75t_R c335(
+INVx5_ASAP7_75t_R c335(
 .A(net154),
 .Y(net314)
 );
@@ -12521,77 +12521,77 @@ NAND2x2_ASAP7_75t_R c337(
 .Y(net316)
 );
 
-BUFx16f_ASAP7_75t_R c338(
+INVx6_ASAP7_75t_R c338(
 .A(net180),
 .Y(net317)
 );
 
-BUFx24_ASAP7_75t_R c339(
+INVx8_ASAP7_75t_R c339(
 .A(net123),
 .Y(net318)
 );
 
-BUFx2_ASAP7_75t_R c340(
+INVxp33_ASAP7_75t_R c340(
 .A(net10047),
 .Y(net319)
 );
 
-BUFx3_ASAP7_75t_R c341(
+INVxp67_ASAP7_75t_R c341(
 .A(net10130),
 .Y(net320)
 );
 
-BUFx4_ASAP7_75t_R c342(
+BUFx10_ASAP7_75t_R c342(
 .A(net290),
 .Y(net321)
 );
 
-BUFx4f_ASAP7_75t_R c343(
+BUFx12_ASAP7_75t_R c343(
 .A(net275),
 .Y(net322)
 );
 
-BUFx5_ASAP7_75t_R c344(
+BUFx12f_ASAP7_75t_R c344(
 .A(net257),
 .Y(net323)
 );
 
-BUFx6f_ASAP7_75t_R c345(
+BUFx16f_ASAP7_75t_R c345(
 .A(net310),
 .Y(net324)
 );
 
-BUFx8_ASAP7_75t_R c346(
+BUFx24_ASAP7_75t_R c346(
 .A(net274),
 .Y(net325)
 );
 
-CKINVDCx10_ASAP7_75t_R c347(
+BUFx2_ASAP7_75t_R c347(
 .A(net10542),
 .Y(net326)
 );
 
-CKINVDCx11_ASAP7_75t_R c348(
+BUFx3_ASAP7_75t_R c348(
 .A(net304),
 .Y(net327)
 );
 
-CKINVDCx12_ASAP7_75t_R c349(
+BUFx4_ASAP7_75t_R c349(
 .A(net303),
 .Y(net328)
 );
 
-CKINVDCx14_ASAP7_75t_R c350(
+BUFx4f_ASAP7_75t_R c350(
 .A(net321),
 .Y(net329)
 );
 
-CKINVDCx16_ASAP7_75t_R c351(
+BUFx5_ASAP7_75t_R c351(
 .A(net256),
 .Y(net330)
 );
 
-CKINVDCx20_ASAP7_75t_R c352(
+BUFx6f_ASAP7_75t_R c352(
 .A(net259),
 .Y(net331)
 );
@@ -12602,7 +12602,7 @@ NAND2xp33_ASAP7_75t_R c353(
 .Y(net332)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c354(
+BUFx8_ASAP7_75t_R c354(
 .A(net320),
 .Y(net333)
 );
@@ -12613,17 +12613,17 @@ NAND2xp5_ASAP7_75t_R c355(
 .Y(net334)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c356(
+CKINVDCx5p33_ASAP7_75t_R c356(
 .A(net216),
 .Y(net335)
 );
 
-CKINVDCx8_ASAP7_75t_R c357(
+CKINVDCx6p67_ASAP7_75t_R c357(
 .A(net188),
 .Y(net336)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c358(
+CKINVDCx8_ASAP7_75t_R c358(
 .A(in11),
 .Y(net337)
 );
@@ -12640,7 +12640,7 @@ NOR2x1_ASAP7_75t_R c360(
 .Y(net339)
 );
 
-HB1xp67_ASAP7_75t_R c361(
+CKINVDCx9p33_ASAP7_75t_R c361(
 .A(net334),
 .Y(net340)
 );
@@ -12657,7 +12657,7 @@ NOR2x2_ASAP7_75t_R c363(
 .Y(net342)
 );
 
-HB2xp67_ASAP7_75t_R c364(
+HB1xp67_ASAP7_75t_R c364(
 .A(net10130),
 .Y(net343)
 );
@@ -12674,12 +12674,12 @@ NOR2xp67_ASAP7_75t_R c366(
 .Y(net345)
 );
 
-HB3xp67_ASAP7_75t_R c367(
+HB2xp67_ASAP7_75t_R c367(
 .A(net344),
 .Y(net346)
 );
 
-HB4xp67_ASAP7_75t_R c368(
+HB3xp67_ASAP7_75t_R c368(
 .A(net9239),
 .Y(net347)
 );
@@ -12696,7 +12696,7 @@ OR2x4_ASAP7_75t_R c370(
 .Y(net349)
 );
 
-INVx11_ASAP7_75t_R c371(
+HB4xp67_ASAP7_75t_R c371(
 .A(net320),
 .Y(net350)
 );
@@ -12707,7 +12707,7 @@ OR2x6_ASAP7_75t_R c372(
 .Y(net351)
 );
 
-INVx13_ASAP7_75t_R c373(
+INVx11_ASAP7_75t_R c373(
 .A(net268),
 .Y(net352)
 );
@@ -12719,7 +12719,7 @@ AO21x1_ASAP7_75t_R c374(
 .Y(net353)
 );
 
-INVx1_ASAP7_75t_R c375(
+INVx13_ASAP7_75t_R c375(
 .A(net316),
 .Y(net354)
 );
@@ -12742,12 +12742,12 @@ XNOR2xp5_ASAP7_75t_R c378(
 .Y(net357)
 );
 
-INVx2_ASAP7_75t_R c379(
+INVx1_ASAP7_75t_R c379(
 .A(net9907),
 .Y(net358)
 );
 
-INVx3_ASAP7_75t_R c380(
+INVx2_ASAP7_75t_R c380(
 .A(net313),
 .Y(net359)
 );
@@ -12770,12 +12770,12 @@ XOR2xp5_ASAP7_75t_R c383(
 .Y(net362)
 );
 
-INVx4_ASAP7_75t_R c384(
+INVx3_ASAP7_75t_R c384(
 .A(net344),
 .Y(net363)
 );
 
-INVx5_ASAP7_75t_R c385(
+INVx4_ASAP7_75t_R c385(
 .A(net361),
 .Y(net364)
 );
@@ -12799,12 +12799,12 @@ AND2x4_ASAP7_75t_R c388(
 .Y(net367)
 );
 
-INVx6_ASAP7_75t_R c389(
+INVx5_ASAP7_75t_R c389(
 .A(net322),
 .Y(net368)
 );
 
-INVx8_ASAP7_75t_R c390(
+INVx6_ASAP7_75t_R c390(
 .A(net334),
 .Y(net369)
 );
@@ -12919,7 +12919,7 @@ MAJIxp5_ASAP7_75t_R c407(
 .Y(net387)
 );
 
-INVxp33_ASAP7_75t_R c408(
+INVx8_ASAP7_75t_R c408(
 .A(net9954),
 .Y(net388)
 );
@@ -12971,22 +12971,22 @@ AO22x1_ASAP7_75t_R c414(
 .Y(net394)
 );
 
-INVxp67_ASAP7_75t_R c415(
+INVxp33_ASAP7_75t_R c415(
 .A(net293),
 .Y(net395)
 );
 
-BUFx10_ASAP7_75t_R c416(
+INVxp67_ASAP7_75t_R c416(
 .A(net372),
 .Y(net396)
 );
 
-BUFx12_ASAP7_75t_R c417(
+BUFx10_ASAP7_75t_R c417(
 .A(net395),
 .Y(net397)
 );
 
-BUFx12f_ASAP7_75t_R c418(
+BUFx12_ASAP7_75t_R c418(
 .A(net9271),
 .Y(net398)
 );
@@ -13004,7 +13004,7 @@ MAJx3_ASAP7_75t_R c420(
 .Y(net400)
 );
 
-BUFx16f_ASAP7_75t_R c421(
+BUFx12f_ASAP7_75t_R c421(
 .A(net397),
 .Y(net401)
 );
@@ -13015,12 +13015,12 @@ NOR2xp67_ASAP7_75t_R c422(
 .Y(net402)
 );
 
-BUFx24_ASAP7_75t_R c423(
+BUFx16f_ASAP7_75t_R c423(
 .A(net401),
 .Y(net403)
 );
 
-BUFx2_ASAP7_75t_R c424(
+BUFx24_ASAP7_75t_R c424(
 .A(net312),
 .Y(net404)
 );
@@ -13031,12 +13031,12 @@ OR2x2_ASAP7_75t_R c425(
 .Y(net405)
 );
 
-BUFx3_ASAP7_75t_R c426(
+BUFx2_ASAP7_75t_R c426(
 .A(net312),
 .Y(net406)
 );
 
-BUFx4_ASAP7_75t_R c427(
+BUFx3_ASAP7_75t_R c427(
 .A(net372),
 .Y(net407)
 );
@@ -13061,7 +13061,7 @@ OR2x6_ASAP7_75t_R c430(
 .Y(net410)
 );
 
-BUFx4f_ASAP7_75t_R c431(
+BUFx4_ASAP7_75t_R c431(
 .A(net244),
 .Y(net411)
 );
@@ -13072,32 +13072,32 @@ XNOR2x1_ASAP7_75t_R c432(
 .Y(net412)
 );
 
-BUFx5_ASAP7_75t_R c433(
+BUFx4f_ASAP7_75t_R c433(
 .A(net411),
 .Y(net413)
 );
 
-BUFx6f_ASAP7_75t_R c434(
+BUFx5_ASAP7_75t_R c434(
 .A(net287),
 .Y(net414)
 );
 
-BUFx8_ASAP7_75t_R c435(
+BUFx6f_ASAP7_75t_R c435(
 .A(net324),
 .Y(net415)
 );
 
-CKINVDCx10_ASAP7_75t_R c436(
+BUFx8_ASAP7_75t_R c436(
 .A(net34),
 .Y(net416)
 );
 
-CKINVDCx11_ASAP7_75t_R c437(
+CKINVDCx5p33_ASAP7_75t_R c437(
 .A(net415),
 .Y(net417)
 );
 
-CKINVDCx12_ASAP7_75t_R c438(
+CKINVDCx6p67_ASAP7_75t_R c438(
 .A(net9090),
 .Y(net418)
 );
@@ -13108,22 +13108,22 @@ XNOR2x2_ASAP7_75t_R c439(
 .Y(net419)
 );
 
-CKINVDCx14_ASAP7_75t_R c440(
+CKINVDCx8_ASAP7_75t_R c440(
 .A(net359),
 .Y(net420)
 );
 
-CKINVDCx16_ASAP7_75t_R c441(
+CKINVDCx9p33_ASAP7_75t_R c441(
 .A(net248),
 .Y(net421)
 );
 
-CKINVDCx20_ASAP7_75t_R c442(
+HB1xp67_ASAP7_75t_R c442(
 .A(net187),
 .Y(net422)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c443(
+HB2xp67_ASAP7_75t_R c443(
 .A(net418),
 .Y(net423)
 );
@@ -13159,7 +13159,7 @@ XOR2xp5_ASAP7_75t_R c448(
 .Y(net428)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c449(
+HB3xp67_ASAP7_75t_R c449(
 .A(net417),
 .Y(net429)
 );
@@ -13177,22 +13177,22 @@ NAND3x2_ASAP7_75t_R c451(
 .Y(net431)
 );
 
-CKINVDCx8_ASAP7_75t_R c452(
+HB4xp67_ASAP7_75t_R c452(
 .A(net9090),
 .Y(net432)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c453(
+INVx11_ASAP7_75t_R c453(
 .A(net9636),
 .Y(net433)
 );
 
-HB1xp67_ASAP7_75t_R c454(
+INVx13_ASAP7_75t_R c454(
 .A(net414),
 .Y(net434)
 );
 
-HB2xp67_ASAP7_75t_R c455(
+INVx1_ASAP7_75t_R c455(
 .A(net9636),
 .Y(net435)
 );
@@ -13203,17 +13203,17 @@ AND2x4_ASAP7_75t_R c456(
 .Y(net436)
 );
 
-HB3xp67_ASAP7_75t_R c457(
+INVx2_ASAP7_75t_R c457(
 .A(net416),
 .Y(net437)
 );
 
-HB4xp67_ASAP7_75t_R c458(
+INVx3_ASAP7_75t_R c458(
 .A(net10120),
 .Y(net438)
 );
 
-INVx11_ASAP7_75t_R c459(
+INVx4_ASAP7_75t_R c459(
 .A(net9269),
 .Y(net439)
 );
@@ -13225,7 +13225,7 @@ NAND3xp33_ASAP7_75t_R c460(
 .Y(net440)
 );
 
-INVx13_ASAP7_75t_R c461(
+INVx5_ASAP7_75t_R c461(
 .A(net9269),
 .Y(net441)
 );
@@ -13243,12 +13243,12 @@ AND2x6_ASAP7_75t_R c463(
 .Y(net443)
 );
 
-INVx1_ASAP7_75t_R c464(
+INVx6_ASAP7_75t_R c464(
 .A(net442),
 .Y(net444)
 );
 
-INVx2_ASAP7_75t_R c465(
+INVx8_ASAP7_75t_R c465(
 .A(net10411),
 .Y(net445)
 );
@@ -13285,12 +13285,12 @@ NAND2x2_ASAP7_75t_R c470(
 .Y(net451)
 );
 
-INVx3_ASAP7_75t_R c471(
+INVxp33_ASAP7_75t_R c471(
 .A(net438),
 .Y(net452)
 );
 
-INVx4_ASAP7_75t_R c472(
+INVxp67_ASAP7_75t_R c472(
 .A(net430),
 .Y(net453)
 );
@@ -13329,7 +13329,7 @@ SDFHx2_ASAP7_75t_R c477(
 .QN(net458)
 );
 
-INVx5_ASAP7_75t_R c478(
+BUFx10_ASAP7_75t_R c478(
 .A(net453),
 .Y(net459)
 );
@@ -13354,17 +13354,17 @@ NAND2xp67_ASAP7_75t_R c481(
 .Y(net462)
 );
 
-INVx6_ASAP7_75t_R c482(
+BUFx12_ASAP7_75t_R c482(
 .A(net330),
 .Y(net463)
 );
 
-INVx8_ASAP7_75t_R c483(
+BUFx12f_ASAP7_75t_R c483(
 .A(net463),
 .Y(net464)
 );
 
-INVxp33_ASAP7_75t_R c484(
+BUFx16f_ASAP7_75t_R c484(
 .A(net9933),
 .Y(net465)
 );
@@ -13433,7 +13433,7 @@ NOR2x1p5_ASAP7_75t_R c493(
 .Y(net474)
 );
 
-INVxp67_ASAP7_75t_R c494(
+BUFx24_ASAP7_75t_R c494(
 .A(net10481),
 .Y(net475)
 );
@@ -13459,12 +13459,12 @@ AND3x4_ASAP7_75t_R c497(
 .Y(net478)
 );
 
-BUFx10_ASAP7_75t_R c498(
+BUFx2_ASAP7_75t_R c498(
 .A(net9172),
 .Y(net479)
 );
 
-BUFx12_ASAP7_75t_R c499(
+BUFx3_ASAP7_75t_R c499(
 .A(net374),
 .Y(net480)
 );
@@ -13481,12 +13481,12 @@ NOR2xp33_ASAP7_75t_R c501(
 .Y(net482)
 );
 
-BUFx12f_ASAP7_75t_R c502(
+BUFx4_ASAP7_75t_R c502(
 .A(net507),
 .Y(net483)
 );
 
-BUFx16f_ASAP7_75t_R c503(
+BUFx4f_ASAP7_75t_R c503(
 .A(net482),
 .Y(net484)
 );
@@ -13497,7 +13497,7 @@ NOR2xp67_ASAP7_75t_R c504(
 .Y(net485)
 );
 
-BUFx24_ASAP7_75t_R c505(
+BUFx5_ASAP7_75t_R c505(
 .A(net326),
 .Y(net486)
 );
@@ -13508,7 +13508,7 @@ OR2x2_ASAP7_75t_R c506(
 .Y(net487)
 );
 
-BUFx2_ASAP7_75t_R c507(
+BUFx6f_ASAP7_75t_R c507(
 .A(net496),
 .Y(net488)
 );
@@ -13525,22 +13525,22 @@ OR2x6_ASAP7_75t_R c509(
 .Y(net490)
 );
 
-BUFx3_ASAP7_75t_R c510(
+BUFx8_ASAP7_75t_R c510(
 .A(net9966),
 .Y(net491)
 );
 
-BUFx4_ASAP7_75t_R c511(
+CKINVDCx5p33_ASAP7_75t_R c511(
 .A(net146),
 .Y(net492)
 );
 
-BUFx4f_ASAP7_75t_R c512(
+CKINVDCx6p67_ASAP7_75t_R c512(
 .A(net494),
 .Y(net493)
 );
 
-BUFx5_ASAP7_75t_R c513(
+CKINVDCx8_ASAP7_75t_R c513(
 .A(net9172),
 .Y(net494)
 );
@@ -13551,47 +13551,47 @@ XNOR2x1_ASAP7_75t_R c514(
 .Y(net495)
 );
 
-BUFx6f_ASAP7_75t_R c515(
+CKINVDCx9p33_ASAP7_75t_R c515(
 .A(net146),
 .Y(net496)
 );
 
-BUFx8_ASAP7_75t_R c516(
+HB1xp67_ASAP7_75t_R c516(
 .A(net472),
 .Y(net497)
 );
 
-CKINVDCx10_ASAP7_75t_R c517(
+HB2xp67_ASAP7_75t_R c517(
 .A(net443),
 .Y(net498)
 );
 
-CKINVDCx11_ASAP7_75t_R c518(
+HB3xp67_ASAP7_75t_R c518(
 .A(net380),
 .Y(net499)
 );
 
-CKINVDCx12_ASAP7_75t_R c519(
+HB4xp67_ASAP7_75t_R c519(
 .A(net10177),
 .Y(net500)
 );
 
-CKINVDCx14_ASAP7_75t_R c520(
+INVx11_ASAP7_75t_R c520(
 .A(net495),
 .Y(net501)
 );
 
-CKINVDCx16_ASAP7_75t_R c521(
+INVx13_ASAP7_75t_R c521(
 .A(net446),
 .Y(net502)
 );
 
-CKINVDCx20_ASAP7_75t_R c522(
+INVx1_ASAP7_75t_R c522(
 .A(net380),
 .Y(net503)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c523(
+INVx2_ASAP7_75t_R c523(
 .A(net10393),
 .Y(net504)
 );
@@ -13602,17 +13602,17 @@ XNOR2x2_ASAP7_75t_R c524(
 .Y(net505)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c525(
+INVx3_ASAP7_75t_R c525(
 .A(net381),
 .Y(net506)
 );
 
-CKINVDCx8_ASAP7_75t_R c526(
+INVx4_ASAP7_75t_R c526(
 .A(net457),
 .Y(net507)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c527(
+INVx5_ASAP7_75t_R c527(
 .A(net326),
 .Y(net508)
 );
@@ -13624,7 +13624,7 @@ ICGx2p67DC_ASAP7_75t_R c528(
 .GCLK(net509)
 );
 
-HB1xp67_ASAP7_75t_R c529(
+INVx6_ASAP7_75t_R c529(
 .A(net481),
 .Y(net510)
 );
@@ -13667,7 +13667,7 @@ AND2x2_ASAP7_75t_R c535(
 .Y(net516)
 );
 
-HB2xp67_ASAP7_75t_R c536(
+INVx8_ASAP7_75t_R c536(
 .A(net511),
 .Y(net517)
 );
@@ -13685,7 +13685,7 @@ AND2x4_ASAP7_75t_R c538(
 .Y(net519)
 );
 
-HB3xp67_ASAP7_75t_R c539(
+INVxp33_ASAP7_75t_R c539(
 .A(net10564),
 .Y(net520)
 );
@@ -13734,7 +13734,7 @@ NAND2xp33_ASAP7_75t_R c546(
 .Y(net528)
 );
 
-HB4xp67_ASAP7_75t_R c547(
+INVxp67_ASAP7_75t_R c547(
 .A(net486),
 .Y(net529)
 );
@@ -13850,7 +13850,7 @@ XNOR2xp5_ASAP7_75t_R c564(
 .Y(net546)
 );
 
-INVx11_ASAP7_75t_R c565(
+BUFx10_ASAP7_75t_R c565(
 .A(net9966),
 .Y(net547)
 );
@@ -13881,7 +13881,7 @@ XOR2x2_ASAP7_75t_R c569(
 .Y(net551)
 );
 
-INVx13_ASAP7_75t_R c570(
+BUFx12_ASAP7_75t_R c570(
 .A(net10139),
 .Y(net552)
 );
@@ -13917,7 +13917,7 @@ AND2x6_ASAP7_75t_R c575(
 .Y(net557)
 );
 
-INVx1_ASAP7_75t_R c576(
+BUFx12f_ASAP7_75t_R c576(
 .A(net10117),
 .Y(net558)
 );
@@ -13958,27 +13958,27 @@ AOI33xp33_ASAP7_75t_R c580(
 .Y(net563)
 );
 
-INVx2_ASAP7_75t_R c581(
+BUFx16f_ASAP7_75t_R c581(
 .A(net495),
 .Y(net564)
 );
 
-INVx3_ASAP7_75t_R c582(
+BUFx24_ASAP7_75t_R c582(
 .A(net426),
 .Y(net565)
 );
 
-INVx4_ASAP7_75t_R c583(
+BUFx2_ASAP7_75t_R c583(
 .A(net10421),
 .Y(net566)
 );
 
-INVx5_ASAP7_75t_R c584(
+BUFx3_ASAP7_75t_R c584(
 .A(net476),
 .Y(net567)
 );
 
-INVx6_ASAP7_75t_R c585(
+BUFx4_ASAP7_75t_R c585(
 .A(net356),
 .Y(net568)
 );
@@ -13989,7 +13989,7 @@ HAxp5_ASAP7_75t_R c586(
 .CON(net569)
 );
 
-INVx8_ASAP7_75t_R c587(
+BUFx4f_ASAP7_75t_R c587(
 .A(net9099),
 .Y(net570)
 );
@@ -14000,12 +14000,12 @@ NAND2x1_ASAP7_75t_R c588(
 .Y(net571)
 );
 
-INVxp33_ASAP7_75t_R c589(
+BUFx5_ASAP7_75t_R c589(
 .A(net547),
 .Y(net572)
 );
 
-INVxp67_ASAP7_75t_R c590(
+BUFx6f_ASAP7_75t_R c590(
 .A(net486),
 .Y(net573)
 );
@@ -14016,7 +14016,7 @@ NAND2x1p5_ASAP7_75t_R c591(
 .Y(net574)
 );
 
-BUFx10_ASAP7_75t_R c592(
+BUFx8_ASAP7_75t_R c592(
 .A(net87),
 .Y(net575)
 );
@@ -14027,7 +14027,7 @@ NAND2x2_ASAP7_75t_R c593(
 .Y(net576)
 );
 
-BUFx12_ASAP7_75t_R c594(
+CKINVDCx5p33_ASAP7_75t_R c594(
 .A(net79),
 .Y(net577)
 );
@@ -14044,47 +14044,47 @@ NAND2xp5_ASAP7_75t_R c596(
 .Y(net579)
 );
 
-BUFx12f_ASAP7_75t_R c597(
+CKINVDCx6p67_ASAP7_75t_R c597(
 .A(net448),
 .Y(net580)
 );
 
-BUFx16f_ASAP7_75t_R c598(
+CKINVDCx8_ASAP7_75t_R c598(
 .A(net342),
 .Y(net581)
 );
 
-BUFx24_ASAP7_75t_R c599(
+CKINVDCx9p33_ASAP7_75t_R c599(
 .A(net531),
 .Y(net582)
 );
 
-BUFx2_ASAP7_75t_R c600(
+HB1xp67_ASAP7_75t_R c600(
 .A(net576),
 .Y(net583)
 );
 
-BUFx3_ASAP7_75t_R c601(
+HB2xp67_ASAP7_75t_R c601(
 .A(net566),
 .Y(net584)
 );
 
-BUFx4_ASAP7_75t_R c602(
+HB3xp67_ASAP7_75t_R c602(
 .A(net9099),
 .Y(net585)
 );
 
-BUFx4f_ASAP7_75t_R c603(
+HB4xp67_ASAP7_75t_R c603(
 .A(net488),
 .Y(net586)
 );
 
-BUFx5_ASAP7_75t_R c604(
+INVx11_ASAP7_75t_R c604(
 .A(net572),
 .Y(net587)
 );
 
-BUFx6f_ASAP7_75t_R c605(
+INVx13_ASAP7_75t_R c605(
 .A(net577),
 .Y(net588)
 );
@@ -14102,7 +14102,7 @@ NAND2xp67_ASAP7_75t_R c607(
 .Y(net590)
 );
 
-BUFx8_ASAP7_75t_R c608(
+INVx1_ASAP7_75t_R c608(
 .A(net476),
 .Y(net591)
 );
@@ -14113,27 +14113,27 @@ NOR2x1_ASAP7_75t_R c609(
 .Y(net592)
 );
 
-CKINVDCx10_ASAP7_75t_R c610(
+INVx2_ASAP7_75t_R c610(
 .A(net581),
 .Y(net593)
 );
 
-CKINVDCx11_ASAP7_75t_R c611(
+INVx3_ASAP7_75t_R c611(
 .A(net588),
 .Y(net594)
 );
 
-CKINVDCx12_ASAP7_75t_R c612(
+INVx4_ASAP7_75t_R c612(
 .A(net559),
 .Y(net595)
 );
 
-CKINVDCx14_ASAP7_75t_R c613(
+INVx5_ASAP7_75t_R c613(
 .A(net9228),
 .Y(net596)
 );
 
-CKINVDCx16_ASAP7_75t_R c614(
+INVx6_ASAP7_75t_R c614(
 .A(net593),
 .Y(net597)
 );
@@ -14168,7 +14168,7 @@ OR2x2_ASAP7_75t_R c619(
 .Y(net602)
 );
 
-CKINVDCx20_ASAP7_75t_R c620(
+INVx8_ASAP7_75t_R c620(
 .A(net519),
 .Y(net603)
 );
@@ -14180,7 +14180,7 @@ MAJx2_ASAP7_75t_R c621(
 .Y(net604)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c622(
+INVxp33_ASAP7_75t_R c622(
 .A(net601),
 .Y(net605)
 );
@@ -14191,7 +14191,7 @@ OR2x4_ASAP7_75t_R c623(
 .Y(net606)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c624(
+INVxp67_ASAP7_75t_R c624(
 .A(net9251),
 .Y(net607)
 );
@@ -14209,7 +14209,7 @@ ICGx4_ASAP7_75t_R c626(
 .GCLK(net609)
 );
 
-CKINVDCx8_ASAP7_75t_R c627(
+BUFx10_ASAP7_75t_R c627(
 .A(net565),
 .Y(net610)
 );
@@ -14220,12 +14220,12 @@ XNOR2x1_ASAP7_75t_R c628(
 .Y(net611)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c629(
+BUFx12_ASAP7_75t_R c629(
 .A(net587),
 .Y(net612)
 );
 
-HB1xp67_ASAP7_75t_R c630(
+BUFx12f_ASAP7_75t_R c630(
 .A(net609),
 .Y(net613)
 );
@@ -14256,12 +14256,12 @@ ICGx5_ASAP7_75t_R c634(
 .GCLK(net617)
 );
 
-HB2xp67_ASAP7_75t_R c635(
+BUFx16f_ASAP7_75t_R c635(
 .A(net575),
 .Y(net618)
 );
 
-HB3xp67_ASAP7_75t_R c636(
+BUFx24_ASAP7_75t_R c636(
 .A(net9271),
 .Y(net619)
 );
@@ -14273,22 +14273,22 @@ NAND3x1_ASAP7_75t_R c637(
 .Y(net620)
 );
 
-HB4xp67_ASAP7_75t_R c638(
+BUFx2_ASAP7_75t_R c638(
 .A(net602),
 .Y(net621)
 );
 
-INVx11_ASAP7_75t_R c639(
+BUFx3_ASAP7_75t_R c639(
 .A(net594),
 .Y(net622)
 );
 
-INVx13_ASAP7_75t_R c640(
+BUFx4_ASAP7_75t_R c640(
 .A(net10506),
 .Y(net623)
 );
 
-INVx1_ASAP7_75t_R c641(
+BUFx4f_ASAP7_75t_R c641(
 .A(net597),
 .Y(net624)
 );
@@ -14345,7 +14345,7 @@ ICGx8DC_ASAP7_75t_R c649(
 .GCLK(net632)
 );
 
-INVx2_ASAP7_75t_R c650(
+BUFx5_ASAP7_75t_R c650(
 .A(net596),
 .Y(net633)
 );
@@ -14365,7 +14365,7 @@ SDFLx2_ASAP7_75t_R c652(
 .QN(net635)
 );
 
-INVx3_ASAP7_75t_R c653(
+BUFx6f_ASAP7_75t_R c653(
 .A(net631),
 .Y(net636)
 );
@@ -14377,7 +14377,7 @@ NOR3x1_ASAP7_75t_R c654(
 .Y(net637)
 );
 
-INVx4_ASAP7_75t_R c655(
+BUFx8_ASAP7_75t_R c655(
 .A(net623),
 .Y(net638)
 );
@@ -14441,17 +14441,17 @@ AO31x2_ASAP7_75t_R c663(
 .Y(net646)
 );
 
-INVx5_ASAP7_75t_R c664(
+CKINVDCx5p33_ASAP7_75t_R c664(
 .A(net10150),
 .Y(net647)
 );
 
-INVx6_ASAP7_75t_R c665(
+CKINVDCx6p67_ASAP7_75t_R c665(
 .A(net10182),
 .Y(net648)
 );
 
-INVx8_ASAP7_75t_R c666(
+CKINVDCx8_ASAP7_75t_R c666(
 .A(net591),
 .Y(net649)
 );
@@ -14462,42 +14462,42 @@ AND2x6_ASAP7_75t_R c667(
 .Y(net650)
 );
 
-INVxp33_ASAP7_75t_R c668(
+CKINVDCx9p33_ASAP7_75t_R c668(
 .A(net648),
 .Y(net651)
 );
 
-INVxp67_ASAP7_75t_R c669(
+HB1xp67_ASAP7_75t_R c669(
 .A(net452),
 .Y(net652)
 );
 
-BUFx10_ASAP7_75t_R c670(
+HB2xp67_ASAP7_75t_R c670(
 .A(net627),
 .Y(net653)
 );
 
-BUFx12_ASAP7_75t_R c671(
+HB3xp67_ASAP7_75t_R c671(
 .A(net10480),
 .Y(net654)
 );
 
-BUFx12f_ASAP7_75t_R c672(
+HB4xp67_ASAP7_75t_R c672(
 .A(net650),
 .Y(net655)
 );
 
-BUFx16f_ASAP7_75t_R c673(
+INVx11_ASAP7_75t_R c673(
 .A(net10150),
 .Y(net656)
 );
 
-BUFx24_ASAP7_75t_R c674(
+INVx13_ASAP7_75t_R c674(
 .A(net591),
 .Y(net657)
 );
 
-BUFx2_ASAP7_75t_R c675(
+INVx1_ASAP7_75t_R c675(
 .A(net9224),
 .Y(net658)
 );
@@ -14509,17 +14509,17 @@ HAxp5_ASAP7_75t_R c676(
 .SN(net659)
 );
 
-BUFx3_ASAP7_75t_R c677(
+INVx2_ASAP7_75t_R c677(
 .A(net592),
 .Y(net661)
 );
 
-BUFx4_ASAP7_75t_R c678(
+INVx3_ASAP7_75t_R c678(
 .A(net10017),
 .Y(net662)
 );
 
-BUFx4f_ASAP7_75t_R c679(
+INVx4_ASAP7_75t_R c679(
 .A(net653),
 .Y(net663)
 );
@@ -14530,27 +14530,27 @@ NAND2x1_ASAP7_75t_R c680(
 .Y(net664)
 );
 
-BUFx5_ASAP7_75t_R c681(
+INVx5_ASAP7_75t_R c681(
 .A(net618),
 .Y(net665)
 );
 
-BUFx6f_ASAP7_75t_R c682(
+INVx6_ASAP7_75t_R c682(
 .A(net353),
 .Y(net666)
 );
 
-BUFx8_ASAP7_75t_R c683(
+INVx8_ASAP7_75t_R c683(
 .A(net619),
 .Y(net667)
 );
 
-CKINVDCx10_ASAP7_75t_R c684(
+INVxp33_ASAP7_75t_R c684(
 .A(net9273),
 .Y(net668)
 );
 
-CKINVDCx11_ASAP7_75t_R c685(
+INVxp67_ASAP7_75t_R c685(
 .A(net631),
 .Y(net669)
 );
@@ -14561,12 +14561,12 @@ NAND2x1p5_ASAP7_75t_R c686(
 .Y(net670)
 );
 
-CKINVDCx12_ASAP7_75t_R c687(
+BUFx10_ASAP7_75t_R c687(
 .A(net670),
 .Y(net671)
 );
 
-CKINVDCx14_ASAP7_75t_R c688(
+BUFx12_ASAP7_75t_R c688(
 .A(net648),
 .Y(net672)
 );
@@ -14577,22 +14577,22 @@ NAND2x2_ASAP7_75t_R c689(
 .Y(net673)
 );
 
-CKINVDCx16_ASAP7_75t_R c690(
+BUFx12f_ASAP7_75t_R c690(
 .A(net567),
 .Y(net674)
 );
 
-CKINVDCx20_ASAP7_75t_R c691(
+BUFx16f_ASAP7_75t_R c691(
 .A(net669),
 .Y(net675)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c692(
+BUFx24_ASAP7_75t_R c692(
 .A(net655),
 .Y(net676)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c693(
+BUFx2_ASAP7_75t_R c693(
 .A(net508),
 .Y(net677)
 );
@@ -14603,27 +14603,27 @@ NAND2xp33_ASAP7_75t_R c694(
 .Y(net678)
 );
 
-CKINVDCx8_ASAP7_75t_R c695(
+BUFx3_ASAP7_75t_R c695(
 .A(net674),
 .Y(net679)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c696(
+BUFx4_ASAP7_75t_R c696(
 .A(net639),
 .Y(net680)
 );
 
-HB1xp67_ASAP7_75t_R c697(
+BUFx4f_ASAP7_75t_R c697(
 .A(net670),
 .Y(net681)
 );
 
-HB2xp67_ASAP7_75t_R c698(
+BUFx5_ASAP7_75t_R c698(
 .A(net660),
 .Y(net682)
 );
 
-HB3xp67_ASAP7_75t_R c699(
+BUFx6f_ASAP7_75t_R c699(
 .A(net679),
 .Y(net683)
 );
@@ -14634,12 +14634,12 @@ NAND2xp5_ASAP7_75t_R c700(
 .Y(net684)
 );
 
-HB4xp67_ASAP7_75t_R c701(
+BUFx8_ASAP7_75t_R c701(
 .A(net668),
 .Y(net685)
 );
 
-INVx11_ASAP7_75t_R c702(
+CKINVDCx5p33_ASAP7_75t_R c702(
 .A(net9273),
 .Y(net686)
 );
@@ -14656,12 +14656,12 @@ NOR2x1_ASAP7_75t_R c704(
 .Y(net688)
 );
 
-INVx13_ASAP7_75t_R c705(
+CKINVDCx6p67_ASAP7_75t_R c705(
 .A(net571),
 .Y(net689)
 );
 
-INVx1_ASAP7_75t_R c706(
+CKINVDCx8_ASAP7_75t_R c706(
 .A(net665),
 .Y(net690)
 );
@@ -14687,7 +14687,7 @@ AOI311xp33_ASAP7_75t_R c709(
 .Y(net693)
 );
 
-INVx2_ASAP7_75t_R c710(
+CKINVDCx9p33_ASAP7_75t_R c710(
 .A(net10540),
 .Y(net694)
 );
@@ -14698,12 +14698,12 @@ NOR2xp33_ASAP7_75t_R c711(
 .Y(net695)
 );
 
-INVx3_ASAP7_75t_R c712(
+HB1xp67_ASAP7_75t_R c712(
 .A(net694),
 .Y(net696)
 );
 
-INVx4_ASAP7_75t_R c713(
+HB2xp67_ASAP7_75t_R c713(
 .A(net684),
 .Y(net697)
 );
@@ -14733,12 +14733,12 @@ OR2x4_ASAP7_75t_R c717(
 .Y(net701)
 );
 
-INVx5_ASAP7_75t_R c718(
+HB3xp67_ASAP7_75t_R c718(
 .A(net682),
 .Y(net702)
 );
 
-INVx6_ASAP7_75t_R c719(
+HB4xp67_ASAP7_75t_R c719(
 .A(net693),
 .Y(net703)
 );
@@ -14749,7 +14749,7 @@ OR2x6_ASAP7_75t_R c720(
 .Y(net704)
 );
 
-INVx8_ASAP7_75t_R c721(
+INVx11_ASAP7_75t_R c721(
 .A(net652),
 .Y(net705)
 );
@@ -14774,7 +14774,7 @@ OR3x1_ASAP7_75t_R c724(
 .Y(net708)
 );
 
-INVxp33_ASAP7_75t_R c725(
+INVx13_ASAP7_75t_R c725(
 .A(net676),
 .Y(net709)
 );
@@ -14809,12 +14809,12 @@ OR3x4_ASAP7_75t_R c729(
 .Y(net713)
 );
 
-INVxp67_ASAP7_75t_R c730(
+INVx1_ASAP7_75t_R c730(
 .A(net10476),
 .Y(net714)
 );
 
-BUFx10_ASAP7_75t_R c731(
+INVx2_ASAP7_75t_R c731(
 .A(net713),
 .Y(net715)
 );
@@ -14844,17 +14844,17 @@ XOR2x1_ASAP7_75t_R c735(
 .Y(net719)
 );
 
-BUFx12_ASAP7_75t_R c736(
+INVx3_ASAP7_75t_R c736(
 .A(net691),
 .Y(net720)
 );
 
-BUFx12f_ASAP7_75t_R c737(
+INVx4_ASAP7_75t_R c737(
 .A(net719),
 .Y(net721)
 );
 
-BUFx16f_ASAP7_75t_R c738(
+INVx5_ASAP7_75t_R c738(
 .A(net717),
 .Y(net722)
 );
@@ -14872,7 +14872,7 @@ AND3x2_ASAP7_75t_R c740(
 .Y(net724)
 );
 
-BUFx24_ASAP7_75t_R c741(
+INVx6_ASAP7_75t_R c741(
 .A(net723),
 .Y(net725)
 );
@@ -14922,17 +14922,17 @@ AND2x2_ASAP7_75t_R c747(
 .Y(net731)
 );
 
-BUFx2_ASAP7_75t_R c748(
+INVx8_ASAP7_75t_R c748(
 .A(net10376),
 .Y(net732)
 );
 
-BUFx3_ASAP7_75t_R c749(
+INVxp33_ASAP7_75t_R c749(
 .A(net697),
 .Y(net733)
 );
 
-BUFx4_ASAP7_75t_R c750(
+INVxp67_ASAP7_75t_R c750(
 .A(net633),
 .Y(net734)
 );
@@ -14943,7 +14943,7 @@ AND2x4_ASAP7_75t_R c751(
 .Y(net735)
 );
 
-BUFx4f_ASAP7_75t_R c752(
+BUFx10_ASAP7_75t_R c752(
 .A(net720),
 .Y(net736)
 );
@@ -14954,17 +14954,17 @@ AND2x6_ASAP7_75t_R c753(
 .Y(net737)
 );
 
-BUFx5_ASAP7_75t_R c754(
+BUFx12_ASAP7_75t_R c754(
 .A(net688),
 .Y(net738)
 );
 
-BUFx6f_ASAP7_75t_R c755(
+BUFx12f_ASAP7_75t_R c755(
 .A(net600),
 .Y(net739)
 );
 
-BUFx8_ASAP7_75t_R c756(
+BUFx16f_ASAP7_75t_R c756(
 .A(net630),
 .Y(net740)
 );
@@ -14976,7 +14976,7 @@ AO21x1_ASAP7_75t_R c757(
 .Y(net741)
 );
 
-CKINVDCx10_ASAP7_75t_R c758(
+BUFx24_ASAP7_75t_R c758(
 .A(net734),
 .Y(net742)
 );
@@ -14988,17 +14988,17 @@ AO21x2_ASAP7_75t_R c759(
 .Y(net743)
 );
 
-CKINVDCx11_ASAP7_75t_R c760(
+BUFx2_ASAP7_75t_R c760(
 .A(net600),
 .Y(net744)
 );
 
-CKINVDCx12_ASAP7_75t_R c761(
+BUFx3_ASAP7_75t_R c761(
 .A(net739),
 .Y(net745)
 );
 
-CKINVDCx14_ASAP7_75t_R c762(
+BUFx4_ASAP7_75t_R c762(
 .A(net711),
 .Y(net746)
 );
@@ -15016,42 +15016,42 @@ NAND2x1_ASAP7_75t_R c764(
 .Y(net749)
 );
 
-CKINVDCx16_ASAP7_75t_R c765(
+BUFx4f_ASAP7_75t_R c765(
 .A(net595),
 .Y(net750)
 );
 
-CKINVDCx20_ASAP7_75t_R c766(
+BUFx5_ASAP7_75t_R c766(
 .A(net750),
 .Y(net751)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c767(
+BUFx6f_ASAP7_75t_R c767(
 .A(net10183),
 .Y(net752)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c768(
+BUFx8_ASAP7_75t_R c768(
 .A(net627),
 .Y(net753)
 );
 
-CKINVDCx8_ASAP7_75t_R c769(
+CKINVDCx5p33_ASAP7_75t_R c769(
 .A(net702),
 .Y(net754)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c770(
+CKINVDCx6p67_ASAP7_75t_R c770(
 .A(net595),
 .Y(net755)
 );
 
-HB1xp67_ASAP7_75t_R c771(
+CKINVDCx8_ASAP7_75t_R c771(
 .A(net680),
 .Y(net756)
 );
 
-HB2xp67_ASAP7_75t_R c772(
+CKINVDCx9p33_ASAP7_75t_R c772(
 .A(net746),
 .Y(net757)
 );
@@ -15068,17 +15068,17 @@ NAND2x2_ASAP7_75t_R c774(
 .Y(net759)
 );
 
-HB3xp67_ASAP7_75t_R c775(
+HB1xp67_ASAP7_75t_R c775(
 .A(net740),
 .Y(net760)
 );
 
-HB4xp67_ASAP7_75t_R c776(
+HB2xp67_ASAP7_75t_R c776(
 .A(net709),
 .Y(net761)
 );
 
-INVx11_ASAP7_75t_R c777(
+HB3xp67_ASAP7_75t_R c777(
 .A(net752),
 .Y(net762)
 );
@@ -15089,7 +15089,7 @@ NAND2xp33_ASAP7_75t_R c778(
 .Y(net763)
 );
 
-INVx13_ASAP7_75t_R c779(
+HB4xp67_ASAP7_75t_R c779(
 .A(net9170),
 .Y(net764)
 );
@@ -15106,7 +15106,7 @@ NAND2xp67_ASAP7_75t_R c781(
 .Y(net766)
 );
 
-INVx1_ASAP7_75t_R c782(
+INVx11_ASAP7_75t_R c782(
 .A(net756),
 .Y(net767)
 );
@@ -15117,7 +15117,7 @@ NOR2x1_ASAP7_75t_R c783(
 .Y(net768)
 );
 
-INVx2_ASAP7_75t_R c784(
+INVx13_ASAP7_75t_R c784(
 .A(net755),
 .Y(net769)
 );
@@ -15129,7 +15129,7 @@ AOI21x1_ASAP7_75t_R c785(
 .Y(net770)
 );
 
-INVx3_ASAP7_75t_R c786(
+INVx1_ASAP7_75t_R c786(
 .A(net751),
 .Y(net771)
 );
@@ -15152,22 +15152,22 @@ NOR2xp33_ASAP7_75t_R c789(
 .Y(net774)
 );
 
-INVx4_ASAP7_75t_R c790(
+INVx2_ASAP7_75t_R c790(
 .A(net753),
 .Y(net775)
 );
 
-INVx5_ASAP7_75t_R c791(
+INVx3_ASAP7_75t_R c791(
 .A(net771),
 .Y(net776)
 );
 
-INVx6_ASAP7_75t_R c792(
+INVx4_ASAP7_75t_R c792(
 .A(out0),
 .Y(net777)
 );
 
-INVx8_ASAP7_75t_R c793(
+INVx5_ASAP7_75t_R c793(
 .A(net765),
 .Y(net778)
 );
@@ -15184,12 +15184,12 @@ OR2x2_ASAP7_75t_R c795(
 .Y(net780)
 );
 
-INVxp33_ASAP7_75t_R c796(
+INVx6_ASAP7_75t_R c796(
 .A(net757),
 .Y(net781)
 );
 
-INVxp67_ASAP7_75t_R c797(
+INVx8_ASAP7_75t_R c797(
 .A(net767),
 .Y(net782)
 );
@@ -15200,7 +15200,7 @@ OR2x4_ASAP7_75t_R c798(
 .Y(net783)
 );
 
-BUFx10_ASAP7_75t_R c799(
+INVxp33_ASAP7_75t_R c799(
 .A(net9952),
 .Y(net784)
 );
@@ -15212,7 +15212,7 @@ ICGx2_ASAP7_75t_R c800(
 .GCLK(net785)
 );
 
-BUFx12_ASAP7_75t_R c801(
+INVxp67_ASAP7_75t_R c801(
 .A(net9170),
 .Y(net786)
 );
@@ -15223,7 +15223,7 @@ OR2x6_ASAP7_75t_R c802(
 .Y(net787)
 );
 
-BUFx12f_ASAP7_75t_R c803(
+BUFx10_ASAP7_75t_R c803(
 .A(net731),
 .Y(net788)
 );
@@ -15248,12 +15248,12 @@ XNOR2x2_ASAP7_75t_R c806(
 .Y(net791)
 );
 
-BUFx16f_ASAP7_75t_R c807(
+BUFx12_ASAP7_75t_R c807(
 .A(net9657),
 .Y(net792)
 );
 
-BUFx24_ASAP7_75t_R c808(
+BUFx12f_ASAP7_75t_R c808(
 .A(net769),
 .Y(net793)
 );
@@ -15293,7 +15293,7 @@ XOR2x2_ASAP7_75t_R c813(
 .Y(net798)
 );
 
-BUFx2_ASAP7_75t_R c814(
+BUFx16f_ASAP7_75t_R c814(
 .A(net10392),
 .Y(net799)
 );
@@ -15407,17 +15407,17 @@ OAI32xp33_ASAP7_75t_R c829(
 .Y(net815)
 );
 
-BUFx3_ASAP7_75t_R c830(
+BUFx24_ASAP7_75t_R c830(
 .A(net789),
 .Y(net816)
 );
 
-BUFx4_ASAP7_75t_R c831(
+BUFx2_ASAP7_75t_R c831(
 .A(net9125),
 .Y(net817)
 );
 
-BUFx4f_ASAP7_75t_R c832(
+BUFx3_ASAP7_75t_R c832(
 .A(net445),
 .Y(net818)
 );
@@ -15428,27 +15428,27 @@ NAND2x1p5_ASAP7_75t_R c833(
 .Y(net819)
 );
 
-BUFx5_ASAP7_75t_R c834(
+BUFx4_ASAP7_75t_R c834(
 .A(net339),
 .Y(net820)
 );
 
-BUFx6f_ASAP7_75t_R c835(
+BUFx4f_ASAP7_75t_R c835(
 .A(net818),
 .Y(net821)
 );
 
-BUFx8_ASAP7_75t_R c836(
+BUFx5_ASAP7_75t_R c836(
 .A(net818),
 .Y(net822)
 );
 
-CKINVDCx10_ASAP7_75t_R c837(
+BUFx6f_ASAP7_75t_R c837(
 .A(net820),
 .Y(net823)
 );
 
-CKINVDCx11_ASAP7_75t_R c838(
+BUFx8_ASAP7_75t_R c838(
 .A(net819),
 .Y(net824)
 );
@@ -15459,12 +15459,12 @@ NAND2x2_ASAP7_75t_R c839(
 .Y(net825)
 );
 
-CKINVDCx12_ASAP7_75t_R c840(
+CKINVDCx5p33_ASAP7_75t_R c840(
 .A(net822),
 .Y(net826)
 );
 
-CKINVDCx14_ASAP7_75t_R c841(
+CKINVDCx6p67_ASAP7_75t_R c841(
 .A(net785),
 .Y(net827)
 );
@@ -15475,17 +15475,17 @@ NAND2xp33_ASAP7_75t_R c842(
 .Y(net828)
 );
 
-CKINVDCx16_ASAP7_75t_R c843(
+CKINVDCx8_ASAP7_75t_R c843(
 .A(net9666),
 .Y(net829)
 );
 
-CKINVDCx20_ASAP7_75t_R c844(
+CKINVDCx9p33_ASAP7_75t_R c844(
 .A(net9125),
 .Y(net830)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c845(
+HB1xp67_ASAP7_75t_R c845(
 .A(net791),
 .Y(net831)
 );
@@ -15504,12 +15504,12 @@ SDFHx1_ASAP7_75t_R c847(
 .QN(net833)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c848(
+HB2xp67_ASAP7_75t_R c848(
 .A(net820),
 .Y(net834)
 );
 
-CKINVDCx8_ASAP7_75t_R c849(
+HB3xp67_ASAP7_75t_R c849(
 .A(net726),
 .Y(net835)
 );
@@ -15522,7 +15522,7 @@ SDFHx2_ASAP7_75t_R c850(
 .QN(net836)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c851(
+HB4xp67_ASAP7_75t_R c851(
 .A(net754),
 .Y(net837)
 );
@@ -15535,37 +15535,37 @@ FAx1_ASAP7_75t_R c852(
 .CON(net838)
 );
 
-HB1xp67_ASAP7_75t_R c853(
+INVx11_ASAP7_75t_R c853(
 .A(net780),
 .Y(net840)
 );
 
-HB2xp67_ASAP7_75t_R c854(
+INVx13_ASAP7_75t_R c854(
 .A(net837),
 .Y(net841)
 );
 
-HB3xp67_ASAP7_75t_R c855(
+INVx1_ASAP7_75t_R c855(
 .A(net829),
 .Y(net842)
 );
 
-HB4xp67_ASAP7_75t_R c856(
+INVx2_ASAP7_75t_R c856(
 .A(net826),
 .Y(net843)
 );
 
-INVx11_ASAP7_75t_R c857(
+INVx3_ASAP7_75t_R c857(
 .A(net742),
 .Y(net844)
 );
 
-INVx13_ASAP7_75t_R c858(
+INVx4_ASAP7_75t_R c858(
 .A(net788),
 .Y(net845)
 );
 
-INVx1_ASAP7_75t_R c859(
+INVx5_ASAP7_75t_R c859(
 .A(net819),
 .Y(net846)
 );
@@ -15606,12 +15606,12 @@ NOR2xp67_ASAP7_75t_R c865(
 .Y(net852)
 );
 
-INVx2_ASAP7_75t_R c866(
+INVx6_ASAP7_75t_R c866(
 .A(net843),
 .Y(net853)
 );
 
-INVx3_ASAP7_75t_R c867(
+INVx8_ASAP7_75t_R c867(
 .A(net9265),
 .Y(net854)
 );
@@ -15631,12 +15631,12 @@ AOI22xp5_ASAP7_75t_R c869(
 .Y(net856)
 );
 
-INVx4_ASAP7_75t_R c870(
+INVxp33_ASAP7_75t_R c870(
 .A(net713),
 .Y(net857)
 );
 
-INVx5_ASAP7_75t_R c871(
+INVxp67_ASAP7_75t_R c871(
 .A(net10511),
 .Y(net858)
 );
@@ -15647,12 +15647,12 @@ OR2x2_ASAP7_75t_R c872(
 .Y(net859)
 );
 
-INVx6_ASAP7_75t_R c873(
+BUFx10_ASAP7_75t_R c873(
 .A(net831),
 .Y(net860)
 );
 
-INVx8_ASAP7_75t_R c874(
+BUFx12_ASAP7_75t_R c874(
 .A(net827),
 .Y(net861)
 );
@@ -15663,12 +15663,12 @@ OR2x4_ASAP7_75t_R c875(
 .Y(net862)
 );
 
-INVxp33_ASAP7_75t_R c876(
+BUFx12f_ASAP7_75t_R c876(
 .A(net9265),
 .Y(net863)
 );
 
-INVxp67_ASAP7_75t_R c877(
+BUFx16f_ASAP7_75t_R c877(
 .A(net856),
 .Y(net864)
 );
@@ -15694,12 +15694,12 @@ MAJx3_ASAP7_75t_R c880(
 .Y(net867)
 );
 
-BUFx10_ASAP7_75t_R c881(
+BUFx24_ASAP7_75t_R c881(
 .A(net857),
 .Y(net868)
 );
 
-BUFx12_ASAP7_75t_R c882(
+BUFx2_ASAP7_75t_R c882(
 .A(net858),
 .Y(net869)
 );
@@ -15728,7 +15728,7 @@ XNOR2xp5_ASAP7_75t_R c886(
 .Y(net873)
 );
 
-BUFx12f_ASAP7_75t_R c887(
+BUFx3_ASAP7_75t_R c887(
 .A(net834),
 .Y(net874)
 );
@@ -15739,12 +15739,12 @@ XOR2x1_ASAP7_75t_R c888(
 .Y(net875)
 );
 
-BUFx16f_ASAP7_75t_R c889(
+BUFx4_ASAP7_75t_R c889(
 .A(net875),
 .Y(net876)
 );
 
-BUFx24_ASAP7_75t_R c890(
+BUFx4f_ASAP7_75t_R c890(
 .A(net830),
 .Y(net877)
 );
@@ -15763,22 +15763,22 @@ NAND3x2_ASAP7_75t_R c892(
 .Y(net879)
 );
 
-BUFx2_ASAP7_75t_R c893(
+BUFx5_ASAP7_75t_R c893(
 .A(net872),
 .Y(net880)
 );
 
-BUFx3_ASAP7_75t_R c894(
+BUFx6f_ASAP7_75t_R c894(
 .A(net9666),
 .Y(net881)
 );
 
-BUFx4_ASAP7_75t_R c895(
+BUFx8_ASAP7_75t_R c895(
 .A(net9224),
 .Y(net882)
 );
 
-BUFx4f_ASAP7_75t_R c896(
+CKINVDCx5p33_ASAP7_75t_R c896(
 .A(net10480),
 .Y(net883)
 );
@@ -15809,7 +15809,7 @@ XOR2xp5_ASAP7_75t_R c900(
 .Y(net887)
 );
 
-BUFx5_ASAP7_75t_R c901(
+CKINVDCx6p67_ASAP7_75t_R c901(
 .A(net10514),
 .Y(net888)
 );
@@ -15830,12 +15830,12 @@ AND2x2_ASAP7_75t_R c903(
 .Y(net890)
 );
 
-BUFx6f_ASAP7_75t_R c904(
+CKINVDCx8_ASAP7_75t_R c904(
 .A(net890),
 .Y(net891)
 );
 
-BUFx8_ASAP7_75t_R c905(
+CKINVDCx9p33_ASAP7_75t_R c905(
 .A(net10087),
 .Y(net892)
 );
@@ -15890,57 +15890,57 @@ AND2x6_ASAP7_75t_R c912(
 .Y(net899)
 );
 
-CKINVDCx10_ASAP7_75t_R c913(
+HB1xp67_ASAP7_75t_R c913(
 .A(net36),
 .Y(net900)
 );
 
-CKINVDCx11_ASAP7_75t_R c914(
+HB2xp67_ASAP7_75t_R c914(
 .A(net9),
 .Y(net901)
 );
 
-CKINVDCx12_ASAP7_75t_R c915(
+HB3xp67_ASAP7_75t_R c915(
 .A(net52),
 .Y(net902)
 );
 
-CKINVDCx14_ASAP7_75t_R c916(
+HB4xp67_ASAP7_75t_R c916(
 .A(net27),
 .Y(net903)
 );
 
-CKINVDCx16_ASAP7_75t_R c917(
+INVx11_ASAP7_75t_R c917(
 .A(net49),
 .Y(net904)
 );
 
-CKINVDCx20_ASAP7_75t_R c918(
+INVx13_ASAP7_75t_R c918(
 .A(net6),
 .Y(net905)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c919(
+INVx1_ASAP7_75t_R c919(
 .A(net48),
 .Y(net906)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c920(
+INVx2_ASAP7_75t_R c920(
 .A(in23),
 .Y(net907)
 );
 
-CKINVDCx8_ASAP7_75t_R c921(
+INVx3_ASAP7_75t_R c921(
 .A(in5),
 .Y(net908)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c922(
+INVx4_ASAP7_75t_R c922(
 .A(net20),
 .Y(net909)
 );
 
-HB1xp67_ASAP7_75t_R c923(
+INVx5_ASAP7_75t_R c923(
 .A(net6),
 .Y(net910)
 );
@@ -15952,22 +15952,22 @@ HAxp5_ASAP7_75t_R c924(
 .SN(net911)
 );
 
-HB2xp67_ASAP7_75t_R c925(
+INVx6_ASAP7_75t_R c925(
 .A(net904),
 .Y(net913)
 );
 
-HB3xp67_ASAP7_75t_R c926(
+INVx8_ASAP7_75t_R c926(
 .A(net9181),
 .Y(net914)
 );
 
-HB4xp67_ASAP7_75t_R c927(
+INVxp33_ASAP7_75t_R c927(
 .A(net53),
 .Y(net915)
 );
 
-INVx11_ASAP7_75t_R c928(
+INVxp67_ASAP7_75t_R c928(
 .A(net9181),
 .Y(net916)
 );
@@ -15978,32 +15978,32 @@ NAND2x1_ASAP7_75t_R c929(
 .Y(net917)
 );
 
-INVx13_ASAP7_75t_R c930(
+BUFx10_ASAP7_75t_R c930(
 .A(net912),
 .Y(net918)
 );
 
-INVx1_ASAP7_75t_R c931(
+BUFx12_ASAP7_75t_R c931(
 .A(in13),
 .Y(net919)
 );
 
-INVx2_ASAP7_75t_R c932(
+BUFx12f_ASAP7_75t_R c932(
 .A(net911),
 .Y(net920)
 );
 
-INVx3_ASAP7_75t_R c933(
+BUFx16f_ASAP7_75t_R c933(
 .A(net916),
 .Y(net921)
 );
 
-INVx4_ASAP7_75t_R c934(
+BUFx24_ASAP7_75t_R c934(
 .A(in19),
 .Y(net922)
 );
 
-INVx5_ASAP7_75t_R c935(
+BUFx2_ASAP7_75t_R c935(
 .A(net919),
 .Y(net923)
 );
@@ -16014,12 +16014,12 @@ NAND2x1p5_ASAP7_75t_R c936(
 .Y(net924)
 );
 
-INVx6_ASAP7_75t_R c937(
+BUFx3_ASAP7_75t_R c937(
 .A(net916),
 .Y(net925)
 );
 
-INVx8_ASAP7_75t_R c938(
+BUFx4_ASAP7_75t_R c938(
 .A(net925),
 .Y(net926)
 );
@@ -16030,37 +16030,37 @@ NAND2x2_ASAP7_75t_R c939(
 .Y(net927)
 );
 
-INVxp33_ASAP7_75t_R c940(
+BUFx4f_ASAP7_75t_R c940(
 .A(net48),
 .Y(net928)
 );
 
-INVxp67_ASAP7_75t_R c941(
+BUFx5_ASAP7_75t_R c941(
 .A(in7),
 .Y(net929)
 );
 
-BUFx10_ASAP7_75t_R c942(
+BUFx6f_ASAP7_75t_R c942(
 .A(net909),
 .Y(net930)
 );
 
-BUFx12_ASAP7_75t_R c943(
+BUFx8_ASAP7_75t_R c943(
 .A(net930),
 .Y(net931)
 );
 
-BUFx12f_ASAP7_75t_R c944(
+CKINVDCx5p33_ASAP7_75t_R c944(
 .A(net908),
 .Y(net932)
 );
 
-BUFx16f_ASAP7_75t_R c945(
+CKINVDCx6p67_ASAP7_75t_R c945(
 .A(net51),
 .Y(net933)
 );
 
-BUFx24_ASAP7_75t_R c946(
+CKINVDCx8_ASAP7_75t_R c946(
 .A(net933),
 .Y(net934)
 );
@@ -16072,7 +16072,7 @@ OAI21x1_ASAP7_75t_R c947(
 .Y(net935)
 );
 
-BUFx2_ASAP7_75t_R c948(
+CKINVDCx9p33_ASAP7_75t_R c948(
 .A(net931),
 .Y(net936)
 );
@@ -16083,22 +16083,22 @@ NAND2xp33_ASAP7_75t_R c949(
 .Y(net937)
 );
 
-BUFx3_ASAP7_75t_R c950(
+HB1xp67_ASAP7_75t_R c950(
 .A(in9),
 .Y(net938)
 );
 
-BUFx4_ASAP7_75t_R c951(
+HB2xp67_ASAP7_75t_R c951(
 .A(net917),
 .Y(net939)
 );
 
-BUFx4f_ASAP7_75t_R c952(
+HB3xp67_ASAP7_75t_R c952(
 .A(net52),
 .Y(net940)
 );
 
-BUFx5_ASAP7_75t_R c953(
+HB4xp67_ASAP7_75t_R c953(
 .A(net938),
 .Y(net941)
 );
@@ -16115,7 +16115,7 @@ NAND2xp67_ASAP7_75t_R c955(
 .Y(net943)
 );
 
-BUFx6f_ASAP7_75t_R c956(
+INVx11_ASAP7_75t_R c956(
 .A(net934),
 .Y(net944)
 );
@@ -16145,7 +16145,7 @@ NOR2x2_ASAP7_75t_R c960(
 .Y(net948)
 );
 
-BUFx8_ASAP7_75t_R c961(
+INVx13_ASAP7_75t_R c961(
 .A(net936),
 .Y(net949)
 );
@@ -16157,7 +16157,7 @@ OAI21xp5_ASAP7_75t_R c962(
 .Y(net950)
 );
 
-CKINVDCx10_ASAP7_75t_R c963(
+INVx1_ASAP7_75t_R c963(
 .A(net948),
 .Y(net951)
 );
@@ -16168,7 +16168,7 @@ NOR2xp33_ASAP7_75t_R c964(
 .Y(net952)
 );
 
-CKINVDCx11_ASAP7_75t_R c965(
+INVx2_ASAP7_75t_R c965(
 .A(net937),
 .Y(net953)
 );
@@ -16222,22 +16222,22 @@ XNOR2xp5_ASAP7_75t_R c973(
 .Y(net961)
 );
 
-CKINVDCx12_ASAP7_75t_R c974(
+INVx3_ASAP7_75t_R c974(
 .A(net926),
 .Y(net962)
 );
 
-CKINVDCx14_ASAP7_75t_R c975(
+INVx4_ASAP7_75t_R c975(
 .A(net956),
 .Y(net963)
 );
 
-CKINVDCx16_ASAP7_75t_R c976(
+INVx5_ASAP7_75t_R c976(
 .A(net961),
 .Y(net964)
 );
 
-CKINVDCx20_ASAP7_75t_R c977(
+INVx6_ASAP7_75t_R c977(
 .A(in9),
 .Y(net965)
 );
@@ -16255,12 +16255,12 @@ XOR2x1_ASAP7_75t_R c979(
 .Y(net967)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c980(
+INVx8_ASAP7_75t_R c980(
 .A(in12),
 .Y(net968)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c981(
+INVxp33_ASAP7_75t_R c981(
 .A(net953),
 .Y(net969)
 );
@@ -16372,7 +16372,7 @@ AND3x1_ASAP7_75t_R c996(
 .Y(net985)
 );
 
-CKINVDCx8_ASAP7_75t_R c997(
+INVxp67_ASAP7_75t_R c997(
 .A(net954),
 .Y(net986)
 );
@@ -16389,12 +16389,12 @@ NAND2x2_ASAP7_75t_R c999(
 .Y(net988)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c1000(
+BUFx10_ASAP7_75t_R c1000(
 .A(net1027),
 .Y(net989)
 );
 
-HB1xp67_ASAP7_75t_R c1001(
+BUFx12_ASAP7_75t_R c1001(
 .A(net117),
 .Y(net990)
 );
@@ -16411,17 +16411,17 @@ NAND2xp5_ASAP7_75t_R c1003(
 .Y(net992)
 );
 
-HB2xp67_ASAP7_75t_R c1004(
+BUFx12f_ASAP7_75t_R c1004(
 .A(net9752),
 .Y(net993)
 );
 
-HB3xp67_ASAP7_75t_R c1005(
+BUFx16f_ASAP7_75t_R c1005(
 .A(net1018),
 .Y(net994)
 );
 
-HB4xp67_ASAP7_75t_R c1006(
+BUFx24_ASAP7_75t_R c1006(
 .A(net989),
 .Y(net995)
 );
@@ -16434,12 +16434,12 @@ SDFHx4_ASAP7_75t_R c1007(
 .QN(net996)
 );
 
-INVx11_ASAP7_75t_R c1008(
+BUFx2_ASAP7_75t_R c1008(
 .A(net943),
 .Y(net997)
 );
 
-INVx13_ASAP7_75t_R c1009(
+BUFx3_ASAP7_75t_R c1009(
 .A(net908),
 .Y(net998)
 );
@@ -16475,12 +16475,12 @@ NOR2x2_ASAP7_75t_R c1014(
 .Y(net1003)
 );
 
-INVx1_ASAP7_75t_R c1015(
+BUFx4_ASAP7_75t_R c1015(
 .A(net1035),
 .Y(net1004)
 );
 
-INVx2_ASAP7_75t_R c1016(
+BUFx4f_ASAP7_75t_R c1016(
 .A(net1026),
 .Y(net1005)
 );
@@ -16491,7 +16491,7 @@ NOR2xp33_ASAP7_75t_R c1017(
 .Y(net1006)
 );
 
-INVx3_ASAP7_75t_R c1018(
+BUFx5_ASAP7_75t_R c1018(
 .A(net9650),
 .Y(net1007)
 );
@@ -16514,7 +16514,7 @@ OAI222xp33_ASAP7_75t_R c1020(
 .Y(net1009)
 );
 
-INVx4_ASAP7_75t_R c1021(
+BUFx6f_ASAP7_75t_R c1021(
 .A(net1033),
 .Y(net1010)
 );
@@ -16583,12 +16583,12 @@ XNOR2xp5_ASAP7_75t_R c1031(
 .Y(net1020)
 );
 
-INVx5_ASAP7_75t_R c1032(
+BUFx8_ASAP7_75t_R c1032(
 .A(net9105),
 .Y(net1021)
 );
 
-INVx6_ASAP7_75t_R c1033(
+CKINVDCx5p33_ASAP7_75t_R c1033(
 .A(net924),
 .Y(net1022)
 );
@@ -16606,7 +16606,7 @@ XOR2x1_ASAP7_75t_R c1035(
 .Y(net1024)
 );
 
-INVx8_ASAP7_75t_R c1036(
+CKINVDCx6p67_ASAP7_75t_R c1036(
 .A(net64),
 .Y(net1025)
 );
@@ -16631,27 +16631,27 @@ ICGx6p67DC_ASAP7_75t_R c1039(
 .GCLK(net1028)
 );
 
-INVxp33_ASAP7_75t_R c1040(
+CKINVDCx8_ASAP7_75t_R c1040(
 .A(net924),
 .Y(net1029)
 );
 
-INVxp67_ASAP7_75t_R c1041(
+CKINVDCx9p33_ASAP7_75t_R c1041(
 .A(net54),
 .Y(net1030)
 );
 
-BUFx10_ASAP7_75t_R c1042(
+HB1xp67_ASAP7_75t_R c1042(
 .A(net1029),
 .Y(net1031)
 );
 
-BUFx12_ASAP7_75t_R c1043(
+HB2xp67_ASAP7_75t_R c1043(
 .A(net1014),
 .Y(net1032)
 );
 
-BUFx12f_ASAP7_75t_R c1044(
+HB3xp67_ASAP7_75t_R c1044(
 .A(net1017),
 .Y(net1033)
 );
@@ -16662,7 +16662,7 @@ XOR2xp5_ASAP7_75t_R c1045(
 .Y(net1034)
 );
 
-BUFx16f_ASAP7_75t_R c1046(
+HB4xp67_ASAP7_75t_R c1046(
 .A(net10407),
 .Y(net1035)
 );
@@ -16679,27 +16679,27 @@ AND2x4_ASAP7_75t_R c1048(
 .Y(net1037)
 );
 
-BUFx24_ASAP7_75t_R c1049(
+INVx11_ASAP7_75t_R c1049(
 .A(net962),
 .Y(net1038)
 );
 
-BUFx2_ASAP7_75t_R c1050(
+INVx13_ASAP7_75t_R c1050(
 .A(net68),
 .Y(net1039)
 );
 
-BUFx3_ASAP7_75t_R c1051(
+INVx1_ASAP7_75t_R c1051(
 .A(net1031),
 .Y(net1040)
 );
 
-BUFx4_ASAP7_75t_R c1052(
+INVx2_ASAP7_75t_R c1052(
 .A(net932),
 .Y(net1041)
 );
 
-BUFx4f_ASAP7_75t_R c1053(
+INVx3_ASAP7_75t_R c1053(
 .A(net1030),
 .Y(net1042)
 );
@@ -16710,12 +16710,12 @@ AND2x6_ASAP7_75t_R c1054(
 .Y(net1043)
 );
 
-BUFx5_ASAP7_75t_R c1055(
+INVx4_ASAP7_75t_R c1055(
 .A(net1037),
 .Y(net1044)
 );
 
-BUFx6f_ASAP7_75t_R c1056(
+INVx5_ASAP7_75t_R c1056(
 .A(net133),
 .Y(net1045)
 );
@@ -16733,7 +16733,7 @@ ICGx8DC_ASAP7_75t_R c1058(
 .GCLK(net1047)
 );
 
-BUFx8_ASAP7_75t_R c1059(
+INVx6_ASAP7_75t_R c1059(
 .A(net9105),
 .Y(net1048)
 );
@@ -16819,7 +16819,7 @@ A2O1A1O1Ixp25_ASAP7_75t_R c1071(
 .Y(net1060)
 );
 
-CKINVDCx10_ASAP7_75t_R c1072(
+INVx8_ASAP7_75t_R c1072(
 .A(net9864),
 .Y(net1061)
 );
@@ -16872,32 +16872,32 @@ OAI33xp33_ASAP7_75t_R c1078(
 .Y(net1067)
 );
 
-CKINVDCx11_ASAP7_75t_R c1079(
+INVxp33_ASAP7_75t_R c1079(
 .A(net9200),
 .Y(net1068)
 );
 
-CKINVDCx12_ASAP7_75t_R c1080(
+INVxp67_ASAP7_75t_R c1080(
 .A(net9185),
 .Y(net1069)
 );
 
-CKINVDCx14_ASAP7_75t_R c1081(
+BUFx10_ASAP7_75t_R c1081(
 .A(net147),
 .Y(net1070)
 );
 
-CKINVDCx16_ASAP7_75t_R c1082(
+BUFx12_ASAP7_75t_R c1082(
 .A(net178),
 .Y(net1071)
 );
 
-CKINVDCx20_ASAP7_75t_R c1083(
+BUFx12f_ASAP7_75t_R c1083(
 .A(net9185),
 .Y(net1072)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c1084(
+BUFx16f_ASAP7_75t_R c1084(
 .A(net1055),
 .Y(net1073)
 );
@@ -16908,12 +16908,12 @@ NOR2xp33_ASAP7_75t_R c1085(
 .Y(net1074)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c1086(
+BUFx24_ASAP7_75t_R c1086(
 .A(net185),
 .Y(net1075)
 );
 
-CKINVDCx8_ASAP7_75t_R c1087(
+BUFx2_ASAP7_75t_R c1087(
 .A(net91),
 .Y(net1076)
 );
@@ -16924,22 +16924,22 @@ NOR2xp67_ASAP7_75t_R c1088(
 .Y(net1077)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c1089(
+BUFx3_ASAP7_75t_R c1089(
 .A(net1005),
 .Y(net1078)
 );
 
-HB1xp67_ASAP7_75t_R c1090(
+BUFx4_ASAP7_75t_R c1090(
 .A(net981),
 .Y(net1079)
 );
 
-HB2xp67_ASAP7_75t_R c1091(
+BUFx4f_ASAP7_75t_R c1091(
 .A(net1036),
 .Y(net1080)
 );
 
-HB3xp67_ASAP7_75t_R c1092(
+BUFx5_ASAP7_75t_R c1092(
 .A(net170),
 .Y(net1081)
 );
@@ -16951,52 +16951,52 @@ AO21x2_ASAP7_75t_R c1093(
 .Y(net1082)
 );
 
-HB4xp67_ASAP7_75t_R c1094(
+BUFx6f_ASAP7_75t_R c1094(
 .A(net1021),
 .Y(net1083)
 );
 
-INVx11_ASAP7_75t_R c1095(
+BUFx8_ASAP7_75t_R c1095(
 .A(net9200),
 .Y(net1084)
 );
 
-INVx13_ASAP7_75t_R c1096(
+CKINVDCx5p33_ASAP7_75t_R c1096(
 .A(net1000),
 .Y(net1085)
 );
 
-INVx1_ASAP7_75t_R c1097(
+CKINVDCx6p67_ASAP7_75t_R c1097(
 .A(net921),
 .Y(net1086)
 );
 
-INVx2_ASAP7_75t_R c1098(
+CKINVDCx8_ASAP7_75t_R c1098(
 .A(net215),
 .Y(net1087)
 );
 
-INVx3_ASAP7_75t_R c1099(
+CKINVDCx9p33_ASAP7_75t_R c1099(
 .A(net1002),
 .Y(net1088)
 );
 
-INVx4_ASAP7_75t_R c1100(
+HB1xp67_ASAP7_75t_R c1100(
 .A(net210),
 .Y(net1089)
 );
 
-INVx5_ASAP7_75t_R c1101(
+HB2xp67_ASAP7_75t_R c1101(
 .A(net1072),
 .Y(net1090)
 );
 
-INVx6_ASAP7_75t_R c1102(
+HB3xp67_ASAP7_75t_R c1102(
 .A(net1070),
 .Y(net1091)
 );
 
-INVx8_ASAP7_75t_R c1103(
+HB4xp67_ASAP7_75t_R c1103(
 .A(net10496),
 .Y(net1092)
 );
@@ -17007,17 +17007,17 @@ OR2x2_ASAP7_75t_R c1104(
 .Y(net1093)
 );
 
-INVxp33_ASAP7_75t_R c1105(
+INVx11_ASAP7_75t_R c1105(
 .A(net9221),
 .Y(net1094)
 );
 
-INVxp67_ASAP7_75t_R c1106(
+INVx13_ASAP7_75t_R c1106(
 .A(net9828),
 .Y(net1095)
 );
 
-BUFx10_ASAP7_75t_R c1107(
+INVx1_ASAP7_75t_R c1107(
 .A(net9291),
 .Y(net1096)
 );
@@ -17028,7 +17028,7 @@ OR2x4_ASAP7_75t_R c1108(
 .Y(net1097)
 );
 
-BUFx12_ASAP7_75t_R c1109(
+INVx2_ASAP7_75t_R c1109(
 .A(net946),
 .Y(net1098)
 );
@@ -17060,7 +17060,7 @@ AOI21x1_ASAP7_75t_R c1113(
 .Y(net1102)
 );
 
-BUFx12f_ASAP7_75t_R c1114(
+INVx3_ASAP7_75t_R c1114(
 .A(net193),
 .Y(net1103)
 );
@@ -17071,12 +17071,12 @@ XNOR2x2_ASAP7_75t_R c1115(
 .Y(net1104)
 );
 
-BUFx16f_ASAP7_75t_R c1116(
+INVx4_ASAP7_75t_R c1116(
 .A(net9825),
 .Y(net1105)
 );
 
-BUFx24_ASAP7_75t_R c1117(
+INVx5_ASAP7_75t_R c1117(
 .A(net156),
 .Y(net1106)
 );
@@ -17108,7 +17108,7 @@ AOI21xp33_ASAP7_75t_R c1121(
 .Y(net1110)
 );
 
-BUFx2_ASAP7_75t_R c1122(
+INVx6_ASAP7_75t_R c1122(
 .A(net156),
 .Y(net1111)
 );
@@ -17132,7 +17132,7 @@ XOR2xp5_ASAP7_75t_R c1125(
 .Y(net1114)
 );
 
-BUFx3_ASAP7_75t_R c1126(
+INVx8_ASAP7_75t_R c1126(
 .A(net111),
 .Y(net1115)
 );
@@ -17149,7 +17149,7 @@ AND2x4_ASAP7_75t_R c1128(
 .Y(net1117)
 );
 
-BUFx4_ASAP7_75t_R c1129(
+INVxp33_ASAP7_75t_R c1129(
 .A(net1115),
 .Y(net1118)
 );
@@ -17174,7 +17174,7 @@ AND2x6_ASAP7_75t_R c1132(
 .Y(net1121)
 );
 
-BUFx4f_ASAP7_75t_R c1133(
+INVxp67_ASAP7_75t_R c1133(
 .A(net9953),
 .Y(net1122)
 );
@@ -17198,7 +17198,7 @@ NAND2x1p5_ASAP7_75t_R c1136(
 .Y(net1126)
 );
 
-BUFx5_ASAP7_75t_R c1137(
+BUFx10_ASAP7_75t_R c1137(
 .A(net1091),
 .Y(net1127)
 );
@@ -17263,7 +17263,7 @@ NAND2xp67_ASAP7_75t_R c1146(
 .Y(net1136)
 );
 
-BUFx6f_ASAP7_75t_R c1147(
+BUFx12_ASAP7_75t_R c1147(
 .A(net1118),
 .Y(net1137)
 );
@@ -17369,57 +17369,57 @@ AO222x2_ASAP7_75t_R c1161(
 .Y(net1151)
 );
 
-BUFx8_ASAP7_75t_R c1162(
+BUFx12f_ASAP7_75t_R c1162(
 .A(net9238),
 .Y(net1152)
 );
 
-CKINVDCx10_ASAP7_75t_R c1163(
+BUFx16f_ASAP7_75t_R c1163(
 .A(net253),
 .Y(net1153)
 );
 
-CKINVDCx11_ASAP7_75t_R c1164(
+BUFx24_ASAP7_75t_R c1164(
 .A(net241),
 .Y(net1154)
 );
 
-CKINVDCx12_ASAP7_75t_R c1165(
+BUFx2_ASAP7_75t_R c1165(
 .A(net1086),
 .Y(net1155)
 );
 
-CKINVDCx14_ASAP7_75t_R c1166(
+BUFx3_ASAP7_75t_R c1166(
 .A(net965),
 .Y(net1156)
 );
 
-CKINVDCx16_ASAP7_75t_R c1167(
+BUFx4_ASAP7_75t_R c1167(
 .A(net9969),
 .Y(net1157)
 );
 
-CKINVDCx20_ASAP7_75t_R c1168(
+BUFx4f_ASAP7_75t_R c1168(
 .A(net9969),
 .Y(net1158)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c1169(
+BUFx5_ASAP7_75t_R c1169(
 .A(net1155),
 .Y(net1159)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c1170(
+BUFx6f_ASAP7_75t_R c1170(
 .A(net1159),
 .Y(net1160)
 );
 
-CKINVDCx8_ASAP7_75t_R c1171(
+BUFx8_ASAP7_75t_R c1171(
 .A(net10095),
 .Y(net1161)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c1172(
+CKINVDCx5p33_ASAP7_75t_R c1172(
 .A(net1142),
 .Y(net1162)
 );
@@ -17430,22 +17430,22 @@ NOR2xp33_ASAP7_75t_R c1173(
 .Y(net1163)
 );
 
-HB1xp67_ASAP7_75t_R c1174(
+CKINVDCx6p67_ASAP7_75t_R c1174(
 .A(net253),
 .Y(net1164)
 );
 
-HB2xp67_ASAP7_75t_R c1175(
+CKINVDCx8_ASAP7_75t_R c1175(
 .A(net10427),
 .Y(net1165)
 );
 
-HB3xp67_ASAP7_75t_R c1176(
+CKINVDCx9p33_ASAP7_75t_R c1176(
 .A(net997),
 .Y(net1166)
 );
 
-HB4xp67_ASAP7_75t_R c1177(
+HB1xp67_ASAP7_75t_R c1177(
 .A(net10522),
 .Y(net1167)
 );
@@ -17474,22 +17474,22 @@ OR2x6_ASAP7_75t_R c1181(
 .Y(net1171)
 );
 
-INVx11_ASAP7_75t_R c1182(
+HB2xp67_ASAP7_75t_R c1182(
 .A(net1099),
 .Y(net1172)
 );
 
-INVx13_ASAP7_75t_R c1183(
+HB3xp67_ASAP7_75t_R c1183(
 .A(net10427),
 .Y(net1173)
 );
 
-INVx1_ASAP7_75t_R c1184(
+HB4xp67_ASAP7_75t_R c1184(
 .A(net242),
 .Y(net1174)
 );
 
-INVx2_ASAP7_75t_R c1185(
+INVx11_ASAP7_75t_R c1185(
 .A(net9650),
 .Y(net1175)
 );
@@ -17501,12 +17501,12 @@ OAI21xp33_ASAP7_75t_R c1186(
 .Y(net1176)
 );
 
-INVx3_ASAP7_75t_R c1187(
+INVx13_ASAP7_75t_R c1187(
 .A(net1077),
 .Y(net1177)
 );
 
-INVx4_ASAP7_75t_R c1188(
+INVx1_ASAP7_75t_R c1188(
 .A(net1165),
 .Y(net1178)
 );
@@ -17530,17 +17530,17 @@ XNOR2x2_ASAP7_75t_R c1191(
 .Y(net1181)
 );
 
-INVx5_ASAP7_75t_R c1192(
+INVx2_ASAP7_75t_R c1192(
 .A(net1175),
 .Y(net1182)
 );
 
-INVx6_ASAP7_75t_R c1193(
+INVx3_ASAP7_75t_R c1193(
 .A(net1175),
 .Y(net1183)
 );
 
-INVx8_ASAP7_75t_R c1194(
+INVx4_ASAP7_75t_R c1194(
 .A(net1174),
 .Y(net1184)
 );
@@ -17563,12 +17563,12 @@ XOR2x2_ASAP7_75t_R c1197(
 .Y(net1187)
 );
 
-INVxp33_ASAP7_75t_R c1198(
+INVx5_ASAP7_75t_R c1198(
 .A(net1082),
 .Y(net1188)
 );
 
-INVxp67_ASAP7_75t_R c1199(
+INVx6_ASAP7_75t_R c1199(
 .A(net1081),
 .Y(net1189)
 );
@@ -17585,7 +17585,7 @@ AND2x2_ASAP7_75t_R c1201(
 .Y(net1191)
 );
 
-BUFx10_ASAP7_75t_R c1202(
+INVx8_ASAP7_75t_R c1202(
 .A(net1188),
 .Y(net1192)
 );
@@ -17597,17 +17597,17 @@ ICGx3_ASAP7_75t_R c1203(
 .GCLK(net1193)
 );
 
-BUFx12_ASAP7_75t_R c1204(
+INVxp33_ASAP7_75t_R c1204(
 .A(net9221),
 .Y(net1194)
 );
 
-BUFx12f_ASAP7_75t_R c1205(
+INVxp67_ASAP7_75t_R c1205(
 .A(net1193),
 .Y(net1195)
 );
 
-BUFx16f_ASAP7_75t_R c1206(
+BUFx10_ASAP7_75t_R c1206(
 .A(net1166),
 .Y(net1196)
 );
@@ -17632,7 +17632,7 @@ OR3x2_ASAP7_75t_R c1209(
 .Y(net1199)
 );
 
-BUFx24_ASAP7_75t_R c1210(
+BUFx12_ASAP7_75t_R c1210(
 .A(net1189),
 .Y(net1200)
 );
@@ -17643,7 +17643,7 @@ AND2x6_ASAP7_75t_R c1211(
 .Y(net1201)
 );
 
-BUFx2_ASAP7_75t_R c1212(
+BUFx12f_ASAP7_75t_R c1212(
 .A(net1178),
 .Y(net1202)
 );
@@ -17668,7 +17668,7 @@ NAND2x1_ASAP7_75t_R c1215(
 .Y(net1205)
 );
 
-BUFx3_ASAP7_75t_R c1216(
+BUFx16f_ASAP7_75t_R c1216(
 .A(net10006),
 .Y(net1206)
 );
@@ -17679,7 +17679,7 @@ NAND2x1p5_ASAP7_75t_R c1217(
 .Y(net1207)
 );
 
-BUFx4_ASAP7_75t_R c1218(
+BUFx24_ASAP7_75t_R c1218(
 .A(net1203),
 .Y(net1208)
 );
@@ -17702,7 +17702,7 @@ NAND2xp5_ASAP7_75t_R c1221(
 .Y(net1211)
 );
 
-BUFx4f_ASAP7_75t_R c1222(
+BUFx2_ASAP7_75t_R c1222(
 .A(net10430),
 .Y(net1212)
 );
@@ -17860,22 +17860,22 @@ XNOR2x1_ASAP7_75t_R c1244(
 .Y(net1234)
 );
 
-BUFx5_ASAP7_75t_R c1245(
+BUFx3_ASAP7_75t_R c1245(
 .A(net9963),
 .Y(net1235)
 );
 
-BUFx6f_ASAP7_75t_R c1246(
+BUFx4_ASAP7_75t_R c1246(
 .A(net319),
 .Y(net1236)
 );
 
-BUFx8_ASAP7_75t_R c1247(
+BUFx4f_ASAP7_75t_R c1247(
 .A(net1125),
 .Y(net1237)
 );
 
-CKINVDCx10_ASAP7_75t_R c1248(
+BUFx5_ASAP7_75t_R c1248(
 .A(net9652),
 .Y(net1238)
 );
@@ -17886,17 +17886,17 @@ XNOR2x2_ASAP7_75t_R c1249(
 .Y(net1239)
 );
 
-CKINVDCx11_ASAP7_75t_R c1250(
+BUFx6f_ASAP7_75t_R c1250(
 .A(net1171),
 .Y(net1240)
 );
 
-CKINVDCx12_ASAP7_75t_R c1251(
+BUFx8_ASAP7_75t_R c1251(
 .A(net1069),
 .Y(net1241)
 );
 
-CKINVDCx14_ASAP7_75t_R c1252(
+CKINVDCx5p33_ASAP7_75t_R c1252(
 .A(net10126),
 .Y(net1242)
 );
@@ -17907,17 +17907,17 @@ XNOR2xp5_ASAP7_75t_R c1253(
 .Y(net1243)
 );
 
-CKINVDCx16_ASAP7_75t_R c1254(
+CKINVDCx6p67_ASAP7_75t_R c1254(
 .A(net9131),
 .Y(net1244)
 );
 
-CKINVDCx20_ASAP7_75t_R c1255(
+CKINVDCx8_ASAP7_75t_R c1255(
 .A(net9963),
 .Y(net1245)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c1256(
+CKINVDCx9p33_ASAP7_75t_R c1256(
 .A(net1240),
 .Y(net1246)
 );
@@ -17928,17 +17928,17 @@ XOR2x1_ASAP7_75t_R c1257(
 .Y(net1247)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c1258(
+HB1xp67_ASAP7_75t_R c1258(
 .A(net9131),
 .Y(net1248)
 );
 
-CKINVDCx8_ASAP7_75t_R c1259(
+HB2xp67_ASAP7_75t_R c1259(
 .A(net1244),
 .Y(net1249)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c1260(
+HB3xp67_ASAP7_75t_R c1260(
 .A(net1200),
 .Y(net1250)
 );
@@ -17963,27 +17963,27 @@ AOI21xp33_ASAP7_75t_R c1263(
 .Y(net1253)
 );
 
-HB1xp67_ASAP7_75t_R c1264(
+HB4xp67_ASAP7_75t_R c1264(
 .A(net1085),
 .Y(net1254)
 );
 
-HB2xp67_ASAP7_75t_R c1265(
+INVx11_ASAP7_75t_R c1265(
 .A(net304),
 .Y(net1255)
 );
 
-HB3xp67_ASAP7_75t_R c1266(
+INVx13_ASAP7_75t_R c1266(
 .A(net1242),
 .Y(net1256)
 );
 
-HB4xp67_ASAP7_75t_R c1267(
+INVx1_ASAP7_75t_R c1267(
 .A(net1086),
 .Y(net1257)
 );
 
-INVx11_ASAP7_75t_R c1268(
+INVx2_ASAP7_75t_R c1268(
 .A(net1241),
 .Y(net1258)
 );
@@ -17997,12 +17997,12 @@ AND5x2_ASAP7_75t_R c1269(
 .Y(net1259)
 );
 
-INVx13_ASAP7_75t_R c1270(
+INVx3_ASAP7_75t_R c1270(
 .A(net256),
 .Y(net1260)
 );
 
-INVx1_ASAP7_75t_R c1271(
+INVx4_ASAP7_75t_R c1271(
 .A(net1202),
 .Y(net1261)
 );
@@ -18013,17 +18013,17 @@ XOR2xp5_ASAP7_75t_R c1272(
 .Y(net1262)
 );
 
-INVx2_ASAP7_75t_R c1273(
+INVx5_ASAP7_75t_R c1273(
 .A(net1105),
 .Y(net1263)
 );
 
-INVx3_ASAP7_75t_R c1274(
+INVx6_ASAP7_75t_R c1274(
 .A(net1109),
 .Y(net1264)
 );
 
-INVx4_ASAP7_75t_R c1275(
+INVx8_ASAP7_75t_R c1275(
 .A(net9261),
 .Y(net1265)
 );
@@ -18034,22 +18034,22 @@ AND2x2_ASAP7_75t_R c1276(
 .Y(net1266)
 );
 
-INVx5_ASAP7_75t_R c1277(
+INVxp33_ASAP7_75t_R c1277(
 .A(net370),
 .Y(net1267)
 );
 
-INVx6_ASAP7_75t_R c1278(
+INVxp67_ASAP7_75t_R c1278(
 .A(net1126),
 .Y(net1268)
 );
 
-INVx8_ASAP7_75t_R c1279(
+BUFx10_ASAP7_75t_R c1279(
 .A(net1249),
 .Y(net1269)
 );
 
-INVxp33_ASAP7_75t_R c1280(
+BUFx12_ASAP7_75t_R c1280(
 .A(net1262),
 .Y(net1270)
 );
@@ -18062,12 +18062,12 @@ OA31x2_ASAP7_75t_R c1281(
 .Y(net1271)
 );
 
-INVxp67_ASAP7_75t_R c1282(
+BUFx12f_ASAP7_75t_R c1282(
 .A(net1263),
 .Y(net1272)
 );
 
-BUFx10_ASAP7_75t_R c1283(
+BUFx16f_ASAP7_75t_R c1283(
 .A(net1270),
 .Y(net1273)
 );
@@ -18078,7 +18078,7 @@ AND2x4_ASAP7_75t_R c1284(
 .Y(net1274)
 );
 
-BUFx12_ASAP7_75t_R c1285(
+BUFx24_ASAP7_75t_R c1285(
 .A(net1243),
 .Y(net1275)
 );
@@ -18090,22 +18090,22 @@ AOI21xp5_ASAP7_75t_R c1286(
 .Y(net1276)
 );
 
-BUFx12f_ASAP7_75t_R c1287(
+BUFx2_ASAP7_75t_R c1287(
 .A(net1260),
 .Y(net1277)
 );
 
-BUFx16f_ASAP7_75t_R c1288(
+BUFx3_ASAP7_75t_R c1288(
 .A(net9946),
 .Y(net1278)
 );
 
-BUFx24_ASAP7_75t_R c1289(
+BUFx4_ASAP7_75t_R c1289(
 .A(net9248),
 .Y(net1279)
 );
 
-BUFx2_ASAP7_75t_R c1290(
+BUFx4f_ASAP7_75t_R c1290(
 .A(net10006),
 .Y(net1280)
 );
@@ -18124,17 +18124,17 @@ AND2x6_ASAP7_75t_R c1292(
 .Y(net1282)
 );
 
-BUFx3_ASAP7_75t_R c1293(
+BUFx5_ASAP7_75t_R c1293(
 .A(net10095),
 .Y(net1283)
 );
 
-BUFx4_ASAP7_75t_R c1294(
+BUFx6f_ASAP7_75t_R c1294(
 .A(net1261),
 .Y(net1284)
 );
 
-BUFx4f_ASAP7_75t_R c1295(
+BUFx8_ASAP7_75t_R c1295(
 .A(net1284),
 .Y(net1285)
 );
@@ -18145,7 +18145,7 @@ HAxp5_ASAP7_75t_R c1296(
 .CON(net1286)
 );
 
-BUFx5_ASAP7_75t_R c1297(
+CKINVDCx5p33_ASAP7_75t_R c1297(
 .A(net9261),
 .Y(net1287)
 );
@@ -18162,7 +18162,7 @@ NAND2x1p5_ASAP7_75t_R c1299(
 .Y(net1289)
 );
 
-BUFx6f_ASAP7_75t_R c1300(
+CKINVDCx6p67_ASAP7_75t_R c1300(
 .A(net9889),
 .Y(net1290)
 );
@@ -18173,7 +18173,7 @@ NAND2x2_ASAP7_75t_R c1301(
 .Y(net1291)
 );
 
-BUFx8_ASAP7_75t_R c1302(
+CKINVDCx8_ASAP7_75t_R c1302(
 .A(net375),
 .Y(net1292)
 );
@@ -18210,7 +18210,7 @@ NOR2x1_ASAP7_75t_R c1307(
 .Y(net1298)
 );
 
-CKINVDCx10_ASAP7_75t_R c1308(
+CKINVDCx9p33_ASAP7_75t_R c1308(
 .A(net1296),
 .Y(net1299)
 );
@@ -18223,12 +18223,12 @@ OAI22x1_ASAP7_75t_R c1309(
 .Y(net1300)
 );
 
-CKINVDCx11_ASAP7_75t_R c1310(
+HB1xp67_ASAP7_75t_R c1310(
 .A(net1281),
 .Y(net1301)
 );
 
-CKINVDCx12_ASAP7_75t_R c1311(
+HB2xp67_ASAP7_75t_R c1311(
 .A(net10038),
 .Y(net1302)
 );
@@ -18258,7 +18258,7 @@ NOR2xp33_ASAP7_75t_R c1315(
 .Y(net1306)
 );
 
-CKINVDCx14_ASAP7_75t_R c1316(
+HB3xp67_ASAP7_75t_R c1316(
 .A(net9954),
 .Y(net1307)
 );
@@ -18342,12 +18342,12 @@ NAND3x2_ASAP7_75t_R c1327(
 .Y(net1318)
 );
 
-CKINVDCx16_ASAP7_75t_R c1328(
+HB4xp67_ASAP7_75t_R c1328(
 .A(net9239),
 .Y(net1319)
 );
 
-CKINVDCx20_ASAP7_75t_R c1329(
+INVx11_ASAP7_75t_R c1329(
 .A(net1311),
 .Y(net1320)
 );
@@ -18358,7 +18358,7 @@ OR2x6_ASAP7_75t_R c1330(
 .Y(net1321)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c1331(
+INVx13_ASAP7_75t_R c1331(
 .A(net10035),
 .Y(net1322)
 );
@@ -18369,7 +18369,7 @@ XNOR2x1_ASAP7_75t_R c1332(
 .Y(net1323)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c1333(
+INVx1_ASAP7_75t_R c1333(
 .A(net1097),
 .Y(net1324)
 );
@@ -18394,7 +18394,7 @@ XNOR2xp5_ASAP7_75t_R c1336(
 .Y(net1327)
 );
 
-CKINVDCx8_ASAP7_75t_R c1337(
+INVx2_ASAP7_75t_R c1337(
 .A(net421),
 .Y(net1328)
 );
@@ -18411,7 +18411,7 @@ XOR2x2_ASAP7_75t_R c1339(
 .Y(net1330)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c1340(
+INVx3_ASAP7_75t_R c1340(
 .A(net477),
 .Y(net1331)
 );
@@ -18430,7 +18430,7 @@ OAI31xp33_ASAP7_75t_R c1342(
 .Y(net1333)
 );
 
-HB1xp67_ASAP7_75t_R c1343(
+INVx4_ASAP7_75t_R c1343(
 .A(net1219),
 .Y(net1334)
 );
@@ -18442,12 +18442,12 @@ NAND3xp33_ASAP7_75t_R c1344(
 .Y(net1335)
 );
 
-HB2xp67_ASAP7_75t_R c1345(
+INVx5_ASAP7_75t_R c1345(
 .A(net418),
 .Y(net1336)
 );
 
-HB3xp67_ASAP7_75t_R c1346(
+INVx6_ASAP7_75t_R c1346(
 .A(net435),
 .Y(net1337)
 );
@@ -18464,7 +18464,7 @@ AND2x4_ASAP7_75t_R c1348(
 .Y(net1339)
 );
 
-HB4xp67_ASAP7_75t_R c1349(
+INVx8_ASAP7_75t_R c1349(
 .A(net331),
 .Y(net1340)
 );
@@ -18476,22 +18476,22 @@ ICGx4_ASAP7_75t_R c1350(
 .GCLK(net1341)
 );
 
-INVx11_ASAP7_75t_R c1351(
+INVxp33_ASAP7_75t_R c1351(
 .A(net10570),
 .Y(net1342)
 );
 
-INVx13_ASAP7_75t_R c1352(
+INVxp67_ASAP7_75t_R c1352(
 .A(net1245),
 .Y(net1343)
 );
 
-INVx1_ASAP7_75t_R c1353(
+BUFx10_ASAP7_75t_R c1353(
 .A(net10045),
 .Y(net1344)
 );
 
-INVx2_ASAP7_75t_R c1354(
+BUFx12_ASAP7_75t_R c1354(
 .A(net1332),
 .Y(net1345)
 );
@@ -18502,17 +18502,17 @@ AND2x6_ASAP7_75t_R c1355(
 .Y(net1346)
 );
 
-INVx3_ASAP7_75t_R c1356(
+BUFx12f_ASAP7_75t_R c1356(
 .A(net1343),
 .Y(net1347)
 );
 
-INVx4_ASAP7_75t_R c1357(
+BUFx16f_ASAP7_75t_R c1357(
 .A(net1283),
 .Y(net1348)
 );
 
-INVx5_ASAP7_75t_R c1358(
+BUFx24_ASAP7_75t_R c1358(
 .A(net393),
 .Y(net1349)
 );
@@ -18524,7 +18524,7 @@ HAxp5_ASAP7_75t_R c1359(
 .SN(net1350)
 );
 
-INVx6_ASAP7_75t_R c1360(
+BUFx2_ASAP7_75t_R c1360(
 .A(net1329),
 .Y(net1352)
 );
@@ -18553,17 +18553,17 @@ NAND2xp33_ASAP7_75t_R c1364(
 .Y(net1356)
 );
 
-INVx8_ASAP7_75t_R c1365(
+BUFx3_ASAP7_75t_R c1365(
 .A(net9933),
 .Y(net1357)
 );
 
-INVxp33_ASAP7_75t_R c1366(
+BUFx4_ASAP7_75t_R c1366(
 .A(net272),
 .Y(net1358)
 );
 
-INVxp67_ASAP7_75t_R c1367(
+BUFx4f_ASAP7_75t_R c1367(
 .A(net1357),
 .Y(net1359)
 );
@@ -18583,7 +18583,7 @@ NOR3x1_ASAP7_75t_R c1369(
 .Y(net1361)
 );
 
-BUFx10_ASAP7_75t_R c1370(
+BUFx5_ASAP7_75t_R c1370(
 .A(net10071),
 .Y(net1362)
 );
@@ -18600,12 +18600,12 @@ NAND2xp67_ASAP7_75t_R c1372(
 .Y(net1364)
 );
 
-BUFx12_ASAP7_75t_R c1373(
+BUFx6f_ASAP7_75t_R c1373(
 .A(net1295),
 .Y(net1365)
 );
 
-BUFx12f_ASAP7_75t_R c1374(
+BUFx8_ASAP7_75t_R c1374(
 .A(net1361),
 .Y(net1366)
 );
@@ -18635,22 +18635,22 @@ NOR2x2_ASAP7_75t_R c1378(
 .Y(net1370)
 );
 
-BUFx16f_ASAP7_75t_R c1379(
+CKINVDCx5p33_ASAP7_75t_R c1379(
 .A(net1242),
 .Y(net1371)
 );
 
-BUFx24_ASAP7_75t_R c1380(
+CKINVDCx6p67_ASAP7_75t_R c1380(
 .A(net10045),
 .Y(net1372)
 );
 
-BUFx2_ASAP7_75t_R c1381(
+CKINVDCx8_ASAP7_75t_R c1381(
 .A(net1333),
 .Y(net1373)
 );
 
-BUFx3_ASAP7_75t_R c1382(
+CKINVDCx9p33_ASAP7_75t_R c1382(
 .A(net1362),
 .Y(net1374)
 );
@@ -18687,7 +18687,7 @@ SDFLx1_ASAP7_75t_R c1386(
 .QN(net1378)
 );
 
-BUFx4_ASAP7_75t_R c1387(
+HB1xp67_ASAP7_75t_R c1387(
 .A(net10499),
 .Y(net1379)
 );
@@ -18698,12 +18698,12 @@ NOR2xp33_ASAP7_75t_R c1388(
 .Y(net1380)
 );
 
-BUFx4f_ASAP7_75t_R c1389(
+HB2xp67_ASAP7_75t_R c1389(
 .A(net10390),
 .Y(net1381)
 );
 
-BUFx5_ASAP7_75t_R c1390(
+HB3xp67_ASAP7_75t_R c1390(
 .A(net10409),
 .Y(net1382)
 );
@@ -18770,7 +18770,7 @@ OAI21x1_ASAP7_75t_R c1400(
 .Y(net1392)
 );
 
-BUFx6f_ASAP7_75t_R c1401(
+HB4xp67_ASAP7_75t_R c1401(
 .A(net10035),
 .Y(net1393)
 );
@@ -18809,7 +18809,7 @@ A2O1A1Ixp33_ASAP7_75t_R c1405(
 .Y(net1397)
 );
 
-BUFx8_ASAP7_75t_R c1406(
+INVx11_ASAP7_75t_R c1406(
 .A(net10111),
 .Y(net1398)
 );
@@ -18846,12 +18846,12 @@ AOI321xp33_ASAP7_75t_R c1410(
 .Y(net1402)
 );
 
-CKINVDCx10_ASAP7_75t_R c1411(
+INVx13_ASAP7_75t_R c1411(
 .A(net9281),
 .Y(net1403)
 );
 
-CKINVDCx11_ASAP7_75t_R c1412(
+INVx1_ASAP7_75t_R c1412(
 .A(net9144),
 .Y(net1404)
 );
@@ -18875,7 +18875,7 @@ OR3x1_ASAP7_75t_R c1415(
 .Y(net1407)
 );
 
-CKINVDCx12_ASAP7_75t_R c1416(
+INVx2_ASAP7_75t_R c1416(
 .A(net9285),
 .Y(net1408)
 );
@@ -18892,17 +18892,17 @@ AND2x4_ASAP7_75t_R c1418(
 .Y(net1410)
 );
 
-CKINVDCx14_ASAP7_75t_R c1419(
+INVx3_ASAP7_75t_R c1419(
 .A(net10139),
 .Y(net1411)
 );
 
-CKINVDCx16_ASAP7_75t_R c1420(
+INVx4_ASAP7_75t_R c1420(
 .A(net1349),
 .Y(net1412)
 );
 
-CKINVDCx20_ASAP7_75t_R c1421(
+INVx5_ASAP7_75t_R c1421(
 .A(net10193),
 .Y(net1413)
 );
@@ -18913,7 +18913,7 @@ AND2x6_ASAP7_75t_R c1422(
 .Y(net1414)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c1423(
+INVx6_ASAP7_75t_R c1423(
 .A(net1342),
 .Y(net1415)
 );
@@ -18933,37 +18933,37 @@ OR3x2_ASAP7_75t_R c1425(
 .Y(net1417)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c1426(
+INVx8_ASAP7_75t_R c1426(
 .A(net10131),
 .Y(net1418)
 );
 
-CKINVDCx8_ASAP7_75t_R c1427(
+INVxp33_ASAP7_75t_R c1427(
 .A(net522),
 .Y(net1419)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c1428(
+INVxp67_ASAP7_75t_R c1428(
 .A(net1345),
 .Y(net1420)
 );
 
-HB1xp67_ASAP7_75t_R c1429(
+BUFx10_ASAP7_75t_R c1429(
 .A(net10131),
 .Y(net1421)
 );
 
-HB2xp67_ASAP7_75t_R c1430(
+BUFx12_ASAP7_75t_R c1430(
 .A(net244),
 .Y(net1422)
 );
 
-HB3xp67_ASAP7_75t_R c1431(
+BUFx12f_ASAP7_75t_R c1431(
 .A(net10165),
 .Y(net1423)
 );
 
-HB4xp67_ASAP7_75t_R c1432(
+BUFx16f_ASAP7_75t_R c1432(
 .A(net9248),
 .Y(net1424)
 );
@@ -18975,7 +18975,7 @@ HAxp5_ASAP7_75t_R c1433(
 .SN(net1425)
 );
 
-INVx11_ASAP7_75t_R c1434(
+BUFx24_ASAP7_75t_R c1434(
 .A(net9251),
 .Y(net1427)
 );
@@ -18986,7 +18986,7 @@ NAND2x1_ASAP7_75t_R c1435(
 .Y(net1428)
 );
 
-INVx13_ASAP7_75t_R c1436(
+BUFx2_ASAP7_75t_R c1436(
 .A(net1427),
 .Y(net1429)
 );
@@ -18999,17 +18999,17 @@ SDFLx2_ASAP7_75t_R c1437(
 .QN(net1430)
 );
 
-INVx1_ASAP7_75t_R c1438(
+BUFx3_ASAP7_75t_R c1438(
 .A(net515),
 .Y(net1431)
 );
 
-INVx2_ASAP7_75t_R c1439(
+BUFx4_ASAP7_75t_R c1439(
 .A(net1423),
 .Y(net1432)
 );
 
-INVx3_ASAP7_75t_R c1440(
+BUFx4f_ASAP7_75t_R c1440(
 .A(net10139),
 .Y(net1433)
 );
@@ -19020,12 +19020,12 @@ NAND2x1p5_ASAP7_75t_R c1441(
 .Y(net1434)
 );
 
-INVx4_ASAP7_75t_R c1442(
+BUFx5_ASAP7_75t_R c1442(
 .A(net489),
 .Y(net1435)
 );
 
-INVx5_ASAP7_75t_R c1443(
+BUFx6f_ASAP7_75t_R c1443(
 .A(net1383),
 .Y(net1436)
 );
@@ -19042,7 +19042,7 @@ NAND2xp33_ASAP7_75t_R c1445(
 .Y(net1438)
 );
 
-INVx6_ASAP7_75t_R c1446(
+BUFx8_ASAP7_75t_R c1446(
 .A(net10131),
 .Y(net1439)
 );
@@ -19054,7 +19054,7 @@ OR3x4_ASAP7_75t_R c1447(
 .Y(net1440)
 );
 
-INVx8_ASAP7_75t_R c1448(
+CKINVDCx5p33_ASAP7_75t_R c1448(
 .A(net9281),
 .Y(net1441)
 );
@@ -19066,7 +19066,7 @@ AND3x1_ASAP7_75t_R c1449(
 .Y(net1442)
 );
 
-INVxp33_ASAP7_75t_R c1450(
+CKINVDCx6p67_ASAP7_75t_R c1450(
 .A(net10082),
 .Y(net1443)
 );
@@ -19091,7 +19091,7 @@ NAND2xp67_ASAP7_75t_R c1453(
 .Y(net1446)
 );
 
-INVxp67_ASAP7_75t_R c1454(
+CKINVDCx8_ASAP7_75t_R c1454(
 .A(net1386),
 .Y(net1447)
 );
@@ -19116,7 +19116,7 @@ NOR2x1_ASAP7_75t_R c1457(
 .Y(net1450)
 );
 
-BUFx10_ASAP7_75t_R c1458(
+CKINVDCx9p33_ASAP7_75t_R c1458(
 .A(net1346),
 .Y(net1451)
 );
@@ -19127,12 +19127,12 @@ NOR2x1p5_ASAP7_75t_R c1459(
 .Y(net1452)
 );
 
-BUFx12_ASAP7_75t_R c1460(
+HB1xp67_ASAP7_75t_R c1460(
 .A(net10101),
 .Y(net1453)
 );
 
-BUFx12f_ASAP7_75t_R c1461(
+HB2xp67_ASAP7_75t_R c1461(
 .A(net1418),
 .Y(net1454)
 );
@@ -19149,7 +19149,7 @@ NOR2xp33_ASAP7_75t_R c1463(
 .Y(net1456)
 );
 
-BUFx16f_ASAP7_75t_R c1464(
+HB3xp67_ASAP7_75t_R c1464(
 .A(net1303),
 .Y(net1457)
 );
@@ -19166,12 +19166,12 @@ OR2x2_ASAP7_75t_R c1466(
 .Y(net1459)
 );
 
-BUFx24_ASAP7_75t_R c1467(
+HB4xp67_ASAP7_75t_R c1467(
 .A(net9144),
 .Y(net1460)
 );
 
-BUFx2_ASAP7_75t_R c1468(
+INVx11_ASAP7_75t_R c1468(
 .A(net429),
 .Y(net1461)
 );
@@ -19366,12 +19366,12 @@ XOR2xp5_ASAP7_75t_R c1494(
 .Y(net1488)
 );
 
-BUFx3_ASAP7_75t_R c1495(
+INVx13_ASAP7_75t_R c1495(
 .A(net10152),
 .Y(net1489)
 );
 
-BUFx4_ASAP7_75t_R c1496(
+INVx1_ASAP7_75t_R c1496(
 .A(net9264),
 .Y(net1490)
 );
@@ -19384,32 +19384,32 @@ AO22x2_ASAP7_75t_R c1497(
 .Y(net1491)
 );
 
-BUFx4f_ASAP7_75t_R c1498(
+INVx2_ASAP7_75t_R c1498(
 .A(net1486),
 .Y(net1492)
 );
 
-BUFx5_ASAP7_75t_R c1499(
+INVx3_ASAP7_75t_R c1499(
 .A(net586),
 .Y(net1493)
 );
 
-BUFx6f_ASAP7_75t_R c1500(
+INVx4_ASAP7_75t_R c1500(
 .A(net632),
 .Y(net1494)
 );
 
-BUFx8_ASAP7_75t_R c1501(
+INVx5_ASAP7_75t_R c1501(
 .A(net638),
 .Y(net1495)
 );
 
-CKINVDCx10_ASAP7_75t_R c1502(
+INVx6_ASAP7_75t_R c1502(
 .A(net646),
 .Y(net1496)
 );
 
-CKINVDCx11_ASAP7_75t_R c1503(
+INVx8_ASAP7_75t_R c1503(
 .A(net558),
 .Y(net1497)
 );
@@ -19420,17 +19420,17 @@ AND2x2_ASAP7_75t_R c1504(
 .Y(net1498)
 );
 
-CKINVDCx12_ASAP7_75t_R c1505(
+INVxp33_ASAP7_75t_R c1505(
 .A(net1493),
 .Y(net1499)
 );
 
-CKINVDCx14_ASAP7_75t_R c1506(
+INVxp67_ASAP7_75t_R c1506(
 .A(net541),
 .Y(net1500)
 );
 
-CKINVDCx16_ASAP7_75t_R c1507(
+BUFx10_ASAP7_75t_R c1507(
 .A(net1495),
 .Y(net1501)
 );
@@ -19454,27 +19454,27 @@ AND2x6_ASAP7_75t_R c1510(
 .Y(net1504)
 );
 
-CKINVDCx20_ASAP7_75t_R c1511(
+BUFx12_ASAP7_75t_R c1511(
 .A(net10152),
 .Y(net1505)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c1512(
+BUFx12f_ASAP7_75t_R c1512(
 .A(net1484),
 .Y(net1506)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c1513(
+BUFx16f_ASAP7_75t_R c1513(
 .A(net9955),
 .Y(net1507)
 );
 
-CKINVDCx8_ASAP7_75t_R c1514(
+BUFx24_ASAP7_75t_R c1514(
 .A(net9955),
 .Y(net1508)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c1515(
+BUFx2_ASAP7_75t_R c1515(
 .A(net10107),
 .Y(net1509)
 );
@@ -19486,7 +19486,7 @@ ICGx5p33DC_ASAP7_75t_R c1516(
 .GCLK(net1510)
 );
 
-HB1xp67_ASAP7_75t_R c1517(
+BUFx3_ASAP7_75t_R c1517(
 .A(net1495),
 .Y(net1511)
 );
@@ -19505,7 +19505,7 @@ HAxp5_ASAP7_75t_R c1519(
 .SN(net1513)
 );
 
-HB2xp67_ASAP7_75t_R c1520(
+BUFx4_ASAP7_75t_R c1520(
 .A(net10126),
 .Y(net1515)
 );
@@ -19516,12 +19516,12 @@ NAND2x1_ASAP7_75t_R c1521(
 .Y(net1516)
 );
 
-HB3xp67_ASAP7_75t_R c1522(
+BUFx4f_ASAP7_75t_R c1522(
 .A(net1472),
 .Y(net1517)
 );
 
-HB4xp67_ASAP7_75t_R c1523(
+BUFx5_ASAP7_75t_R c1523(
 .A(net1479),
 .Y(net1518)
 );
@@ -19533,17 +19533,17 @@ ICGx6p67DC_ASAP7_75t_R c1524(
 .GCLK(net1519)
 );
 
-INVx11_ASAP7_75t_R c1525(
+BUFx6f_ASAP7_75t_R c1525(
 .A(net613),
 .Y(net1520)
 );
 
-INVx13_ASAP7_75t_R c1526(
+BUFx8_ASAP7_75t_R c1526(
 .A(net1475),
 .Y(net1521)
 );
 
-INVx1_ASAP7_75t_R c1527(
+CKINVDCx5p33_ASAP7_75t_R c1527(
 .A(net9264),
 .Y(net1522)
 );
@@ -19572,22 +19572,22 @@ NAND2xp5_ASAP7_75t_R c1531(
 .Y(net1526)
 );
 
-INVx2_ASAP7_75t_R c1532(
+CKINVDCx6p67_ASAP7_75t_R c1532(
 .A(net1516),
 .Y(net1527)
 );
 
-INVx3_ASAP7_75t_R c1533(
+CKINVDCx8_ASAP7_75t_R c1533(
 .A(net1512),
 .Y(net1528)
 );
 
-INVx4_ASAP7_75t_R c1534(
+CKINVDCx9p33_ASAP7_75t_R c1534(
 .A(net605),
 .Y(net1529)
 );
 
-INVx5_ASAP7_75t_R c1535(
+HB1xp67_ASAP7_75t_R c1535(
 .A(net356),
 .Y(net1530)
 );
@@ -19610,7 +19610,7 @@ NOR2x1p5_ASAP7_75t_R c1538(
 .Y(net1533)
 );
 
-INVx6_ASAP7_75t_R c1539(
+HB2xp67_ASAP7_75t_R c1539(
 .A(net10466),
 .Y(net1534)
 );
@@ -19639,7 +19639,7 @@ OR2x2_ASAP7_75t_R c1543(
 .Y(net1538)
 );
 
-INVx8_ASAP7_75t_R c1544(
+HB3xp67_ASAP7_75t_R c1544(
 .A(net10490),
 .Y(net1539)
 );
@@ -19667,7 +19667,7 @@ AOI221x1_ASAP7_75t_R c1547(
 .Y(net1542)
 );
 
-INVxp33_ASAP7_75t_R c1548(
+HB4xp67_ASAP7_75t_R c1548(
 .A(net1529),
 .Y(net1543)
 );
@@ -19684,7 +19684,7 @@ XNOR2x1_ASAP7_75t_R c1550(
 .Y(net1545)
 );
 
-INVxp67_ASAP7_75t_R c1551(
+INVx11_ASAP7_75t_R c1551(
 .A(net1533),
 .Y(net1546)
 );
@@ -19701,7 +19701,7 @@ XNOR2xp5_ASAP7_75t_R c1553(
 .Y(net1548)
 );
 
-BUFx10_ASAP7_75t_R c1554(
+INVx13_ASAP7_75t_R c1554(
 .A(net1503),
 .Y(net1549)
 );
@@ -19752,7 +19752,7 @@ NAND3xp33_ASAP7_75t_R c1561(
 .Y(net1556)
 );
 
-BUFx12_ASAP7_75t_R c1562(
+INVx1_ASAP7_75t_R c1562(
 .A(net10385),
 .Y(net1557)
 );
@@ -19776,7 +19776,7 @@ AND2x6_ASAP7_75t_R c1565(
 .Y(net1560)
 );
 
-BUFx12f_ASAP7_75t_R c1566(
+INVx2_ASAP7_75t_R c1566(
 .A(net1552),
 .Y(net1561)
 );
@@ -19854,12 +19854,12 @@ OA21x2_ASAP7_75t_R c1576(
 .Y(net1572)
 );
 
-BUFx16f_ASAP7_75t_R c1577(
+INVx3_ASAP7_75t_R c1577(
 .A(net557),
 .Y(net1573)
 );
 
-BUFx24_ASAP7_75t_R c1578(
+INVx4_ASAP7_75t_R c1578(
 .A(net633),
 .Y(net1574)
 );
@@ -19871,27 +19871,27 @@ OAI21x1_ASAP7_75t_R c1579(
 .Y(net1575)
 );
 
-BUFx2_ASAP7_75t_R c1580(
+INVx5_ASAP7_75t_R c1580(
 .A(net662),
 .Y(net1576)
 );
 
-BUFx3_ASAP7_75t_R c1581(
+INVx6_ASAP7_75t_R c1581(
 .A(net676),
 .Y(net1577)
 );
 
-BUFx4_ASAP7_75t_R c1582(
+INVx8_ASAP7_75t_R c1582(
 .A(net630),
 .Y(net1578)
 );
 
-BUFx4f_ASAP7_75t_R c1583(
+INVxp33_ASAP7_75t_R c1583(
 .A(net1160),
 .Y(net1579)
 );
 
-BUFx5_ASAP7_75t_R c1584(
+INVxp67_ASAP7_75t_R c1584(
 .A(net1579),
 .Y(net1580)
 );
@@ -19910,27 +19910,27 @@ AOI22xp5_ASAP7_75t_R c1586(
 .Y(net1582)
 );
 
-BUFx6f_ASAP7_75t_R c1587(
+BUFx10_ASAP7_75t_R c1587(
 .A(net1581),
 .Y(net1583)
 );
 
-BUFx8_ASAP7_75t_R c1588(
+BUFx12_ASAP7_75t_R c1588(
 .A(net10199),
 .Y(net1584)
 );
 
-CKINVDCx10_ASAP7_75t_R c1589(
+BUFx12f_ASAP7_75t_R c1589(
 .A(net705),
 .Y(net1585)
 );
 
-CKINVDCx11_ASAP7_75t_R c1590(
+BUFx16f_ASAP7_75t_R c1590(
 .A(net572),
 .Y(net1586)
 );
 
-CKINVDCx12_ASAP7_75t_R c1591(
+BUFx24_ASAP7_75t_R c1591(
 .A(net1439),
 .Y(net1587)
 );
@@ -19941,12 +19941,12 @@ NAND2xp33_ASAP7_75t_R c1592(
 .Y(net1588)
 );
 
-CKINVDCx14_ASAP7_75t_R c1593(
+BUFx2_ASAP7_75t_R c1593(
 .A(net639),
 .Y(net1589)
 );
 
-CKINVDCx16_ASAP7_75t_R c1594(
+BUFx3_ASAP7_75t_R c1594(
 .A(net1505),
 .Y(net1590)
 );
@@ -19957,47 +19957,47 @@ NAND2xp5_ASAP7_75t_R c1595(
 .Y(net1591)
 );
 
-CKINVDCx20_ASAP7_75t_R c1596(
+BUFx4_ASAP7_75t_R c1596(
 .A(net1501),
 .Y(net1592)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c1597(
+BUFx4f_ASAP7_75t_R c1597(
 .A(net10056),
 .Y(net1593)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c1598(
+BUFx5_ASAP7_75t_R c1598(
 .A(net1514),
 .Y(net1594)
 );
 
-CKINVDCx8_ASAP7_75t_R c1599(
+BUFx6f_ASAP7_75t_R c1599(
 .A(net510),
 .Y(net1595)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c1600(
+BUFx8_ASAP7_75t_R c1600(
 .A(net1574),
 .Y(net1596)
 );
 
-HB1xp67_ASAP7_75t_R c1601(
+CKINVDCx5p33_ASAP7_75t_R c1601(
 .A(net700),
 .Y(net1597)
 );
 
-HB2xp67_ASAP7_75t_R c1602(
+CKINVDCx6p67_ASAP7_75t_R c1602(
 .A(net10056),
 .Y(net1598)
 );
 
-HB3xp67_ASAP7_75t_R c1603(
+CKINVDCx8_ASAP7_75t_R c1603(
 .A(net1496),
 .Y(net1599)
 );
 
-HB4xp67_ASAP7_75t_R c1604(
+CKINVDCx9p33_ASAP7_75t_R c1604(
 .A(net682),
 .Y(net1600)
 );
@@ -20015,7 +20015,7 @@ OAI21xp33_ASAP7_75t_R c1606(
 .Y(net1602)
 );
 
-INVx11_ASAP7_75t_R c1607(
+HB1xp67_ASAP7_75t_R c1607(
 .A(net1601),
 .Y(net1603)
 );
@@ -20026,12 +20026,12 @@ NOR2x1_ASAP7_75t_R c1608(
 .Y(net1604)
 );
 
-INVx13_ASAP7_75t_R c1609(
+HB2xp67_ASAP7_75t_R c1609(
 .A(net1573),
 .Y(net1605)
 );
 
-INVx1_ASAP7_75t_R c1610(
+HB3xp67_ASAP7_75t_R c1610(
 .A(net1597),
 .Y(net1606)
 );
@@ -20054,12 +20054,12 @@ NOR2xp33_ASAP7_75t_R c1613(
 .Y(net1609)
 );
 
-INVx2_ASAP7_75t_R c1614(
+HB4xp67_ASAP7_75t_R c1614(
 .A(net1579),
 .Y(net1610)
 );
 
-INVx3_ASAP7_75t_R c1615(
+INVx11_ASAP7_75t_R c1615(
 .A(net517),
 .Y(net1611)
 );
@@ -20070,7 +20070,7 @@ NOR2xp67_ASAP7_75t_R c1616(
 .Y(net1612)
 );
 
-INVx4_ASAP7_75t_R c1617(
+INVx13_ASAP7_75t_R c1617(
 .A(net10373),
 .Y(net1613)
 );
@@ -20087,27 +20087,27 @@ OR2x4_ASAP7_75t_R c1619(
 .Y(net1615)
 );
 
-INVx5_ASAP7_75t_R c1620(
+INVx1_ASAP7_75t_R c1620(
 .A(net10124),
 .Y(net1616)
 );
 
-INVx6_ASAP7_75t_R c1621(
+INVx2_ASAP7_75t_R c1621(
 .A(net10100),
 .Y(net1617)
 );
 
-INVx8_ASAP7_75t_R c1622(
+INVx3_ASAP7_75t_R c1622(
 .A(net708),
 .Y(net1618)
 );
 
-INVxp33_ASAP7_75t_R c1623(
+INVx4_ASAP7_75t_R c1623(
 .A(net1589),
 .Y(net1619)
 );
 
-INVxp67_ASAP7_75t_R c1624(
+INVx5_ASAP7_75t_R c1624(
 .A(net10376),
 .Y(net1620)
 );
@@ -20119,7 +20119,7 @@ ICGx8DC_ASAP7_75t_R c1625(
 .GCLK(net1621)
 );
 
-BUFx10_ASAP7_75t_R c1626(
+INVx6_ASAP7_75t_R c1626(
 .A(net1577),
 .Y(net1622)
 );
@@ -20169,7 +20169,7 @@ XNOR2xp5_ASAP7_75t_R c1633(
 .Y(net1629)
 );
 
-BUFx12_ASAP7_75t_R c1634(
+INVx8_ASAP7_75t_R c1634(
 .A(net10525),
 .Y(net1630)
 );
@@ -20214,7 +20214,7 @@ OR3x2_ASAP7_75t_R c1640(
 .Y(net1636)
 );
 
-BUFx12f_ASAP7_75t_R c1641(
+INVxp33_ASAP7_75t_R c1641(
 .A(net10572),
 .Y(net1637)
 );
@@ -20225,7 +20225,7 @@ AND2x2_ASAP7_75t_R c1642(
 .Y(net1638)
 );
 
-BUFx16f_ASAP7_75t_R c1643(
+INVxp67_ASAP7_75t_R c1643(
 .A(net10378),
 .Y(net1639)
 );
@@ -20250,7 +20250,7 @@ AND2x6_ASAP7_75t_R c1646(
 .Y(net1642)
 );
 
-BUFx24_ASAP7_75t_R c1647(
+BUFx10_ASAP7_75t_R c1647(
 .A(net1593),
 .Y(net1643)
 );
@@ -20345,7 +20345,7 @@ AO21x1_ASAP7_75t_R c1660(
 .Y(net1656)
 );
 
-BUFx2_ASAP7_75t_R c1661(
+BUFx12_ASAP7_75t_R c1661(
 .A(net1448),
 .Y(net1657)
 );
@@ -20369,7 +20369,7 @@ AO21x2_ASAP7_75t_R c1664(
 .Y(net1660)
 );
 
-BUFx3_ASAP7_75t_R c1665(
+BUFx12f_ASAP7_75t_R c1665(
 .A(net1595),
 .Y(net1661)
 );
@@ -20386,27 +20386,27 @@ NOR2x1p5_ASAP7_75t_R c1667(
 .Y(net1663)
 );
 
-BUFx4_ASAP7_75t_R c1668(
+BUFx16f_ASAP7_75t_R c1668(
 .A(net9941),
 .Y(net1664)
 );
 
-BUFx4f_ASAP7_75t_R c1669(
+BUFx24_ASAP7_75t_R c1669(
 .A(net1565),
 .Y(net1665)
 );
 
-BUFx5_ASAP7_75t_R c1670(
+BUFx2_ASAP7_75t_R c1670(
 .A(net1510),
 .Y(net1666)
 );
 
-BUFx6f_ASAP7_75t_R c1671(
+BUFx3_ASAP7_75t_R c1671(
 .A(net1665),
 .Y(net1667)
 );
 
-BUFx8_ASAP7_75t_R c1672(
+BUFx4_ASAP7_75t_R c1672(
 .A(net9104),
 .Y(net1668)
 );
@@ -20426,7 +20426,7 @@ AOI311xp33_ASAP7_75t_R c1674(
 .Y(net1670)
 );
 
-CKINVDCx10_ASAP7_75t_R c1675(
+BUFx4f_ASAP7_75t_R c1675(
 .A(net1509),
 .Y(net1671)
 );
@@ -20445,27 +20445,27 @@ NOR2xp33_ASAP7_75t_R c1677(
 .Y(net1673)
 );
 
-CKINVDCx11_ASAP7_75t_R c1678(
+BUFx5_ASAP7_75t_R c1678(
 .A(net1619),
 .Y(net1674)
 );
 
-CKINVDCx12_ASAP7_75t_R c1679(
+BUFx6f_ASAP7_75t_R c1679(
 .A(net1674),
 .Y(net1675)
 );
 
-CKINVDCx14_ASAP7_75t_R c1680(
+BUFx8_ASAP7_75t_R c1680(
 .A(net10097),
 .Y(net1676)
 );
 
-CKINVDCx16_ASAP7_75t_R c1681(
+CKINVDCx5p33_ASAP7_75t_R c1681(
 .A(net9246),
 .Y(net1677)
 );
 
-CKINVDCx20_ASAP7_75t_R c1682(
+CKINVDCx6p67_ASAP7_75t_R c1682(
 .A(net760),
 .Y(net1678)
 );
@@ -20492,12 +20492,12 @@ NOR2xp67_ASAP7_75t_R c1685(
 .Y(net1681)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c1686(
+CKINVDCx8_ASAP7_75t_R c1686(
 .A(net734),
 .Y(net1682)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c1687(
+CKINVDCx9p33_ASAP7_75t_R c1687(
 .A(net773),
 .Y(net1683)
 );
@@ -20527,7 +20527,7 @@ OR2x6_ASAP7_75t_R c1691(
 .Y(net1687)
 );
 
-CKINVDCx8_ASAP7_75t_R c1692(
+HB1xp67_ASAP7_75t_R c1692(
 .A(net1660),
 .Y(net1688)
 );
@@ -20538,17 +20538,17 @@ XNOR2x1_ASAP7_75t_R c1693(
 .Y(net1689)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c1694(
+HB2xp67_ASAP7_75t_R c1694(
 .A(net778),
 .Y(net1690)
 );
 
-HB1xp67_ASAP7_75t_R c1695(
+HB3xp67_ASAP7_75t_R c1695(
 .A(net9246),
 .Y(net1691)
 );
 
-HB2xp67_ASAP7_75t_R c1696(
+HB4xp67_ASAP7_75t_R c1696(
 .A(net1667),
 .Y(net1692)
 );
@@ -20559,27 +20559,27 @@ XNOR2x2_ASAP7_75t_R c1697(
 .Y(net1693)
 );
 
-HB3xp67_ASAP7_75t_R c1698(
+INVx11_ASAP7_75t_R c1698(
 .A(net764),
 .Y(net1694)
 );
 
-HB4xp67_ASAP7_75t_R c1699(
+INVx13_ASAP7_75t_R c1699(
 .A(net1669),
 .Y(net1695)
 );
 
-INVx11_ASAP7_75t_R c1700(
+INVx1_ASAP7_75t_R c1700(
 .A(net1677),
 .Y(net1696)
 );
 
-INVx13_ASAP7_75t_R c1701(
+INVx2_ASAP7_75t_R c1701(
 .A(net1691),
 .Y(net1697)
 );
 
-INVx1_ASAP7_75t_R c1702(
+INVx3_ASAP7_75t_R c1702(
 .A(net9270),
 .Y(net1698)
 );
@@ -20594,12 +20594,12 @@ OAI321xp33_ASAP7_75t_R c1703(
 .Y(net1699)
 );
 
-INVx2_ASAP7_75t_R c1704(
+INVx4_ASAP7_75t_R c1704(
 .A(net9270),
 .Y(net1700)
 );
 
-INVx3_ASAP7_75t_R c1705(
+INVx5_ASAP7_75t_R c1705(
 .A(net9250),
 .Y(net1701)
 );
@@ -20619,17 +20619,17 @@ AOI32xp33_ASAP7_75t_R c1707(
 .Y(net1703)
 );
 
-INVx4_ASAP7_75t_R c1708(
+INVx6_ASAP7_75t_R c1708(
 .A(net9957),
 .Y(net1704)
 );
 
-INVx5_ASAP7_75t_R c1709(
+INVx8_ASAP7_75t_R c1709(
 .A(net1696),
 .Y(net1705)
 );
 
-INVx6_ASAP7_75t_R c1710(
+INVxp33_ASAP7_75t_R c1710(
 .A(net1690),
 .Y(net1706)
 );
@@ -20646,12 +20646,12 @@ XOR2x2_ASAP7_75t_R c1712(
 .Y(net1708)
 );
 
-INVx8_ASAP7_75t_R c1713(
+INVxp67_ASAP7_75t_R c1713(
 .A(net1670),
 .Y(net1709)
 );
 
-INVxp33_ASAP7_75t_R c1714(
+BUFx10_ASAP7_75t_R c1714(
 .A(net786),
 .Y(net1710)
 );
@@ -20677,7 +20677,7 @@ NOR4xp25_ASAP7_75t_R c1717(
 .Y(net1713)
 );
 
-INVxp67_ASAP7_75t_R c1718(
+BUFx12_ASAP7_75t_R c1718(
 .A(net1705),
 .Y(net1714)
 );
@@ -20689,7 +20689,7 @@ AOI21xp5_ASAP7_75t_R c1719(
 .Y(net1715)
 );
 
-BUFx10_ASAP7_75t_R c1720(
+BUFx12f_ASAP7_75t_R c1720(
 .A(net1630),
 .Y(net1716)
 );
@@ -20700,7 +20700,7 @@ AND2x2_ASAP7_75t_R c1721(
 .Y(net1717)
 );
 
-BUFx12_ASAP7_75t_R c1722(
+BUFx16f_ASAP7_75t_R c1722(
 .A(net1701),
 .Y(net1718)
 );
@@ -20717,7 +20717,7 @@ AND2x6_ASAP7_75t_R c1724(
 .Y(net1720)
 );
 
-BUFx12f_ASAP7_75t_R c1725(
+BUFx24_ASAP7_75t_R c1725(
 .A(net1656),
 .Y(net1721)
 );
@@ -20744,7 +20744,7 @@ HAxp5_ASAP7_75t_R c1728(
 .SN(net1725)
 );
 
-BUFx16f_ASAP7_75t_R c1729(
+BUFx2_ASAP7_75t_R c1729(
 .A(net9250),
 .Y(net1727)
 );
@@ -20767,7 +20767,7 @@ NAND2x2_ASAP7_75t_R c1732(
 .Y(net1730)
 );
 
-BUFx24_ASAP7_75t_R c1733(
+BUFx3_ASAP7_75t_R c1733(
 .A(net9104),
 .Y(net1731)
 );
@@ -20825,17 +20825,17 @@ NAND3xp33_ASAP7_75t_R c1741(
 .Y(net1739)
 );
 
-BUFx2_ASAP7_75t_R c1742(
+BUFx4_ASAP7_75t_R c1742(
 .A(net10022),
 .Y(net1740)
 );
 
-BUFx3_ASAP7_75t_R c1743(
+BUFx4f_ASAP7_75t_R c1743(
 .A(net1717),
 .Y(net1741)
 );
 
-BUFx4_ASAP7_75t_R c1744(
+BUFx5_ASAP7_75t_R c1744(
 .A(net1703),
 .Y(net1742)
 );
@@ -20846,12 +20846,12 @@ NOR2x1_ASAP7_75t_R c1745(
 .Y(net1743)
 );
 
-BUFx4f_ASAP7_75t_R c1746(
+BUFx6f_ASAP7_75t_R c1746(
 .A(net1734),
 .Y(net1744)
 );
 
-BUFx5_ASAP7_75t_R c1747(
+BUFx8_ASAP7_75t_R c1747(
 .A(net1351),
 .Y(net1745)
 );
@@ -20862,12 +20862,12 @@ NOR2x1p5_ASAP7_75t_R c1748(
 .Y(net1746)
 );
 
-BUFx6f_ASAP7_75t_R c1749(
+CKINVDCx5p33_ASAP7_75t_R c1749(
 .A(net10528),
 .Y(net1747)
 );
 
-BUFx8_ASAP7_75t_R c1750(
+CKINVDCx6p67_ASAP7_75t_R c1750(
 .A(net1723),
 .Y(net1748)
 );
@@ -20903,12 +20903,12 @@ OR2x2_ASAP7_75t_R c1755(
 .Y(net1753)
 );
 
-CKINVDCx10_ASAP7_75t_R c1756(
+CKINVDCx8_ASAP7_75t_R c1756(
 .A(net9089),
 .Y(net1754)
 );
 
-CKINVDCx11_ASAP7_75t_R c1757(
+CKINVDCx9p33_ASAP7_75t_R c1757(
 .A(net852),
 .Y(net1755)
 );
@@ -20919,7 +20919,7 @@ OR2x4_ASAP7_75t_R c1758(
 .Y(net1756)
 );
 
-CKINVDCx12_ASAP7_75t_R c1759(
+HB1xp67_ASAP7_75t_R c1759(
 .A(net809),
 .Y(net1757)
 );
@@ -20936,7 +20936,7 @@ XNOR2x1_ASAP7_75t_R c1761(
 .Y(net1759)
 );
 
-CKINVDCx14_ASAP7_75t_R c1762(
+HB2xp67_ASAP7_75t_R c1762(
 .A(net822),
 .Y(net1760)
 );
@@ -20961,7 +20961,7 @@ XNOR2xp5_ASAP7_75t_R c1765(
 .Y(net1763)
 );
 
-CKINVDCx16_ASAP7_75t_R c1766(
+HB3xp67_ASAP7_75t_R c1766(
 .A(net1761),
 .Y(net1764)
 );
@@ -20978,7 +20978,7 @@ XOR2x2_ASAP7_75t_R c1768(
 .Y(net1766)
 );
 
-CKINVDCx20_ASAP7_75t_R c1769(
+HB4xp67_ASAP7_75t_R c1769(
 .A(net9888),
 .Y(net1767)
 );
@@ -21022,12 +21022,12 @@ AND2x6_ASAP7_75t_R c1775(
 .Y(net1773)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c1776(
+INVx11_ASAP7_75t_R c1776(
 .A(net847),
 .Y(net1774)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c1777(
+INVx13_ASAP7_75t_R c1777(
 .A(net1638),
 .Y(net1775)
 );
@@ -21051,7 +21051,7 @@ NOR3x2_ASAP7_75t_R c1780(
 .Y(net1778)
 );
 
-CKINVDCx8_ASAP7_75t_R c1781(
+INVx1_ASAP7_75t_R c1781(
 .A(net1768),
 .Y(net1779)
 );
@@ -21062,7 +21062,7 @@ NAND2x1p5_ASAP7_75t_R c1782(
 .Y(net1780)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c1783(
+INVx2_ASAP7_75t_R c1783(
 .A(net9089),
 .Y(net1781)
 );
@@ -21166,7 +21166,7 @@ XNOR2x1_ASAP7_75t_R c1799(
 .Y(net1797)
 );
 
-HB1xp67_ASAP7_75t_R c1800(
+INVx3_ASAP7_75t_R c1800(
 .A(net10408),
 .Y(net1798)
 );
@@ -21352,32 +21352,32 @@ SDFLx4_ASAP7_75t_R c1825(
 .QN(net1823)
 );
 
-HB2xp67_ASAP7_75t_R c1826(
+INVx4_ASAP7_75t_R c1826(
 .A(net915),
 .Y(net1824)
 );
 
-HB3xp67_ASAP7_75t_R c1827(
+INVx5_ASAP7_75t_R c1827(
 .A(net1824),
 .Y(net1825)
 );
 
-HB4xp67_ASAP7_75t_R c1828(
+INVx6_ASAP7_75t_R c1828(
 .A(net16),
 .Y(net1826)
 );
 
-INVx11_ASAP7_75t_R c1829(
+INVx8_ASAP7_75t_R c1829(
 .A(net1826),
 .Y(net1827)
 );
 
-INVx13_ASAP7_75t_R c1830(
+INVxp33_ASAP7_75t_R c1830(
 .A(net58),
 .Y(net1828)
 );
 
-INVx1_ASAP7_75t_R c1831(
+INVxp67_ASAP7_75t_R c1831(
 .A(net9190),
 .Y(net1829)
 );
@@ -21389,37 +21389,37 @@ ICGx4_ASAP7_75t_R c1832(
 .GCLK(net1830)
 );
 
-INVx2_ASAP7_75t_R c1833(
+BUFx10_ASAP7_75t_R c1833(
 .A(net7),
 .Y(net1831)
 );
 
-INVx3_ASAP7_75t_R c1834(
+BUFx12_ASAP7_75t_R c1834(
 .A(net1825),
 .Y(net1832)
 );
 
-INVx4_ASAP7_75t_R c1835(
+BUFx12f_ASAP7_75t_R c1835(
 .A(net1831),
 .Y(net1833)
 );
 
-INVx5_ASAP7_75t_R c1836(
+BUFx16f_ASAP7_75t_R c1836(
 .A(net984),
 .Y(net1834)
 );
 
-INVx6_ASAP7_75t_R c1837(
+BUFx24_ASAP7_75t_R c1837(
 .A(net9190),
 .Y(net1835)
 );
 
-INVx8_ASAP7_75t_R c1838(
+BUFx2_ASAP7_75t_R c1838(
 .A(net952),
 .Y(net1836)
 );
 
-INVxp33_ASAP7_75t_R c1839(
+BUFx3_ASAP7_75t_R c1839(
 .A(net966),
 .Y(net1837)
 );
@@ -21431,7 +21431,7 @@ HAxp5_ASAP7_75t_R c1840(
 .SN(net1838)
 );
 
-INVxp67_ASAP7_75t_R c1841(
+BUFx4_ASAP7_75t_R c1841(
 .A(net1835),
 .Y(net1840)
 );
@@ -21442,7 +21442,7 @@ NAND2x1_ASAP7_75t_R c1842(
 .Y(net1841)
 );
 
-BUFx10_ASAP7_75t_R c1843(
+BUFx4f_ASAP7_75t_R c1843(
 .A(net1830),
 .Y(net1842)
 );
@@ -21460,7 +21460,7 @@ AND3x2_ASAP7_75t_R c1845(
 .Y(net1844)
 );
 
-BUFx12_ASAP7_75t_R c1846(
+BUFx5_ASAP7_75t_R c1846(
 .A(net9244),
 .Y(net1845)
 );
@@ -21471,12 +21471,12 @@ NAND2x2_ASAP7_75t_R c1847(
 .Y(net1846)
 );
 
-BUFx12f_ASAP7_75t_R c1848(
+BUFx6f_ASAP7_75t_R c1848(
 .A(net905),
 .Y(net1847)
 );
 
-BUFx16f_ASAP7_75t_R c1849(
+BUFx8_ASAP7_75t_R c1849(
 .A(net58),
 .Y(net1848)
 );
@@ -21488,7 +21488,7 @@ AND3x4_ASAP7_75t_R c1850(
 .Y(net1849)
 );
 
-BUFx24_ASAP7_75t_R c1851(
+CKINVDCx5p33_ASAP7_75t_R c1851(
 .A(net1840),
 .Y(net1850)
 );
@@ -21511,7 +21511,7 @@ NAND2xp67_ASAP7_75t_R c1854(
 .Y(net1853)
 );
 
-BUFx2_ASAP7_75t_R c1855(
+CKINVDCx6p67_ASAP7_75t_R c1855(
 .A(net22),
 .Y(net1854)
 );
@@ -21543,7 +21543,7 @@ NOR2x1_ASAP7_75t_R c1859(
 .Y(net1858)
 );
 
-BUFx3_ASAP7_75t_R c1860(
+CKINVDCx8_ASAP7_75t_R c1860(
 .A(net9316),
 .Y(net1859)
 );
@@ -21556,7 +21556,7 @@ DFFASRHQNx1_ASAP7_75t_R c1861(
 .QN(net1860)
 );
 
-BUFx4_ASAP7_75t_R c1862(
+CKINVDCx9p33_ASAP7_75t_R c1862(
 .A(net1860),
 .Y(net1861)
 );
@@ -21581,7 +21581,7 @@ ICGx6p67DC_ASAP7_75t_R c1865(
 .GCLK(net1864)
 );
 
-BUFx4f_ASAP7_75t_R c1866(
+HB1xp67_ASAP7_75t_R c1866(
 .A(net9316),
 .Y(net1865)
 );
@@ -21592,12 +21592,12 @@ NOR2x2_ASAP7_75t_R c1867(
 .Y(net1866)
 );
 
-BUFx5_ASAP7_75t_R c1868(
+HB2xp67_ASAP7_75t_R c1868(
 .A(net1843),
 .Y(net1867)
 );
 
-BUFx6f_ASAP7_75t_R c1869(
+HB3xp67_ASAP7_75t_R c1869(
 .A(net952),
 .Y(net1868)
 );
@@ -21608,7 +21608,7 @@ NOR2xp33_ASAP7_75t_R c1870(
 .Y(net1869)
 );
 
-BUFx8_ASAP7_75t_R c1871(
+HB4xp67_ASAP7_75t_R c1871(
 .A(net1850),
 .Y(net1870)
 );
@@ -21625,7 +21625,7 @@ OR2x2_ASAP7_75t_R c1873(
 .Y(net1872)
 );
 
-CKINVDCx10_ASAP7_75t_R c1874(
+INVx11_ASAP7_75t_R c1874(
 .A(net1824),
 .Y(net1873)
 );
@@ -21656,7 +21656,7 @@ AOI21x1_ASAP7_75t_R c1878(
 .Y(net1877)
 );
 
-CKINVDCx11_ASAP7_75t_R c1879(
+INVx13_ASAP7_75t_R c1879(
 .A(net9232),
 .Y(net1878)
 );
@@ -21675,7 +21675,7 @@ AOI21xp33_ASAP7_75t_R c1881(
 .Y(net1880)
 );
 
-CKINVDCx12_ASAP7_75t_R c1882(
+INVx1_ASAP7_75t_R c1882(
 .A(net1876),
 .Y(net1881)
 );
@@ -21700,12 +21700,12 @@ XNOR2x1_ASAP7_75t_R c1885(
 .Y(net1884)
 );
 
-CKINVDCx14_ASAP7_75t_R c1886(
+INVx2_ASAP7_75t_R c1886(
 .A(net1876),
 .Y(net1885)
 );
 
-CKINVDCx16_ASAP7_75t_R c1887(
+INVx3_ASAP7_75t_R c1887(
 .A(net1878),
 .Y(net1886)
 );
@@ -21861,7 +21861,7 @@ OA31x2_ASAP7_75t_R c1908(
 .Y(net1908)
 );
 
-CKINVDCx20_ASAP7_75t_R c1909(
+INVx4_ASAP7_75t_R c1909(
 .A(net1053),
 .Y(net1909)
 );
@@ -21872,7 +21872,7 @@ AND2x6_ASAP7_75t_R c1910(
 .Y(net1910)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c1911(
+INVx5_ASAP7_75t_R c1911(
 .A(net1871),
 .Y(net1911)
 );
@@ -21884,17 +21884,17 @@ HAxp5_ASAP7_75t_R c1912(
 .SN(net1912)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c1913(
+INVx6_ASAP7_75t_R c1913(
 .A(net102),
 .Y(net1914)
 );
 
-CKINVDCx8_ASAP7_75t_R c1914(
+INVx8_ASAP7_75t_R c1914(
 .A(net1911),
 .Y(net1915)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c1915(
+INVxp33_ASAP7_75t_R c1915(
 .A(net115),
 .Y(net1916)
 );
@@ -21905,7 +21905,7 @@ NAND2x1_ASAP7_75t_R c1916(
 .Y(net1917)
 );
 
-HB1xp67_ASAP7_75t_R c1917(
+INVxp67_ASAP7_75t_R c1917(
 .A(net9197),
 .Y(net1918)
 );
@@ -21916,7 +21916,7 @@ NAND2x1p5_ASAP7_75t_R c1918(
 .Y(net1919)
 );
 
-HB2xp67_ASAP7_75t_R c1919(
+BUFx10_ASAP7_75t_R c1919(
 .A(net9133),
 .Y(net1920)
 );
@@ -21927,27 +21927,27 @@ NAND2x2_ASAP7_75t_R c1920(
 .Y(net1921)
 );
 
-HB3xp67_ASAP7_75t_R c1921(
+BUFx12_ASAP7_75t_R c1921(
 .A(net9133),
 .Y(net1922)
 );
 
-HB4xp67_ASAP7_75t_R c1922(
+BUFx12f_ASAP7_75t_R c1922(
 .A(net1866),
 .Y(net1923)
 );
 
-INVx11_ASAP7_75t_R c1923(
+BUFx16f_ASAP7_75t_R c1923(
 .A(net1901),
 .Y(net1924)
 );
 
-INVx13_ASAP7_75t_R c1924(
+BUFx24_ASAP7_75t_R c1924(
 .A(net1914),
 .Y(net1925)
 );
 
-INVx1_ASAP7_75t_R c1925(
+BUFx2_ASAP7_75t_R c1925(
 .A(net1907),
 .Y(net1926)
 );
@@ -21960,7 +21960,7 @@ SDFLx1_ASAP7_75t_R c1926(
 .QN(net1927)
 );
 
-INVx2_ASAP7_75t_R c1927(
+BUFx3_ASAP7_75t_R c1927(
 .A(net9212),
 .Y(net1928)
 );
@@ -21977,12 +21977,12 @@ NAND2xp5_ASAP7_75t_R c1929(
 .Y(net1930)
 );
 
-INVx3_ASAP7_75t_R c1930(
+BUFx4_ASAP7_75t_R c1930(
 .A(net9213),
 .Y(net1931)
 );
 
-INVx4_ASAP7_75t_R c1931(
+BUFx4f_ASAP7_75t_R c1931(
 .A(net9213),
 .Y(net1932)
 );
@@ -21999,7 +21999,7 @@ NOR2x1_ASAP7_75t_R c1933(
 .Y(net1934)
 );
 
-INVx5_ASAP7_75t_R c1934(
+BUFx5_ASAP7_75t_R c1934(
 .A(net1882),
 .Y(net1935)
 );
@@ -22010,7 +22010,7 @@ NOR2x1p5_ASAP7_75t_R c1935(
 .Y(net1936)
 );
 
-INVx6_ASAP7_75t_R c1936(
+BUFx6f_ASAP7_75t_R c1936(
 .A(net955),
 .Y(net1937)
 );
@@ -22022,17 +22022,17 @@ ICGx5_ASAP7_75t_R c1937(
 .GCLK(net1938)
 );
 
-INVx8_ASAP7_75t_R c1938(
+BUFx8_ASAP7_75t_R c1938(
 .A(net10498),
 .Y(net1939)
 );
 
-INVxp33_ASAP7_75t_R c1939(
+CKINVDCx5p33_ASAP7_75t_R c1939(
 .A(net1923),
 .Y(net1940)
 );
 
-INVxp67_ASAP7_75t_R c1940(
+CKINVDCx6p67_ASAP7_75t_R c1940(
 .A(net10407),
 .Y(net1941)
 );
@@ -22051,12 +22051,12 @@ NAND3x1_ASAP7_75t_R c1942(
 .Y(net1943)
 );
 
-BUFx10_ASAP7_75t_R c1943(
+CKINVDCx8_ASAP7_75t_R c1943(
 .A(net1918),
 .Y(net1944)
 );
 
-BUFx12_ASAP7_75t_R c1944(
+CKINVDCx9p33_ASAP7_75t_R c1944(
 .A(net1917),
 .Y(net1945)
 );
@@ -22075,17 +22075,17 @@ SDFLx2_ASAP7_75t_R c1946(
 .QN(net1947)
 );
 
-BUFx12f_ASAP7_75t_R c1947(
+HB1xp67_ASAP7_75t_R c1947(
 .A(net1934),
 .Y(net1948)
 );
 
-BUFx16f_ASAP7_75t_R c1948(
+HB2xp67_ASAP7_75t_R c1948(
 .A(net1942),
 .Y(net1949)
 );
 
-BUFx24_ASAP7_75t_R c1949(
+HB3xp67_ASAP7_75t_R c1949(
 .A(net1064),
 .Y(net1950)
 );
@@ -22103,27 +22103,27 @@ NAND3x2_ASAP7_75t_R c1951(
 .Y(net1952)
 );
 
-BUFx2_ASAP7_75t_R c1952(
+HB4xp67_ASAP7_75t_R c1952(
 .A(net1933),
 .Y(net1953)
 );
 
-BUFx3_ASAP7_75t_R c1953(
+INVx11_ASAP7_75t_R c1953(
 .A(net1934),
 .Y(net1954)
 );
 
-BUFx4_ASAP7_75t_R c1954(
+INVx13_ASAP7_75t_R c1954(
 .A(net967),
 .Y(net1955)
 );
 
-BUFx4f_ASAP7_75t_R c1955(
+INVx1_ASAP7_75t_R c1955(
 .A(net10436),
 .Y(net1956)
 );
 
-BUFx5_ASAP7_75t_R c1956(
+INVx2_ASAP7_75t_R c1956(
 .A(net1929),
 .Y(net1957)
 );
@@ -22134,7 +22134,7 @@ NOR2xp67_ASAP7_75t_R c1957(
 .Y(net1958)
 );
 
-BUFx6f_ASAP7_75t_R c1958(
+INVx3_ASAP7_75t_R c1958(
 .A(net1832),
 .Y(net1959)
 );
@@ -22146,7 +22146,7 @@ ICGx5p33DC_ASAP7_75t_R c1959(
 .GCLK(net1960)
 );
 
-BUFx8_ASAP7_75t_R c1960(
+INVx4_ASAP7_75t_R c1960(
 .A(net999),
 .Y(net1961)
 );
@@ -22177,7 +22177,7 @@ OR2x4_ASAP7_75t_R c1964(
 .Y(net1965)
 );
 
-CKINVDCx10_ASAP7_75t_R c1965(
+INVx5_ASAP7_75t_R c1965(
 .A(net1937),
 .Y(net1966)
 );
@@ -22206,12 +22206,12 @@ XNOR2xp5_ASAP7_75t_R c1969(
 .Y(net1970)
 );
 
-CKINVDCx11_ASAP7_75t_R c1970(
+INVx6_ASAP7_75t_R c1970(
 .A(net1943),
 .Y(net1971)
 );
 
-CKINVDCx12_ASAP7_75t_R c1971(
+INVx8_ASAP7_75t_R c1971(
 .A(net9864),
 .Y(net1972)
 );
@@ -22352,22 +22352,22 @@ OR3x2_ASAP7_75t_R c1991(
 .Y(net1993)
 );
 
-CKINVDCx14_ASAP7_75t_R c1992(
+INVxp33_ASAP7_75t_R c1992(
 .A(net2073),
 .Y(net1994)
 );
 
-CKINVDCx16_ASAP7_75t_R c1993(
+INVxp67_ASAP7_75t_R c1993(
 .A(net1905),
 .Y(net1995)
 );
 
-CKINVDCx20_ASAP7_75t_R c1994(
+BUFx10_ASAP7_75t_R c1994(
 .A(net1090),
 .Y(net1996)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c1995(
+BUFx12_ASAP7_75t_R c1995(
 .A(net2078),
 .Y(net1997)
 );
@@ -22379,12 +22379,12 @@ ICGx2_ASAP7_75t_R c1996(
 .GCLK(net1998)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c1997(
+BUFx12f_ASAP7_75t_R c1997(
 .A(net1107),
 .Y(net1999)
 );
 
-CKINVDCx8_ASAP7_75t_R c1998(
+BUFx16f_ASAP7_75t_R c1998(
 .A(net10565),
 .Y(net2000)
 );
@@ -22395,7 +22395,7 @@ NAND2x1p5_ASAP7_75t_R c1999(
 .Y(net2001)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c2000(
+BUFx24_ASAP7_75t_R c2000(
 .A(net1134),
 .Y(net2002)
 );
@@ -22419,12 +22419,12 @@ NAND2xp33_ASAP7_75t_R c2003(
 .Y(net2005)
 );
 
-HB1xp67_ASAP7_75t_R c2004(
+BUFx2_ASAP7_75t_R c2004(
 .A(net9103),
 .Y(net2006)
 );
 
-HB2xp67_ASAP7_75t_R c2005(
+BUFx3_ASAP7_75t_R c2005(
 .A(net9103),
 .Y(net2007)
 );
@@ -22444,12 +22444,12 @@ NAND2xp5_ASAP7_75t_R c2007(
 .Y(net2009)
 );
 
-HB3xp67_ASAP7_75t_R c2008(
+BUFx4_ASAP7_75t_R c2008(
 .A(net1994),
 .Y(net2010)
 );
 
-HB4xp67_ASAP7_75t_R c2009(
+BUFx4f_ASAP7_75t_R c2009(
 .A(net9212),
 .Y(net2011)
 );
@@ -22501,7 +22501,7 @@ AND3x2_ASAP7_75t_R c2016(
 .Y(net2018)
 );
 
-INVx11_ASAP7_75t_R c2017(
+BUFx5_ASAP7_75t_R c2017(
 .A(net10453),
 .Y(net2019)
 );
@@ -22537,12 +22537,12 @@ OR2x4_ASAP7_75t_R c2022(
 .Y(net2024)
 );
 
-INVx13_ASAP7_75t_R c2023(
+BUFx6f_ASAP7_75t_R c2023(
 .A(net2012),
 .Y(net2025)
 );
 
-INVx1_ASAP7_75t_R c2024(
+BUFx8_ASAP7_75t_R c2024(
 .A(net2025),
 .Y(net2026)
 );
@@ -22573,12 +22573,12 @@ AO21x2_ASAP7_75t_R c2028(
 .Y(net2030)
 );
 
-INVx2_ASAP7_75t_R c2029(
+CKINVDCx5p33_ASAP7_75t_R c2029(
 .A(net2023),
 .Y(net2031)
 );
 
-INVx3_ASAP7_75t_R c2030(
+CKINVDCx6p67_ASAP7_75t_R c2030(
 .A(net1998),
 .Y(net2032)
 );
@@ -22589,7 +22589,7 @@ XNOR2x2_ASAP7_75t_R c2031(
 .Y(net2033)
 );
 
-INVx4_ASAP7_75t_R c2032(
+CKINVDCx8_ASAP7_75t_R c2032(
 .A(net10415),
 .Y(net2034)
 );
@@ -22601,7 +22601,7 @@ AOI21x1_ASAP7_75t_R c2033(
 .Y(net2035)
 );
 
-INVx5_ASAP7_75t_R c2034(
+CKINVDCx9p33_ASAP7_75t_R c2034(
 .A(net9267),
 .Y(net2036)
 );
@@ -22711,7 +22711,7 @@ OR5x2_ASAP7_75t_R c2048(
 .Y(net2051)
 );
 
-INVx6_ASAP7_75t_R c2049(
+HB1xp67_ASAP7_75t_R c2049(
 .A(net1098),
 .Y(net2052)
 );
@@ -22723,7 +22723,7 @@ MAJx3_ASAP7_75t_R c2050(
 .Y(net2053)
 );
 
-INVx8_ASAP7_75t_R c2051(
+HB2xp67_ASAP7_75t_R c2051(
 .A(net9315),
 .Y(net2054)
 );
@@ -22734,17 +22734,17 @@ XOR2xp5_ASAP7_75t_R c2052(
 .Y(net2055)
 );
 
-INVxp33_ASAP7_75t_R c2053(
+HB3xp67_ASAP7_75t_R c2053(
 .A(net9291),
 .Y(net2056)
 );
 
-INVxp67_ASAP7_75t_R c2054(
+HB4xp67_ASAP7_75t_R c2054(
 .A(net1148),
 .Y(net2057)
 );
 
-BUFx10_ASAP7_75t_R c2055(
+INVx11_ASAP7_75t_R c2055(
 .A(net10136),
 .Y(net2058)
 );
@@ -22756,7 +22756,7 @@ NAND3x1_ASAP7_75t_R c2056(
 .Y(net2059)
 );
 
-BUFx12_ASAP7_75t_R c2057(
+INVx13_ASAP7_75t_R c2057(
 .A(net1106),
 .Y(net2060)
 );
@@ -22770,7 +22770,7 @@ A2O1A1O1Ixp25_ASAP7_75t_R c2058(
 .Y(net2061)
 );
 
-BUFx12f_ASAP7_75t_R c2059(
+INVx1_ASAP7_75t_R c2059(
 .A(net2060),
 .Y(net2062)
 );
@@ -22807,7 +22807,7 @@ HAxp5_ASAP7_75t_R c2064(
 .SN(net2067)
 );
 
-BUFx16f_ASAP7_75t_R c2065(
+INVx2_ASAP7_75t_R c2065(
 .A(net2066),
 .Y(net2069)
 );
@@ -22830,12 +22830,12 @@ NAND2x2_ASAP7_75t_R c2068(
 .Y(net2072)
 );
 
-BUFx24_ASAP7_75t_R c2069(
+INVx3_ASAP7_75t_R c2069(
 .A(net9202),
 .Y(net2073)
 );
 
-BUFx2_ASAP7_75t_R c2070(
+INVx4_ASAP7_75t_R c2070(
 .A(net2069),
 .Y(net2074)
 );
@@ -22853,27 +22853,27 @@ NAND3xp33_ASAP7_75t_R c2072(
 .Y(net2076)
 );
 
-BUFx3_ASAP7_75t_R c2073(
+INVx5_ASAP7_75t_R c2073(
 .A(net10479),
 .Y(net2077)
 );
 
-BUFx4_ASAP7_75t_R c2074(
+INVx6_ASAP7_75t_R c2074(
 .A(net10453),
 .Y(net2078)
 );
 
-BUFx4f_ASAP7_75t_R c2075(
+INVx8_ASAP7_75t_R c2075(
 .A(net9904),
 .Y(net2079)
 );
 
-BUFx5_ASAP7_75t_R c2076(
+INVxp33_ASAP7_75t_R c2076(
 .A(net224),
 .Y(net2080)
 );
 
-BUFx6f_ASAP7_75t_R c2077(
+INVxp67_ASAP7_75t_R c2077(
 .A(net10031),
 .Y(net2081)
 );
@@ -22890,7 +22890,7 @@ NAND2xp67_ASAP7_75t_R c2079(
 .Y(net2083)
 );
 
-BUFx8_ASAP7_75t_R c2080(
+BUFx10_ASAP7_75t_R c2080(
 .A(net298),
 .Y(net2084)
 );
@@ -22901,17 +22901,17 @@ NOR2x1_ASAP7_75t_R c2081(
 .Y(net2085)
 );
 
-CKINVDCx10_ASAP7_75t_R c2082(
+BUFx12_ASAP7_75t_R c2082(
 .A(net2002),
 .Y(net2086)
 );
 
-CKINVDCx11_ASAP7_75t_R c2083(
+BUFx12f_ASAP7_75t_R c2083(
 .A(net1179),
 .Y(net2087)
 );
 
-CKINVDCx12_ASAP7_75t_R c2084(
+BUFx16f_ASAP7_75t_R c2084(
 .A(net1201),
 .Y(net2088)
 );
@@ -22929,27 +22929,27 @@ NOR2x1p5_ASAP7_75t_R c2086(
 .Y(net2090)
 );
 
-CKINVDCx14_ASAP7_75t_R c2087(
+BUFx24_ASAP7_75t_R c2087(
 .A(net2086),
 .Y(net2091)
 );
 
-CKINVDCx16_ASAP7_75t_R c2088(
+BUFx2_ASAP7_75t_R c2088(
 .A(net2082),
 .Y(net2092)
 );
 
-CKINVDCx20_ASAP7_75t_R c2089(
+BUFx3_ASAP7_75t_R c2089(
 .A(net2044),
 .Y(net2093)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c2090(
+BUFx4_ASAP7_75t_R c2090(
 .A(net1132),
 .Y(net2094)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c2091(
+BUFx4f_ASAP7_75t_R c2091(
 .A(net1232),
 .Y(net2095)
 );
@@ -22960,22 +22960,22 @@ NOR2x2_ASAP7_75t_R c2092(
 .Y(net2096)
 );
 
-CKINVDCx8_ASAP7_75t_R c2093(
+BUFx5_ASAP7_75t_R c2093(
 .A(net2084),
 .Y(net2097)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c2094(
+BUFx6f_ASAP7_75t_R c2094(
 .A(net1938),
 .Y(net2098)
 );
 
-HB1xp67_ASAP7_75t_R c2095(
+BUFx8_ASAP7_75t_R c2095(
 .A(net10497),
 .Y(net2099)
 );
 
-HB2xp67_ASAP7_75t_R c2096(
+CKINVDCx5p33_ASAP7_75t_R c2096(
 .A(net10031),
 .Y(net2100)
 );
@@ -23007,12 +23007,12 @@ NOR2xp67_ASAP7_75t_R c2100(
 .Y(net2104)
 );
 
-HB3xp67_ASAP7_75t_R c2101(
+CKINVDCx6p67_ASAP7_75t_R c2101(
 .A(net1999),
 .Y(net2105)
 );
 
-HB4xp67_ASAP7_75t_R c2102(
+CKINVDCx8_ASAP7_75t_R c2102(
 .A(net2087),
 .Y(net2106)
 );
@@ -23023,7 +23023,7 @@ OR2x2_ASAP7_75t_R c2103(
 .Y(net2107)
 );
 
-INVx11_ASAP7_75t_R c2104(
+CKINVDCx9p33_ASAP7_75t_R c2104(
 .A(net2102),
 .Y(net2108)
 );
@@ -23038,7 +23038,7 @@ AOI222xp33_ASAP7_75t_R c2105(
 .Y(net2109)
 );
 
-INVx13_ASAP7_75t_R c2106(
+HB1xp67_ASAP7_75t_R c2106(
 .A(net1221),
 .Y(net2110)
 );
@@ -23079,7 +23079,7 @@ XOR2x1_ASAP7_75t_R c2112(
 .Y(net2116)
 );
 
-INVx1_ASAP7_75t_R c2113(
+HB2xp67_ASAP7_75t_R c2113(
 .A(net10006),
 .Y(net2117)
 );
@@ -23091,12 +23091,12 @@ NOR3x2_ASAP7_75t_R c2114(
 .Y(net2118)
 );
 
-INVx2_ASAP7_75t_R c2115(
+HB3xp67_ASAP7_75t_R c2115(
 .A(net9225),
 .Y(net2119)
 );
 
-INVx3_ASAP7_75t_R c2116(
+HB4xp67_ASAP7_75t_R c2116(
 .A(net9973),
 .Y(net2120)
 );
@@ -23120,17 +23120,17 @@ NOR3xp33_ASAP7_75t_R c2119(
 .Y(net2123)
 );
 
-INVx4_ASAP7_75t_R c2120(
+INVx11_ASAP7_75t_R c2120(
 .A(net2099),
 .Y(net2124)
 );
 
-INVx5_ASAP7_75t_R c2121(
+INVx13_ASAP7_75t_R c2121(
 .A(net2092),
 .Y(net2125)
 );
 
-INVx6_ASAP7_75t_R c2122(
+INVx1_ASAP7_75t_R c2122(
 .A(net2080),
 .Y(net2126)
 );
@@ -23184,12 +23184,12 @@ DFFASRHQNx1_ASAP7_75t_R c2129(
 .QN(net2133)
 );
 
-INVx8_ASAP7_75t_R c2130(
+INVx2_ASAP7_75t_R c2130(
 .A(net10063),
 .Y(net2134)
 );
 
-INVxp33_ASAP7_75t_R c2131(
+INVx3_ASAP7_75t_R c2131(
 .A(net9844),
 .Y(net2135)
 );
@@ -23365,12 +23365,12 @@ OR2x6_ASAP7_75t_R c2157(
 .Y(net2162)
 );
 
-INVxp67_ASAP7_75t_R c2158(
+INVx4_ASAP7_75t_R c2158(
 .A(net1982),
 .Y(net2163)
 );
 
-BUFx10_ASAP7_75t_R c2159(
+INVx5_ASAP7_75t_R c2159(
 .A(net188),
 .Y(net2164)
 );
@@ -23381,17 +23381,17 @@ XNOR2x1_ASAP7_75t_R c2160(
 .Y(net2165)
 );
 
-BUFx12_ASAP7_75t_R c2161(
+INVx6_ASAP7_75t_R c2161(
 .A(net34),
 .Y(net2166)
 );
 
-BUFx12f_ASAP7_75t_R c2162(
+INVx8_ASAP7_75t_R c2162(
 .A(net2039),
 .Y(net2167)
 );
 
-BUFx16f_ASAP7_75t_R c2163(
+INVxp33_ASAP7_75t_R c2163(
 .A(net9120),
 .Y(net2168)
 );
@@ -23409,7 +23409,7 @@ AND3x2_ASAP7_75t_R c2165(
 .Y(net2170)
 );
 
-BUFx24_ASAP7_75t_R c2166(
+INVxp67_ASAP7_75t_R c2166(
 .A(net2165),
 .Y(net2171)
 );
@@ -23445,7 +23445,7 @@ XOR2xp5_ASAP7_75t_R c2171(
 .Y(net2176)
 );
 
-BUFx2_ASAP7_75t_R c2172(
+BUFx10_ASAP7_75t_R c2172(
 .A(net9963),
 .Y(net2177)
 );
@@ -23468,7 +23468,7 @@ AND2x6_ASAP7_75t_R c2175(
 .Y(net2180)
 );
 
-BUFx3_ASAP7_75t_R c2176(
+BUFx12_ASAP7_75t_R c2176(
 .A(net10176),
 .Y(net2181)
 );
@@ -23480,7 +23480,7 @@ HAxp5_ASAP7_75t_R c2177(
 .SN(net2182)
 );
 
-BUFx4_ASAP7_75t_R c2178(
+BUFx12f_ASAP7_75t_R c2178(
 .A(net9120),
 .Y(net2184)
 );
@@ -23491,7 +23491,7 @@ NAND2x1_ASAP7_75t_R c2179(
 .Y(net2185)
 );
 
-BUFx4f_ASAP7_75t_R c2180(
+BUFx16f_ASAP7_75t_R c2180(
 .A(net1299),
 .Y(net2186)
 );
@@ -23502,7 +23502,7 @@ NAND2x1p5_ASAP7_75t_R c2181(
 .Y(net2187)
 );
 
-BUFx5_ASAP7_75t_R c2182(
+BUFx24_ASAP7_75t_R c2182(
 .A(net10527),
 .Y(net2188)
 );
@@ -23544,12 +23544,12 @@ NOR2x1_ASAP7_75t_R c2188(
 .Y(net2194)
 );
 
-BUFx6f_ASAP7_75t_R c2189(
+BUFx2_ASAP7_75t_R c2189(
 .A(net10411),
 .Y(net2195)
 );
 
-BUFx8_ASAP7_75t_R c2190(
+BUFx3_ASAP7_75t_R c2190(
 .A(net1196),
 .Y(net2196)
 );
@@ -23566,7 +23566,7 @@ NOR2x2_ASAP7_75t_R c2192(
 .Y(net2198)
 );
 
-CKINVDCx10_ASAP7_75t_R c2193(
+BUFx4_ASAP7_75t_R c2193(
 .A(net365),
 .Y(net2199)
 );
@@ -23577,7 +23577,7 @@ NOR2xp33_ASAP7_75t_R c2194(
 .Y(net2200)
 );
 
-CKINVDCx11_ASAP7_75t_R c2195(
+BUFx4f_ASAP7_75t_R c2195(
 .A(net2175),
 .Y(net2201)
 );
@@ -23631,7 +23631,7 @@ XNOR2xp5_ASAP7_75t_R c2203(
 .Y(net2209)
 );
 
-CKINVDCx12_ASAP7_75t_R c2204(
+BUFx5_ASAP7_75t_R c2204(
 .A(net10457),
 .Y(net2210)
 );
@@ -23895,22 +23895,22 @@ MAJx3_ASAP7_75t_R c2240(
 .Y(net2248)
 );
 
-CKINVDCx14_ASAP7_75t_R c2241(
+BUFx6f_ASAP7_75t_R c2241(
 .A(net2187),
 .Y(net2249)
 );
 
-CKINVDCx16_ASAP7_75t_R c2242(
+BUFx8_ASAP7_75t_R c2242(
 .A(net10089),
 .Y(net2250)
 );
 
-CKINVDCx20_ASAP7_75t_R c2243(
+CKINVDCx5p33_ASAP7_75t_R c2243(
 .A(net9948),
 .Y(net2251)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c2244(
+CKINVDCx6p67_ASAP7_75t_R c2244(
 .A(net2244),
 .Y(net2252)
 );
@@ -23928,7 +23928,7 @@ NAND3x1_ASAP7_75t_R c2246(
 .Y(net2254)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c2247(
+CKINVDCx8_ASAP7_75t_R c2247(
 .A(net2221),
 .Y(net2255)
 );
@@ -23955,7 +23955,7 @@ NOR2xp67_ASAP7_75t_R c2250(
 .Y(net2258)
 );
 
-CKINVDCx8_ASAP7_75t_R c2251(
+CKINVDCx9p33_ASAP7_75t_R c2251(
 .A(net10071),
 .Y(net2259)
 );
@@ -23973,17 +23973,17 @@ OR2x2_ASAP7_75t_R c2253(
 .Y(net2261)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c2254(
+HB1xp67_ASAP7_75t_R c2254(
 .A(net1099),
 .Y(net2262)
 );
 
-HB1xp67_ASAP7_75t_R c2255(
+HB2xp67_ASAP7_75t_R c2255(
 .A(net2241),
 .Y(net2263)
 );
 
-HB2xp67_ASAP7_75t_R c2256(
+HB3xp67_ASAP7_75t_R c2256(
 .A(net2263),
 .Y(net2264)
 );
@@ -24001,22 +24001,22 @@ NOR3x1_ASAP7_75t_R c2258(
 .Y(net2266)
 );
 
-HB3xp67_ASAP7_75t_R c2259(
+HB4xp67_ASAP7_75t_R c2259(
 .A(net9150),
 .Y(net2267)
 );
 
-HB4xp67_ASAP7_75t_R c2260(
+INVx11_ASAP7_75t_R c2260(
 .A(net2257),
 .Y(net2268)
 );
 
-INVx11_ASAP7_75t_R c2261(
+INVx13_ASAP7_75t_R c2261(
 .A(net9150),
 .Y(net2269)
 );
 
-INVx13_ASAP7_75t_R c2262(
+INVx1_ASAP7_75t_R c2262(
 .A(net2203),
 .Y(net2270)
 );
@@ -24058,7 +24058,7 @@ XOR2x1_ASAP7_75t_R c2268(
 .Y(net2276)
 );
 
-INVx1_ASAP7_75t_R c2269(
+INVx2_ASAP7_75t_R c2269(
 .A(net1400),
 .Y(net2277)
 );
@@ -24139,12 +24139,12 @@ SDFLx3_ASAP7_75t_R c2281(
 .QN(net2290)
 );
 
-INVx2_ASAP7_75t_R c2282(
+INVx3_ASAP7_75t_R c2282(
 .A(net411),
 .Y(net2291)
 );
 
-INVx3_ASAP7_75t_R c2283(
+INVx4_ASAP7_75t_R c2283(
 .A(net10132),
 .Y(net2292)
 );
@@ -24226,7 +24226,7 @@ ICGx5p33DC_ASAP7_75t_R c2295(
 .GCLK(net2304)
 );
 
-INVx4_ASAP7_75t_R c2296(
+INVx5_ASAP7_75t_R c2296(
 .A(net2303),
 .Y(net2305)
 );
@@ -24237,12 +24237,12 @@ OR2x6_ASAP7_75t_R c2297(
 .Y(net2306)
 );
 
-INVx5_ASAP7_75t_R c2298(
+INVx6_ASAP7_75t_R c2298(
 .A(net10168),
 .Y(net2307)
 );
 
-INVx6_ASAP7_75t_R c2299(
+INVx8_ASAP7_75t_R c2299(
 .A(net9985),
 .Y(net2308)
 );
@@ -24267,7 +24267,7 @@ SDFLx4_ASAP7_75t_R c2302(
 .QN(net2311)
 );
 
-INVx8_ASAP7_75t_R c2303(
+INVxp33_ASAP7_75t_R c2303(
 .A(net2304),
 .Y(net2312)
 );
@@ -24311,7 +24311,7 @@ DFFASRHQNx1_ASAP7_75t_R c2309(
 .QN(net2318)
 );
 
-INVxp33_ASAP7_75t_R c2310(
+INVxp67_ASAP7_75t_R c2310(
 .A(net10568),
 .Y(net2319)
 );
@@ -24422,12 +24422,12 @@ SDFHx1_ASAP7_75t_R c2323(
 .QN(net2332)
 );
 
-INVxp67_ASAP7_75t_R c2324(
+BUFx10_ASAP7_75t_R c2324(
 .A(net1441),
 .Y(net2333)
 );
 
-BUFx10_ASAP7_75t_R c2325(
+BUFx12_ASAP7_75t_R c2325(
 .A(net10131),
 .Y(net2334)
 );
@@ -24438,12 +24438,12 @@ AND2x6_ASAP7_75t_R c2326(
 .Y(net2335)
 );
 
-BUFx12_ASAP7_75t_R c2327(
+BUFx12f_ASAP7_75t_R c2327(
 .A(net510),
 .Y(net2336)
 );
 
-BUFx12f_ASAP7_75t_R c2328(
+BUFx16f_ASAP7_75t_R c2328(
 .A(net2334),
 .Y(net2337)
 );
@@ -24465,17 +24465,17 @@ OAI21xp5_ASAP7_75t_R c2330(
 .Y(net2339)
 );
 
-BUFx16f_ASAP7_75t_R c2331(
+BUFx24_ASAP7_75t_R c2331(
 .A(net10112),
 .Y(net2340)
 );
 
-BUFx24_ASAP7_75t_R c2332(
+BUFx2_ASAP7_75t_R c2332(
 .A(net9682),
 .Y(net2341)
 );
 
-BUFx2_ASAP7_75t_R c2333(
+BUFx3_ASAP7_75t_R c2333(
 .A(net2320),
 .Y(net2342)
 );
@@ -24492,7 +24492,7 @@ NAND2x1_ASAP7_75t_R c2335(
 .Y(net2344)
 );
 
-BUFx3_ASAP7_75t_R c2336(
+BUFx4_ASAP7_75t_R c2336(
 .A(net9682),
 .Y(net2345)
 );
@@ -24515,12 +24515,12 @@ NAND2xp33_ASAP7_75t_R c2339(
 .Y(net2348)
 );
 
-BUFx4_ASAP7_75t_R c2340(
+BUFx4f_ASAP7_75t_R c2340(
 .A(net2282),
 .Y(net2349)
 );
 
-BUFx4f_ASAP7_75t_R c2341(
+BUFx5_ASAP7_75t_R c2341(
 .A(net2345),
 .Y(net2350)
 );
@@ -24537,7 +24537,7 @@ NAND2xp67_ASAP7_75t_R c2343(
 .Y(net2352)
 );
 
-BUFx5_ASAP7_75t_R c2344(
+BUFx6f_ASAP7_75t_R c2344(
 .A(net2351),
 .Y(net2353)
 );
@@ -24548,7 +24548,7 @@ NOR2x1_ASAP7_75t_R c2345(
 .Y(net2354)
 );
 
-BUFx6f_ASAP7_75t_R c2346(
+BUFx8_ASAP7_75t_R c2346(
 .A(net10563),
 .Y(net2355)
 );
@@ -24598,7 +24598,7 @@ OR3x1_ASAP7_75t_R c2353(
 .Y(net2362)
 );
 
-BUFx8_ASAP7_75t_R c2354(
+CKINVDCx5p33_ASAP7_75t_R c2354(
 .A(net1451),
 .Y(net2363)
 );
@@ -24609,12 +24609,12 @@ OR2x2_ASAP7_75t_R c2355(
 .Y(net2364)
 );
 
-CKINVDCx10_ASAP7_75t_R c2356(
+CKINVDCx6p67_ASAP7_75t_R c2356(
 .A(net2352),
 .Y(net2365)
 );
 
-CKINVDCx11_ASAP7_75t_R c2357(
+CKINVDCx8_ASAP7_75t_R c2357(
 .A(net1464),
 .Y(net2366)
 );
@@ -24636,7 +24636,7 @@ AOI221x1_ASAP7_75t_R c2359(
 .Y(net2368)
 );
 
-CKINVDCx12_ASAP7_75t_R c2360(
+CKINVDCx9p33_ASAP7_75t_R c2360(
 .A(net10024),
 .Y(net2369)
 );
@@ -24666,7 +24666,7 @@ XNOR2x1_ASAP7_75t_R c2364(
 .Y(net2373)
 );
 
-CKINVDCx14_ASAP7_75t_R c2365(
+HB1xp67_ASAP7_75t_R c2365(
 .A(net9682),
 .Y(net2374)
 );
@@ -24677,7 +24677,7 @@ XNOR2x2_ASAP7_75t_R c2366(
 .Y(net2375)
 );
 
-CKINVDCx16_ASAP7_75t_R c2367(
+HB2xp67_ASAP7_75t_R c2367(
 .A(net2295),
 .Y(net2376)
 );
@@ -24713,7 +24713,7 @@ XOR2xp5_ASAP7_75t_R c2372(
 .Y(net2381)
 );
 
-CKINVDCx20_ASAP7_75t_R c2373(
+HB3xp67_ASAP7_75t_R c2373(
 .A(net2371),
 .Y(net2382)
 );
@@ -24730,7 +24730,7 @@ AND2x4_ASAP7_75t_R c2375(
 .Y(net2384)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c2376(
+HB4xp67_ASAP7_75t_R c2376(
 .A(net1473),
 .Y(net2385)
 );
@@ -24748,7 +24748,7 @@ HAxp5_ASAP7_75t_R c2378(
 .SN(net2387)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c2379(
+INVx11_ASAP7_75t_R c2379(
 .A(net2379),
 .Y(net2389)
 );
@@ -24759,7 +24759,7 @@ NAND2x1_ASAP7_75t_R c2380(
 .Y(net2390)
 );
 
-CKINVDCx8_ASAP7_75t_R c2381(
+INVx13_ASAP7_75t_R c2381(
 .A(net10435),
 .Y(net2391)
 );
@@ -24793,7 +24793,7 @@ NAND2x2_ASAP7_75t_R c2385(
 .Y(net2395)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c2386(
+INVx1_ASAP7_75t_R c2386(
 .A(net9953),
 .Y(net2396)
 );
@@ -24881,7 +24881,7 @@ AOI222xp33_ASAP7_75t_R c2398(
 .Y(net2408)
 );
 
-HB1xp67_ASAP7_75t_R c2399(
+INVx2_ASAP7_75t_R c2399(
 .A(net10112),
 .Y(net2409)
 );
@@ -24906,12 +24906,12 @@ AO21x1_ASAP7_75t_R c2402(
 .Y(net2412)
 );
 
-HB2xp67_ASAP7_75t_R c2403(
+INVx3_ASAP7_75t_R c2403(
 .A(net9934),
 .Y(net2413)
 );
 
-HB3xp67_ASAP7_75t_R c2404(
+INVx4_ASAP7_75t_R c2404(
 .A(net10522),
 .Y(net2414)
 );
@@ -24933,12 +24933,12 @@ AOI311xp33_ASAP7_75t_R c2406(
 .Y(net2416)
 );
 
-HB4xp67_ASAP7_75t_R c2407(
+INVx5_ASAP7_75t_R c2407(
 .A(net10413),
 .Y(net2417)
 );
 
-INVx11_ASAP7_75t_R c2408(
+INVx6_ASAP7_75t_R c2408(
 .A(net1569),
 .Y(net2418)
 );
@@ -24949,22 +24949,22 @@ OR2x2_ASAP7_75t_R c2409(
 .Y(net2419)
 );
 
-INVx13_ASAP7_75t_R c2410(
+INVx8_ASAP7_75t_R c2410(
 .A(net9130),
 .Y(net2420)
 );
 
-INVx1_ASAP7_75t_R c2411(
+INVxp33_ASAP7_75t_R c2411(
 .A(net1382),
 .Y(net2421)
 );
 
-INVx2_ASAP7_75t_R c2412(
+INVxp67_ASAP7_75t_R c2412(
 .A(net2419),
 .Y(net2422)
 );
 
-INVx3_ASAP7_75t_R c2413(
+BUFx10_ASAP7_75t_R c2413(
 .A(net9228),
 .Y(net2423)
 );
@@ -24976,12 +24976,12 @@ AO21x2_ASAP7_75t_R c2414(
 .Y(net2424)
 );
 
-INVx4_ASAP7_75t_R c2415(
+BUFx12_ASAP7_75t_R c2415(
 .A(net10470),
 .Y(net2425)
 );
 
-INVx5_ASAP7_75t_R c2416(
+BUFx12f_ASAP7_75t_R c2416(
 .A(net1557),
 .Y(net2426)
 );
@@ -24993,12 +24993,12 @@ AOI21x1_ASAP7_75t_R c2417(
 .Y(net2427)
 );
 
-INVx6_ASAP7_75t_R c2418(
+BUFx16f_ASAP7_75t_R c2418(
 .A(net568),
 .Y(net2428)
 );
 
-INVx8_ASAP7_75t_R c2419(
+BUFx24_ASAP7_75t_R c2419(
 .A(net1508),
 .Y(net2429)
 );
@@ -25027,12 +25027,12 @@ XNOR2x2_ASAP7_75t_R c2423(
 .Y(net2433)
 );
 
-INVxp33_ASAP7_75t_R c2424(
+BUFx2_ASAP7_75t_R c2424(
 .A(net9223),
 .Y(net2434)
 );
 
-INVxp67_ASAP7_75t_R c2425(
+BUFx3_ASAP7_75t_R c2425(
 .A(net2428),
 .Y(net2435)
 );
@@ -25069,12 +25069,12 @@ XOR2xp5_ASAP7_75t_R c2430(
 .Y(net2440)
 );
 
-BUFx10_ASAP7_75t_R c2431(
+BUFx4_ASAP7_75t_R c2431(
 .A(net626),
 .Y(net2441)
 );
 
-BUFx12_ASAP7_75t_R c2432(
+BUFx4f_ASAP7_75t_R c2432(
 .A(net10485),
 .Y(net2442)
 );
@@ -25086,7 +25086,7 @@ AOI21xp33_ASAP7_75t_R c2433(
 .Y(net2443)
 );
 
-BUFx12f_ASAP7_75t_R c2434(
+BUFx5_ASAP7_75t_R c2434(
 .A(net10137),
 .Y(net2444)
 );
@@ -25117,7 +25117,7 @@ AND2x6_ASAP7_75t_R c2438(
 .Y(net2448)
 );
 
-BUFx16f_ASAP7_75t_R c2439(
+BUFx6f_ASAP7_75t_R c2439(
 .A(net10488),
 .Y(net2449)
 );
@@ -25154,12 +25154,12 @@ NAND2x2_ASAP7_75t_R c2444(
 .Y(net2455)
 );
 
-BUFx24_ASAP7_75t_R c2445(
+BUFx8_ASAP7_75t_R c2445(
 .A(net9130),
 .Y(net2456)
 );
 
-BUFx2_ASAP7_75t_R c2446(
+CKINVDCx5p33_ASAP7_75t_R c2446(
 .A(net10572),
 .Y(net2457)
 );
@@ -25171,7 +25171,7 @@ FAx1_ASAP7_75t_R c2447(
 .SN(net2458)
 );
 
-BUFx3_ASAP7_75t_R c2448(
+CKINVDCx6p67_ASAP7_75t_R c2448(
 .A(net10546),
 .Y(net2459)
 );
@@ -25234,7 +25234,7 @@ NOR2x2_ASAP7_75t_R c2457(
 .Y(net2468)
 );
 
-BUFx4_ASAP7_75t_R c2458(
+CKINVDCx8_ASAP7_75t_R c2458(
 .A(net2344),
 .Y(net2469)
 );
@@ -25271,7 +25271,7 @@ OR2x2_ASAP7_75t_R c2463(
 .Y(net2474)
 );
 
-BUFx4f_ASAP7_75t_R c2464(
+CKINVDCx9p33_ASAP7_75t_R c2464(
 .A(net2473),
 .Y(net2475)
 );
@@ -25288,7 +25288,7 @@ OR2x6_ASAP7_75t_R c2466(
 .Y(net2477)
 );
 
-BUFx5_ASAP7_75t_R c2467(
+HB1xp67_ASAP7_75t_R c2467(
 .A(net2454),
 .Y(net2478)
 );
@@ -25299,7 +25299,7 @@ XNOR2x1_ASAP7_75t_R c2468(
 .Y(net2479)
 );
 
-BUFx6f_ASAP7_75t_R c2469(
+HB2xp67_ASAP7_75t_R c2469(
 .A(net9644),
 .Y(net2480)
 );
@@ -25375,7 +25375,7 @@ HAxp5_ASAP7_75t_R c2480(
 .SN(net2491)
 );
 
-BUFx8_ASAP7_75t_R c2481(
+HB3xp67_ASAP7_75t_R c2481(
 .A(net9285),
 .Y(net2493)
 );
@@ -25457,12 +25457,12 @@ NAND2x2_ASAP7_75t_R c2492(
 .Y(net2504)
 );
 
-CKINVDCx10_ASAP7_75t_R c2493(
+HB4xp67_ASAP7_75t_R c2493(
 .A(net2338),
 .Y(net2505)
 );
 
-CKINVDCx11_ASAP7_75t_R c2494(
+INVx11_ASAP7_75t_R c2494(
 .A(net1618),
 .Y(net2506)
 );
@@ -25479,7 +25479,7 @@ NAND2xp5_ASAP7_75t_R c2496(
 .Y(net2508)
 );
 
-CKINVDCx12_ASAP7_75t_R c2497(
+INVx13_ASAP7_75t_R c2497(
 .A(net9189),
 .Y(net2509)
 );
@@ -25509,7 +25509,7 @@ NOR2x1p5_ASAP7_75t_R c2501(
 .Y(net2513)
 );
 
-CKINVDCx14_ASAP7_75t_R c2502(
+INVx1_ASAP7_75t_R c2502(
 .A(net10124),
 .Y(net2514)
 );
@@ -25520,12 +25520,12 @@ NOR2x2_ASAP7_75t_R c2503(
 .Y(net2515)
 );
 
-CKINVDCx16_ASAP7_75t_R c2504(
+INVx2_ASAP7_75t_R c2504(
 .A(net1312),
 .Y(net2516)
 );
 
-CKINVDCx20_ASAP7_75t_R c2505(
+INVx3_ASAP7_75t_R c2505(
 .A(net1591),
 .Y(net2517)
 );
@@ -25555,7 +25555,7 @@ NOR3xp33_ASAP7_75t_R c2509(
 .Y(net2521)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c2510(
+INVx4_ASAP7_75t_R c2510(
 .A(net10454),
 .Y(net2522)
 );
@@ -25590,12 +25590,12 @@ XNOR2xp5_ASAP7_75t_R c2515(
 .Y(net2527)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c2516(
+INVx5_ASAP7_75t_R c2516(
 .A(net10003),
 .Y(net2528)
 );
 
-CKINVDCx8_ASAP7_75t_R c2517(
+INVx6_ASAP7_75t_R c2517(
 .A(net10111),
 .Y(net2529)
 );
@@ -25612,7 +25612,7 @@ XOR2x2_ASAP7_75t_R c2519(
 .Y(net2531)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c2520(
+INVx8_ASAP7_75t_R c2520(
 .A(net10469),
 .Y(net2532)
 );
@@ -25636,17 +25636,17 @@ AND2x2_ASAP7_75t_R c2523(
 .Y(net2535)
 );
 
-HB1xp67_ASAP7_75t_R c2524(
+INVxp33_ASAP7_75t_R c2524(
 .A(net9189),
 .Y(net2536)
 );
 
-HB2xp67_ASAP7_75t_R c2525(
+INVxp67_ASAP7_75t_R c2525(
 .A(net10378),
 .Y(net2537)
 );
 
-HB3xp67_ASAP7_75t_R c2526(
+BUFx10_ASAP7_75t_R c2526(
 .A(net2377),
 .Y(net2538)
 );
@@ -25665,7 +25665,7 @@ AOI211xp5_ASAP7_75t_R c2528(
 .Y(net2540)
 );
 
-HB4xp67_ASAP7_75t_R c2529(
+BUFx12_ASAP7_75t_R c2529(
 .A(net1614),
 .Y(net2541)
 );
@@ -25682,7 +25682,7 @@ HAxp5_ASAP7_75t_R c2531(
 .CON(net2543)
 );
 
-INVx11_ASAP7_75t_R c2532(
+BUFx12f_ASAP7_75t_R c2532(
 .A(net10535),
 .Y(net2544)
 );
@@ -25772,7 +25772,7 @@ NOR2x1p5_ASAP7_75t_R c2545(
 .Y(net2557)
 );
 
-INVx13_ASAP7_75t_R c2546(
+BUFx16f_ASAP7_75t_R c2546(
 .A(net9994),
 .Y(net2558)
 );
@@ -25796,7 +25796,7 @@ NOR2xp33_ASAP7_75t_R c2549(
 .Y(net2561)
 );
 
-INVx1_ASAP7_75t_R c2550(
+BUFx24_ASAP7_75t_R c2550(
 .A(net10056),
 .Y(net2562)
 );
@@ -25845,7 +25845,7 @@ SDFLx2_ASAP7_75t_R c2557(
 .QN(net2569)
 );
 
-INVx2_ASAP7_75t_R c2558(
+BUFx2_ASAP7_75t_R c2558(
 .A(net10541),
 .Y(net2570)
 );
@@ -25865,7 +25865,7 @@ NAND5xp2_ASAP7_75t_R c2560(
 .Y(net2572)
 );
 
-INVx3_ASAP7_75t_R c2561(
+BUFx3_ASAP7_75t_R c2561(
 .A(net10469),
 .Y(net2573)
 );
@@ -25942,12 +25942,12 @@ XOR2xp5_ASAP7_75t_R c2571(
 .Y(net2583)
 );
 
-INVx4_ASAP7_75t_R c2572(
+BUFx4_ASAP7_75t_R c2572(
 .A(net10561),
 .Y(net2584)
 );
 
-INVx5_ASAP7_75t_R c2573(
+BUFx4f_ASAP7_75t_R c2573(
 .A(net10097),
 .Y(net2585)
 );
@@ -25958,22 +25958,22 @@ AND2x2_ASAP7_75t_R c2574(
 .Y(net2586)
 );
 
-INVx6_ASAP7_75t_R c2575(
+BUFx5_ASAP7_75t_R c2575(
 .A(net10153),
 .Y(net2587)
 );
 
-INVx8_ASAP7_75t_R c2576(
+BUFx6f_ASAP7_75t_R c2576(
 .A(net777),
 .Y(net2588)
 );
 
-INVxp33_ASAP7_75t_R c2577(
+BUFx8_ASAP7_75t_R c2577(
 .A(net2546),
 .Y(net2589)
 );
 
-INVxp67_ASAP7_75t_R c2578(
+CKINVDCx5p33_ASAP7_75t_R c2578(
 .A(net2520),
 .Y(net2590)
 );
@@ -25998,7 +25998,7 @@ AND2x6_ASAP7_75t_R c2581(
 .Y(net2593)
 );
 
-BUFx10_ASAP7_75t_R c2582(
+CKINVDCx6p67_ASAP7_75t_R c2582(
 .A(net1729),
 .Y(net2594)
 );
@@ -26010,22 +26010,22 @@ AND3x4_ASAP7_75t_R c2583(
 .Y(net2595)
 );
 
-BUFx12_ASAP7_75t_R c2584(
+CKINVDCx8_ASAP7_75t_R c2584(
 .A(net10558),
 .Y(net2596)
 );
 
-BUFx12f_ASAP7_75t_R c2585(
+CKINVDCx9p33_ASAP7_75t_R c2585(
 .A(net9153),
 .Y(net2597)
 );
 
-BUFx16f_ASAP7_75t_R c2586(
+HB1xp67_ASAP7_75t_R c2586(
 .A(net2509),
 .Y(net2598)
 );
 
-BUFx24_ASAP7_75t_R c2587(
+HB2xp67_ASAP7_75t_R c2587(
 .A(net10508),
 .Y(net2599)
 );
@@ -26043,17 +26043,17 @@ NAND2x1_ASAP7_75t_R c2589(
 .Y(net2602)
 );
 
-BUFx2_ASAP7_75t_R c2590(
+HB3xp67_ASAP7_75t_R c2590(
 .A(net2592),
 .Y(net2603)
 );
 
-BUFx3_ASAP7_75t_R c2591(
+HB4xp67_ASAP7_75t_R c2591(
 .A(net2557),
 .Y(net2604)
 );
 
-BUFx4_ASAP7_75t_R c2592(
+INVx11_ASAP7_75t_R c2592(
 .A(net2567),
 .Y(net2605)
 );
@@ -26065,12 +26065,12 @@ AO21x1_ASAP7_75t_R c2593(
 .Y(net2606)
 );
 
-BUFx4f_ASAP7_75t_R c2594(
+INVx13_ASAP7_75t_R c2594(
 .A(net2506),
 .Y(net2607)
 );
 
-BUFx5_ASAP7_75t_R c2595(
+INVx1_ASAP7_75t_R c2595(
 .A(net10117),
 .Y(net2608)
 );
@@ -26087,12 +26087,12 @@ NAND2x2_ASAP7_75t_R c2597(
 .Y(net2610)
 );
 
-BUFx6f_ASAP7_75t_R c2598(
+INVx2_ASAP7_75t_R c2598(
 .A(net10087),
 .Y(net2611)
 );
 
-BUFx8_ASAP7_75t_R c2599(
+INVx3_ASAP7_75t_R c2599(
 .A(net9679),
 .Y(net2612)
 );
@@ -26134,7 +26134,7 @@ NOR2x1p5_ASAP7_75t_R c2605(
 .Y(net2618)
 );
 
-CKINVDCx10_ASAP7_75t_R c2606(
+INVx4_ASAP7_75t_R c2606(
 .A(net1710),
 .Y(net2619)
 );
@@ -26163,7 +26163,7 @@ OR2x2_ASAP7_75t_R c2610(
 .Y(net2623)
 );
 
-CKINVDCx11_ASAP7_75t_R c2611(
+INVx5_ASAP7_75t_R c2611(
 .A(net9153),
 .Y(net2624)
 );
@@ -26174,7 +26174,7 @@ OR2x4_ASAP7_75t_R c2612(
 .Y(net2625)
 );
 
-CKINVDCx12_ASAP7_75t_R c2613(
+INVx6_ASAP7_75t_R c2613(
 .A(net9952),
 .Y(net2626)
 );
@@ -26321,7 +26321,7 @@ NAND2xp5_ASAP7_75t_R c2635(
 .Y(net2648)
 );
 
-CKINVDCx14_ASAP7_75t_R c2636(
+INVx8_ASAP7_75t_R c2636(
 .A(net9952),
 .Y(net2649)
 );
@@ -26395,7 +26395,7 @@ ICGx5_ASAP7_75t_R c2646(
 .GCLK(net2659)
 );
 
-CKINVDCx16_ASAP7_75t_R c2647(
+INVxp33_ASAP7_75t_R c2647(
 .A(net10102),
 .Y(net2660)
 );
@@ -26498,7 +26498,7 @@ AND2x2_ASAP7_75t_R c2662(
 .Y(net2675)
 );
 
-CKINVDCx20_ASAP7_75t_R c2663(
+INVxp67_ASAP7_75t_R c2663(
 .A(net10343),
 .Y(net2676)
 );
@@ -26615,7 +26615,7 @@ OR2x2_ASAP7_75t_R c2681(
 .Y(net2695)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c2682(
+BUFx10_ASAP7_75t_R c2682(
 .A(net2621),
 .Y(net2696)
 );
@@ -26626,7 +26626,7 @@ OR2x4_ASAP7_75t_R c2683(
 .Y(net2697)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c2684(
+BUFx12_ASAP7_75t_R c2684(
 .A(net10538),
 .Y(net2698)
 );
@@ -26786,12 +26786,12 @@ NAND2x2_ASAP7_75t_R c2707(
 .Y(net2722)
 );
 
-CKINVDCx8_ASAP7_75t_R c2708(
+BUFx12f_ASAP7_75t_R c2708(
 .A(net10364),
 .Y(net2723)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c2709(
+BUFx16f_ASAP7_75t_R c2709(
 .A(net10536),
 .Y(net2724)
 );
@@ -26857,7 +26857,7 @@ NOR3x1_ASAP7_75t_R c2718(
 .Y(net2733)
 );
 
-HB1xp67_ASAP7_75t_R c2719(
+BUFx24_ASAP7_75t_R c2719(
 .A(net10483),
 .Y(net2734)
 );
@@ -26911,7 +26911,7 @@ A2O1A1O1Ixp25_ASAP7_75t_R c2726(
 .Y(net2741)
 );
 
-HB2xp67_ASAP7_75t_R c2727(
+BUFx2_ASAP7_75t_R c2727(
 .A(net10343),
 .Y(net2742)
 );
@@ -26995,17 +26995,17 @@ AOI33xp33_ASAP7_75t_R c2738(
 .Y(net2753)
 );
 
-HB3xp67_ASAP7_75t_R c2739(
+BUFx3_ASAP7_75t_R c2739(
 .A(net1900),
 .Y(net2754)
 );
 
-HB4xp67_ASAP7_75t_R c2740(
+BUFx4_ASAP7_75t_R c2740(
 .A(net1879),
 .Y(net2755)
 );
 
-INVx11_ASAP7_75t_R c2741(
+BUFx4f_ASAP7_75t_R c2741(
 .A(net922),
 .Y(net2756)
 );
@@ -27017,22 +27017,22 @@ ICGx3_ASAP7_75t_R c2742(
 .GCLK(net2757)
 );
 
-INVx13_ASAP7_75t_R c2743(
+BUFx5_ASAP7_75t_R c2743(
 .A(net2756),
 .Y(net2758)
 );
 
-INVx1_ASAP7_75t_R c2744(
+BUFx6f_ASAP7_75t_R c2744(
 .A(net1842),
 .Y(net2759)
 );
 
-INVx2_ASAP7_75t_R c2745(
+BUFx8_ASAP7_75t_R c2745(
 .A(net2755),
 .Y(net2760)
 );
 
-INVx3_ASAP7_75t_R c2746(
+CKINVDCx5p33_ASAP7_75t_R c2746(
 .A(net2754),
 .Y(net2761)
 );
@@ -27061,12 +27061,12 @@ XNOR2xp5_ASAP7_75t_R c2750(
 .Y(net2765)
 );
 
-INVx4_ASAP7_75t_R c2751(
+CKINVDCx6p67_ASAP7_75t_R c2751(
 .A(net15),
 .Y(net2766)
 );
 
-INVx5_ASAP7_75t_R c2752(
+CKINVDCx8_ASAP7_75t_R c2752(
 .A(net928),
 .Y(net2767)
 );
@@ -27090,12 +27090,12 @@ XOR2x2_ASAP7_75t_R c2755(
 .Y(net2770)
 );
 
-INVx6_ASAP7_75t_R c2756(
+CKINVDCx9p33_ASAP7_75t_R c2756(
 .A(net2764),
 .Y(net2771)
 );
 
-INVx8_ASAP7_75t_R c2757(
+HB1xp67_ASAP7_75t_R c2757(
 .A(net1857),
 .Y(net2772)
 );
@@ -27112,7 +27112,7 @@ AND2x2_ASAP7_75t_R c2759(
 .Y(net2774)
 );
 
-INVxp33_ASAP7_75t_R c2760(
+HB2xp67_ASAP7_75t_R c2760(
 .A(net964),
 .Y(net2775)
 );
@@ -27124,12 +27124,12 @@ OR3x1_ASAP7_75t_R c2761(
 .Y(net2776)
 );
 
-INVxp67_ASAP7_75t_R c2762(
+HB3xp67_ASAP7_75t_R c2762(
 .A(net1886),
 .Y(net2777)
 );
 
-BUFx10_ASAP7_75t_R c2763(
+HB4xp67_ASAP7_75t_R c2763(
 .A(net1884),
 .Y(net2778)
 );
@@ -27147,7 +27147,7 @@ AND2x4_ASAP7_75t_R c2765(
 .Y(net2780)
 );
 
-BUFx12_ASAP7_75t_R c2766(
+INVx11_ASAP7_75t_R c2766(
 .A(net9095),
 .Y(net2781)
 );
@@ -27159,7 +27159,7 @@ ICGx4DC_ASAP7_75t_R c2767(
 .GCLK(net2782)
 );
 
-BUFx12f_ASAP7_75t_R c2768(
+INVx13_ASAP7_75t_R c2768(
 .A(net9095),
 .Y(net2783)
 );
@@ -27171,7 +27171,7 @@ OR3x4_ASAP7_75t_R c2769(
 .Y(net2784)
 );
 
-BUFx16f_ASAP7_75t_R c2770(
+INVx1_ASAP7_75t_R c2770(
 .A(net1842),
 .Y(net2785)
 );
@@ -27195,7 +27195,7 @@ HAxp5_ASAP7_75t_R c2773(
 .CON(net2788)
 );
 
-BUFx24_ASAP7_75t_R c2774(
+INVx2_ASAP7_75t_R c2774(
 .A(net2762),
 .Y(net2789)
 );
@@ -27212,7 +27212,7 @@ NAND2x1p5_ASAP7_75t_R c2776(
 .Y(net2791)
 );
 
-BUFx2_ASAP7_75t_R c2777(
+INVx3_ASAP7_75t_R c2777(
 .A(net2781),
 .Y(net2792)
 );
@@ -27223,7 +27223,7 @@ NAND2x2_ASAP7_75t_R c2778(
 .Y(net2793)
 );
 
-BUFx3_ASAP7_75t_R c2779(
+INVx4_ASAP7_75t_R c2779(
 .A(net964),
 .Y(net2794)
 );
@@ -27240,12 +27240,12 @@ NAND2xp5_ASAP7_75t_R c2781(
 .Y(net2796)
 );
 
-BUFx4_ASAP7_75t_R c2782(
+INVx5_ASAP7_75t_R c2782(
 .A(net2765),
 .Y(net2797)
 );
 
-BUFx4f_ASAP7_75t_R c2783(
+INVx6_ASAP7_75t_R c2783(
 .A(net2773),
 .Y(net2798)
 );
@@ -27274,7 +27274,7 @@ NOR2x2_ASAP7_75t_R c2787(
 .Y(net2802)
 );
 
-BUFx5_ASAP7_75t_R c2788(
+INVx8_ASAP7_75t_R c2788(
 .A(net2769),
 .Y(net2803)
 );
@@ -27285,7 +27285,7 @@ NOR2xp33_ASAP7_75t_R c2789(
 .Y(net2804)
 );
 
-BUFx6f_ASAP7_75t_R c2790(
+INVxp33_ASAP7_75t_R c2790(
 .A(net2801),
 .Y(net2805)
 );
@@ -27513,12 +27513,12 @@ AND2x6_ASAP7_75t_R c2822(
 .Y(net2837)
 );
 
-BUFx8_ASAP7_75t_R c2823(
+INVxp67_ASAP7_75t_R c2823(
 .A(net996),
 .Y(net2838)
 );
 
-CKINVDCx10_ASAP7_75t_R c2824(
+BUFx10_ASAP7_75t_R c2824(
 .A(net2816),
 .Y(net2839)
 );
@@ -27530,12 +27530,12 @@ ICGx6p67DC_ASAP7_75t_R c2825(
 .GCLK(net2840)
 );
 
-CKINVDCx11_ASAP7_75t_R c2826(
+BUFx12_ASAP7_75t_R c2826(
 .A(net1022),
 .Y(net2841)
 );
 
-CKINVDCx12_ASAP7_75t_R c2827(
+BUFx12f_ASAP7_75t_R c2827(
 .A(net2830),
 .Y(net2842)
 );
@@ -27546,62 +27546,62 @@ HAxp5_ASAP7_75t_R c2828(
 .CON(net2843)
 );
 
-CKINVDCx14_ASAP7_75t_R c2829(
+BUFx16f_ASAP7_75t_R c2829(
 .A(net1926),
 .Y(net2844)
 );
 
-CKINVDCx16_ASAP7_75t_R c2830(
+BUFx24_ASAP7_75t_R c2830(
 .A(net1008),
 .Y(net2845)
 );
 
-CKINVDCx20_ASAP7_75t_R c2831(
+BUFx2_ASAP7_75t_R c2831(
 .A(net9107),
 .Y(net2846)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c2832(
+BUFx3_ASAP7_75t_R c2832(
 .A(net10219),
 .Y(net2847)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c2833(
+BUFx4_ASAP7_75t_R c2833(
 .A(net9889),
 .Y(net2848)
 );
 
-CKINVDCx8_ASAP7_75t_R c2834(
+BUFx4f_ASAP7_75t_R c2834(
 .A(net2809),
 .Y(net2849)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c2835(
+BUFx5_ASAP7_75t_R c2835(
 .A(net9702),
 .Y(net2850)
 );
 
-HB1xp67_ASAP7_75t_R c2836(
+BUFx6f_ASAP7_75t_R c2836(
 .A(net1919),
 .Y(net2851)
 );
 
-HB2xp67_ASAP7_75t_R c2837(
+BUFx8_ASAP7_75t_R c2837(
 .A(net2794),
 .Y(net2852)
 );
 
-HB3xp67_ASAP7_75t_R c2838(
+CKINVDCx5p33_ASAP7_75t_R c2838(
 .A(net2841),
 .Y(net2853)
 );
 
-HB4xp67_ASAP7_75t_R c2839(
+CKINVDCx6p67_ASAP7_75t_R c2839(
 .A(net2851),
 .Y(net2854)
 );
 
-INVx11_ASAP7_75t_R c2840(
+CKINVDCx8_ASAP7_75t_R c2840(
 .A(net2850),
 .Y(net2855)
 );
@@ -27612,22 +27612,22 @@ NAND2x1_ASAP7_75t_R c2841(
 .Y(net2856)
 );
 
-INVx13_ASAP7_75t_R c2842(
+CKINVDCx9p33_ASAP7_75t_R c2842(
 .A(net2832),
 .Y(net2857)
 );
 
-INVx1_ASAP7_75t_R c2843(
+HB1xp67_ASAP7_75t_R c2843(
 .A(net9107),
 .Y(net2858)
 );
 
-INVx2_ASAP7_75t_R c2844(
+HB2xp67_ASAP7_75t_R c2844(
 .A(net30),
 .Y(net2859)
 );
 
-INVx3_ASAP7_75t_R c2845(
+HB3xp67_ASAP7_75t_R c2845(
 .A(net2853),
 .Y(net2860)
 );
@@ -27644,7 +27644,7 @@ NAND2x2_ASAP7_75t_R c2847(
 .Y(net2862)
 );
 
-INVx4_ASAP7_75t_R c2848(
+HB4xp67_ASAP7_75t_R c2848(
 .A(net2815),
 .Y(net2863)
 );
@@ -27689,7 +27689,7 @@ NAND2xp67_ASAP7_75t_R c2854(
 .Y(net2870)
 );
 
-INVx5_ASAP7_75t_R c2855(
+INVx11_ASAP7_75t_R c2855(
 .A(net2859),
 .Y(net2871)
 );
@@ -27700,22 +27700,22 @@ NOR2x1_ASAP7_75t_R c2856(
 .Y(net2872)
 );
 
-INVx6_ASAP7_75t_R c2857(
+INVx13_ASAP7_75t_R c2857(
 .A(net1981),
 .Y(net2873)
 );
 
-INVx8_ASAP7_75t_R c2858(
+INVx1_ASAP7_75t_R c2858(
 .A(net2852),
 .Y(net2874)
 );
 
-INVxp33_ASAP7_75t_R c2859(
+INVx2_ASAP7_75t_R c2859(
 .A(net9257),
 .Y(net2875)
 );
 
-INVxp67_ASAP7_75t_R c2860(
+INVx3_ASAP7_75t_R c2860(
 .A(net2845),
 .Y(net2876)
 );
@@ -27727,7 +27727,7 @@ MAJx2_ASAP7_75t_R c2861(
 .Y(net2877)
 );
 
-BUFx10_ASAP7_75t_R c2862(
+INVx4_ASAP7_75t_R c2862(
 .A(net9244),
 .Y(net2878)
 );
@@ -27738,17 +27738,17 @@ NOR2x1p5_ASAP7_75t_R c2863(
 .Y(net2879)
 );
 
-BUFx12_ASAP7_75t_R c2864(
+INVx5_ASAP7_75t_R c2864(
 .A(net2862),
 .Y(net2880)
 );
 
-BUFx12f_ASAP7_75t_R c2865(
+INVx6_ASAP7_75t_R c2865(
 .A(net2879),
 .Y(net2881)
 );
 
-BUFx16f_ASAP7_75t_R c2866(
+INVx8_ASAP7_75t_R c2866(
 .A(net2858),
 .Y(net2882)
 );
@@ -27791,12 +27791,12 @@ OR2x2_ASAP7_75t_R c2872(
 .Y(net2888)
 );
 
-BUFx24_ASAP7_75t_R c2873(
+INVxp33_ASAP7_75t_R c2873(
 .A(net2881),
 .Y(net2889)
 );
 
-BUFx2_ASAP7_75t_R c2874(
+INVxp67_ASAP7_75t_R c2874(
 .A(net9238),
 .Y(net2890)
 );
@@ -27807,12 +27807,12 @@ OR2x4_ASAP7_75t_R c2875(
 .Y(net2891)
 );
 
-BUFx3_ASAP7_75t_R c2876(
+BUFx10_ASAP7_75t_R c2876(
 .A(net1865),
 .Y(net2892)
 );
 
-BUFx4_ASAP7_75t_R c2877(
+BUFx12_ASAP7_75t_R c2877(
 .A(net2889),
 .Y(net2893)
 );
@@ -27849,7 +27849,7 @@ XNOR2xp5_ASAP7_75t_R c2882(
 .Y(net2898)
 );
 
-BUFx4f_ASAP7_75t_R c2883(
+BUFx12f_ASAP7_75t_R c2883(
 .A(net10422),
 .Y(net2899)
 );
@@ -28013,17 +28013,17 @@ OA211x2_ASAP7_75t_R c2906(
 .Y(net2922)
 );
 
-BUFx5_ASAP7_75t_R c2907(
+BUFx16f_ASAP7_75t_R c2907(
 .A(net1994),
 .Y(net2923)
 );
 
-BUFx6f_ASAP7_75t_R c2908(
+BUFx24_ASAP7_75t_R c2908(
 .A(net2006),
 .Y(net2924)
 );
 
-BUFx8_ASAP7_75t_R c2909(
+BUFx2_ASAP7_75t_R c2909(
 .A(net9174),
 .Y(net2925)
 );
@@ -28034,12 +28034,12 @@ NAND2xp5_ASAP7_75t_R c2910(
 .Y(net2926)
 );
 
-CKINVDCx10_ASAP7_75t_R c2911(
+BUFx3_ASAP7_75t_R c2911(
 .A(net9174),
 .Y(net2927)
 );
 
-CKINVDCx11_ASAP7_75t_R c2912(
+BUFx4_ASAP7_75t_R c2912(
 .A(net2924),
 .Y(net2928)
 );
@@ -28057,12 +28057,12 @@ NOR3xp33_ASAP7_75t_R c2914(
 .Y(net2930)
 );
 
-CKINVDCx12_ASAP7_75t_R c2915(
+BUFx4f_ASAP7_75t_R c2915(
 .A(net2018),
 .Y(net2931)
 );
 
-CKINVDCx14_ASAP7_75t_R c2916(
+BUFx5_ASAP7_75t_R c2916(
 .A(net1947),
 .Y(net2932)
 );
@@ -28085,12 +28085,12 @@ NOR2x2_ASAP7_75t_R c2919(
 .Y(net2935)
 );
 
-CKINVDCx16_ASAP7_75t_R c2920(
+BUFx6f_ASAP7_75t_R c2920(
 .A(net9907),
 .Y(net2936)
 );
 
-CKINVDCx20_ASAP7_75t_R c2921(
+BUFx8_ASAP7_75t_R c2921(
 .A(net10071),
 .Y(net2937)
 );
@@ -28600,7 +28600,7 @@ AND2x6_ASAP7_75t_R c3006(
 .Y(net3023)
 );
 
-CKINVDCx10_ASAP7_75t_R c3007(
+CKINVDCx5p33_ASAP7_75t_R c3007(
 .A(net10083),
 .Y(net3024)
 );
@@ -28612,7 +28612,7 @@ HAxp5_ASAP7_75t_R c3008(
 .SN(net3025)
 );
 
-CKINVDCx11_ASAP7_75t_R c3009(
+CKINVDCx6p67_ASAP7_75t_R c3009(
 .A(net3009),
 .Y(net3027)
 );
@@ -28641,7 +28641,7 @@ NAND2xp33_ASAP7_75t_R c3013(
 .Y(net3031)
 );
 
-CKINVDCx12_ASAP7_75t_R c3014(
+CKINVDCx8_ASAP7_75t_R c3014(
 .A(net10508),
 .Y(net3032)
 );
@@ -28653,7 +28653,7 @@ ICGx2p67DC_ASAP7_75t_R c3015(
 .GCLK(net3033)
 );
 
-CKINVDCx14_ASAP7_75t_R c3016(
+CKINVDCx9p33_ASAP7_75t_R c3016(
 .A(net10569),
 .Y(net3034)
 );
@@ -28664,12 +28664,12 @@ NAND2xp5_ASAP7_75t_R c3017(
 .Y(net3035)
 );
 
-CKINVDCx16_ASAP7_75t_R c3018(
+HB1xp67_ASAP7_75t_R c3018(
 .A(net3016),
 .Y(net3036)
 );
 
-CKINVDCx20_ASAP7_75t_R c3019(
+HB2xp67_ASAP7_75t_R c3019(
 .A(net10091),
 .Y(net3037)
 );
@@ -28695,12 +28695,12 @@ NAND2xp67_ASAP7_75t_R c3022(
 .Y(net3040)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c3023(
+HB3xp67_ASAP7_75t_R c3023(
 .A(net9315),
 .Y(net3041)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c3024(
+HB4xp67_ASAP7_75t_R c3024(
 .A(net9973),
 .Y(net3042)
 );
@@ -28711,7 +28711,7 @@ NOR2x1_ASAP7_75t_R c3025(
 .Y(net3043)
 );
 
-CKINVDCx8_ASAP7_75t_R c3026(
+INVx11_ASAP7_75t_R c3026(
 .A(net10063),
 .Y(net3044)
 );
@@ -28758,7 +28758,7 @@ AOI221x1_ASAP7_75t_R c3032(
 .Y(net3050)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c3033(
+INVx13_ASAP7_75t_R c3033(
 .A(net180),
 .Y(net3051)
 );
@@ -28872,7 +28872,7 @@ AND2x4_ASAP7_75t_R c3050(
 .Y(net3069)
 );
 
-HB1xp67_ASAP7_75t_R c3051(
+INVx1_ASAP7_75t_R c3051(
 .A(net9961),
 .Y(net3070)
 );
@@ -28992,7 +28992,7 @@ ICGx3_ASAP7_75t_R c3066(
 .GCLK(net3086)
 );
 
-HB2xp67_ASAP7_75t_R c3067(
+INVx2_ASAP7_75t_R c3067(
 .A(net10066),
 .Y(net3087)
 );
@@ -29023,27 +29023,27 @@ OAI33xp33_ASAP7_75t_R c3070(
 .Y(net3090)
 );
 
-HB3xp67_ASAP7_75t_R c3071(
+INVx3_ASAP7_75t_R c3071(
 .A(net2218),
 .Y(net3091)
 );
 
-HB4xp67_ASAP7_75t_R c3072(
+INVx4_ASAP7_75t_R c3072(
 .A(net10163),
 .Y(net3092)
 );
 
-INVx11_ASAP7_75t_R c3073(
+INVx5_ASAP7_75t_R c3073(
 .A(net9961),
 .Y(net3093)
 );
 
-INVx13_ASAP7_75t_R c3074(
+INVx6_ASAP7_75t_R c3074(
 .A(net2130),
 .Y(net3094)
 );
 
-INVx1_ASAP7_75t_R c3075(
+INVx8_ASAP7_75t_R c3075(
 .A(net2958),
 .Y(net3095)
 );
@@ -29054,7 +29054,7 @@ NAND2x1p5_ASAP7_75t_R c3076(
 .Y(net3096)
 );
 
-INVx2_ASAP7_75t_R c3077(
+INVxp33_ASAP7_75t_R c3077(
 .A(net2071),
 .Y(net3097)
 );
@@ -29072,7 +29072,7 @@ NAND2x2_ASAP7_75t_R c3079(
 .Y(net3099)
 );
 
-INVx3_ASAP7_75t_R c3080(
+INVxp67_ASAP7_75t_R c3080(
 .A(net10206),
 .Y(net3100)
 );
@@ -29089,12 +29089,12 @@ NAND2xp5_ASAP7_75t_R c3082(
 .Y(net3102)
 );
 
-INVx4_ASAP7_75t_R c3083(
+BUFx10_ASAP7_75t_R c3083(
 .A(net1290),
 .Y(net3103)
 );
 
-INVx5_ASAP7_75t_R c3084(
+BUFx12_ASAP7_75t_R c3084(
 .A(net9096),
 .Y(net3104)
 );
@@ -29117,22 +29117,22 @@ NOR2x1p5_ASAP7_75t_R c3087(
 .Y(net3107)
 );
 
-INVx6_ASAP7_75t_R c3088(
+BUFx12f_ASAP7_75t_R c3088(
 .A(net3094),
 .Y(net3108)
 );
 
-INVx8_ASAP7_75t_R c3089(
+BUFx16f_ASAP7_75t_R c3089(
 .A(net3100),
 .Y(net3109)
 );
 
-INVxp33_ASAP7_75t_R c3090(
+BUFx24_ASAP7_75t_R c3090(
 .A(net9096),
 .Y(net3110)
 );
 
-INVxp67_ASAP7_75t_R c3091(
+BUFx2_ASAP7_75t_R c3091(
 .A(net3095),
 .Y(net3111)
 );
@@ -29144,7 +29144,7 @@ NOR3xp33_ASAP7_75t_R c3092(
 .Y(net3112)
 );
 
-BUFx10_ASAP7_75t_R c3093(
+BUFx3_ASAP7_75t_R c3093(
 .A(net1963),
 .Y(net3113)
 );
@@ -29155,12 +29155,12 @@ NOR2x2_ASAP7_75t_R c3094(
 .Y(net3114)
 );
 
-BUFx12_ASAP7_75t_R c3095(
+BUFx4_ASAP7_75t_R c3095(
 .A(net10045),
 .Y(net3115)
 );
 
-BUFx12f_ASAP7_75t_R c3096(
+BUFx4f_ASAP7_75t_R c3096(
 .A(net3045),
 .Y(net3116)
 );
@@ -29178,7 +29178,7 @@ OA21x2_ASAP7_75t_R c3098(
 .Y(net3118)
 );
 
-BUFx16f_ASAP7_75t_R c3099(
+BUFx5_ASAP7_75t_R c3099(
 .A(net10545),
 .Y(net3119)
 );
@@ -29189,7 +29189,7 @@ NOR2xp67_ASAP7_75t_R c3100(
 .Y(net3120)
 );
 
-BUFx24_ASAP7_75t_R c3101(
+BUFx6f_ASAP7_75t_R c3101(
 .A(net3115),
 .Y(net3121)
 );
@@ -29209,7 +29209,7 @@ OA31x2_ASAP7_75t_R c3103(
 .Y(net3123)
 );
 
-BUFx2_ASAP7_75t_R c3104(
+BUFx8_ASAP7_75t_R c3104(
 .A(net9225),
 .Y(net3124)
 );
@@ -29248,12 +29248,12 @@ OR2x2_ASAP7_75t_R c3109(
 .Y(net3129)
 );
 
-BUFx3_ASAP7_75t_R c3110(
+CKINVDCx5p33_ASAP7_75t_R c3110(
 .A(net3004),
 .Y(net3130)
 );
 
-BUFx4_ASAP7_75t_R c3111(
+CKINVDCx6p67_ASAP7_75t_R c3111(
 .A(net9210),
 .Y(net3131)
 );
@@ -29265,12 +29265,12 @@ ICGx4DC_ASAP7_75t_R c3112(
 .GCLK(net3132)
 );
 
-BUFx4f_ASAP7_75t_R c3113(
+CKINVDCx8_ASAP7_75t_R c3113(
 .A(net1922),
 .Y(net3133)
 );
 
-BUFx5_ASAP7_75t_R c3114(
+CKINVDCx9p33_ASAP7_75t_R c3114(
 .A(net3110),
 .Y(net3134)
 );
@@ -29294,7 +29294,7 @@ ICGx4_ASAP7_75t_R c3117(
 .GCLK(net3137)
 );
 
-BUFx6f_ASAP7_75t_R c3118(
+HB1xp67_ASAP7_75t_R c3118(
 .A(net3107),
 .Y(net3138)
 );
@@ -29339,7 +29339,7 @@ ICGx5_ASAP7_75t_R c3124(
 .GCLK(net3144)
 );
 
-BUFx8_ASAP7_75t_R c3125(
+HB2xp67_ASAP7_75t_R c3125(
 .A(net2176),
 .Y(net3145)
 );
@@ -29358,7 +29358,7 @@ AND3x2_ASAP7_75t_R c3127(
 .Y(net3147)
 );
 
-CKINVDCx10_ASAP7_75t_R c3128(
+HB3xp67_ASAP7_75t_R c3128(
 .A(net9982),
 .Y(net3148)
 );
@@ -29534,12 +29534,12 @@ OAI22x1_ASAP7_75t_R c3153(
 .Y(net3173)
 );
 
-CKINVDCx11_ASAP7_75t_R c3154(
+HB4xp67_ASAP7_75t_R c3154(
 .A(net10170),
 .Y(net3174)
 );
 
-CKINVDCx12_ASAP7_75t_R c3155(
+INVx11_ASAP7_75t_R c3155(
 .A(net2125),
 .Y(net3175)
 );
@@ -29550,12 +29550,12 @@ NAND2xp5_ASAP7_75t_R c3156(
 .Y(net3176)
 );
 
-CKINVDCx14_ASAP7_75t_R c3157(
+INVx13_ASAP7_75t_R c3157(
 .A(net10035),
 .Y(net3177)
 );
 
-CKINVDCx16_ASAP7_75t_R c3158(
+INVx1_ASAP7_75t_R c3158(
 .A(net9961),
 .Y(net3178)
 );
@@ -29566,7 +29566,7 @@ NAND2xp67_ASAP7_75t_R c3159(
 .Y(net3179)
 );
 
-CKINVDCx20_ASAP7_75t_R c3160(
+INVx2_ASAP7_75t_R c3160(
 .A(net10031),
 .Y(net3180)
 );
@@ -29578,12 +29578,12 @@ MAJx3_ASAP7_75t_R c3161(
 .Y(net3181)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c3162(
+INVx3_ASAP7_75t_R c3162(
 .A(net10519),
 .Y(net3182)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c3163(
+INVx4_ASAP7_75t_R c3163(
 .A(net3181),
 .Y(net3183)
 );
@@ -29600,7 +29600,7 @@ NOR2x1p5_ASAP7_75t_R c3165(
 .Y(net3185)
 );
 
-CKINVDCx8_ASAP7_75t_R c3166(
+INVx5_ASAP7_75t_R c3166(
 .A(net2232),
 .Y(net3186)
 );
@@ -29623,12 +29623,12 @@ NOR2xp67_ASAP7_75t_R c3169(
 .Y(net3189)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c3170(
+INVx6_ASAP7_75t_R c3170(
 .A(net3187),
 .Y(net3190)
 );
 
-HB1xp67_ASAP7_75t_R c3171(
+INVx8_ASAP7_75t_R c3171(
 .A(net3178),
 .Y(net3191)
 );
@@ -29640,22 +29640,22 @@ NAND3x1_ASAP7_75t_R c3172(
 .Y(net3192)
 );
 
-HB2xp67_ASAP7_75t_R c3173(
+INVxp33_ASAP7_75t_R c3173(
 .A(net9134),
 .Y(net3193)
 );
 
-HB3xp67_ASAP7_75t_R c3174(
+INVxp67_ASAP7_75t_R c3174(
 .A(net3121),
 .Y(net3194)
 );
 
-HB4xp67_ASAP7_75t_R c3175(
+BUFx10_ASAP7_75t_R c3175(
 .A(net3191),
 .Y(net3195)
 );
 
-INVx11_ASAP7_75t_R c3176(
+BUFx12_ASAP7_75t_R c3176(
 .A(net2319),
 .Y(net3196)
 );
@@ -29673,17 +29673,17 @@ OR2x2_ASAP7_75t_R c3178(
 .Y(net3198)
 );
 
-INVx13_ASAP7_75t_R c3179(
+BUFx12f_ASAP7_75t_R c3179(
 .A(net3179),
 .Y(net3199)
 );
 
-INVx1_ASAP7_75t_R c3180(
+BUFx16f_ASAP7_75t_R c3180(
 .A(net2313),
 .Y(net3200)
 );
 
-INVx2_ASAP7_75t_R c3181(
+BUFx24_ASAP7_75t_R c3181(
 .A(net3190),
 .Y(net3201)
 );
@@ -29695,12 +29695,12 @@ NAND3xp33_ASAP7_75t_R c3182(
 .Y(net3202)
 );
 
-INVx3_ASAP7_75t_R c3183(
+BUFx2_ASAP7_75t_R c3183(
 .A(net9469),
 .Y(net3203)
 );
 
-INVx4_ASAP7_75t_R c3184(
+BUFx3_ASAP7_75t_R c3184(
 .A(net10207),
 .Y(net3204)
 );
@@ -29728,12 +29728,12 @@ NOR3x1_ASAP7_75t_R c3187(
 .Y(net3207)
 );
 
-INVx5_ASAP7_75t_R c3188(
+BUFx4_ASAP7_75t_R c3188(
 .A(net10389),
 .Y(net3208)
 );
 
-INVx6_ASAP7_75t_R c3189(
+BUFx4f_ASAP7_75t_R c3189(
 .A(net10416),
 .Y(net3209)
 );
@@ -29756,7 +29756,7 @@ XNOR2x2_ASAP7_75t_R c3192(
 .Y(net3212)
 );
 
-INVx8_ASAP7_75t_R c3193(
+BUFx5_ASAP7_75t_R c3193(
 .A(net9210),
 .Y(net3213)
 );
@@ -29767,7 +29767,7 @@ XNOR2xp5_ASAP7_75t_R c3194(
 .Y(net3214)
 );
 
-INVxp33_ASAP7_75t_R c3195(
+BUFx6f_ASAP7_75t_R c3195(
 .A(net10065),
 .Y(net3215)
 );
@@ -29796,7 +29796,7 @@ AND2x2_ASAP7_75t_R c3199(
 .Y(net3219)
 );
 
-INVxp67_ASAP7_75t_R c3200(
+BUFx8_ASAP7_75t_R c3200(
 .A(net3204),
 .Y(net3220)
 );
@@ -29819,7 +29819,7 @@ HAxp5_ASAP7_75t_R c3203(
 .CON(net3223)
 );
 
-BUFx10_ASAP7_75t_R c3204(
+CKINVDCx5p33_ASAP7_75t_R c3204(
 .A(net9907),
 .Y(net3224)
 );
@@ -29832,12 +29832,12 @@ OAI22xp33_ASAP7_75t_R c3205(
 .Y(net3225)
 );
 
-BUFx12_ASAP7_75t_R c3206(
+CKINVDCx6p67_ASAP7_75t_R c3206(
 .A(net9788),
 .Y(net3226)
 );
 
-BUFx12f_ASAP7_75t_R c3207(
+CKINVDCx8_ASAP7_75t_R c3207(
 .A(net3207),
 .Y(net3227)
 );
@@ -29862,7 +29862,7 @@ OAI22xp5_ASAP7_75t_R c3210(
 .Y(net3230)
 );
 
-BUFx16f_ASAP7_75t_R c3211(
+CKINVDCx9p33_ASAP7_75t_R c3211(
 .A(net3223),
 .Y(net3231)
 );
@@ -29873,7 +29873,7 @@ NAND2x2_ASAP7_75t_R c3212(
 .Y(net3232)
 );
 
-BUFx24_ASAP7_75t_R c3213(
+HB1xp67_ASAP7_75t_R c3213(
 .A(net3219),
 .Y(net3233)
 );
@@ -29887,7 +29887,7 @@ NAND5xp2_ASAP7_75t_R c3214(
 .Y(net3234)
 );
 
-BUFx2_ASAP7_75t_R c3215(
+HB2xp67_ASAP7_75t_R c3215(
 .A(net10064),
 .Y(net3235)
 );
@@ -29915,17 +29915,17 @@ NAND2xp33_ASAP7_75t_R c3218(
 .Y(net3238)
 );
 
-BUFx3_ASAP7_75t_R c3219(
+HB3xp67_ASAP7_75t_R c3219(
 .A(net3202),
 .Y(net3239)
 );
 
-BUFx4_ASAP7_75t_R c3220(
+HB4xp67_ASAP7_75t_R c3220(
 .A(net9469),
 .Y(net3240)
 );
 
-BUFx4f_ASAP7_75t_R c3221(
+INVx11_ASAP7_75t_R c3221(
 .A(net3146),
 .Y(net3241)
 );
@@ -29949,7 +29949,7 @@ NAND2xp67_ASAP7_75t_R c3224(
 .Y(net3244)
 );
 
-BUFx5_ASAP7_75t_R c3225(
+INVx13_ASAP7_75t_R c3225(
 .A(net9134),
 .Y(net3245)
 );
@@ -29966,7 +29966,7 @@ NOR2x1p5_ASAP7_75t_R c3227(
 .Y(net3247)
 );
 
-BUFx6f_ASAP7_75t_R c3228(
+INVx1_ASAP7_75t_R c3228(
 .A(net3182),
 .Y(net3248)
 );
@@ -29984,7 +29984,7 @@ OA21x2_ASAP7_75t_R c3230(
 .Y(net3250)
 );
 
-BUFx8_ASAP7_75t_R c3231(
+INVx2_ASAP7_75t_R c3231(
 .A(net10035),
 .Y(net3251)
 );
@@ -29996,7 +29996,7 @@ OAI21x1_ASAP7_75t_R c3232(
 .Y(net3252)
 );
 
-CKINVDCx10_ASAP7_75t_R c3233(
+INVx3_ASAP7_75t_R c3233(
 .A(net10039),
 .Y(net3253)
 );
@@ -30020,12 +30020,12 @@ NOR2xp67_ASAP7_75t_R c3236(
 .Y(net3256)
 );
 
-CKINVDCx11_ASAP7_75t_R c3237(
+INVx4_ASAP7_75t_R c3237(
 .A(net3195),
 .Y(net3257)
 );
 
-CKINVDCx12_ASAP7_75t_R c3238(
+INVx5_ASAP7_75t_R c3238(
 .A(net3006),
 .Y(net3258)
 );
@@ -30048,12 +30048,12 @@ OR2x6_ASAP7_75t_R c3241(
 .Y(net3261)
 );
 
-CKINVDCx14_ASAP7_75t_R c3242(
+INVx6_ASAP7_75t_R c3242(
 .A(net1447),
 .Y(net3262)
 );
 
-CKINVDCx16_ASAP7_75t_R c3243(
+INVx8_ASAP7_75t_R c3243(
 .A(net1324),
 .Y(net3263)
 );
@@ -30064,7 +30064,7 @@ XNOR2x1_ASAP7_75t_R c3244(
 .Y(net3264)
 );
 
-CKINVDCx20_ASAP7_75t_R c3245(
+INVxp33_ASAP7_75t_R c3245(
 .A(net3257),
 .Y(net3265)
 );
@@ -30075,7 +30075,7 @@ XNOR2x2_ASAP7_75t_R c3246(
 .Y(net3266)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c3247(
+INVxp67_ASAP7_75t_R c3247(
 .A(net10512),
 .Y(net3267)
 );
@@ -30099,7 +30099,7 @@ XOR2x1_ASAP7_75t_R c3250(
 .Y(net3270)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c3251(
+BUFx10_ASAP7_75t_R c3251(
 .A(net2378),
 .Y(net3271)
 );
@@ -30118,22 +30118,22 @@ XOR2x2_ASAP7_75t_R c3253(
 .Y(net3273)
 );
 
-CKINVDCx8_ASAP7_75t_R c3254(
+BUFx12_ASAP7_75t_R c3254(
 .A(net2159),
 .Y(net3274)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c3255(
+BUFx12f_ASAP7_75t_R c3255(
 .A(net9955),
 .Y(net3275)
 );
 
-HB1xp67_ASAP7_75t_R c3256(
+BUFx16f_ASAP7_75t_R c3256(
 .A(net9158),
 .Y(net3276)
 );
 
-HB2xp67_ASAP7_75t_R c3257(
+BUFx24_ASAP7_75t_R c3257(
 .A(net10051),
 .Y(net3277)
 );
@@ -30150,12 +30150,12 @@ AND2x2_ASAP7_75t_R c3259(
 .Y(net3279)
 );
 
-HB3xp67_ASAP7_75t_R c3260(
+BUFx2_ASAP7_75t_R c3260(
 .A(net10024),
 .Y(net3280)
 );
 
-HB4xp67_ASAP7_75t_R c3261(
+BUFx3_ASAP7_75t_R c3261(
 .A(net9682),
 .Y(net3281)
 );
@@ -30166,7 +30166,7 @@ AND2x4_ASAP7_75t_R c3262(
 .Y(net3282)
 );
 
-INVx11_ASAP7_75t_R c3263(
+BUFx4_ASAP7_75t_R c3263(
 .A(net3259),
 .Y(net3283)
 );
@@ -30177,7 +30177,7 @@ AND2x6_ASAP7_75t_R c3264(
 .Y(net3284)
 );
 
-INVx13_ASAP7_75t_R c3265(
+BUFx4f_ASAP7_75t_R c3265(
 .A(net3282),
 .Y(net3285)
 );
@@ -30200,7 +30200,7 @@ NAND2x1p5_ASAP7_75t_R c3268(
 .Y(net3288)
 );
 
-INVx1_ASAP7_75t_R c3269(
+BUFx5_ASAP7_75t_R c3269(
 .A(net2367),
 .Y(net3289)
 );
@@ -30211,7 +30211,7 @@ NAND2x2_ASAP7_75t_R c3270(
 .Y(net3290)
 );
 
-INVx2_ASAP7_75t_R c3271(
+BUFx6f_ASAP7_75t_R c3271(
 .A(net10560),
 .Y(net3291)
 );
@@ -30252,7 +30252,7 @@ NOR2x2_ASAP7_75t_R c3277(
 .Y(net3297)
 );
 
-INVx3_ASAP7_75t_R c3278(
+BUFx8_ASAP7_75t_R c3278(
 .A(net10435),
 .Y(net3298)
 );
@@ -30270,7 +30270,7 @@ NOR2xp33_ASAP7_75t_R c3280(
 .Y(net3300)
 );
 
-INVx4_ASAP7_75t_R c3281(
+CKINVDCx5p33_ASAP7_75t_R c3281(
 .A(net2317),
 .Y(net3301)
 );
@@ -30288,7 +30288,7 @@ NOR2xp67_ASAP7_75t_R c3283(
 .Y(net3303)
 );
 
-INVx5_ASAP7_75t_R c3284(
+CKINVDCx6p67_ASAP7_75t_R c3284(
 .A(net9158),
 .Y(net3304)
 );
@@ -30341,12 +30341,12 @@ OR2x4_ASAP7_75t_R c3291(
 .Y(net3311)
 );
 
-INVx6_ASAP7_75t_R c3292(
+CKINVDCx8_ASAP7_75t_R c3292(
 .A(net10563),
 .Y(net3312)
 );
 
-INVx8_ASAP7_75t_R c3293(
+CKINVDCx9p33_ASAP7_75t_R c3293(
 .A(net10505),
 .Y(net3313)
 );
@@ -30364,7 +30364,7 @@ OR2x6_ASAP7_75t_R c3295(
 .Y(net3315)
 );
 
-INVxp33_ASAP7_75t_R c3296(
+HB1xp67_ASAP7_75t_R c3296(
 .A(net3300),
 .Y(net3316)
 );
@@ -30381,7 +30381,7 @@ XNOR2x2_ASAP7_75t_R c3298(
 .Y(net3318)
 );
 
-INVxp67_ASAP7_75t_R c3299(
+HB2xp67_ASAP7_75t_R c3299(
 .A(net10515),
 .Y(net3319)
 );
@@ -30433,7 +30433,7 @@ XOR2xp5_ASAP7_75t_R c3306(
 .Y(net3326)
 );
 
-BUFx10_ASAP7_75t_R c3307(
+HB3xp67_ASAP7_75t_R c3307(
 .A(net10080),
 .Y(net3327)
 );
@@ -30491,7 +30491,7 @@ FAx1_ASAP7_75t_R c3314(
 .CON(net3334)
 );
 
-BUFx12_ASAP7_75t_R c3315(
+HB4xp67_ASAP7_75t_R c3315(
 .A(net10421),
 .Y(net3336)
 );
@@ -30527,12 +30527,12 @@ MAJx3_ASAP7_75t_R c3319(
 .Y(net3340)
 );
 
-BUFx12f_ASAP7_75t_R c3320(
+INVx11_ASAP7_75t_R c3320(
 .A(net9086),
 .Y(net3341)
 );
 
-BUFx16f_ASAP7_75t_R c3321(
+INVx13_ASAP7_75t_R c3321(
 .A(net2470),
 .Y(net3342)
 );
@@ -30543,7 +30543,7 @@ AND2x4_ASAP7_75t_R c3322(
 .Y(net3343)
 );
 
-BUFx24_ASAP7_75t_R c3323(
+INVx1_ASAP7_75t_R c3323(
 .A(net2405),
 .Y(net3344)
 );
@@ -30561,22 +30561,22 @@ HAxp5_ASAP7_75t_R c3325(
 .SN(net3346)
 );
 
-BUFx2_ASAP7_75t_R c3326(
+INVx2_ASAP7_75t_R c3326(
 .A(net2472),
 .Y(net3348)
 );
 
-BUFx3_ASAP7_75t_R c3327(
+INVx3_ASAP7_75t_R c3327(
 .A(net10100),
 .Y(net3349)
 );
 
-BUFx4_ASAP7_75t_R c3328(
+INVx4_ASAP7_75t_R c3328(
 .A(net598),
 .Y(net3350)
 );
 
-BUFx4f_ASAP7_75t_R c3329(
+INVx5_ASAP7_75t_R c3329(
 .A(net10414),
 .Y(net3351)
 );
@@ -30587,17 +30587,17 @@ NAND2x1_ASAP7_75t_R c3330(
 .Y(net3352)
 );
 
-BUFx5_ASAP7_75t_R c3331(
+INVx6_ASAP7_75t_R c3331(
 .A(net10393),
 .Y(net3353)
 );
 
-BUFx6f_ASAP7_75t_R c3332(
+INVx8_ASAP7_75t_R c3332(
 .A(net2439),
 .Y(net3354)
 );
 
-BUFx8_ASAP7_75t_R c3333(
+INVxp33_ASAP7_75t_R c3333(
 .A(net3352),
 .Y(net3355)
 );
@@ -30615,12 +30615,12 @@ NAND2x1p5_ASAP7_75t_R c3335(
 .Y(net3357)
 );
 
-CKINVDCx10_ASAP7_75t_R c3336(
+INVxp67_ASAP7_75t_R c3336(
 .A(net3342),
 .Y(net3358)
 );
 
-CKINVDCx11_ASAP7_75t_R c3337(
+BUFx10_ASAP7_75t_R c3337(
 .A(net3358),
 .Y(net3359)
 );
@@ -30637,7 +30637,7 @@ NAND2xp33_ASAP7_75t_R c3339(
 .Y(net3361)
 );
 
-CKINVDCx12_ASAP7_75t_R c3340(
+BUFx12_ASAP7_75t_R c3340(
 .A(net9252),
 .Y(net3362)
 );
@@ -30649,7 +30649,7 @@ NAND3x1_ASAP7_75t_R c3341(
 .Y(net3363)
 );
 
-CKINVDCx14_ASAP7_75t_R c3342(
+BUFx12f_ASAP7_75t_R c3342(
 .A(net3326),
 .Y(net3364)
 );
@@ -30674,7 +30674,7 @@ NAND2xp67_ASAP7_75t_R c3345(
 .Y(net3367)
 );
 
-CKINVDCx16_ASAP7_75t_R c3346(
+BUFx16f_ASAP7_75t_R c3346(
 .A(net9252),
 .Y(net3368)
 );
@@ -30698,12 +30698,12 @@ NOR2x1p5_ASAP7_75t_R c3349(
 .Y(net3371)
 );
 
-CKINVDCx20_ASAP7_75t_R c3350(
+BUFx24_ASAP7_75t_R c3350(
 .A(net3365),
 .Y(net3372)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c3351(
+BUFx2_ASAP7_75t_R c3351(
 .A(net10373),
 .Y(net3373)
 );
@@ -30720,22 +30720,22 @@ NOR2xp33_ASAP7_75t_R c3353(
 .Y(net3375)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c3354(
+BUFx3_ASAP7_75t_R c3354(
 .A(net10432),
 .Y(net3376)
 );
 
-CKINVDCx8_ASAP7_75t_R c3355(
+BUFx4_ASAP7_75t_R c3355(
 .A(net2456),
 .Y(net3377)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c3356(
+BUFx4f_ASAP7_75t_R c3356(
 .A(net3374),
 .Y(net3378)
 );
 
-HB1xp67_ASAP7_75t_R c3357(
+BUFx5_ASAP7_75t_R c3357(
 .A(net10490),
 .Y(net3379)
 );
@@ -30752,7 +30752,7 @@ OR2x2_ASAP7_75t_R c3359(
 .Y(net3381)
 );
 
-HB2xp67_ASAP7_75t_R c3360(
+BUFx6f_ASAP7_75t_R c3360(
 .A(net3323),
 .Y(net3382)
 );
@@ -30793,7 +30793,7 @@ XOR2x1_ASAP7_75t_R c3366(
 .Y(net3388)
 );
 
-HB3xp67_ASAP7_75t_R c3367(
+BUFx8_ASAP7_75t_R c3367(
 .A(net3379),
 .Y(net3389)
 );
@@ -30814,7 +30814,7 @@ OA222x2_ASAP7_75t_R c3369(
 .Y(net3391)
 );
 
-HB4xp67_ASAP7_75t_R c3370(
+CKINVDCx5p33_ASAP7_75t_R c3370(
 .A(net10152),
 .Y(net3392)
 );
@@ -30826,7 +30826,7 @@ NAND3xp33_ASAP7_75t_R c3371(
 .Y(net3393)
 );
 
-INVx11_ASAP7_75t_R c3372(
+CKINVDCx6p67_ASAP7_75t_R c3372(
 .A(net10148),
 .Y(net3394)
 );
@@ -30837,17 +30837,17 @@ XOR2xp5_ASAP7_75t_R c3373(
 .Y(net3395)
 );
 
-INVx13_ASAP7_75t_R c3374(
+CKINVDCx8_ASAP7_75t_R c3374(
 .A(net10440),
 .Y(net3396)
 );
 
-INVx1_ASAP7_75t_R c3375(
+CKINVDCx9p33_ASAP7_75t_R c3375(
 .A(net3371),
 .Y(net3397)
 );
 
-INVx2_ASAP7_75t_R c3376(
+HB1xp67_ASAP7_75t_R c3376(
 .A(net3380),
 .Y(net3398)
 );
@@ -30894,7 +30894,7 @@ NOR3xp33_ASAP7_75t_R c3382(
 .Y(net3404)
 );
 
-INVx3_ASAP7_75t_R c3383(
+HB2xp67_ASAP7_75t_R c3383(
 .A(net10076),
 .Y(net3405)
 );
@@ -30937,7 +30937,7 @@ OAI21x1_ASAP7_75t_R c3389(
 .Y(net3411)
 );
 
-INVx4_ASAP7_75t_R c3390(
+HB3xp67_ASAP7_75t_R c3390(
 .A(net9086),
 .Y(net3412)
 );
@@ -31052,22 +31052,22 @@ OR2x2_ASAP7_75t_R c3407(
 .Y(net3429)
 );
 
-INVx5_ASAP7_75t_R c3408(
+HB4xp67_ASAP7_75t_R c3408(
 .A(net9994),
 .Y(net3430)
 );
 
-INVx6_ASAP7_75t_R c3409(
+INVx11_ASAP7_75t_R c3409(
 .A(net9898),
 .Y(net3431)
 );
 
-INVx8_ASAP7_75t_R c3410(
+INVx13_ASAP7_75t_R c3410(
 .A(net3354),
 .Y(net3432)
 );
 
-INVxp33_ASAP7_75t_R c3411(
+INVx1_ASAP7_75t_R c3411(
 .A(net3311),
 .Y(net3433)
 );
@@ -31079,12 +31079,12 @@ ICGx6p67DC_ASAP7_75t_R c3412(
 .GCLK(net3434)
 );
 
-INVxp67_ASAP7_75t_R c3413(
+INVx2_ASAP7_75t_R c3413(
 .A(net9994),
 .Y(net3435)
 );
 
-BUFx10_ASAP7_75t_R c3414(
+INVx3_ASAP7_75t_R c3414(
 .A(net3415),
 .Y(net3436)
 );
@@ -31101,7 +31101,7 @@ OR2x6_ASAP7_75t_R c3416(
 .Y(net3438)
 );
 
-BUFx12_ASAP7_75t_R c3417(
+INVx4_ASAP7_75t_R c3417(
 .A(net3262),
 .Y(net3439)
 );
@@ -31113,7 +31113,7 @@ AND3x2_ASAP7_75t_R c3418(
 .Y(net3440)
 );
 
-BUFx12f_ASAP7_75t_R c3419(
+INVx5_ASAP7_75t_R c3419(
 .A(net10495),
 .Y(net3441)
 );
@@ -31124,12 +31124,12 @@ XNOR2x1_ASAP7_75t_R c3420(
 .Y(net3442)
 );
 
-BUFx16f_ASAP7_75t_R c3421(
+INVx6_ASAP7_75t_R c3421(
 .A(net10107),
 .Y(net3443)
 );
 
-BUFx24_ASAP7_75t_R c3422(
+INVx8_ASAP7_75t_R c3422(
 .A(net3355),
 .Y(net3444)
 );
@@ -31184,7 +31184,7 @@ AND2x4_ASAP7_75t_R c3430(
 .Y(net3452)
 );
 
-BUFx2_ASAP7_75t_R c3431(
+INVxp33_ASAP7_75t_R c3431(
 .A(net9994),
 .Y(net3453)
 );
@@ -31208,12 +31208,12 @@ HAxp5_ASAP7_75t_R c3434(
 .CON(net3456)
 );
 
-BUFx3_ASAP7_75t_R c3435(
+INVxp67_ASAP7_75t_R c3435(
 .A(net10078),
 .Y(net3457)
 );
 
-BUFx4_ASAP7_75t_R c3436(
+BUFx10_ASAP7_75t_R c3436(
 .A(net10003),
 .Y(net3458)
 );
@@ -31224,7 +31224,7 @@ NAND2x1_ASAP7_75t_R c3437(
 .Y(net3459)
 );
 
-BUFx4f_ASAP7_75t_R c3438(
+BUFx12_ASAP7_75t_R c3438(
 .A(net3439),
 .Y(net3460)
 );
@@ -31235,7 +31235,7 @@ NAND2x1p5_ASAP7_75t_R c3439(
 .Y(net3461)
 );
 
-BUFx5_ASAP7_75t_R c3440(
+BUFx12f_ASAP7_75t_R c3440(
 .A(net10520),
 .Y(net3462)
 );
@@ -31246,7 +31246,7 @@ NAND2x2_ASAP7_75t_R c3441(
 .Y(net3463)
 );
 
-BUFx6f_ASAP7_75t_R c3442(
+BUFx16f_ASAP7_75t_R c3442(
 .A(net9926),
 .Y(net3464)
 );
@@ -31263,7 +31263,7 @@ NAND2xp5_ASAP7_75t_R c3444(
 .Y(net3466)
 );
 
-BUFx8_ASAP7_75t_R c3445(
+BUFx24_ASAP7_75t_R c3445(
 .A(net10367),
 .Y(net3467)
 );
@@ -31274,7 +31274,7 @@ NAND2xp67_ASAP7_75t_R c3446(
 .Y(net3468)
 );
 
-CKINVDCx10_ASAP7_75t_R c3447(
+BUFx2_ASAP7_75t_R c3447(
 .A(net10056),
 .Y(net3469)
 );
@@ -31304,7 +31304,7 @@ NOR2x2_ASAP7_75t_R c3451(
 .Y(net3473)
 );
 
-CKINVDCx11_ASAP7_75t_R c3452(
+BUFx3_ASAP7_75t_R c3452(
 .A(net10160),
 .Y(net3474)
 );
@@ -31414,12 +31414,12 @@ AND2x2_ASAP7_75t_R c3468(
 .Y(net3490)
 );
 
-CKINVDCx12_ASAP7_75t_R c3469(
+BUFx4_ASAP7_75t_R c3469(
 .A(net10003),
 .Y(net3491)
 );
 
-CKINVDCx14_ASAP7_75t_R c3470(
+BUFx4f_ASAP7_75t_R c3470(
 .A(net9957),
 .Y(net3492)
 );
@@ -31431,7 +31431,7 @@ AOI21xp33_ASAP7_75t_R c3471(
 .Y(net3493)
 );
 
-CKINVDCx16_ASAP7_75t_R c3472(
+BUFx5_ASAP7_75t_R c3472(
 .A(net10388),
 .Y(net3494)
 );
@@ -31525,12 +31525,12 @@ OR4x2_ASAP7_75t_R c3485(
 .Y(net3508)
 );
 
-CKINVDCx20_ASAP7_75t_R c3486(
+BUFx6f_ASAP7_75t_R c3486(
 .A(net805),
 .Y(net3509)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c3487(
+BUFx8_ASAP7_75t_R c3487(
 .A(net10022),
 .Y(net3510)
 );
@@ -31541,7 +31541,7 @@ NAND2xp67_ASAP7_75t_R c3488(
 .Y(net3511)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c3489(
+CKINVDCx5p33_ASAP7_75t_R c3489(
 .A(net10227),
 .Y(net3512)
 );
@@ -31558,7 +31558,7 @@ NOR2x1p5_ASAP7_75t_R c3491(
 .Y(net3514)
 );
 
-CKINVDCx8_ASAP7_75t_R c3492(
+CKINVDCx6p67_ASAP7_75t_R c3492(
 .A(net9087),
 .Y(net3515)
 );
@@ -31575,7 +31575,7 @@ NOR2xp33_ASAP7_75t_R c3494(
 .Y(net3517)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c3495(
+CKINVDCx8_ASAP7_75t_R c3495(
 .A(net10087),
 .Y(net3518)
 );
@@ -31593,7 +31593,7 @@ NOR2xp67_ASAP7_75t_R c3497(
 .Y(net3520)
 );
 
-HB1xp67_ASAP7_75t_R c3498(
+CKINVDCx9p33_ASAP7_75t_R c3498(
 .A(net9657),
 .Y(net3521)
 );
@@ -31604,7 +31604,7 @@ OR2x2_ASAP7_75t_R c3499(
 .Y(net3522)
 );
 
-HB2xp67_ASAP7_75t_R c3500(
+HB1xp67_ASAP7_75t_R c3500(
 .A(net1616),
 .Y(net3523)
 );
@@ -31617,7 +31617,7 @@ A2O1A1Ixp33_ASAP7_75t_R c3501(
 .Y(net3524)
 );
 
-HB3xp67_ASAP7_75t_R c3502(
+HB2xp67_ASAP7_75t_R c3502(
 .A(net2658),
 .Y(net3525)
 );
@@ -31629,7 +31629,7 @@ MAJx2_ASAP7_75t_R c3503(
 .Y(net3526)
 );
 
-HB4xp67_ASAP7_75t_R c3504(
+HB3xp67_ASAP7_75t_R c3504(
 .A(net9087),
 .Y(net3527)
 );
@@ -31682,7 +31682,7 @@ XNOR2x1_ASAP7_75t_R c3511(
 .Y(net3534)
 );
 
-INVx11_ASAP7_75t_R c3512(
+HB4xp67_ASAP7_75t_R c3512(
 .A(net10109),
 .Y(net3535)
 );
@@ -31694,7 +31694,7 @@ NAND3x2_ASAP7_75t_R c3513(
 .Y(net3536)
 );
 
-INVx13_ASAP7_75t_R c3514(
+INVx11_ASAP7_75t_R c3514(
 .A(net10568),
 .Y(net3537)
 );
@@ -31705,7 +31705,7 @@ XNOR2x2_ASAP7_75t_R c3515(
 .Y(net3538)
 );
 
-INVx1_ASAP7_75t_R c3516(
+INVx13_ASAP7_75t_R c3516(
 .A(net10545),
 .Y(net3539)
 );
@@ -31740,7 +31740,7 @@ AND2x2_ASAP7_75t_R c3521(
 .Y(net3544)
 );
 
-INVx2_ASAP7_75t_R c3522(
+INVx1_ASAP7_75t_R c3522(
 .A(net3536),
 .Y(net3545)
 );
@@ -31790,7 +31790,7 @@ NOR3x1_ASAP7_75t_R c3529(
 .Y(net3553)
 );
 
-INVx3_ASAP7_75t_R c3530(
+INVx2_ASAP7_75t_R c3530(
 .A(net9952),
 .Y(net3554)
 );
@@ -31832,7 +31832,7 @@ NOR2x1_ASAP7_75t_R c3536(
 .Y(net3560)
 );
 
-INVx4_ASAP7_75t_R c3537(
+INVx3_ASAP7_75t_R c3537(
 .A(net10102),
 .Y(net3561)
 );
@@ -31843,7 +31843,7 @@ NOR2x1p5_ASAP7_75t_R c3538(
 .Y(net3562)
 );
 
-INVx5_ASAP7_75t_R c3539(
+INVx4_ASAP7_75t_R c3539(
 .A(net10556),
 .Y(net3563)
 );
@@ -31945,7 +31945,7 @@ OAI21x1_ASAP7_75t_R c3553(
 .Y(net3577)
 );
 
-INVx6_ASAP7_75t_R c3554(
+INVx5_ASAP7_75t_R c3554(
 .A(net3523),
 .Y(net3578)
 );
@@ -32004,7 +32004,7 @@ OAI21xp5_ASAP7_75t_R c3561(
 .Y(net3585)
 );
 
-INVx8_ASAP7_75t_R c3562(
+INVx6_ASAP7_75t_R c3562(
 .A(net10511),
 .Y(net3586)
 );
@@ -32089,7 +32089,7 @@ XOR2xp5_ASAP7_75t_R c3573(
 .Y(net3597)
 );
 
-INVxp33_ASAP7_75t_R c3574(
+INVx8_ASAP7_75t_R c3574(
 .A(net10330),
 .Y(net3598)
 );
@@ -32100,7 +32100,7 @@ AND2x2_ASAP7_75t_R c3575(
 .Y(net3599)
 );
 
-INVxp67_ASAP7_75t_R c3576(
+INVxp33_ASAP7_75t_R c3576(
 .A(net10349),
 .Y(net3600)
 );
@@ -32195,7 +32195,7 @@ NAND2xp67_ASAP7_75t_R c3590(
 .Y(net3614)
 );
 
-BUFx10_ASAP7_75t_R c3591(
+INVxp67_ASAP7_75t_R c3591(
 .A(net10495),
 .Y(net3615)
 );
@@ -32283,7 +32283,7 @@ OR2x6_ASAP7_75t_R c3604(
 .Y(net3628)
 );
 
-BUFx12_ASAP7_75t_R c3605(
+BUFx10_ASAP7_75t_R c3605(
 .A(net10524),
 .Y(net3629)
 );
@@ -32355,7 +32355,7 @@ XOR2x2_ASAP7_75t_R c3615(
 .Y(net3639)
 );
 
-BUFx12f_ASAP7_75t_R c3616(
+BUFx12_ASAP7_75t_R c3616(
 .A(net10483),
 .Y(net3640)
 );
@@ -32528,7 +32528,7 @@ AOI22xp5_ASAP7_75t_R c3640(
 .Y(net3665)
 );
 
-BUFx16f_ASAP7_75t_R c3641(
+BUFx12f_ASAP7_75t_R c3641(
 .A(net10330),
 .Y(net3666)
 );
@@ -32610,27 +32610,27 @@ NOR3x2_ASAP7_75t_R c3651(
 .Y(net3676)
 );
 
-BUFx24_ASAP7_75t_R c3652(
+BUFx16f_ASAP7_75t_R c3652(
 .A(net9164),
 .Y(net3677)
 );
 
-BUFx2_ASAP7_75t_R c3653(
+BUFx24_ASAP7_75t_R c3653(
 .A(net959),
 .Y(net3678)
 );
 
-BUFx3_ASAP7_75t_R c3654(
+BUFx2_ASAP7_75t_R c3654(
 .A(net9164),
 .Y(net3679)
 );
 
-BUFx4_ASAP7_75t_R c3655(
+BUFx3_ASAP7_75t_R c3655(
 .A(net2757),
 .Y(net3680)
 );
 
-BUFx4f_ASAP7_75t_R c3656(
+BUFx4_ASAP7_75t_R c3656(
 .A(net1864),
 .Y(net3681)
 );
@@ -32654,12 +32654,12 @@ NOR2x1_ASAP7_75t_R c3659(
 .Y(net3684)
 );
 
-BUFx5_ASAP7_75t_R c3660(
+BUFx4f_ASAP7_75t_R c3660(
 .A(net2819),
 .Y(net3685)
 );
 
-BUFx6f_ASAP7_75t_R c3661(
+BUFx5_ASAP7_75t_R c3661(
 .A(net3680),
 .Y(net3686)
 );
@@ -32676,7 +32676,7 @@ NOR2x2_ASAP7_75t_R c3663(
 .Y(net3688)
 );
 
-BUFx8_ASAP7_75t_R c3664(
+BUFx6f_ASAP7_75t_R c3664(
 .A(net2763),
 .Y(net3689)
 );
@@ -32687,12 +32687,12 @@ NOR2xp33_ASAP7_75t_R c3665(
 .Y(net3690)
 );
 
-CKINVDCx10_ASAP7_75t_R c3666(
+BUFx8_ASAP7_75t_R c3666(
 .A(net30),
 .Y(net3691)
 );
 
-CKINVDCx11_ASAP7_75t_R c3667(
+CKINVDCx5p33_ASAP7_75t_R c3667(
 .A(net3677),
 .Y(net3692)
 );
@@ -32703,12 +32703,12 @@ NOR2xp67_ASAP7_75t_R c3668(
 .Y(net3693)
 );
 
-CKINVDCx12_ASAP7_75t_R c3669(
+CKINVDCx6p67_ASAP7_75t_R c3669(
 .A(net3691),
 .Y(net3694)
 );
 
-CKINVDCx14_ASAP7_75t_R c3670(
+CKINVDCx8_ASAP7_75t_R c3670(
 .A(net3678),
 .Y(net3695)
 );
@@ -32719,22 +32719,22 @@ OR2x2_ASAP7_75t_R c3671(
 .Y(net3696)
 );
 
-CKINVDCx16_ASAP7_75t_R c3672(
+CKINVDCx9p33_ASAP7_75t_R c3672(
 .A(net9258),
 .Y(net3697)
 );
 
-CKINVDCx20_ASAP7_75t_R c3673(
+HB1xp67_ASAP7_75t_R c3673(
 .A(net9258),
 .Y(net3698)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c3674(
+HB2xp67_ASAP7_75t_R c3674(
 .A(net950),
 .Y(net3699)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c3675(
+HB3xp67_ASAP7_75t_R c3675(
 .A(net3697),
 .Y(net3700)
 );
@@ -32758,12 +32758,12 @@ OR2x6_ASAP7_75t_R c3678(
 .Y(net3703)
 );
 
-CKINVDCx8_ASAP7_75t_R c3679(
+HB4xp67_ASAP7_75t_R c3679(
 .A(net3692),
 .Y(net3704)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c3680(
+INVx11_ASAP7_75t_R c3680(
 .A(net1864),
 .Y(net3705)
 );
@@ -32781,12 +32781,12 @@ XNOR2x1_ASAP7_75t_R c3682(
 .Y(net3707)
 );
 
-HB1xp67_ASAP7_75t_R c3683(
+INVx13_ASAP7_75t_R c3683(
 .A(net9279),
 .Y(net3708)
 );
 
-HB2xp67_ASAP7_75t_R c3684(
+INVx1_ASAP7_75t_R c3684(
 .A(net2804),
 .Y(net3709)
 );
@@ -32798,7 +32798,7 @@ ICGx6p67DC_ASAP7_75t_R c3685(
 .GCLK(net3710)
 );
 
-HB3xp67_ASAP7_75t_R c3686(
+INVx2_ASAP7_75t_R c3686(
 .A(net1891),
 .Y(net3711)
 );
@@ -32810,12 +32810,12 @@ ICGx8DC_ASAP7_75t_R c3687(
 .GCLK(net3712)
 );
 
-HB4xp67_ASAP7_75t_R c3688(
+INVx3_ASAP7_75t_R c3688(
 .A(net9286),
 .Y(net3713)
 );
 
-INVx11_ASAP7_75t_R c3689(
+INVx4_ASAP7_75t_R c3689(
 .A(net3704),
 .Y(net3714)
 );
@@ -32827,17 +32827,17 @@ ICGx1_ASAP7_75t_R c3690(
 .GCLK(net3715)
 );
 
-INVx13_ASAP7_75t_R c3691(
+INVx5_ASAP7_75t_R c3691(
 .A(net3715),
 .Y(net3716)
 );
 
-INVx1_ASAP7_75t_R c3692(
+INVx6_ASAP7_75t_R c3692(
 .A(net3712),
 .Y(net3717)
 );
 
-INVx2_ASAP7_75t_R c3693(
+INVx8_ASAP7_75t_R c3693(
 .A(net3717),
 .Y(net3718)
 );
@@ -32848,22 +32848,22 @@ XNOR2x2_ASAP7_75t_R c3694(
 .Y(net3719)
 );
 
-INVx3_ASAP7_75t_R c3695(
+INVxp33_ASAP7_75t_R c3695(
 .A(net9286),
 .Y(net3720)
 );
 
-INVx4_ASAP7_75t_R c3696(
+INVxp67_ASAP7_75t_R c3696(
 .A(net3698),
 .Y(net3721)
 );
 
-INVx5_ASAP7_75t_R c3697(
+BUFx10_ASAP7_75t_R c3697(
 .A(net3700),
 .Y(net3722)
 );
 
-INVx6_ASAP7_75t_R c3698(
+BUFx12_ASAP7_75t_R c3698(
 .A(net9713),
 .Y(net3723)
 );
@@ -32880,7 +32880,7 @@ XOR2x1_ASAP7_75t_R c3700(
 .Y(net3725)
 );
 
-INVx8_ASAP7_75t_R c3701(
+BUFx12f_ASAP7_75t_R c3701(
 .A(net3715),
 .Y(net3726)
 );
@@ -32906,17 +32906,17 @@ SDFHx4_ASAP7_75t_R c3704(
 .QN(net3729)
 );
 
-INVxp33_ASAP7_75t_R c3705(
+BUFx16f_ASAP7_75t_R c3705(
 .A(net3723),
 .Y(net3730)
 );
 
-INVxp67_ASAP7_75t_R c3706(
+BUFx24_ASAP7_75t_R c3706(
 .A(net3719),
 .Y(net3731)
 );
 
-BUFx10_ASAP7_75t_R c3707(
+BUFx2_ASAP7_75t_R c3707(
 .A(net3687),
 .Y(net3732)
 );
@@ -32927,7 +32927,7 @@ XOR2xp5_ASAP7_75t_R c3708(
 .Y(net3733)
 );
 
-BUFx12_ASAP7_75t_R c3709(
+BUFx3_ASAP7_75t_R c3709(
 .A(net9713),
 .Y(net3734)
 );
@@ -32958,7 +32958,7 @@ AO33x2_ASAP7_75t_R c3712(
 .Y(net3737)
 );
 
-BUFx12f_ASAP7_75t_R c3713(
+BUFx4_ASAP7_75t_R c3713(
 .A(net3716),
 .Y(net3738)
 );
@@ -32969,12 +32969,12 @@ AND2x4_ASAP7_75t_R c3714(
 .Y(net3739)
 );
 
-BUFx16f_ASAP7_75t_R c3715(
+BUFx4f_ASAP7_75t_R c3715(
 .A(net9310),
 .Y(net3740)
 );
 
-BUFx24_ASAP7_75t_R c3716(
+BUFx5_ASAP7_75t_R c3716(
 .A(net3736),
 .Y(net3741)
 );
@@ -32992,7 +32992,7 @@ AND2x6_ASAP7_75t_R c3718(
 .Y(net3743)
 );
 
-BUFx2_ASAP7_75t_R c3719(
+BUFx6f_ASAP7_75t_R c3719(
 .A(net9279),
 .Y(net3744)
 );
@@ -33036,12 +33036,12 @@ ICGx2_ASAP7_75t_R c3725(
 .GCLK(net3751)
 );
 
-BUFx3_ASAP7_75t_R c3726(
+BUFx8_ASAP7_75t_R c3726(
 .A(net3732),
 .Y(net3752)
 );
 
-BUFx4_ASAP7_75t_R c3727(
+CKINVDCx5p33_ASAP7_75t_R c3727(
 .A(net3729),
 .Y(net3753)
 );
@@ -33090,7 +33090,7 @@ NOR2x1p5_ASAP7_75t_R c3734(
 .Y(net3760)
 );
 
-BUFx4f_ASAP7_75t_R c3735(
+CKINVDCx6p67_ASAP7_75t_R c3735(
 .A(net2897),
 .Y(net3761)
 );
@@ -33101,7 +33101,7 @@ NOR2x2_ASAP7_75t_R c3736(
 .Y(net3762)
 );
 
-BUFx5_ASAP7_75t_R c3737(
+CKINVDCx8_ASAP7_75t_R c3737(
 .A(net1962),
 .Y(net3763)
 );
@@ -33112,12 +33112,12 @@ NOR2xp33_ASAP7_75t_R c3738(
 .Y(net3764)
 );
 
-BUFx6f_ASAP7_75t_R c3739(
+CKINVDCx9p33_ASAP7_75t_R c3739(
 .A(net2867),
 .Y(net3765)
 );
 
-BUFx8_ASAP7_75t_R c3740(
+HB1xp67_ASAP7_75t_R c3740(
 .A(net10497),
 .Y(net3766)
 );
@@ -33142,12 +33142,12 @@ OR3x2_ASAP7_75t_R c3743(
 .Y(net3769)
 );
 
-CKINVDCx10_ASAP7_75t_R c3744(
+HB2xp67_ASAP7_75t_R c3744(
 .A(net3754),
 .Y(net3770)
 );
 
-CKINVDCx11_ASAP7_75t_R c3745(
+HB3xp67_ASAP7_75t_R c3745(
 .A(net9142),
 .Y(net3771)
 );
@@ -33190,17 +33190,17 @@ XNOR2x1_ASAP7_75t_R c3751(
 .Y(net3777)
 );
 
-CKINVDCx12_ASAP7_75t_R c3752(
+HB4xp67_ASAP7_75t_R c3752(
 .A(net10235),
 .Y(net3778)
 );
 
-CKINVDCx14_ASAP7_75t_R c3753(
+INVx11_ASAP7_75t_R c3753(
 .A(net9729),
 .Y(net3779)
 );
 
-CKINVDCx16_ASAP7_75t_R c3754(
+INVx13_ASAP7_75t_R c3754(
 .A(net10189),
 .Y(net3780)
 );
@@ -33212,7 +33212,7 @@ OR3x4_ASAP7_75t_R c3755(
 .Y(net3781)
 );
 
-CKINVDCx20_ASAP7_75t_R c3756(
+INVx1_ASAP7_75t_R c3756(
 .A(net9954),
 .Y(net3782)
 );
@@ -33231,7 +33231,7 @@ AND3x2_ASAP7_75t_R c3758(
 .Y(net3784)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c3759(
+INVx2_ASAP7_75t_R c3759(
 .A(net3750),
 .Y(net3785)
 );
@@ -33242,7 +33242,7 @@ XNOR2x2_ASAP7_75t_R c3760(
 .Y(net3786)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c3761(
+INVx3_ASAP7_75t_R c3761(
 .A(net2848),
 .Y(net3787)
 );
@@ -33253,12 +33253,12 @@ XNOR2xp5_ASAP7_75t_R c3762(
 .Y(net3788)
 );
 
-CKINVDCx8_ASAP7_75t_R c3763(
+INVx4_ASAP7_75t_R c3763(
 .A(net2896),
 .Y(net3789)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c3764(
+INVx5_ASAP7_75t_R c3764(
 .A(net3752),
 .Y(net3790)
 );
@@ -33269,12 +33269,12 @@ XOR2x1_ASAP7_75t_R c3765(
 .Y(net3791)
 );
 
-HB1xp67_ASAP7_75t_R c3766(
+INVx6_ASAP7_75t_R c3766(
 .A(net1911),
 .Y(net3792)
 );
 
-HB2xp67_ASAP7_75t_R c3767(
+INVx8_ASAP7_75t_R c3767(
 .A(net3785),
 .Y(net3793)
 );
@@ -33304,7 +33304,7 @@ AND2x2_ASAP7_75t_R c3771(
 .Y(net3797)
 );
 
-HB3xp67_ASAP7_75t_R c3772(
+INVxp33_ASAP7_75t_R c3772(
 .A(net3782),
 .Y(net3798)
 );
@@ -33321,7 +33321,7 @@ AND2x6_ASAP7_75t_R c3774(
 .Y(net3800)
 );
 
-HB4xp67_ASAP7_75t_R c3775(
+INVxp67_ASAP7_75t_R c3775(
 .A(net3791),
 .Y(net3801)
 );
@@ -33333,7 +33333,7 @@ HAxp5_ASAP7_75t_R c3776(
 .SN(net3802)
 );
 
-INVx11_ASAP7_75t_R c3777(
+BUFx10_ASAP7_75t_R c3777(
 .A(net10163),
 .Y(net3804)
 );
@@ -33359,12 +33359,12 @@ AO21x1_ASAP7_75t_R c3780(
 .Y(net3807)
 );
 
-INVx13_ASAP7_75t_R c3781(
+BUFx12_ASAP7_75t_R c3781(
 .A(net3803),
 .Y(net3808)
 );
 
-INVx1_ASAP7_75t_R c3782(
+BUFx12f_ASAP7_75t_R c3782(
 .A(net3797),
 .Y(net3809)
 );
@@ -33376,7 +33376,7 @@ ICGx4DC_ASAP7_75t_R c3783(
 .GCLK(net3810)
 );
 
-INVx2_ASAP7_75t_R c3784(
+BUFx16f_ASAP7_75t_R c3784(
 .A(net9142),
 .Y(net3811)
 );
@@ -33393,17 +33393,17 @@ NAND2x2_ASAP7_75t_R c3786(
 .Y(net3813)
 );
 
-INVx3_ASAP7_75t_R c3787(
+BUFx24_ASAP7_75t_R c3787(
 .A(net10542),
 .Y(net3814)
 );
 
-INVx4_ASAP7_75t_R c3788(
+BUFx2_ASAP7_75t_R c3788(
 .A(net3771),
 .Y(net3815)
 );
 
-INVx5_ASAP7_75t_R c3789(
+BUFx3_ASAP7_75t_R c3789(
 .A(net3814),
 .Y(net3816)
 );
@@ -33456,7 +33456,7 @@ O2A1O1Ixp5_ASAP7_75t_R c3796(
 .Y(net3823)
 );
 
-INVx6_ASAP7_75t_R c3797(
+BUFx4_ASAP7_75t_R c3797(
 .A(net10575),
 .Y(net3824)
 );
@@ -33490,7 +33490,7 @@ AOI222xp33_ASAP7_75t_R c3801(
 .Y(net3828)
 );
 
-INVx8_ASAP7_75t_R c3802(
+BUFx4f_ASAP7_75t_R c3802(
 .A(net10496),
 .Y(net3829)
 );
@@ -33533,7 +33533,7 @@ OR2x2_ASAP7_75t_R c3808(
 .Y(net3835)
 );
 
-INVxp33_ASAP7_75t_R c3809(
+BUFx5_ASAP7_75t_R c3809(
 .A(net9825),
 .Y(net3836)
 );
@@ -33592,7 +33592,7 @@ NAND3x1_ASAP7_75t_R c3817(
 .Y(net3845)
 );
 
-INVxp67_ASAP7_75t_R c3818(
+BUFx6f_ASAP7_75t_R c3818(
 .A(net9257),
 .Y(net3846)
 );
@@ -33639,7 +33639,7 @@ AND2x4_ASAP7_75t_R c3825(
 .Y(net3853)
 );
 
-BUFx10_ASAP7_75t_R c3826(
+BUFx8_ASAP7_75t_R c3826(
 .A(net3753),
 .Y(net3854)
 );
@@ -33650,7 +33650,7 @@ AND2x6_ASAP7_75t_R c3827(
 .Y(net3855)
 );
 
-BUFx12_ASAP7_75t_R c3828(
+CKINVDCx5p33_ASAP7_75t_R c3828(
 .A(net3840),
 .Y(net3856)
 );
@@ -33674,22 +33674,22 @@ NAND2x1p5_ASAP7_75t_R c3831(
 .Y(net3860)
 );
 
-BUFx12f_ASAP7_75t_R c3832(
+CKINVDCx6p67_ASAP7_75t_R c3832(
 .A(net9693),
 .Y(net3861)
 );
 
-BUFx16f_ASAP7_75t_R c3833(
+CKINVDCx8_ASAP7_75t_R c3833(
 .A(net9149),
 .Y(net3862)
 );
 
-BUFx24_ASAP7_75t_R c3834(
+CKINVDCx9p33_ASAP7_75t_R c3834(
 .A(net3860),
 .Y(net3863)
 );
 
-BUFx2_ASAP7_75t_R c3835(
+HB1xp67_ASAP7_75t_R c3835(
 .A(net10479),
 .Y(net3864)
 );
@@ -33700,7 +33700,7 @@ NAND2x2_ASAP7_75t_R c3836(
 .Y(net3865)
 );
 
-BUFx3_ASAP7_75t_R c3837(
+HB2xp67_ASAP7_75t_R c3837(
 .A(net10136),
 .Y(net3866)
 );
@@ -33717,12 +33717,12 @@ NAND2xp5_ASAP7_75t_R c3839(
 .Y(net3868)
 );
 
-BUFx4_ASAP7_75t_R c3840(
+HB3xp67_ASAP7_75t_R c3840(
 .A(net10016),
 .Y(net3869)
 );
 
-BUFx4f_ASAP7_75t_R c3841(
+HB4xp67_ASAP7_75t_R c3841(
 .A(net9149),
 .Y(net3870)
 );
@@ -33740,7 +33740,7 @@ ICGx5_ASAP7_75t_R c3843(
 .GCLK(net3872)
 );
 
-BUFx5_ASAP7_75t_R c3844(
+INVx11_ASAP7_75t_R c3844(
 .A(net9267),
 .Y(net3873)
 );
@@ -33757,7 +33757,7 @@ NOR2x1p5_ASAP7_75t_R c3846(
 .Y(net3875)
 );
 
-BUFx6f_ASAP7_75t_R c3847(
+INVx13_ASAP7_75t_R c3847(
 .A(net9980),
 .Y(net3876)
 );
@@ -33803,7 +33803,7 @@ NAND3xp33_ASAP7_75t_R c3853(
 .Y(net3882)
 );
 
-BUFx8_ASAP7_75t_R c3854(
+INVx1_ASAP7_75t_R c3854(
 .A(net3847),
 .Y(net3883)
 );
@@ -33833,7 +33833,7 @@ OR2x4_ASAP7_75t_R c3858(
 .Y(net3887)
 );
 
-CKINVDCx10_ASAP7_75t_R c3859(
+INVx2_ASAP7_75t_R c3859(
 .A(net3885),
 .Y(net3888)
 );
@@ -33858,17 +33858,17 @@ OR2x6_ASAP7_75t_R c3862(
 .Y(net3891)
 );
 
-CKINVDCx11_ASAP7_75t_R c3863(
+INVx3_ASAP7_75t_R c3863(
 .A(net9980),
 .Y(net3892)
 );
 
-CKINVDCx12_ASAP7_75t_R c3864(
+INVx4_ASAP7_75t_R c3864(
 .A(net3866),
 .Y(net3893)
 );
 
-CKINVDCx14_ASAP7_75t_R c3865(
+INVx5_ASAP7_75t_R c3865(
 .A(net9969),
 .Y(net3894)
 );
@@ -33898,7 +33898,7 @@ XNOR2xp5_ASAP7_75t_R c3869(
 .Y(net3898)
 );
 
-CKINVDCx16_ASAP7_75t_R c3870(
+INVx6_ASAP7_75t_R c3870(
 .A(net9992),
 .Y(net3899)
 );
@@ -33909,17 +33909,17 @@ XOR2x1_ASAP7_75t_R c3871(
 .Y(net3900)
 );
 
-CKINVDCx20_ASAP7_75t_R c3872(
+INVx8_ASAP7_75t_R c3872(
 .A(net10088),
 .Y(net3901)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c3873(
+INVxp33_ASAP7_75t_R c3873(
 .A(net10096),
 .Y(net3902)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c3874(
+INVxp67_ASAP7_75t_R c3874(
 .A(net10136),
 .Y(net3903)
 );
@@ -33986,7 +33986,7 @@ OR3x1_ASAP7_75t_R c3883(
 .Y(net3912)
 );
 
-CKINVDCx8_ASAP7_75t_R c3884(
+BUFx10_ASAP7_75t_R c3884(
 .A(net10567),
 .Y(net3913)
 );
@@ -34043,7 +34043,7 @@ SDFLx3_ASAP7_75t_R c3891(
 .QN(net3920)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c3892(
+BUFx12_ASAP7_75t_R c3892(
 .A(net10529),
 .Y(net3921)
 );
@@ -34120,12 +34120,12 @@ NAND2x2_ASAP7_75t_R c3902(
 .Y(net3932)
 );
 
-HB1xp67_ASAP7_75t_R c3903(
+BUFx12f_ASAP7_75t_R c3903(
 .A(net9973),
 .Y(net3933)
 );
 
-HB2xp67_ASAP7_75t_R c3904(
+BUFx16f_ASAP7_75t_R c3904(
 .A(net10510),
 .Y(net3934)
 );
@@ -34136,7 +34136,7 @@ NAND2xp33_ASAP7_75t_R c3905(
 .Y(net3935)
 );
 
-HB3xp67_ASAP7_75t_R c3906(
+BUFx24_ASAP7_75t_R c3906(
 .A(net3870),
 .Y(net3936)
 );
@@ -34153,7 +34153,7 @@ NAND2xp67_ASAP7_75t_R c3908(
 .Y(net3938)
 );
 
-HB4xp67_ASAP7_75t_R c3909(
+BUFx2_ASAP7_75t_R c3909(
 .A(net10158),
 .Y(net3939)
 );
@@ -34176,12 +34176,12 @@ NOR2x2_ASAP7_75t_R c3912(
 .Y(net3942)
 );
 
-INVx11_ASAP7_75t_R c3913(
+BUFx3_ASAP7_75t_R c3913(
 .A(net3932),
 .Y(net3943)
 );
 
-INVx13_ASAP7_75t_R c3914(
+BUFx4_ASAP7_75t_R c3914(
 .A(net10553),
 .Y(net3944)
 );
@@ -34198,7 +34198,7 @@ NOR2xp67_ASAP7_75t_R c3916(
 .Y(net3946)
 );
 
-INVx1_ASAP7_75t_R c3917(
+BUFx4f_ASAP7_75t_R c3917(
 .A(net10066),
 .Y(net3947)
 );
@@ -34315,12 +34315,12 @@ AOI21xp5_ASAP7_75t_R c3934(
 .Y(net3964)
 );
 
-INVx2_ASAP7_75t_R c3935(
+BUFx5_ASAP7_75t_R c3935(
 .A(net10079),
 .Y(net3965)
 );
 
-INVx3_ASAP7_75t_R c3936(
+BUFx6f_ASAP7_75t_R c3936(
 .A(net2121),
 .Y(net3966)
 );
@@ -34351,7 +34351,7 @@ FAx1_ASAP7_75t_R c3940(
 .SN(net3971)
 );
 
-INVx4_ASAP7_75t_R c3941(
+BUFx8_ASAP7_75t_R c3941(
 .A(net10163),
 .Y(net3972)
 );
@@ -34368,12 +34368,12 @@ NAND2x1p5_ASAP7_75t_R c3943(
 .Y(net3974)
 );
 
-INVx5_ASAP7_75t_R c3944(
+CKINVDCx5p33_ASAP7_75t_R c3944(
 .A(net10554),
 .Y(net3975)
 );
 
-INVx6_ASAP7_75t_R c3945(
+CKINVDCx6p67_ASAP7_75t_R c3945(
 .A(net10066),
 .Y(net3976)
 );
@@ -34408,7 +34408,7 @@ NOR2x1_ASAP7_75t_R c3950(
 .Y(net3981)
 );
 
-INVx8_ASAP7_75t_R c3951(
+CKINVDCx8_ASAP7_75t_R c3951(
 .A(net10019),
 .Y(net3982)
 );
@@ -34458,12 +34458,12 @@ MAJIxp5_ASAP7_75t_R c3958(
 .Y(net3989)
 );
 
-INVxp33_ASAP7_75t_R c3959(
+CKINVDCx9p33_ASAP7_75t_R c3959(
 .A(net9954),
 .Y(net3990)
 );
 
-INVxp67_ASAP7_75t_R c3960(
+HB1xp67_ASAP7_75t_R c3960(
 .A(net10070),
 .Y(net3991)
 );
@@ -34474,7 +34474,7 @@ OR2x4_ASAP7_75t_R c3961(
 .Y(net3992)
 );
 
-BUFx10_ASAP7_75t_R c3962(
+HB2xp67_ASAP7_75t_R c3962(
 .A(net10091),
 .Y(net3993)
 );
@@ -34536,7 +34536,7 @@ XOR2x2_ASAP7_75t_R c3971(
 .Y(net4002)
 );
 
-BUFx12_ASAP7_75t_R c3972(
+HB3xp67_ASAP7_75t_R c3972(
 .A(net10079),
 .Y(net4003)
 );
@@ -34578,7 +34578,7 @@ NOR3x1_ASAP7_75t_R c3977(
 .Y(net4008)
 );
 
-BUFx12f_ASAP7_75t_R c3978(
+HB4xp67_ASAP7_75t_R c3978(
 .A(net10079),
 .Y(net4009)
 );
@@ -34590,7 +34590,7 @@ NOR3x2_ASAP7_75t_R c3979(
 .Y(net4010)
 );
 
-BUFx16f_ASAP7_75t_R c3980(
+INVx11_ASAP7_75t_R c3980(
 .A(net10399),
 .Y(net4011)
 );
@@ -34602,7 +34602,7 @@ NOR3xp33_ASAP7_75t_R c3981(
 .Y(net4012)
 );
 
-BUFx24_ASAP7_75t_R c3982(
+INVx13_ASAP7_75t_R c3982(
 .A(net10158),
 .Y(net4013)
 );
@@ -34620,12 +34620,12 @@ AND2x2_ASAP7_75t_R c3984(
 .Y(net4015)
 );
 
-BUFx2_ASAP7_75t_R c3985(
+INVx1_ASAP7_75t_R c3985(
 .A(net3170),
 .Y(net4016)
 );
 
-BUFx3_ASAP7_75t_R c3986(
+INVx2_ASAP7_75t_R c3986(
 .A(net9967),
 .Y(net4017)
 );
@@ -34639,7 +34639,7 @@ AO221x2_ASAP7_75t_R c3987(
 .Y(net4018)
 );
 
-BUFx4_ASAP7_75t_R c3988(
+INVx3_ASAP7_75t_R c3988(
 .A(net10562),
 .Y(net4019)
 );
@@ -34663,7 +34663,7 @@ AND2x6_ASAP7_75t_R c3991(
 .Y(net4022)
 );
 
-BUFx4f_ASAP7_75t_R c3992(
+INVx4_ASAP7_75t_R c3992(
 .A(net10425),
 .Y(net4023)
 );
@@ -34674,7 +34674,7 @@ HAxp5_ASAP7_75t_R c3993(
 .CON(net4024)
 );
 
-BUFx5_ASAP7_75t_R c3994(
+INVx5_ASAP7_75t_R c3994(
 .A(net3156),
 .Y(net4025)
 );
@@ -34685,7 +34685,7 @@ NAND2x1_ASAP7_75t_R c3995(
 .Y(net4026)
 );
 
-BUFx6f_ASAP7_75t_R c3996(
+INVx6_ASAP7_75t_R c3996(
 .A(net4025),
 .Y(net4027)
 );
@@ -34709,27 +34709,27 @@ OAI21xp33_ASAP7_75t_R c3999(
 .Y(net4030)
 );
 
-BUFx8_ASAP7_75t_R c4000(
+INVx8_ASAP7_75t_R c4000(
 .A(net3073),
 .Y(net4031)
 );
 
-CKINVDCx10_ASAP7_75t_R c4001(
+INVxp33_ASAP7_75t_R c4001(
 .A(net9745),
 .Y(net4032)
 );
 
-CKINVDCx11_ASAP7_75t_R c4002(
+INVxp67_ASAP7_75t_R c4002(
 .A(net10106),
 .Y(net4033)
 );
 
-CKINVDCx12_ASAP7_75t_R c4003(
+BUFx10_ASAP7_75t_R c4003(
 .A(net3957),
 .Y(net4034)
 );
 
-CKINVDCx14_ASAP7_75t_R c4004(
+BUFx12_ASAP7_75t_R c4004(
 .A(net2183),
 .Y(net4035)
 );
@@ -34746,7 +34746,7 @@ NAND2xp5_ASAP7_75t_R c4006(
 .Y(net4037)
 );
 
-CKINVDCx16_ASAP7_75t_R c4007(
+BUFx12f_ASAP7_75t_R c4007(
 .A(net3868),
 .Y(net4038)
 );
@@ -34770,12 +34770,12 @@ NOR2x1_ASAP7_75t_R c4010(
 .Y(net4041)
 );
 
-CKINVDCx20_ASAP7_75t_R c4011(
+BUFx16f_ASAP7_75t_R c4011(
 .A(net3120),
 .Y(net4042)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c4012(
+BUFx24_ASAP7_75t_R c4012(
 .A(net10106),
 .Y(net4043)
 );
@@ -34787,7 +34787,7 @@ OR3x1_ASAP7_75t_R c4013(
 .Y(net4044)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c4014(
+BUFx2_ASAP7_75t_R c4014(
 .A(net9864),
 .Y(net4045)
 );
@@ -34804,7 +34804,7 @@ NOR2x2_ASAP7_75t_R c4016(
 .Y(net4047)
 );
 
-CKINVDCx8_ASAP7_75t_R c4017(
+BUFx3_ASAP7_75t_R c4017(
 .A(net9982),
 .Y(net4048)
 );
@@ -34816,7 +34816,7 @@ OR3x2_ASAP7_75t_R c4018(
 .Y(net4049)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c4019(
+BUFx4_ASAP7_75t_R c4019(
 .A(net3137),
 .Y(net4050)
 );
@@ -34827,7 +34827,7 @@ NOR2xp33_ASAP7_75t_R c4020(
 .Y(net4051)
 );
 
-HB1xp67_ASAP7_75t_R c4021(
+BUFx4f_ASAP7_75t_R c4021(
 .A(net4048),
 .Y(net4052)
 );
@@ -34845,7 +34845,7 @@ OR3x4_ASAP7_75t_R c4023(
 .Y(net4054)
 );
 
-HB2xp67_ASAP7_75t_R c4024(
+BUFx5_ASAP7_75t_R c4024(
 .A(net10444),
 .Y(net4055)
 );
@@ -34862,12 +34862,12 @@ OR2x4_ASAP7_75t_R c4026(
 .Y(net4057)
 );
 
-HB3xp67_ASAP7_75t_R c4027(
+BUFx6f_ASAP7_75t_R c4027(
 .A(net4057),
 .Y(net4058)
 );
 
-HB4xp67_ASAP7_75t_R c4028(
+BUFx8_ASAP7_75t_R c4028(
 .A(net10096),
 .Y(net4059)
 );
@@ -34890,7 +34890,7 @@ XNOR2x2_ASAP7_75t_R c4031(
 .Y(net4062)
 );
 
-INVx11_ASAP7_75t_R c4032(
+CKINVDCx5p33_ASAP7_75t_R c4032(
 .A(net10539),
 .Y(net4063)
 );
@@ -34928,7 +34928,7 @@ AND3x1_ASAP7_75t_R c4037(
 .Y(net4068)
 );
 
-INVx13_ASAP7_75t_R c4038(
+CKINVDCx6p67_ASAP7_75t_R c4038(
 .A(net10481),
 .Y(net4069)
 );
@@ -34986,7 +34986,7 @@ AND3x4_ASAP7_75t_R c4046(
 .Y(net4077)
 );
 
-INVx1_ASAP7_75t_R c4047(
+CKINVDCx8_ASAP7_75t_R c4047(
 .A(net10425),
 .Y(net4078)
 );
@@ -35244,7 +35244,7 @@ OR2x4_ASAP7_75t_R c4083(
 .Y(net4116)
 );
 
-INVx2_ASAP7_75t_R c4084(
+CKINVDCx9p33_ASAP7_75t_R c4084(
 .A(net4130),
 .Y(net4117)
 );
@@ -35277,7 +35277,7 @@ OA21x2_ASAP7_75t_R c4088(
 .Y(net4121)
 );
 
-INVx3_ASAP7_75t_R c4089(
+HB1xp67_ASAP7_75t_R c4089(
 .A(net4144),
 .Y(net4122)
 );
@@ -35352,32 +35352,32 @@ XNOR2xp5_ASAP7_75t_R c4099(
 .Y(net4132)
 );
 
-INVx4_ASAP7_75t_R c4100(
+HB2xp67_ASAP7_75t_R c4100(
 .A(net4132),
 .Y(net4133)
 );
 
-INVx5_ASAP7_75t_R c4101(
+HB3xp67_ASAP7_75t_R c4101(
 .A(net9933),
 .Y(net4134)
 );
 
-INVx6_ASAP7_75t_R c4102(
+HB4xp67_ASAP7_75t_R c4102(
 .A(net2167),
 .Y(net4135)
 );
 
-INVx8_ASAP7_75t_R c4103(
+INVx11_ASAP7_75t_R c4103(
 .A(net9136),
 .Y(net4136)
 );
 
-INVxp33_ASAP7_75t_R c4104(
+INVx13_ASAP7_75t_R c4104(
 .A(net9136),
 .Y(net4137)
 );
 
-INVxp67_ASAP7_75t_R c4105(
+INVx1_ASAP7_75t_R c4105(
 .A(net10132),
 .Y(net4138)
 );
@@ -35388,17 +35388,17 @@ XOR2x1_ASAP7_75t_R c4106(
 .Y(net4139)
 );
 
-BUFx10_ASAP7_75t_R c4107(
+INVx2_ASAP7_75t_R c4107(
 .A(net3245),
 .Y(net4140)
 );
 
-BUFx12_ASAP7_75t_R c4108(
+INVx3_ASAP7_75t_R c4108(
 .A(net9218),
 .Y(net4141)
 );
 
-BUFx12f_ASAP7_75t_R c4109(
+INVx4_ASAP7_75t_R c4109(
 .A(net9966),
 .Y(net4142)
 );
@@ -35409,7 +35409,7 @@ XOR2x2_ASAP7_75t_R c4110(
 .Y(net4143)
 );
 
-BUFx16f_ASAP7_75t_R c4111(
+INVx5_ASAP7_75t_R c4111(
 .A(net4067),
 .Y(net4144)
 );
@@ -35445,7 +35445,7 @@ AND2x6_ASAP7_75t_R c4116(
 .Y(net4149)
 );
 
-BUFx24_ASAP7_75t_R c4117(
+INVx6_ASAP7_75t_R c4117(
 .A(net3177),
 .Y(net4150)
 );
@@ -35457,7 +35457,7 @@ HAxp5_ASAP7_75t_R c4118(
 .SN(net4151)
 );
 
-BUFx2_ASAP7_75t_R c4119(
+INVx8_ASAP7_75t_R c4119(
 .A(net2264),
 .Y(net4153)
 );
@@ -35502,7 +35502,7 @@ NAND2x1p5_ASAP7_75t_R c4125(
 .Y(net4159)
 );
 
-BUFx3_ASAP7_75t_R c4126(
+INVxp33_ASAP7_75t_R c4126(
 .A(net10504),
 .Y(net4160)
 );
@@ -35533,12 +35533,12 @@ NAND2xp5_ASAP7_75t_R c4130(
 .Y(net4164)
 );
 
-BUFx4_ASAP7_75t_R c4131(
+INVxp67_ASAP7_75t_R c4131(
 .A(net4159),
 .Y(net4165)
 );
 
-BUFx4f_ASAP7_75t_R c4132(
+BUFx10_ASAP7_75t_R c4132(
 .A(net4136),
 .Y(net4166)
 );
@@ -35561,7 +35561,7 @@ NOR2x1p5_ASAP7_75t_R c4135(
 .Y(net4169)
 );
 
-BUFx5_ASAP7_75t_R c4136(
+BUFx12_ASAP7_75t_R c4136(
 .A(net10552),
 .Y(net4170)
 );
@@ -35572,12 +35572,12 @@ NOR2x2_ASAP7_75t_R c4137(
 .Y(net4171)
 );
 
-BUFx6f_ASAP7_75t_R c4138(
+BUFx12f_ASAP7_75t_R c4138(
 .A(net10071),
 .Y(net4172)
 );
 
-BUFx8_ASAP7_75t_R c4139(
+BUFx16f_ASAP7_75t_R c4139(
 .A(net9967),
 .Y(net4173)
 );
@@ -35590,12 +35590,12 @@ SDFLx3_ASAP7_75t_R c4140(
 .QN(net4174)
 );
 
-CKINVDCx10_ASAP7_75t_R c4141(
+BUFx24_ASAP7_75t_R c4141(
 .A(net3203),
 .Y(net4175)
 );
 
-CKINVDCx11_ASAP7_75t_R c4142(
+BUFx2_ASAP7_75t_R c4142(
 .A(net10395),
 .Y(net4176)
 );
@@ -35638,12 +35638,12 @@ OR2x6_ASAP7_75t_R c4148(
 .Y(net4182)
 );
 
-CKINVDCx12_ASAP7_75t_R c4149(
+BUFx3_ASAP7_75t_R c4149(
 .A(net10517),
 .Y(net4183)
 );
 
-CKINVDCx14_ASAP7_75t_R c4150(
+BUFx4_ASAP7_75t_R c4150(
 .A(net10491),
 .Y(net4184)
 );
@@ -35655,7 +35655,7 @@ AND3x4_ASAP7_75t_R c4151(
 .Y(net4185)
 );
 
-CKINVDCx16_ASAP7_75t_R c4152(
+BUFx4f_ASAP7_75t_R c4152(
 .A(net10017),
 .Y(net4186)
 );
@@ -35672,7 +35672,7 @@ XNOR2x2_ASAP7_75t_R c4154(
 .Y(net4188)
 );
 
-CKINVDCx20_ASAP7_75t_R c4155(
+BUFx5_ASAP7_75t_R c4155(
 .A(net4083),
 .Y(net4189)
 );
@@ -35689,7 +35689,7 @@ XOR2x1_ASAP7_75t_R c4157(
 .Y(net4191)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c4158(
+BUFx6f_ASAP7_75t_R c4158(
 .A(net4153),
 .Y(net4192)
 );
@@ -35700,12 +35700,12 @@ XOR2x2_ASAP7_75t_R c4159(
 .Y(net4193)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c4160(
+BUFx8_ASAP7_75t_R c4160(
 .A(net4077),
 .Y(net4194)
 );
 
-CKINVDCx8_ASAP7_75t_R c4161(
+CKINVDCx5p33_ASAP7_75t_R c4161(
 .A(net4123),
 .Y(net4195)
 );
@@ -35723,7 +35723,7 @@ XOR2xp5_ASAP7_75t_R c4163(
 .Y(net4197)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c4164(
+CKINVDCx6p67_ASAP7_75t_R c4164(
 .A(net10038),
 .Y(net4198)
 );
@@ -35766,12 +35766,12 @@ HAxp5_ASAP7_75t_R c4170(
 .CON(net4204)
 );
 
-HB1xp67_ASAP7_75t_R c4171(
+CKINVDCx8_ASAP7_75t_R c4171(
 .A(net445),
 .Y(net4205)
 );
 
-HB2xp67_ASAP7_75t_R c4172(
+CKINVDCx9p33_ASAP7_75t_R c4172(
 .A(net10512),
 .Y(net4206)
 );
@@ -35788,32 +35788,32 @@ NAND2x1p5_ASAP7_75t_R c4174(
 .Y(net4208)
 );
 
-HB3xp67_ASAP7_75t_R c4175(
+HB1xp67_ASAP7_75t_R c4175(
 .A(net3274),
 .Y(net4209)
 );
 
-HB4xp67_ASAP7_75t_R c4176(
+HB2xp67_ASAP7_75t_R c4176(
 .A(net4141),
 .Y(net4210)
 );
 
-INVx11_ASAP7_75t_R c4177(
+HB3xp67_ASAP7_75t_R c4177(
 .A(net10510),
 .Y(net4211)
 );
 
-INVx13_ASAP7_75t_R c4178(
+HB4xp67_ASAP7_75t_R c4178(
 .A(net4201),
 .Y(net4212)
 );
 
-INVx1_ASAP7_75t_R c4179(
+INVx11_ASAP7_75t_R c4179(
 .A(net10390),
 .Y(net4213)
 );
 
-INVx2_ASAP7_75t_R c4180(
+INVx13_ASAP7_75t_R c4180(
 .A(net4129),
 .Y(net4214)
 );
@@ -35836,7 +35836,7 @@ NAND2xp5_ASAP7_75t_R c4183(
 .Y(net4217)
 );
 
-INVx3_ASAP7_75t_R c4184(
+INVx1_ASAP7_75t_R c4184(
 .A(net4205),
 .Y(net4218)
 );
@@ -35862,7 +35862,7 @@ DFFASRHQNx1_ASAP7_75t_R c4187(
 .QN(net4221)
 );
 
-INVx4_ASAP7_75t_R c4188(
+INVx2_ASAP7_75t_R c4188(
 .A(net4190),
 .Y(net4222)
 );
@@ -35921,17 +35921,17 @@ MAJIxp5_ASAP7_75t_R c4196(
 .Y(net4231)
 );
 
-INVx5_ASAP7_75t_R c4197(
+INVx3_ASAP7_75t_R c4197(
 .A(net10549),
 .Y(net4232)
 );
 
-INVx6_ASAP7_75t_R c4198(
+INVx4_ASAP7_75t_R c4198(
 .A(net10361),
 .Y(net4233)
 );
 
-INVx8_ASAP7_75t_R c4199(
+INVx5_ASAP7_75t_R c4199(
 .A(net4226),
 .Y(net4234)
 );
@@ -35955,7 +35955,7 @@ OR2x2_ASAP7_75t_R c4202(
 .Y(net4237)
 );
 
-INVxp33_ASAP7_75t_R c4203(
+INVx6_ASAP7_75t_R c4203(
 .A(net10445),
 .Y(net4238)
 );
@@ -36019,12 +36019,12 @@ XNOR2xp5_ASAP7_75t_R c4212(
 .Y(net4247)
 );
 
-INVxp67_ASAP7_75t_R c4213(
+INVx8_ASAP7_75t_R c4213(
 .A(net10157),
 .Y(net4248)
 );
 
-BUFx10_ASAP7_75t_R c4214(
+INVxp33_ASAP7_75t_R c4214(
 .A(net10017),
 .Y(net4249)
 );
@@ -36160,7 +36160,7 @@ OR3x2_ASAP7_75t_R c4233(
 .Y(net4268)
 );
 
-BUFx12_ASAP7_75t_R c4234(
+INVxp67_ASAP7_75t_R c4234(
 .A(net4241),
 .Y(net4269)
 );
@@ -36172,12 +36172,12 @@ OR3x4_ASAP7_75t_R c4235(
 .Y(net4270)
 );
 
-BUFx12f_ASAP7_75t_R c4236(
+BUFx10_ASAP7_75t_R c4236(
 .A(net3409),
 .Y(net4271)
 );
 
-BUFx16f_ASAP7_75t_R c4237(
+BUFx12_ASAP7_75t_R c4237(
 .A(net3327),
 .Y(net4272)
 );
@@ -36214,7 +36214,7 @@ NAND2x2_ASAP7_75t_R c4242(
 .Y(net4278)
 );
 
-BUFx24_ASAP7_75t_R c4243(
+BUFx12f_ASAP7_75t_R c4243(
 .A(net4278),
 .Y(net4279)
 );
@@ -36232,7 +36232,7 @@ NAND2xp33_ASAP7_75t_R c4245(
 .Y(net4281)
 );
 
-BUFx2_ASAP7_75t_R c4246(
+BUFx16f_ASAP7_75t_R c4246(
 .A(net10150),
 .Y(net4282)
 );
@@ -36270,7 +36270,7 @@ NOR2x1p5_ASAP7_75t_R c4251(
 .Y(net4287)
 );
 
-BUFx3_ASAP7_75t_R c4252(
+BUFx24_ASAP7_75t_R c4252(
 .A(net3291),
 .Y(net4288)
 );
@@ -36281,7 +36281,7 @@ NOR2x2_ASAP7_75t_R c4253(
 .Y(net4289)
 );
 
-BUFx4_ASAP7_75t_R c4254(
+BUFx2_ASAP7_75t_R c4254(
 .A(net3385),
 .Y(net4290)
 );
@@ -36321,7 +36321,7 @@ OAI22xp33_ASAP7_75t_R c4259(
 .Y(net4295)
 );
 
-BUFx4f_ASAP7_75t_R c4260(
+BUFx3_ASAP7_75t_R c4260(
 .A(net4276),
 .Y(net4296)
 );
@@ -36332,17 +36332,17 @@ OR2x4_ASAP7_75t_R c4261(
 .Y(net4297)
 );
 
-BUFx5_ASAP7_75t_R c4262(
+BUFx4_ASAP7_75t_R c4262(
 .A(net10478),
 .Y(net4298)
 );
 
-BUFx6f_ASAP7_75t_R c4263(
+BUFx4f_ASAP7_75t_R c4263(
 .A(net4255),
 .Y(net4299)
 );
 
-BUFx8_ASAP7_75t_R c4264(
+BUFx5_ASAP7_75t_R c4264(
 .A(net4150),
 .Y(net4300)
 );
@@ -36359,12 +36359,12 @@ XNOR2x1_ASAP7_75t_R c4266(
 .Y(net4302)
 );
 
-CKINVDCx10_ASAP7_75t_R c4267(
+BUFx6f_ASAP7_75t_R c4267(
 .A(net10213),
 .Y(net4303)
 );
 
-CKINVDCx11_ASAP7_75t_R c4268(
+BUFx8_ASAP7_75t_R c4268(
 .A(net10470),
 .Y(net4304)
 );
@@ -36381,7 +36381,7 @@ XNOR2xp5_ASAP7_75t_R c4270(
 .Y(net4306)
 );
 
-CKINVDCx12_ASAP7_75t_R c4271(
+CKINVDCx5p33_ASAP7_75t_R c4271(
 .A(net10518),
 .Y(net4307)
 );
@@ -36422,12 +36422,12 @@ AND2x6_ASAP7_75t_R c4277(
 .Y(net4313)
 );
 
-CKINVDCx14_ASAP7_75t_R c4278(
+CKINVDCx6p67_ASAP7_75t_R c4278(
 .A(net4280),
 .Y(net4314)
 );
 
-CKINVDCx16_ASAP7_75t_R c4279(
+CKINVDCx8_ASAP7_75t_R c4279(
 .A(net4304),
 .Y(net4315)
 );
@@ -36440,12 +36440,12 @@ OAI22xp5_ASAP7_75t_R c4280(
 .Y(net4316)
 );
 
-CKINVDCx20_ASAP7_75t_R c4281(
+CKINVDCx9p33_ASAP7_75t_R c4281(
 .A(net4296),
 .Y(net4317)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c4282(
+HB1xp67_ASAP7_75t_R c4282(
 .A(net10137),
 .Y(net4318)
 );
@@ -36462,7 +36462,7 @@ NAND2x1_ASAP7_75t_R c4284(
 .Y(net4320)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c4285(
+HB2xp67_ASAP7_75t_R c4285(
 .A(net9985),
 .Y(net4321)
 );
@@ -36474,7 +36474,7 @@ AND3x4_ASAP7_75t_R c4286(
 .Y(net4322)
 );
 
-CKINVDCx8_ASAP7_75t_R c4287(
+HB3xp67_ASAP7_75t_R c4287(
 .A(net4300),
 .Y(net4323)
 );
@@ -36485,12 +36485,12 @@ NAND2x1p5_ASAP7_75t_R c4288(
 .Y(net4324)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c4289(
+HB4xp67_ASAP7_75t_R c4289(
 .A(net4299),
 .Y(net4325)
 );
 
-HB1xp67_ASAP7_75t_R c4290(
+INVx11_ASAP7_75t_R c4290(
 .A(net10076),
 .Y(net4326)
 );
@@ -36503,7 +36503,7 @@ OAI31xp33_ASAP7_75t_R c4291(
 .Y(net4327)
 );
 
-HB2xp67_ASAP7_75t_R c4292(
+INVx13_ASAP7_75t_R c4292(
 .A(net10045),
 .Y(net4328)
 );
@@ -36550,17 +36550,17 @@ AO21x1_ASAP7_75t_R c4298(
 .Y(net4334)
 );
 
-HB3xp67_ASAP7_75t_R c4299(
+INVx1_ASAP7_75t_R c4299(
 .A(net10478),
 .Y(net4335)
 );
 
-HB4xp67_ASAP7_75t_R c4300(
+INVx2_ASAP7_75t_R c4300(
 .A(net10535),
 .Y(net4336)
 );
 
-INVx11_ASAP7_75t_R c4301(
+INVx3_ASAP7_75t_R c4301(
 .A(net10150),
 .Y(net4337)
 );
@@ -36579,7 +36579,7 @@ NAND2xp67_ASAP7_75t_R c4303(
 .Y(net4339)
 );
 
-INVx13_ASAP7_75t_R c4304(
+INVx4_ASAP7_75t_R c4304(
 .A(net10137),
 .Y(net4340)
 );
@@ -36599,7 +36599,7 @@ OR4x2_ASAP7_75t_R c4306(
 .Y(net4342)
 );
 
-INVx1_ASAP7_75t_R c4307(
+INVx5_ASAP7_75t_R c4307(
 .A(net10528),
 .Y(net4343)
 );
@@ -36632,7 +36632,7 @@ NOR2x1p5_ASAP7_75t_R c4311(
 .Y(net4347)
 );
 
-INVx2_ASAP7_75t_R c4312(
+INVx6_ASAP7_75t_R c4312(
 .A(net10461),
 .Y(net4348)
 );
@@ -36677,22 +36677,22 @@ AOI21xp33_ASAP7_75t_R c4318(
 .Y(net4354)
 );
 
-INVx3_ASAP7_75t_R c4319(
+INVx8_ASAP7_75t_R c4319(
 .A(net2963),
 .Y(net4355)
 );
 
-INVx4_ASAP7_75t_R c4320(
+INVxp33_ASAP7_75t_R c4320(
 .A(net9137),
 .Y(net4356)
 );
 
-INVx5_ASAP7_75t_R c4321(
+INVxp67_ASAP7_75t_R c4321(
 .A(net10172),
 .Y(net4357)
 );
 
-INVx6_ASAP7_75t_R c4322(
+BUFx10_ASAP7_75t_R c4322(
 .A(net4335),
 .Y(net4358)
 );
@@ -36704,27 +36704,27 @@ AOI21xp5_ASAP7_75t_R c4323(
 .Y(net4359)
 );
 
-INVx8_ASAP7_75t_R c4324(
+BUFx12_ASAP7_75t_R c4324(
 .A(net4346),
 .Y(net4360)
 );
 
-INVxp33_ASAP7_75t_R c4325(
+BUFx12f_ASAP7_75t_R c4325(
 .A(net2549),
 .Y(net4361)
 );
 
-INVxp67_ASAP7_75t_R c4326(
+BUFx16f_ASAP7_75t_R c4326(
 .A(net10162),
 .Y(net4362)
 );
 
-BUFx10_ASAP7_75t_R c4327(
+BUFx24_ASAP7_75t_R c4327(
 .A(net9231),
 .Y(net4363)
 );
 
-BUFx12_ASAP7_75t_R c4328(
+BUFx2_ASAP7_75t_R c4328(
 .A(net3467),
 .Y(net4364)
 );
@@ -36741,47 +36741,47 @@ OR2x4_ASAP7_75t_R c4330(
 .Y(net4366)
 );
 
-BUFx12f_ASAP7_75t_R c4331(
+BUFx3_ASAP7_75t_R c4331(
 .A(net9231),
 .Y(net4367)
 );
 
-BUFx16f_ASAP7_75t_R c4332(
+BUFx4_ASAP7_75t_R c4332(
 .A(net10241),
 .Y(net4368)
 );
 
-BUFx24_ASAP7_75t_R c4333(
+BUFx4f_ASAP7_75t_R c4333(
 .A(net9230),
 .Y(net4369)
 );
 
-BUFx2_ASAP7_75t_R c4334(
+BUFx5_ASAP7_75t_R c4334(
 .A(net4364),
 .Y(net4370)
 );
 
-BUFx3_ASAP7_75t_R c4335(
+BUFx6f_ASAP7_75t_R c4335(
 .A(net9230),
 .Y(net4371)
 );
 
-BUFx4_ASAP7_75t_R c4336(
+BUFx8_ASAP7_75t_R c4336(
 .A(net3403),
 .Y(net4372)
 );
 
-BUFx4f_ASAP7_75t_R c4337(
+CKINVDCx5p33_ASAP7_75t_R c4337(
 .A(net9223),
 .Y(net4373)
 );
 
-BUFx5_ASAP7_75t_R c4338(
+CKINVDCx6p67_ASAP7_75t_R c4338(
 .A(net10152),
 .Y(net4374)
 );
 
-BUFx6f_ASAP7_75t_R c4339(
+CKINVDCx8_ASAP7_75t_R c4339(
 .A(net4361),
 .Y(net4375)
 );
@@ -36800,17 +36800,17 @@ OR2x6_ASAP7_75t_R c4341(
 .Y(net4377)
 );
 
-BUFx8_ASAP7_75t_R c4342(
+CKINVDCx9p33_ASAP7_75t_R c4342(
 .A(net4256),
 .Y(net4378)
 );
 
-CKINVDCx10_ASAP7_75t_R c4343(
+HB1xp67_ASAP7_75t_R c4343(
 .A(net2529),
 .Y(net4379)
 );
 
-CKINVDCx11_ASAP7_75t_R c4344(
+HB2xp67_ASAP7_75t_R c4344(
 .A(net4266),
 .Y(net4380)
 );
@@ -36821,7 +36821,7 @@ XNOR2x1_ASAP7_75t_R c4345(
 .Y(net4381)
 );
 
-CKINVDCx12_ASAP7_75t_R c4346(
+HB3xp67_ASAP7_75t_R c4346(
 .A(net9195),
 .Y(net4382)
 );
@@ -36832,7 +36832,7 @@ XNOR2x2_ASAP7_75t_R c4347(
 .Y(net4383)
 );
 
-CKINVDCx14_ASAP7_75t_R c4348(
+HB4xp67_ASAP7_75t_R c4348(
 .A(net4095),
 .Y(net4384)
 );
@@ -36859,7 +36859,7 @@ MAJx2_ASAP7_75t_R c4351(
 .Y(net4388)
 );
 
-CKINVDCx16_ASAP7_75t_R c4352(
+INVx11_ASAP7_75t_R c4352(
 .A(net9195),
 .Y(net4389)
 );
@@ -36870,22 +36870,22 @@ XNOR2xp5_ASAP7_75t_R c4353(
 .Y(net4390)
 );
 
-CKINVDCx20_ASAP7_75t_R c4354(
+INVx13_ASAP7_75t_R c4354(
 .A(net3455),
 .Y(net4391)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c4355(
+INVx1_ASAP7_75t_R c4355(
 .A(net10554),
 .Y(net4392)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c4356(
+INVx2_ASAP7_75t_R c4356(
 .A(net10381),
 .Y(net4393)
 );
 
-CKINVDCx8_ASAP7_75t_R c4357(
+INVx3_ASAP7_75t_R c4357(
 .A(net10107),
 .Y(net4394)
 );
@@ -36902,7 +36902,7 @@ XOR2x2_ASAP7_75t_R c4359(
 .Y(net4396)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c4360(
+INVx4_ASAP7_75t_R c4360(
 .A(net4337),
 .Y(net4397)
 );
@@ -36925,7 +36925,7 @@ AND2x4_ASAP7_75t_R c4363(
 .Y(net4400)
 );
 
-HB1xp67_ASAP7_75t_R c4364(
+INVx5_ASAP7_75t_R c4364(
 .A(net4398),
 .Y(net4401)
 );
@@ -36936,37 +36936,37 @@ AND2x6_ASAP7_75t_R c4365(
 .Y(net4402)
 );
 
-HB2xp67_ASAP7_75t_R c4366(
+INVx6_ASAP7_75t_R c4366(
 .A(net9941),
 .Y(net4403)
 );
 
-HB3xp67_ASAP7_75t_R c4367(
+INVx8_ASAP7_75t_R c4367(
 .A(net10388),
 .Y(net4404)
 );
 
-HB4xp67_ASAP7_75t_R c4368(
+INVxp33_ASAP7_75t_R c4368(
 .A(net9898),
 .Y(net4405)
 );
 
-INVx11_ASAP7_75t_R c4369(
+INVxp67_ASAP7_75t_R c4369(
 .A(net9869),
 .Y(net4406)
 );
 
-INVx13_ASAP7_75t_R c4370(
+BUFx10_ASAP7_75t_R c4370(
 .A(net4400),
 .Y(net4407)
 );
 
-INVx1_ASAP7_75t_R c4371(
+BUFx12_ASAP7_75t_R c4371(
 .A(net4384),
 .Y(net4408)
 );
 
-INVx2_ASAP7_75t_R c4372(
+BUFx12f_ASAP7_75t_R c4372(
 .A(net4081),
 .Y(net4409)
 );
@@ -36984,12 +36984,12 @@ NAND2x1_ASAP7_75t_R c4374(
 .Y(net4412)
 );
 
-INVx3_ASAP7_75t_R c4375(
+BUFx16f_ASAP7_75t_R c4375(
 .A(net9137),
 .Y(net4413)
 );
 
-INVx4_ASAP7_75t_R c4376(
+BUFx24_ASAP7_75t_R c4376(
 .A(net4397),
 .Y(net4414)
 );
@@ -37022,7 +37022,7 @@ NAND2x2_ASAP7_75t_R c4380(
 .Y(net4418)
 );
 
-INVx5_ASAP7_75t_R c4381(
+BUFx2_ASAP7_75t_R c4381(
 .A(net4412),
 .Y(net4419)
 );
@@ -37051,12 +37051,12 @@ NAND3x2_ASAP7_75t_R c4384(
 .Y(net4422)
 );
 
-INVx6_ASAP7_75t_R c4385(
+BUFx3_ASAP7_75t_R c4385(
 .A(net10022),
 .Y(net4423)
 );
 
-INVx8_ASAP7_75t_R c4386(
+BUFx4_ASAP7_75t_R c4386(
 .A(net10133),
 .Y(net4424)
 );
@@ -37067,7 +37067,7 @@ NAND2xp33_ASAP7_75t_R c4387(
 .Y(net4425)
 );
 
-INVxp33_ASAP7_75t_R c4388(
+BUFx4f_ASAP7_75t_R c4388(
 .A(net10172),
 .Y(net4426)
 );
@@ -37168,7 +37168,7 @@ SDFLx1_ASAP7_75t_R c4401(
 .QN(net4439)
 );
 
-INVxp67_ASAP7_75t_R c4402(
+BUFx5_ASAP7_75t_R c4402(
 .A(net4202),
 .Y(net4440)
 );
@@ -37185,7 +37185,7 @@ NOR2xp33_ASAP7_75t_R c4404(
 .Y(net4441)
 );
 
-BUFx10_ASAP7_75t_R c4405(
+BUFx6f_ASAP7_75t_R c4405(
 .A(net10155),
 .Y(net4442)
 );
@@ -37208,12 +37208,12 @@ OR2x4_ASAP7_75t_R c4408(
 .Y(net4445)
 );
 
-BUFx12_ASAP7_75t_R c4409(
+BUFx8_ASAP7_75t_R c4409(
 .A(net10429),
 .Y(net4446)
 );
 
-BUFx12f_ASAP7_75t_R c4410(
+CKINVDCx5p33_ASAP7_75t_R c4410(
 .A(net1736),
 .Y(net4447)
 );
@@ -37231,7 +37231,7 @@ OR2x6_ASAP7_75t_R c4412(
 .Y(net4449)
 );
 
-BUFx16f_ASAP7_75t_R c4413(
+CKINVDCx6p67_ASAP7_75t_R c4413(
 .A(net10117),
 .Y(net4450)
 );
@@ -37273,7 +37273,7 @@ OA21x2_ASAP7_75t_R c4419(
 .Y(net4456)
 );
 
-BUFx24_ASAP7_75t_R c4420(
+CKINVDCx8_ASAP7_75t_R c4420(
 .A(net10109),
 .Y(net4457)
 );
@@ -37310,7 +37310,7 @@ OAI21xp33_ASAP7_75t_R c4425(
 .Y(net4462)
 );
 
-BUFx2_ASAP7_75t_R c4426(
+CKINVDCx9p33_ASAP7_75t_R c4426(
 .A(net10357),
 .Y(net4463)
 );
@@ -37322,7 +37322,7 @@ OAI21xp5_ASAP7_75t_R c4427(
 .Y(net4464)
 );
 
-BUFx3_ASAP7_75t_R c4428(
+HB1xp67_ASAP7_75t_R c4428(
 .A(net1612),
 .Y(net4465)
 );
@@ -37380,7 +37380,7 @@ NAND2xp33_ASAP7_75t_R c4436(
 .Y(net4474)
 );
 
-BUFx4_ASAP7_75t_R c4437(
+HB2xp67_ASAP7_75t_R c4437(
 .A(net10428),
 .Y(net4475)
 );
@@ -37391,7 +37391,7 @@ NAND2xp5_ASAP7_75t_R c4438(
 .Y(net4476)
 );
 
-BUFx4f_ASAP7_75t_R c4439(
+HB3xp67_ASAP7_75t_R c4439(
 .A(net10087),
 .Y(net4477)
 );
@@ -37481,7 +37481,7 @@ OR3x4_ASAP7_75t_R c4452(
 .Y(net4490)
 );
 
-BUFx5_ASAP7_75t_R c4453(
+HB4xp67_ASAP7_75t_R c4453(
 .A(net10364),
 .Y(net4491)
 );
@@ -37614,7 +37614,7 @@ FAx1_ASAP7_75t_R c4471(
 .SN(net4509)
 );
 
-BUFx6f_ASAP7_75t_R c4472(
+INVx11_ASAP7_75t_R c4472(
 .A(net10155),
 .Y(net4510)
 );
@@ -37756,7 +37756,7 @@ NOR3x2_ASAP7_75t_R c4492(
 .Y(net4531)
 );
 
-BUFx8_ASAP7_75t_R c4493(
+INVx13_ASAP7_75t_R c4493(
 .A(net10340),
 .Y(net4532)
 );
@@ -37819,7 +37819,7 @@ NAND2xp67_ASAP7_75t_R c4502(
 .Y(net4541)
 );
 
-CKINVDCx10_ASAP7_75t_R c4503(
+INVx1_ASAP7_75t_R c4503(
 .A(net10547),
 .Y(net4542)
 );
@@ -38002,7 +38002,7 @@ NOR2xp67_ASAP7_75t_R c4528(
 .Y(net4567)
 );
 
-CKINVDCx11_ASAP7_75t_R c4529(
+INVx2_ASAP7_75t_R c4529(
 .A(net10340),
 .Y(net4568)
 );
@@ -38263,22 +38263,22 @@ AND3x4_ASAP7_75t_R c4564(
 .Y(net4603)
 );
 
-CKINVDCx12_ASAP7_75t_R c4565(
+INVx3_ASAP7_75t_R c4565(
 .A(net3682),
 .Y(net4604)
 );
 
-CKINVDCx14_ASAP7_75t_R c4566(
+INVx4_ASAP7_75t_R c4566(
 .A(net3751),
 .Y(net4605)
 );
 
-CKINVDCx16_ASAP7_75t_R c4567(
+INVx5_ASAP7_75t_R c4567(
 .A(net3709),
 .Y(net4606)
 );
 
-CKINVDCx20_ASAP7_75t_R c4568(
+INVx6_ASAP7_75t_R c4568(
 .A(net3702),
 .Y(net4607)
 );
@@ -38289,17 +38289,17 @@ XNOR2xp5_ASAP7_75t_R c4569(
 .Y(net4608)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c4570(
+INVx8_ASAP7_75t_R c4570(
 .A(net3700),
 .Y(net4609)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c4571(
+INVxp33_ASAP7_75t_R c4571(
 .A(net975),
 .Y(net4610)
 );
 
-CKINVDCx8_ASAP7_75t_R c4572(
+INVxp67_ASAP7_75t_R c4572(
 .A(net1892),
 .Y(net4611)
 );
@@ -38310,47 +38310,47 @@ XOR2x1_ASAP7_75t_R c4573(
 .Y(net4612)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c4574(
+BUFx10_ASAP7_75t_R c4574(
 .A(net980),
 .Y(net4613)
 );
 
-HB1xp67_ASAP7_75t_R c4575(
+BUFx12_ASAP7_75t_R c4575(
 .A(net3716),
 .Y(net4614)
 );
 
-HB2xp67_ASAP7_75t_R c4576(
+BUFx12f_ASAP7_75t_R c4576(
 .A(net3755),
 .Y(net4615)
 );
 
-HB3xp67_ASAP7_75t_R c4577(
+BUFx16f_ASAP7_75t_R c4577(
 .A(net3746),
 .Y(net4616)
 );
 
-HB4xp67_ASAP7_75t_R c4578(
+BUFx24_ASAP7_75t_R c4578(
 .A(net1844),
 .Y(net4617)
 );
 
-INVx11_ASAP7_75t_R c4579(
+BUFx2_ASAP7_75t_R c4579(
 .A(in7),
 .Y(net4618)
 );
 
-INVx13_ASAP7_75t_R c4580(
+BUFx3_ASAP7_75t_R c4580(
 .A(net3699),
 .Y(net4619)
 );
 
-INVx1_ASAP7_75t_R c4581(
+BUFx4_ASAP7_75t_R c4581(
 .A(net4612),
 .Y(net4620)
 );
 
-INVx2_ASAP7_75t_R c4582(
+BUFx4f_ASAP7_75t_R c4582(
 .A(net3726),
 .Y(net4621)
 );
@@ -38361,22 +38361,22 @@ XOR2x2_ASAP7_75t_R c4583(
 .Y(net4622)
 );
 
-INVx3_ASAP7_75t_R c4584(
+BUFx5_ASAP7_75t_R c4584(
 .A(net3733),
 .Y(net4623)
 );
 
-INVx4_ASAP7_75t_R c4585(
+BUFx6f_ASAP7_75t_R c4585(
 .A(net1869),
 .Y(net4624)
 );
 
-INVx5_ASAP7_75t_R c4586(
+BUFx8_ASAP7_75t_R c4586(
 .A(net2810),
 .Y(net4625)
 );
 
-INVx6_ASAP7_75t_R c4587(
+CKINVDCx5p33_ASAP7_75t_R c4587(
 .A(net3706),
 .Y(net4626)
 );
@@ -38387,17 +38387,17 @@ XOR2xp5_ASAP7_75t_R c4588(
 .Y(net4627)
 );
 
-INVx8_ASAP7_75t_R c4589(
+CKINVDCx6p67_ASAP7_75t_R c4589(
 .A(net2792),
 .Y(net4628)
 );
 
-INVxp33_ASAP7_75t_R c4590(
+CKINVDCx8_ASAP7_75t_R c4590(
 .A(net4622),
 .Y(net4629)
 );
 
-INVxp67_ASAP7_75t_R c4591(
+CKINVDCx9p33_ASAP7_75t_R c4591(
 .A(net4620),
 .Y(net4630)
 );
@@ -38408,7 +38408,7 @@ AND2x2_ASAP7_75t_R c4592(
 .Y(net4631)
 );
 
-BUFx10_ASAP7_75t_R c4593(
+HB1xp67_ASAP7_75t_R c4593(
 .A(net4605),
 .Y(net4632)
 );
@@ -38419,7 +38419,7 @@ AND2x4_ASAP7_75t_R c4594(
 .Y(net4633)
 );
 
-BUFx12_ASAP7_75t_R c4595(
+HB2xp67_ASAP7_75t_R c4595(
 .A(net3709),
 .Y(net4634)
 );
@@ -38430,7 +38430,7 @@ AND2x6_ASAP7_75t_R c4596(
 .Y(net4635)
 );
 
-BUFx12f_ASAP7_75t_R c4597(
+HB3xp67_ASAP7_75t_R c4597(
 .A(net4632),
 .Y(net4636)
 );
@@ -38455,12 +38455,12 @@ AO21x1_ASAP7_75t_R c4600(
 .Y(net4640)
 );
 
-BUFx16f_ASAP7_75t_R c4601(
+HB4xp67_ASAP7_75t_R c4601(
 .A(net9088),
 .Y(net4641)
 );
 
-BUFx24_ASAP7_75t_R c4602(
+INVx11_ASAP7_75t_R c4602(
 .A(net3713),
 .Y(net4642)
 );
@@ -38477,7 +38477,7 @@ NAND2x2_ASAP7_75t_R c4604(
 .Y(net4644)
 );
 
-BUFx2_ASAP7_75t_R c4605(
+INVx13_ASAP7_75t_R c4605(
 .A(net4631),
 .Y(net4645)
 );
@@ -38515,7 +38515,7 @@ NAND2xp5_ASAP7_75t_R c4610(
 .Y(net4650)
 );
 
-BUFx3_ASAP7_75t_R c4611(
+INVx1_ASAP7_75t_R c4611(
 .A(net2823),
 .Y(net4651)
 );
@@ -38527,7 +38527,7 @@ ICGx5_ASAP7_75t_R c4612(
 .GCLK(net4652)
 );
 
-BUFx4_ASAP7_75t_R c4613(
+INVx2_ASAP7_75t_R c4613(
 .A(net4636),
 .Y(net4653)
 );
@@ -38556,7 +38556,7 @@ NOR2x2_ASAP7_75t_R c4617(
 .Y(net4657)
 );
 
-BUFx4f_ASAP7_75t_R c4618(
+INVx3_ASAP7_75t_R c4618(
 .A(net9088),
 .Y(net4658)
 );
@@ -38777,7 +38777,7 @@ NAND3x1_ASAP7_75t_R c4649(
 .Y(net4691)
 );
 
-BUFx5_ASAP7_75t_R c4650(
+INVx4_ASAP7_75t_R c4650(
 .A(net3812),
 .Y(net4692)
 );
@@ -38789,7 +38789,7 @@ NAND3x2_ASAP7_75t_R c4651(
 .Y(net4693)
 );
 
-BUFx6f_ASAP7_75t_R c4652(
+INVx5_ASAP7_75t_R c4652(
 .A(net4633),
 .Y(net4694)
 );
@@ -38800,32 +38800,32 @@ NAND2x1p5_ASAP7_75t_R c4653(
 .Y(net4695)
 );
 
-BUFx8_ASAP7_75t_R c4654(
+INVx6_ASAP7_75t_R c4654(
 .A(net3789),
 .Y(net4696)
 );
 
-CKINVDCx10_ASAP7_75t_R c4655(
+INVx8_ASAP7_75t_R c4655(
 .A(net1989),
 .Y(net4697)
 );
 
-CKINVDCx11_ASAP7_75t_R c4656(
+INVxp33_ASAP7_75t_R c4656(
 .A(net10562),
 .Y(net4698)
 );
 
-CKINVDCx12_ASAP7_75t_R c4657(
+INVxp67_ASAP7_75t_R c4657(
 .A(net4697),
 .Y(net4699)
 );
 
-CKINVDCx14_ASAP7_75t_R c4658(
+BUFx10_ASAP7_75t_R c4658(
 .A(net4694),
 .Y(net4700)
 );
 
-CKINVDCx16_ASAP7_75t_R c4659(
+BUFx12_ASAP7_75t_R c4659(
 .A(net9176),
 .Y(net4701)
 );
@@ -38836,7 +38836,7 @@ NAND2x2_ASAP7_75t_R c4660(
 .Y(net4702)
 );
 
-CKINVDCx20_ASAP7_75t_R c4661(
+BUFx12f_ASAP7_75t_R c4661(
 .A(net3680),
 .Y(net4703)
 );
@@ -38847,17 +38847,17 @@ NAND2xp33_ASAP7_75t_R c4662(
 .Y(net4704)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c4663(
+BUFx16f_ASAP7_75t_R c4663(
 .A(net9201),
 .Y(net4705)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c4664(
+BUFx24_ASAP7_75t_R c4664(
 .A(net3792),
 .Y(net4706)
 );
 
-CKINVDCx8_ASAP7_75t_R c4665(
+BUFx2_ASAP7_75t_R c4665(
 .A(net4698),
 .Y(net4707)
 );
@@ -38868,7 +38868,7 @@ NAND2xp5_ASAP7_75t_R c4666(
 .Y(net4708)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c4667(
+BUFx3_ASAP7_75t_R c4667(
 .A(net4699),
 .Y(net4709)
 );
@@ -38880,7 +38880,7 @@ ICGx6p67DC_ASAP7_75t_R c4668(
 .GCLK(net4710)
 );
 
-HB1xp67_ASAP7_75t_R c4669(
+BUFx4_ASAP7_75t_R c4669(
 .A(net9935),
 .Y(net4711)
 );
@@ -38893,17 +38893,17 @@ SDFLx3_ASAP7_75t_R c4670(
 .QN(net4712)
 );
 
-HB2xp67_ASAP7_75t_R c4671(
+BUFx4f_ASAP7_75t_R c4671(
 .A(net3810),
 .Y(net4713)
 );
 
-HB3xp67_ASAP7_75t_R c4672(
+BUFx5_ASAP7_75t_R c4672(
 .A(net4679),
 .Y(net4714)
 );
 
-HB4xp67_ASAP7_75t_R c4673(
+BUFx6f_ASAP7_75t_R c4673(
 .A(net4702),
 .Y(net4715)
 );
@@ -38922,7 +38922,7 @@ SDFLx4_ASAP7_75t_R c4675(
 .QN(net4717)
 );
 
-INVx11_ASAP7_75t_R c4676(
+BUFx8_ASAP7_75t_R c4676(
 .A(net2823),
 .Y(net4718)
 );
@@ -38939,7 +38939,7 @@ NOR2x1p5_ASAP7_75t_R c4678(
 .Y(net4720)
 );
 
-INVx13_ASAP7_75t_R c4679(
+CKINVDCx5p33_ASAP7_75t_R c4679(
 .A(net4703),
 .Y(net4721)
 );
@@ -38950,7 +38950,7 @@ NOR2x2_ASAP7_75t_R c4680(
 .Y(net4722)
 );
 
-INVx1_ASAP7_75t_R c4681(
+CKINVDCx6p67_ASAP7_75t_R c4681(
 .A(net1844),
 .Y(net4723)
 );
@@ -38973,22 +38973,22 @@ OR2x2_ASAP7_75t_R c4684(
 .Y(net4726)
 );
 
-INVx2_ASAP7_75t_R c4685(
+CKINVDCx8_ASAP7_75t_R c4685(
 .A(net4673),
 .Y(net4727)
 );
 
-INVx3_ASAP7_75t_R c4686(
+CKINVDCx9p33_ASAP7_75t_R c4686(
 .A(net4721),
 .Y(net4728)
 );
 
-INVx4_ASAP7_75t_R c4687(
+HB1xp67_ASAP7_75t_R c4687(
 .A(net4719),
 .Y(net4729)
 );
 
-INVx5_ASAP7_75t_R c4688(
+HB2xp67_ASAP7_75t_R c4688(
 .A(net1961),
 .Y(net4730)
 );
@@ -39018,12 +39018,12 @@ XNOR2x1_ASAP7_75t_R c4692(
 .Y(net4734)
 );
 
-INVx6_ASAP7_75t_R c4693(
+HB3xp67_ASAP7_75t_R c4693(
 .A(net10482),
 .Y(net4735)
 );
 
-INVx8_ASAP7_75t_R c4694(
+HB4xp67_ASAP7_75t_R c4694(
 .A(net4626),
 .Y(net4736)
 );
@@ -39050,7 +39050,7 @@ NOR3x1_ASAP7_75t_R c4697(
 .Y(net4739)
 );
 
-INVxp33_ASAP7_75t_R c4698(
+INVx11_ASAP7_75t_R c4698(
 .A(net9176),
 .Y(net4740)
 );
@@ -39068,7 +39068,7 @@ ICGx1_ASAP7_75t_R c4700(
 .GCLK(net4742)
 );
 
-INVxp67_ASAP7_75t_R c4701(
+INVx13_ASAP7_75t_R c4701(
 .A(net9684),
 .Y(net4743)
 );
@@ -39079,12 +39079,12 @@ XNOR2xp5_ASAP7_75t_R c4702(
 .Y(net4744)
 );
 
-BUFx10_ASAP7_75t_R c4703(
+INVx1_ASAP7_75t_R c4703(
 .A(net10472),
 .Y(net4745)
 );
 
-BUFx12_ASAP7_75t_R c4704(
+INVx2_ASAP7_75t_R c4704(
 .A(net4737),
 .Y(net4746)
 );
@@ -39114,12 +39114,12 @@ XOR2xp5_ASAP7_75t_R c4708(
 .Y(net4750)
 );
 
-BUFx12f_ASAP7_75t_R c4709(
+INVx3_ASAP7_75t_R c4709(
 .A(net4718),
 .Y(net4751)
 );
 
-BUFx16f_ASAP7_75t_R c4710(
+INVx4_ASAP7_75t_R c4710(
 .A(net4751),
 .Y(net4752)
 );
@@ -39137,7 +39137,7 @@ NOR3xp33_ASAP7_75t_R c4712(
 .Y(net4754)
 );
 
-BUFx24_ASAP7_75t_R c4713(
+INVx5_ASAP7_75t_R c4713(
 .A(net10406),
 .Y(net4755)
 );
@@ -39154,7 +39154,7 @@ AND2x6_ASAP7_75t_R c4715(
 .Y(net4757)
 );
 
-BUFx2_ASAP7_75t_R c4716(
+INVx6_ASAP7_75t_R c4716(
 .A(net9935),
 .Y(net4758)
 );
@@ -39289,32 +39289,32 @@ NOR2xp67_ASAP7_75t_R c4735(
 .Y(net4778)
 );
 
-BUFx3_ASAP7_75t_R c4736(
+INVx8_ASAP7_75t_R c4736(
 .A(net1957),
 .Y(net4779)
 );
 
-BUFx4_ASAP7_75t_R c4737(
+INVxp33_ASAP7_75t_R c4737(
 .A(net2779),
 .Y(net4780)
 );
 
-BUFx4f_ASAP7_75t_R c4738(
+INVxp67_ASAP7_75t_R c4738(
 .A(net4611),
 .Y(net4781)
 );
 
-BUFx5_ASAP7_75t_R c4739(
+BUFx10_ASAP7_75t_R c4739(
 .A(net3821),
 .Y(net4782)
 );
 
-BUFx6f_ASAP7_75t_R c4740(
+BUFx12_ASAP7_75t_R c4740(
 .A(net10567),
 .Y(net4783)
 );
 
-BUFx8_ASAP7_75t_R c4741(
+BUFx12f_ASAP7_75t_R c4741(
 .A(net2934),
 .Y(net4784)
 );
@@ -39325,7 +39325,7 @@ OR2x2_ASAP7_75t_R c4742(
 .Y(net4785)
 );
 
-CKINVDCx10_ASAP7_75t_R c4743(
+BUFx16f_ASAP7_75t_R c4743(
 .A(net4775),
 .Y(net4786)
 );
@@ -39348,22 +39348,22 @@ XNOR2x1_ASAP7_75t_R c4746(
 .Y(net4789)
 );
 
-CKINVDCx11_ASAP7_75t_R c4747(
+BUFx24_ASAP7_75t_R c4747(
 .A(net10387),
 .Y(net4790)
 );
 
-CKINVDCx12_ASAP7_75t_R c4748(
+BUFx2_ASAP7_75t_R c4748(
 .A(net3901),
 .Y(net4791)
 );
 
-CKINVDCx14_ASAP7_75t_R c4749(
+BUFx3_ASAP7_75t_R c4749(
 .A(net4787),
 .Y(net4792)
 );
 
-CKINVDCx16_ASAP7_75t_R c4750(
+BUFx4_ASAP7_75t_R c4750(
 .A(net9827),
 .Y(net4793)
 );
@@ -39374,12 +39374,12 @@ XNOR2x2_ASAP7_75t_R c4751(
 .Y(net4794)
 );
 
-CKINVDCx20_ASAP7_75t_R c4752(
+BUFx4f_ASAP7_75t_R c4752(
 .A(net3776),
 .Y(net4795)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c4753(
+BUFx5_ASAP7_75t_R c4753(
 .A(net4794),
 .Y(net4796)
 );
@@ -39397,22 +39397,22 @@ XNOR2xp5_ASAP7_75t_R c4755(
 .Y(net4798)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c4756(
+BUFx6f_ASAP7_75t_R c4756(
 .A(net9169),
 .Y(net4799)
 );
 
-CKINVDCx8_ASAP7_75t_R c4757(
+BUFx8_ASAP7_75t_R c4757(
 .A(net4776),
 .Y(net4800)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c4758(
+CKINVDCx5p33_ASAP7_75t_R c4758(
 .A(net9966),
 .Y(net4801)
 );
 
-HB1xp67_ASAP7_75t_R c4759(
+CKINVDCx6p67_ASAP7_75t_R c4759(
 .A(net4796),
 .Y(net4802)
 );
@@ -39423,7 +39423,7 @@ XOR2x1_ASAP7_75t_R c4760(
 .Y(net4803)
 );
 
-HB2xp67_ASAP7_75t_R c4761(
+CKINVDCx8_ASAP7_75t_R c4761(
 .A(net4776),
 .Y(net4804)
 );
@@ -39434,17 +39434,17 @@ XOR2x2_ASAP7_75t_R c4762(
 .Y(net4805)
 );
 
-HB3xp67_ASAP7_75t_R c4763(
+CKINVDCx9p33_ASAP7_75t_R c4763(
 .A(net2810),
 .Y(net4806)
 );
 
-HB4xp67_ASAP7_75t_R c4764(
+HB1xp67_ASAP7_75t_R c4764(
 .A(net9169),
 .Y(net4807)
 );
 
-INVx11_ASAP7_75t_R c4765(
+HB2xp67_ASAP7_75t_R c4765(
 .A(net10438),
 .Y(net4808)
 );
@@ -39456,7 +39456,7 @@ OR3x1_ASAP7_75t_R c4766(
 .Y(net4809)
 );
 
-INVx13_ASAP7_75t_R c4767(
+HB3xp67_ASAP7_75t_R c4767(
 .A(net4806),
 .Y(net4810)
 );
@@ -39509,7 +39509,7 @@ AND2x6_ASAP7_75t_R c4774(
 .Y(net4817)
 );
 
-INVx1_ASAP7_75t_R c4775(
+HB4xp67_ASAP7_75t_R c4775(
 .A(net10564),
 .Y(net4818)
 );
@@ -39527,7 +39527,7 @@ OR3x4_ASAP7_75t_R c4777(
 .Y(net4820)
 );
 
-INVx2_ASAP7_75t_R c4778(
+INVx11_ASAP7_75t_R c4778(
 .A(net3927),
 .Y(net4821)
 );
@@ -39557,7 +39557,7 @@ NAND2x2_ASAP7_75t_R c4782(
 .Y(net4825)
 );
 
-INVx3_ASAP7_75t_R c4783(
+INVx13_ASAP7_75t_R c4783(
 .A(net9242),
 .Y(net4826)
 );
@@ -39570,12 +39570,12 @@ SDFHx4_ASAP7_75t_R c4784(
 .QN(net4827)
 );
 
-INVx4_ASAP7_75t_R c4785(
+INVx1_ASAP7_75t_R c4785(
 .A(net4825),
 .Y(net4828)
 );
 
-INVx5_ASAP7_75t_R c4786(
+INVx2_ASAP7_75t_R c4786(
 .A(net4819),
 .Y(net4829)
 );
@@ -39589,7 +39589,7 @@ OR5x1_ASAP7_75t_R c4787(
 .Y(net4830)
 );
 
-INVx6_ASAP7_75t_R c4788(
+INVx3_ASAP7_75t_R c4788(
 .A(net9242),
 .Y(net4831)
 );
@@ -39610,7 +39610,7 @@ OR5x2_ASAP7_75t_R c4790(
 .Y(net4833)
 );
 
-INVx8_ASAP7_75t_R c4791(
+INVx4_ASAP7_75t_R c4791(
 .A(net2954),
 .Y(net4834)
 );
@@ -39623,27 +39623,27 @@ SDFLx1_ASAP7_75t_R c4792(
 .QN(net4835)
 );
 
-INVxp33_ASAP7_75t_R c4793(
+INVx5_ASAP7_75t_R c4793(
 .A(net4790),
 .Y(net4836)
 );
 
-INVxp67_ASAP7_75t_R c4794(
+INVx6_ASAP7_75t_R c4794(
 .A(net4831),
 .Y(net4837)
 );
 
-BUFx10_ASAP7_75t_R c4795(
+INVx8_ASAP7_75t_R c4795(
 .A(net4779),
 .Y(net4838)
 );
 
-BUFx12_ASAP7_75t_R c4796(
+INVxp33_ASAP7_75t_R c4796(
 .A(net10418),
 .Y(net4839)
 );
 
-BUFx12f_ASAP7_75t_R c4797(
+INVxp67_ASAP7_75t_R c4797(
 .A(net4839),
 .Y(net4840)
 );
@@ -39661,12 +39661,12 @@ NAND2xp33_ASAP7_75t_R c4799(
 .Y(net4842)
 );
 
-BUFx16f_ASAP7_75t_R c4800(
+BUFx10_ASAP7_75t_R c4800(
 .A(net9201),
 .Y(net4843)
 );
 
-BUFx24_ASAP7_75t_R c4801(
+BUFx12_ASAP7_75t_R c4801(
 .A(net10039),
 .Y(net4844)
 );
@@ -39698,7 +39698,7 @@ AO21x1_ASAP7_75t_R c4805(
 .Y(net4848)
 );
 
-BUFx2_ASAP7_75t_R c4806(
+BUFx12f_ASAP7_75t_R c4806(
 .A(net10560),
 .Y(net4849)
 );
@@ -39723,7 +39723,7 @@ NOR2x1_ASAP7_75t_R c4809(
 .Y(net4852)
 );
 
-BUFx3_ASAP7_75t_R c4810(
+BUFx16f_ASAP7_75t_R c4810(
 .A(net10387),
 .Y(net4853)
 );
@@ -39735,7 +39735,7 @@ AOI21xp33_ASAP7_75t_R c4811(
 .Y(net4854)
 );
 
-BUFx4_ASAP7_75t_R c4812(
+BUFx24_ASAP7_75t_R c4812(
 .A(net10039),
 .Y(net4855)
 );
@@ -39747,7 +39747,7 @@ AOI21xp5_ASAP7_75t_R c4813(
 .Y(net4856)
 );
 
-BUFx4f_ASAP7_75t_R c4814(
+BUFx2_ASAP7_75t_R c4814(
 .A(net10079),
 .Y(net4857)
 );
@@ -39764,7 +39764,7 @@ NOR2x2_ASAP7_75t_R c4816(
 .Y(net4859)
 );
 
-BUFx5_ASAP7_75t_R c4817(
+BUFx3_ASAP7_75t_R c4817(
 .A(net3892),
 .Y(net4860)
 );
@@ -39793,7 +39793,7 @@ OR2x4_ASAP7_75t_R c4821(
 .Y(net4864)
 );
 
-BUFx6f_ASAP7_75t_R c4822(
+BUFx4_ASAP7_75t_R c4822(
 .A(net3974),
 .Y(net4865)
 );
@@ -39812,12 +39812,12 @@ SDFLx3_ASAP7_75t_R c4824(
 .QN(net4867)
 );
 
-BUFx8_ASAP7_75t_R c4825(
+BUFx4f_ASAP7_75t_R c4825(
 .A(net3906),
 .Y(net4868)
 );
 
-CKINVDCx10_ASAP7_75t_R c4826(
+BUFx5_ASAP7_75t_R c4826(
 .A(net10019),
 .Y(net4869)
 );
@@ -39834,7 +39834,7 @@ XNOR2x2_ASAP7_75t_R c4828(
 .Y(net4871)
 );
 
-CKINVDCx11_ASAP7_75t_R c4829(
+BUFx6f_ASAP7_75t_R c4829(
 .A(net3902),
 .Y(net4872)
 );
@@ -39857,7 +39857,7 @@ XOR2x2_ASAP7_75t_R c4832(
 .Y(net4875)
 );
 
-CKINVDCx12_ASAP7_75t_R c4833(
+BUFx8_ASAP7_75t_R c4833(
 .A(net4712),
 .Y(net4876)
 );
@@ -39899,7 +39899,7 @@ FAx1_ASAP7_75t_R c4839(
 .SN(net4882)
 );
 
-CKINVDCx14_ASAP7_75t_R c4840(
+CKINVDCx5p33_ASAP7_75t_R c4840(
 .A(net4844),
 .Y(net4883)
 );
@@ -39947,7 +39947,7 @@ MAJIxp5_ASAP7_75t_R c4847(
 .Y(net4890)
 );
 
-CKINVDCx16_ASAP7_75t_R c4848(
+CKINVDCx6p67_ASAP7_75t_R c4848(
 .A(net10569),
 .Y(net4891)
 );
@@ -39979,7 +39979,7 @@ NAND3x1_ASAP7_75t_R c4852(
 .Y(net4895)
 );
 
-CKINVDCx20_ASAP7_75t_R c4853(
+CKINVDCx8_ASAP7_75t_R c4853(
 .A(net10066),
 .Y(net4896)
 );
@@ -39990,7 +39990,7 @@ NOR2x1p5_ASAP7_75t_R c4854(
 .Y(net4897)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c4855(
+CKINVDCx9p33_ASAP7_75t_R c4855(
 .A(net10024),
 .Y(net4898)
 );
@@ -40045,12 +40045,12 @@ OR2x6_ASAP7_75t_R c4863(
 .Y(net4906)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c4864(
+HB1xp67_ASAP7_75t_R c4864(
 .A(net10085),
 .Y(net4907)
 );
 
-CKINVDCx8_ASAP7_75t_R c4865(
+HB2xp67_ASAP7_75t_R c4865(
 .A(net10345),
 .Y(net4908)
 );
@@ -40071,7 +40071,7 @@ A2O1A1O1Ixp25_ASAP7_75t_R c4867(
 .Y(net4910)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c4868(
+HB3xp67_ASAP7_75t_R c4868(
 .A(net10383),
 .Y(net4911)
 );
@@ -40128,7 +40128,7 @@ NOR3xp33_ASAP7_75t_R c4876(
 .Y(net4919)
 );
 
-HB1xp67_ASAP7_75t_R c4877(
+HB4xp67_ASAP7_75t_R c4877(
 .A(net10561),
 .Y(net4920)
 );
@@ -40151,7 +40151,7 @@ AND2x4_ASAP7_75t_R c4880(
 .Y(net4923)
 );
 
-HB2xp67_ASAP7_75t_R c4881(
+INVx11_ASAP7_75t_R c4881(
 .A(net10399),
 .Y(net4924)
 );
@@ -40204,7 +40204,7 @@ NAND2x1_ASAP7_75t_R c4888(
 .Y(net4932)
 );
 
-HB3xp67_ASAP7_75t_R c4889(
+INVx13_ASAP7_75t_R c4889(
 .A(net10345),
 .Y(net4933)
 );
@@ -40261,7 +40261,7 @@ OR3x4_ASAP7_75t_R c4896(
 .Y(net4940)
 );
 
-HB4xp67_ASAP7_75t_R c4897(
+INVx1_ASAP7_75t_R c4897(
 .A(net9777),
 .Y(net4941)
 );
@@ -40272,17 +40272,17 @@ NAND2x1p5_ASAP7_75t_R c4898(
 .Y(net4942)
 );
 
-INVx11_ASAP7_75t_R c4899(
+INVx2_ASAP7_75t_R c4899(
 .A(net9219),
 .Y(net4943)
 );
 
-INVx13_ASAP7_75t_R c4900(
+INVx3_ASAP7_75t_R c4900(
 .A(net10253),
 .Y(net4944)
 );
 
-INVx1_ASAP7_75t_R c4901(
+INVx4_ASAP7_75t_R c4901(
 .A(net9102),
 .Y(net4945)
 );
@@ -40293,7 +40293,7 @@ NAND2x2_ASAP7_75t_R c4902(
 .Y(net4946)
 );
 
-INVx2_ASAP7_75t_R c4903(
+INVx5_ASAP7_75t_R c4903(
 .A(net4014),
 .Y(net4947)
 );
@@ -40312,7 +40312,7 @@ ICGx2p67DC_ASAP7_75t_R c4905(
 .GCLK(net4949)
 );
 
-INVx3_ASAP7_75t_R c4906(
+INVx6_ASAP7_75t_R c4906(
 .A(net10363),
 .Y(net4950)
 );
@@ -40323,12 +40323,12 @@ NAND2xp33_ASAP7_75t_R c4907(
 .Y(net4951)
 );
 
-INVx4_ASAP7_75t_R c4908(
+INVx8_ASAP7_75t_R c4908(
 .A(net10019),
 .Y(net4952)
 );
 
-INVx5_ASAP7_75t_R c4909(
+INVxp33_ASAP7_75t_R c4909(
 .A(net4763),
 .Y(net4953)
 );
@@ -40345,7 +40345,7 @@ NAND2xp67_ASAP7_75t_R c4911(
 .Y(net4955)
 );
 
-INVx6_ASAP7_75t_R c4912(
+INVxp67_ASAP7_75t_R c4912(
 .A(net4785),
 .Y(net4956)
 );
@@ -40406,7 +40406,7 @@ OR2x6_ASAP7_75t_R c4921(
 .Y(net4965)
 );
 
-INVx8_ASAP7_75t_R c4922(
+BUFx10_ASAP7_75t_R c4922(
 .A(net10530),
 .Y(net4966)
 );
@@ -40429,7 +40429,7 @@ XNOR2xp5_ASAP7_75t_R c4925(
 .Y(net4969)
 );
 
-INVxp33_ASAP7_75t_R c4926(
+BUFx12_ASAP7_75t_R c4926(
 .A(net4969),
 .Y(net4970)
 );
@@ -40446,7 +40446,7 @@ XOR2x2_ASAP7_75t_R c4928(
 .Y(net4972)
 );
 
-INVxp67_ASAP7_75t_R c4929(
+BUFx12f_ASAP7_75t_R c4929(
 .A(net3067),
 .Y(net4973)
 );
@@ -40464,17 +40464,17 @@ AND3x1_ASAP7_75t_R c4931(
 .Y(net4975)
 );
 
-BUFx10_ASAP7_75t_R c4932(
+BUFx16f_ASAP7_75t_R c4932(
 .A(net2942),
 .Y(net4976)
 );
 
-BUFx12_ASAP7_75t_R c4933(
+BUFx24_ASAP7_75t_R c4933(
 .A(net10573),
 .Y(net4977)
 );
 
-BUFx12f_ASAP7_75t_R c4934(
+BUFx2_ASAP7_75t_R c4934(
 .A(net10409),
 .Y(net4978)
 );
@@ -40498,12 +40498,12 @@ AND2x4_ASAP7_75t_R c4937(
 .Y(net4981)
 );
 
-BUFx16f_ASAP7_75t_R c4938(
+BUFx3_ASAP7_75t_R c4938(
 .A(net9102),
 .Y(net4982)
 );
 
-BUFx24_ASAP7_75t_R c4939(
+BUFx4_ASAP7_75t_R c4939(
 .A(net10520),
 .Y(net4983)
 );
@@ -40523,7 +40523,7 @@ AND3x4_ASAP7_75t_R c4941(
 .Y(net4985)
 );
 
-BUFx2_ASAP7_75t_R c4942(
+BUFx4f_ASAP7_75t_R c4942(
 .A(net4017),
 .Y(net4986)
 );
@@ -40552,7 +40552,7 @@ NAND2x1p5_ASAP7_75t_R c4946(
 .Y(net4990)
 );
 
-BUFx3_ASAP7_75t_R c4947(
+BUFx5_ASAP7_75t_R c4947(
 .A(net10067),
 .Y(net4991)
 );
@@ -40569,7 +40569,7 @@ NAND2xp33_ASAP7_75t_R c4949(
 .Y(net4993)
 );
 
-BUFx4_ASAP7_75t_R c4950(
+BUFx6f_ASAP7_75t_R c4950(
 .A(net10475),
 .Y(net4994)
 );
@@ -40645,7 +40645,7 @@ AOI21xp33_ASAP7_75t_R c4960(
 .Y(net5004)
 );
 
-BUFx4f_ASAP7_75t_R c4961(
+BUFx8_ASAP7_75t_R c4961(
 .A(net10532),
 .Y(net5005)
 );
@@ -40705,7 +40705,7 @@ NOR2xp67_ASAP7_75t_R c4969(
 .Y(net5014)
 );
 
-BUFx5_ASAP7_75t_R c4970(
+CKINVDCx5p33_ASAP7_75t_R c4970(
 .A(net10543),
 .Y(net5015)
 );
@@ -40778,7 +40778,7 @@ NAND3xp33_ASAP7_75t_R c4979(
 .Y(net5024)
 );
 
-BUFx6f_ASAP7_75t_R c4980(
+CKINVDCx6p67_ASAP7_75t_R c4980(
 .A(net5021),
 .Y(net5025)
 );
@@ -40789,7 +40789,7 @@ OR2x6_ASAP7_75t_R c4981(
 .Y(net5026)
 );
 
-BUFx8_ASAP7_75t_R c4982(
+CKINVDCx8_ASAP7_75t_R c4982(
 .A(net2214),
 .Y(net5027)
 );
@@ -40820,12 +40820,12 @@ XNOR2xp5_ASAP7_75t_R c4986(
 .Y(net5031)
 );
 
-CKINVDCx10_ASAP7_75t_R c4987(
+CKINVDCx9p33_ASAP7_75t_R c4987(
 .A(net4992),
 .Y(net5032)
 );
 
-CKINVDCx11_ASAP7_75t_R c4988(
+HB1xp67_ASAP7_75t_R c4988(
 .A(net9151),
 .Y(net5033)
 );
@@ -40836,7 +40836,7 @@ XOR2x1_ASAP7_75t_R c4989(
 .Y(net5034)
 );
 
-CKINVDCx12_ASAP7_75t_R c4990(
+HB2xp67_ASAP7_75t_R c4990(
 .A(net9151),
 .Y(net5035)
 );
@@ -40855,12 +40855,12 @@ NOR3x2_ASAP7_75t_R c4992(
 .Y(net5037)
 );
 
-CKINVDCx14_ASAP7_75t_R c4993(
+HB3xp67_ASAP7_75t_R c4993(
 .A(net10110),
 .Y(net5038)
 );
 
-CKINVDCx16_ASAP7_75t_R c4994(
+HB4xp67_ASAP7_75t_R c4994(
 .A(net9208),
 .Y(net5039)
 );
@@ -40871,7 +40871,7 @@ XOR2x2_ASAP7_75t_R c4995(
 .Y(net5040)
 );
 
-CKINVDCx20_ASAP7_75t_R c4996(
+INVx11_ASAP7_75t_R c4996(
 .A(net1238),
 .Y(net5041)
 );
@@ -40901,7 +40901,7 @@ AND2x4_ASAP7_75t_R c5000(
 .Y(net5045)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c5001(
+INVx13_ASAP7_75t_R c5001(
 .A(net5041),
 .Y(net5046)
 );
@@ -40912,12 +40912,12 @@ AND2x6_ASAP7_75t_R c5002(
 .Y(net5047)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c5003(
+INVx1_ASAP7_75t_R c5003(
 .A(net9219),
 .Y(net5048)
 );
 
-CKINVDCx8_ASAP7_75t_R c5004(
+INVx2_ASAP7_75t_R c5004(
 .A(net5046),
 .Y(net5049)
 );
@@ -40928,12 +40928,12 @@ HAxp5_ASAP7_75t_R c5005(
 .CON(net5050)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c5006(
+INVx3_ASAP7_75t_R c5006(
 .A(net10489),
 .Y(net5051)
 );
 
-HB1xp67_ASAP7_75t_R c5007(
+INVx4_ASAP7_75t_R c5007(
 .A(net5048),
 .Y(net5052)
 );
@@ -40979,12 +40979,12 @@ SDFHx3_ASAP7_75t_R c5013(
 .QN(net5058)
 );
 
-HB2xp67_ASAP7_75t_R c5014(
+INVx5_ASAP7_75t_R c5014(
 .A(net4891),
 .Y(net5059)
 );
 
-HB3xp67_ASAP7_75t_R c5015(
+INVx6_ASAP7_75t_R c5015(
 .A(net4155),
 .Y(net5060)
 );
@@ -41001,7 +41001,7 @@ NAND2xp33_ASAP7_75t_R c5017(
 .Y(net5062)
 );
 
-HB4xp67_ASAP7_75t_R c5018(
+INVx8_ASAP7_75t_R c5018(
 .A(net9227),
 .Y(net5063)
 );
@@ -41018,7 +41018,7 @@ NAND2xp67_ASAP7_75t_R c5020(
 .Y(net5065)
 );
 
-INVx11_ASAP7_75t_R c5021(
+INVxp33_ASAP7_75t_R c5021(
 .A(net10517),
 .Y(net5066)
 );
@@ -41029,7 +41029,7 @@ NOR2x1_ASAP7_75t_R c5022(
 .Y(net5067)
 );
 
-INVx13_ASAP7_75t_R c5023(
+INVxp67_ASAP7_75t_R c5023(
 .A(net10544),
 .Y(net5068)
 );
@@ -41048,12 +41048,12 @@ OR3x1_ASAP7_75t_R c5025(
 .Y(net5070)
 );
 
-INVx1_ASAP7_75t_R c5026(
+BUFx10_ASAP7_75t_R c5026(
 .A(net10465),
 .Y(net5071)
 );
 
-INVx2_ASAP7_75t_R c5027(
+BUFx12_ASAP7_75t_R c5027(
 .A(net10529),
 .Y(net5072)
 );
@@ -41094,7 +41094,7 @@ ICGx3_ASAP7_75t_R c5032(
 .GCLK(net5077)
 );
 
-INVx3_ASAP7_75t_R c5033(
+BUFx12f_ASAP7_75t_R c5033(
 .A(net10110),
 .Y(net5078)
 );
@@ -41194,12 +41194,12 @@ XOR2x1_ASAP7_75t_R c5048(
 .Y(net5093)
 );
 
-INVx4_ASAP7_75t_R c5049(
+BUFx16f_ASAP7_75t_R c5049(
 .A(net10489),
 .Y(net5094)
 );
 
-INVx5_ASAP7_75t_R c5050(
+BUFx24_ASAP7_75t_R c5050(
 .A(net10166),
 .Y(net5095)
 );
@@ -41310,17 +41310,17 @@ AND2x6_ASAP7_75t_R c5064(
 .Y(net5109)
 );
 
-INVx6_ASAP7_75t_R c5065(
+BUFx2_ASAP7_75t_R c5065(
 .A(net907),
 .Y(net5110)
 );
 
-INVx8_ASAP7_75t_R c5066(
+BUFx3_ASAP7_75t_R c5066(
 .A(net4652),
 .Y(net5111)
 );
 
-INVxp33_ASAP7_75t_R c5067(
+BUFx4_ASAP7_75t_R c5067(
 .A(net2364),
 .Y(net5112)
 );
@@ -41331,7 +41331,7 @@ HAxp5_ASAP7_75t_R c5068(
 .CON(net5113)
 );
 
-INVxp67_ASAP7_75t_R c5069(
+BUFx4f_ASAP7_75t_R c5069(
 .A(net4862),
 .Y(net5114)
 );
@@ -41342,17 +41342,17 @@ NAND2x1_ASAP7_75t_R c5070(
 .Y(net5115)
 );
 
-BUFx10_ASAP7_75t_R c5071(
+BUFx5_ASAP7_75t_R c5071(
 .A(net4049),
 .Y(net5116)
 );
 
-BUFx12_ASAP7_75t_R c5072(
+BUFx6f_ASAP7_75t_R c5072(
 .A(net4722),
 .Y(net5117)
 );
 
-BUFx12f_ASAP7_75t_R c5073(
+BUFx8_ASAP7_75t_R c5073(
 .A(net9191),
 .Y(net5118)
 );
@@ -41369,42 +41369,42 @@ NAND2x2_ASAP7_75t_R c5075(
 .Y(net5120)
 );
 
-BUFx16f_ASAP7_75t_R c5076(
+CKINVDCx5p33_ASAP7_75t_R c5076(
 .A(net9191),
 .Y(net5121)
 );
 
-BUFx24_ASAP7_75t_R c5077(
+CKINVDCx6p67_ASAP7_75t_R c5077(
 .A(net4247),
 .Y(net5122)
 );
 
-BUFx2_ASAP7_75t_R c5078(
+CKINVDCx8_ASAP7_75t_R c5078(
 .A(net4944),
 .Y(net5123)
 );
 
-BUFx3_ASAP7_75t_R c5079(
+CKINVDCx9p33_ASAP7_75t_R c5079(
 .A(net10157),
 .Y(net5124)
 );
 
-BUFx4_ASAP7_75t_R c5080(
+HB1xp67_ASAP7_75t_R c5080(
 .A(net4182),
 .Y(net5125)
 );
 
-BUFx4f_ASAP7_75t_R c5081(
+HB2xp67_ASAP7_75t_R c5081(
 .A(net5064),
 .Y(net5126)
 );
 
-BUFx5_ASAP7_75t_R c5082(
+HB3xp67_ASAP7_75t_R c5082(
 .A(net5096),
 .Y(net5127)
 );
 
-BUFx6f_ASAP7_75t_R c5083(
+HB4xp67_ASAP7_75t_R c5083(
 .A(net3257),
 .Y(net5128)
 );
@@ -41416,7 +41416,7 @@ AOI21xp5_ASAP7_75t_R c5084(
 .Y(net5129)
 );
 
-BUFx8_ASAP7_75t_R c5085(
+INVx11_ASAP7_75t_R c5085(
 .A(net5108),
 .Y(net5130)
 );
@@ -41427,17 +41427,17 @@ NAND2xp33_ASAP7_75t_R c5086(
 .Y(net5131)
 );
 
-CKINVDCx10_ASAP7_75t_R c5087(
+INVx13_ASAP7_75t_R c5087(
 .A(net9204),
 .Y(net5132)
 );
 
-CKINVDCx11_ASAP7_75t_R c5088(
+INVx1_ASAP7_75t_R c5088(
 .A(net4198),
 .Y(net5133)
 );
 
-CKINVDCx12_ASAP7_75t_R c5089(
+INVx2_ASAP7_75t_R c5089(
 .A(net4974),
 .Y(net5134)
 );
@@ -41450,17 +41450,17 @@ SDFLx1_ASAP7_75t_R c5090(
 .QN(net5135)
 );
 
-CKINVDCx14_ASAP7_75t_R c5091(
+INVx3_ASAP7_75t_R c5091(
 .A(net9955),
 .Y(net5136)
 );
 
-CKINVDCx16_ASAP7_75t_R c5092(
+INVx4_ASAP7_75t_R c5092(
 .A(net5119),
 .Y(net5137)
 );
 
-CKINVDCx20_ASAP7_75t_R c5093(
+INVx5_ASAP7_75t_R c5093(
 .A(net10456),
 .Y(net5138)
 );
@@ -41474,7 +41474,7 @@ AO32x2_ASAP7_75t_R c5094(
 .Y(net5139)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c5095(
+INVx6_ASAP7_75t_R c5095(
 .A(net4219),
 .Y(net5140)
 );
@@ -41519,7 +41519,7 @@ NOR2x1p5_ASAP7_75t_R c5101(
 .Y(net5146)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c5102(
+INVx8_ASAP7_75t_R c5102(
 .A(net9229),
 .Y(net5147)
 );
@@ -41538,7 +41538,7 @@ NOR2x2_ASAP7_75t_R c5104(
 .Y(net5150)
 );
 
-CKINVDCx8_ASAP7_75t_R c5105(
+INVxp33_ASAP7_75t_R c5105(
 .A(net5095),
 .Y(net5151)
 );
@@ -41568,7 +41568,7 @@ OR2x2_ASAP7_75t_R c5109(
 .Y(net5155)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c5110(
+INVxp67_ASAP7_75t_R c5110(
 .A(net10484),
 .Y(net5156)
 );
@@ -41592,7 +41592,7 @@ OR2x6_ASAP7_75t_R c5113(
 .Y(net5159)
 );
 
-HB1xp67_ASAP7_75t_R c5114(
+BUFx10_ASAP7_75t_R c5114(
 .A(net10548),
 .Y(net5160)
 );
@@ -41623,7 +41623,7 @@ XNOR2xp5_ASAP7_75t_R c5118(
 .Y(net5164)
 );
 
-HB2xp67_ASAP7_75t_R c5119(
+BUFx12_ASAP7_75t_R c5119(
 .A(net10445),
 .Y(net5165)
 );
@@ -41634,7 +41634,7 @@ XOR2x1_ASAP7_75t_R c5120(
 .Y(net5166)
 );
 
-HB3xp67_ASAP7_75t_R c5121(
+BUFx12f_ASAP7_75t_R c5121(
 .A(net9672),
 .Y(net5167)
 );
@@ -41653,12 +41653,12 @@ ICGx5_ASAP7_75t_R c5123(
 .GCLK(net5169)
 );
 
-HB4xp67_ASAP7_75t_R c5124(
+BUFx16f_ASAP7_75t_R c5124(
 .A(net5169),
 .Y(net5170)
 );
 
-INVx11_ASAP7_75t_R c5125(
+BUFx24_ASAP7_75t_R c5125(
 .A(net10257),
 .Y(net5171)
 );
@@ -41710,7 +41710,7 @@ AND2x4_ASAP7_75t_R c5132(
 .Y(net5178)
 );
 
-INVx13_ASAP7_75t_R c5133(
+BUFx2_ASAP7_75t_R c5133(
 .A(net10536),
 .Y(net5179)
 );
@@ -41763,7 +41763,7 @@ NAND3x2_ASAP7_75t_R c5140(
 .Y(net5186)
 );
 
-INVx1_ASAP7_75t_R c5141(
+BUFx3_ASAP7_75t_R c5141(
 .A(net10547),
 .Y(net5187)
 );
@@ -41781,7 +41781,7 @@ NAND2x1_ASAP7_75t_R c5143(
 .Y(net5189)
 );
 
-INVx2_ASAP7_75t_R c5144(
+BUFx4_ASAP7_75t_R c5144(
 .A(net10042),
 .Y(net5190)
 );
@@ -41792,27 +41792,27 @@ NAND2x1p5_ASAP7_75t_R c5145(
 .Y(net5191)
 );
 
-INVx3_ASAP7_75t_R c5146(
+BUFx4f_ASAP7_75t_R c5146(
 .A(net5170),
 .Y(net5192)
 );
 
-INVx4_ASAP7_75t_R c5147(
+BUFx5_ASAP7_75t_R c5147(
 .A(net9145),
 .Y(net5193)
 );
 
-INVx5_ASAP7_75t_R c5148(
+BUFx6f_ASAP7_75t_R c5148(
 .A(net5159),
 .Y(net5194)
 );
 
-INVx6_ASAP7_75t_R c5149(
+BUFx8_ASAP7_75t_R c5149(
 .A(net5128),
 .Y(net5195)
 );
 
-INVx8_ASAP7_75t_R c5150(
+CKINVDCx5p33_ASAP7_75t_R c5150(
 .A(net10516),
 .Y(net5196)
 );
@@ -41836,12 +41836,12 @@ NOR3x1_ASAP7_75t_R c5153(
 .Y(net5199)
 );
 
-INVxp33_ASAP7_75t_R c5154(
+CKINVDCx6p67_ASAP7_75t_R c5154(
 .A(net9145),
 .Y(net5200)
 );
 
-INVxp67_ASAP7_75t_R c5155(
+CKINVDCx8_ASAP7_75t_R c5155(
 .A(net4288),
 .Y(net5201)
 );
@@ -41859,7 +41859,7 @@ NOR3x2_ASAP7_75t_R c5157(
 .Y(net5203)
 );
 
-BUFx10_ASAP7_75t_R c5158(
+CKINVDCx9p33_ASAP7_75t_R c5158(
 .A(net10061),
 .Y(net5204)
 );
@@ -41870,12 +41870,12 @@ NAND2xp67_ASAP7_75t_R c5159(
 .Y(net5205)
 );
 
-BUFx12_ASAP7_75t_R c5160(
+HB1xp67_ASAP7_75t_R c5160(
 .A(net5002),
 .Y(net5206)
 );
 
-BUFx12f_ASAP7_75t_R c5161(
+HB2xp67_ASAP7_75t_R c5161(
 .A(net9229),
 .Y(net5207)
 );
@@ -41886,7 +41886,7 @@ NOR2x1_ASAP7_75t_R c5162(
 .Y(net5208)
 );
 
-BUFx16f_ASAP7_75t_R c5163(
+HB3xp67_ASAP7_75t_R c5163(
 .A(net5202),
 .Y(net5209)
 );
@@ -41897,32 +41897,32 @@ NOR2x1p5_ASAP7_75t_R c5164(
 .Y(net5210)
 );
 
-BUFx24_ASAP7_75t_R c5165(
+HB4xp67_ASAP7_75t_R c5165(
 .A(net10502),
 .Y(net5211)
 );
 
-BUFx2_ASAP7_75t_R c5166(
+INVx11_ASAP7_75t_R c5166(
 .A(net4243),
 .Y(net5212)
 );
 
-BUFx3_ASAP7_75t_R c5167(
+INVx13_ASAP7_75t_R c5167(
 .A(net5208),
 .Y(net5213)
 );
 
-BUFx4_ASAP7_75t_R c5168(
+INVx1_ASAP7_75t_R c5168(
 .A(net5204),
 .Y(net5214)
 );
 
-BUFx4f_ASAP7_75t_R c5169(
+INVx2_ASAP7_75t_R c5169(
 .A(net3406),
 .Y(net5215)
 );
 
-BUFx5_ASAP7_75t_R c5170(
+INVx3_ASAP7_75t_R c5170(
 .A(net10084),
 .Y(net5216)
 );
@@ -41939,7 +41939,7 @@ NOR2xp33_ASAP7_75t_R c5172(
 .Y(net5218)
 );
 
-BUFx6f_ASAP7_75t_R c5173(
+INVx4_ASAP7_75t_R c5173(
 .A(net10443),
 .Y(net5219)
 );
@@ -41963,7 +41963,7 @@ OR2x2_ASAP7_75t_R c5176(
 .Y(net5222)
 );
 
-BUFx8_ASAP7_75t_R c5177(
+INVx5_ASAP7_75t_R c5177(
 .A(net3389),
 .Y(net5223)
 );
@@ -42049,12 +42049,12 @@ HAxp5_ASAP7_75t_R c5190(
 .SN(net5236)
 );
 
-CKINVDCx10_ASAP7_75t_R c5191(
+INVx6_ASAP7_75t_R c5191(
 .A(net10361),
 .Y(net5238)
 );
 
-CKINVDCx11_ASAP7_75t_R c5192(
+INVx8_ASAP7_75t_R c5192(
 .A(net5072),
 .Y(net5239)
 );
@@ -42072,17 +42072,17 @@ OA21x2_ASAP7_75t_R c5194(
 .Y(net5241)
 );
 
-CKINVDCx12_ASAP7_75t_R c5195(
+INVxp33_ASAP7_75t_R c5195(
 .A(net10538),
 .Y(net5242)
 );
 
-CKINVDCx14_ASAP7_75t_R c5196(
+INVxp67_ASAP7_75t_R c5196(
 .A(net10137),
 .Y(net5243)
 );
 
-CKINVDCx16_ASAP7_75t_R c5197(
+BUFx10_ASAP7_75t_R c5197(
 .A(net10148),
 .Y(net5244)
 );
@@ -42093,7 +42093,7 @@ NAND2x1p5_ASAP7_75t_R c5198(
 .Y(net5245)
 );
 
-CKINVDCx20_ASAP7_75t_R c5199(
+BUFx12_ASAP7_75t_R c5199(
 .A(net4272),
 .Y(net5246)
 );
@@ -42129,7 +42129,7 @@ NAND2xp67_ASAP7_75t_R c5204(
 .Y(net5251)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c5205(
+BUFx12f_ASAP7_75t_R c5205(
 .A(net5035),
 .Y(net5252)
 );
@@ -42160,7 +42160,7 @@ NOR2x2_ASAP7_75t_R c5209(
 .Y(net5256)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c5210(
+BUFx16f_ASAP7_75t_R c5210(
 .A(net10135),
 .Y(net5257)
 );
@@ -42308,7 +42308,7 @@ XOR2x1_ASAP7_75t_R c5230(
 .Y(net5277)
 );
 
-CKINVDCx8_ASAP7_75t_R c5231(
+BUFx24_ASAP7_75t_R c5231(
 .A(net9467),
 .Y(out25)
 );
@@ -42319,7 +42319,7 @@ XOR2x2_ASAP7_75t_R c5232(
 .Y(net5278)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c5233(
+BUFx2_ASAP7_75t_R c5233(
 .A(net10129),
 .Y(net5279)
 );
@@ -42331,7 +42331,7 @@ OR3x4_ASAP7_75t_R c5234(
 .Y(net5280)
 );
 
-HB1xp67_ASAP7_75t_R c5235(
+BUFx3_ASAP7_75t_R c5235(
 .A(net10015),
 .Y(net5281)
 );
@@ -42372,7 +42372,7 @@ NAND2x1_ASAP7_75t_R c5241(
 .Y(net5287)
 );
 
-HB2xp67_ASAP7_75t_R c5242(
+BUFx4_ASAP7_75t_R c5242(
 .A(net5230),
 .Y(net5288)
 );
@@ -42401,7 +42401,7 @@ NAND2xp5_ASAP7_75t_R c5246(
 .Y(net5292)
 );
 
-HB3xp67_ASAP7_75t_R c5247(
+BUFx4f_ASAP7_75t_R c5247(
 .A(net4403),
 .Y(net5293)
 );
@@ -42430,7 +42430,7 @@ NOR2x2_ASAP7_75t_R c5251(
 .Y(net5297)
 );
 
-HB4xp67_ASAP7_75t_R c5252(
+BUFx5_ASAP7_75t_R c5252(
 .A(net5287),
 .Y(net5298)
 );
@@ -42453,7 +42453,7 @@ OR2x2_ASAP7_75t_R c5255(
 .Y(net5301)
 );
 
-INVx11_ASAP7_75t_R c5256(
+BUFx6f_ASAP7_75t_R c5256(
 .A(net4047),
 .Y(net5302)
 );
@@ -42470,7 +42470,7 @@ OR2x6_ASAP7_75t_R c5258(
 .Y(net5304)
 );
 
-INVx13_ASAP7_75t_R c5259(
+BUFx8_ASAP7_75t_R c5259(
 .A(net4298),
 .Y(net5305)
 );
@@ -42481,12 +42481,12 @@ XNOR2x1_ASAP7_75t_R c5260(
 .Y(net5306)
 );
 
-INVx1_ASAP7_75t_R c5261(
+CKINVDCx5p33_ASAP7_75t_R c5261(
 .A(net10386),
 .Y(net5307)
 );
 
-INVx2_ASAP7_75t_R c5262(
+CKINVDCx6p67_ASAP7_75t_R c5262(
 .A(net10122),
 .Y(net5308)
 );
@@ -42497,7 +42497,7 @@ XNOR2x2_ASAP7_75t_R c5263(
 .Y(net5309)
 );
 
-INVx3_ASAP7_75t_R c5264(
+CKINVDCx8_ASAP7_75t_R c5264(
 .A(net10169),
 .Y(net5310)
 );
@@ -42532,7 +42532,7 @@ AND2x2_ASAP7_75t_R c5269(
 .Y(net5315)
 );
 
-INVx4_ASAP7_75t_R c5270(
+CKINVDCx9p33_ASAP7_75t_R c5270(
 .A(net10133),
 .Y(net5316)
 );
@@ -42543,12 +42543,12 @@ AND2x4_ASAP7_75t_R c5271(
 .Y(net5317)
 );
 
-INVx5_ASAP7_75t_R c5272(
+HB1xp67_ASAP7_75t_R c5272(
 .A(net9467),
 .Y(net5318)
 );
 
-INVx6_ASAP7_75t_R c5273(
+HB2xp67_ASAP7_75t_R c5273(
 .A(net10533),
 .Y(net5319)
 );
@@ -42565,7 +42565,7 @@ HAxp5_ASAP7_75t_R c5275(
 .CON(net5321)
 );
 
-INVx8_ASAP7_75t_R c5276(
+HB3xp67_ASAP7_75t_R c5276(
 .A(net10419),
 .Y(net5322)
 );
@@ -42590,12 +42590,12 @@ ICGx8DC_ASAP7_75t_R c5279(
 .GCLK(net5325)
 );
 
-INVxp33_ASAP7_75t_R c5280(
+HB4xp67_ASAP7_75t_R c5280(
 .A(net5310),
 .Y(net5326)
 );
 
-INVxp67_ASAP7_75t_R c5281(
+INVx11_ASAP7_75t_R c5281(
 .A(net5317),
 .Y(net5327)
 );
@@ -42667,7 +42667,7 @@ NOR2xp67_ASAP7_75t_R c5292(
 .Y(net5338)
 );
 
-BUFx10_ASAP7_75t_R c5293(
+INVx13_ASAP7_75t_R c5293(
 .A(net10118),
 .Y(net5339)
 );
@@ -42694,7 +42694,7 @@ OR2x4_ASAP7_75t_R c5296(
 .Y(net5342)
 );
 
-BUFx12_ASAP7_75t_R c5297(
+INVx1_ASAP7_75t_R c5297(
 .A(net10451),
 .Y(net5343)
 );
@@ -42723,7 +42723,7 @@ AO21x1_ASAP7_75t_R c5300(
 .Y(net5346)
 );
 
-BUFx12f_ASAP7_75t_R c5301(
+INVx2_ASAP7_75t_R c5301(
 .A(net10129),
 .Y(net5347)
 );
@@ -42824,7 +42824,7 @@ NOR5xp2_ASAP7_75t_R c5313(
 .Y(net5359)
 );
 
-BUFx16f_ASAP7_75t_R c5314(
+INVx3_ASAP7_75t_R c5314(
 .A(net10571),
 .Y(net5360)
 );
@@ -42835,7 +42835,7 @@ XNOR2x2_ASAP7_75t_R c5315(
 .Y(net5361)
 );
 
-BUFx24_ASAP7_75t_R c5316(
+INVx4_ASAP7_75t_R c5316(
 .A(net10109),
 .Y(net5362)
 );
@@ -42859,12 +42859,12 @@ XOR2x1_ASAP7_75t_R c5319(
 .Y(net5365)
 );
 
-BUFx2_ASAP7_75t_R c5320(
+INVx5_ASAP7_75t_R c5320(
 .A(net10403),
 .Y(net5366)
 );
 
-BUFx3_ASAP7_75t_R c5321(
+INVx6_ASAP7_75t_R c5321(
 .A(net10042),
 .Y(net5367)
 );
@@ -42881,7 +42881,7 @@ XOR2xp5_ASAP7_75t_R c5323(
 .Y(net5369)
 );
 
-BUFx4_ASAP7_75t_R c5324(
+INVx8_ASAP7_75t_R c5324(
 .A(net10078),
 .Y(net5370)
 );
@@ -42947,12 +42947,12 @@ NAND2xp67_ASAP7_75t_R c5334(
 .Y(net5381)
 );
 
-BUFx4f_ASAP7_75t_R c5335(
+INVxp33_ASAP7_75t_R c5335(
 .A(net10054),
 .Y(net5382)
 );
 
-BUFx5_ASAP7_75t_R c5336(
+INVxp67_ASAP7_75t_R c5336(
 .A(net10352),
 .Y(net5383)
 );
@@ -42990,7 +42990,7 @@ NOR2x2_ASAP7_75t_R c5341(
 .Y(net5389)
 );
 
-BUFx6f_ASAP7_75t_R c5342(
+BUFx10_ASAP7_75t_R c5342(
 .A(net10159),
 .Y(net5390)
 );
@@ -43078,7 +43078,7 @@ XOR2x1_ASAP7_75t_R c5355(
 .Y(net5403)
 );
 
-BUFx8_ASAP7_75t_R c5356(
+BUFx12_ASAP7_75t_R c5356(
 .A(net10349),
 .Y(net5404)
 );
@@ -43142,7 +43142,7 @@ ICGx1_ASAP7_75t_R c5365(
 .GCLK(net5414)
 );
 
-CKINVDCx10_ASAP7_75t_R c5366(
+BUFx12f_ASAP7_75t_R c5366(
 .A(net10456),
 .Y(net5415)
 );
@@ -43185,7 +43185,7 @@ ICGx2_ASAP7_75t_R c5372(
 .GCLK(net5421)
 );
 
-CKINVDCx11_ASAP7_75t_R c5373(
+BUFx16f_ASAP7_75t_R c5373(
 .A(net10484),
 .Y(net5422)
 );
@@ -43205,7 +43205,7 @@ SDFLx2_ASAP7_75t_R c5375(
 .QN(net5424)
 );
 
-CKINVDCx12_ASAP7_75t_R c5376(
+BUFx24_ASAP7_75t_R c5376(
 .A(net10500),
 .Y(net5425)
 );
@@ -43324,7 +43324,7 @@ XNOR2x1_ASAP7_75t_R c5393(
 .Y(net5442)
 );
 
-CKINVDCx14_ASAP7_75t_R c5394(
+BUFx2_ASAP7_75t_R c5394(
 .A(net10109),
 .Y(net5443)
 );
@@ -43360,7 +43360,7 @@ XOR2x2_ASAP7_75t_R c5399(
 .Y(net5448)
 );
 
-CKINVDCx16_ASAP7_75t_R c5400(
+BUFx3_ASAP7_75t_R c5400(
 .A(net10344),
 .Y(net5449)
 );
@@ -43419,7 +43419,7 @@ SDFLx3_ASAP7_75t_R c5407(
 .QN(net5456)
 );
 
-CKINVDCx20_ASAP7_75t_R c5408(
+BUFx4_ASAP7_75t_R c5408(
 .A(net10494),
 .Y(net5457)
 );
@@ -43587,7 +43587,7 @@ AOI21xp33_ASAP7_75t_R c5433(
 .Y(net5482)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c5434(
+BUFx4f_ASAP7_75t_R c5434(
 .A(net10428),
 .Y(net5483)
 );
@@ -43676,7 +43676,7 @@ SDFHx2_ASAP7_75t_R c5446(
 .QN(net5496)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c5447(
+BUFx5_ASAP7_75t_R c5447(
 .A(net10344),
 .Y(net5497)
 );
@@ -43707,7 +43707,7 @@ NAND3x2_ASAP7_75t_R c5451(
 .Y(net5501)
 );
 
-CKINVDCx8_ASAP7_75t_R c5452(
+BUFx6f_ASAP7_75t_R c5452(
 .A(net10468),
 .Y(net5502)
 );
@@ -43791,7 +43791,7 @@ SDFLx2_ASAP7_75t_R c5463(
 .QN(net5513)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c5464(
+BUFx8_ASAP7_75t_R c5464(
 .A(net10419),
 .Y(net5514)
 );
@@ -43900,42 +43900,42 @@ XOR2xp5_ASAP7_75t_R c5478(
 .Y(net5528)
 );
 
-HB1xp67_ASAP7_75t_R c5479(
+CKINVDCx5p33_ASAP7_75t_R c5479(
 .A(net4635),
 .Y(net5529)
 );
 
-HB2xp67_ASAP7_75t_R c5480(
+CKINVDCx6p67_ASAP7_75t_R c5480(
 .A(net4657),
 .Y(net5530)
 );
 
-HB3xp67_ASAP7_75t_R c5481(
+CKINVDCx8_ASAP7_75t_R c5481(
 .A(net4635),
 .Y(net5531)
 );
 
-HB4xp67_ASAP7_75t_R c5482(
+CKINVDCx9p33_ASAP7_75t_R c5482(
 .A(net4651),
 .Y(net5532)
 );
 
-INVx11_ASAP7_75t_R c5483(
+HB1xp67_ASAP7_75t_R c5483(
 .A(net2795),
 .Y(net5533)
 );
 
-INVx13_ASAP7_75t_R c5484(
+HB2xp67_ASAP7_75t_R c5484(
 .A(net4619),
 .Y(net5534)
 );
 
-INVx1_ASAP7_75t_R c5485(
+HB3xp67_ASAP7_75t_R c5485(
 .A(net5530),
 .Y(net5535)
 );
 
-INVx2_ASAP7_75t_R c5486(
+HB4xp67_ASAP7_75t_R c5486(
 .A(net3694),
 .Y(net5536)
 );
@@ -43947,22 +43947,22 @@ ICGx4DC_ASAP7_75t_R c5487(
 .GCLK(net5537)
 );
 
-INVx3_ASAP7_75t_R c5488(
+INVx11_ASAP7_75t_R c5488(
 .A(net4668),
 .Y(net5538)
 );
 
-INVx4_ASAP7_75t_R c5489(
+INVx13_ASAP7_75t_R c5489(
 .A(net5535),
 .Y(net5539)
 );
 
-INVx5_ASAP7_75t_R c5490(
+INVx1_ASAP7_75t_R c5490(
 .A(net4684),
 .Y(net5540)
 );
 
-INVx6_ASAP7_75t_R c5491(
+INVx2_ASAP7_75t_R c5491(
 .A(net3722),
 .Y(net5541)
 );
@@ -43979,7 +43979,7 @@ AND2x4_ASAP7_75t_R c5493(
 .Y(net5543)
 );
 
-INVx8_ASAP7_75t_R c5494(
+INVx3_ASAP7_75t_R c5494(
 .A(net4676),
 .Y(net5544)
 );
@@ -43990,37 +43990,37 @@ AND2x6_ASAP7_75t_R c5495(
 .Y(net5545)
 );
 
-INVxp33_ASAP7_75t_R c5496(
+INVx4_ASAP7_75t_R c5496(
 .A(net3760),
 .Y(net5546)
 );
 
-INVxp67_ASAP7_75t_R c5497(
+INVx5_ASAP7_75t_R c5497(
 .A(net947),
 .Y(net5547)
 );
 
-BUFx10_ASAP7_75t_R c5498(
+INVx6_ASAP7_75t_R c5498(
 .A(net9184),
 .Y(net5548)
 );
 
-BUFx12_ASAP7_75t_R c5499(
+INVx8_ASAP7_75t_R c5499(
 .A(net4676),
 .Y(net5549)
 );
 
-BUFx12f_ASAP7_75t_R c5500(
+INVxp33_ASAP7_75t_R c5500(
 .A(net9184),
 .Y(net5550)
 );
 
-BUFx16f_ASAP7_75t_R c5501(
+INVxp67_ASAP7_75t_R c5501(
 .A(net5538),
 .Y(net5551)
 );
 
-BUFx24_ASAP7_75t_R c5502(
+BUFx10_ASAP7_75t_R c5502(
 .A(net9203),
 .Y(net5552)
 );
@@ -44039,12 +44039,12 @@ ICGx4_ASAP7_75t_R c5504(
 .GCLK(net5555)
 );
 
-BUFx2_ASAP7_75t_R c5505(
+BUFx12_ASAP7_75t_R c5505(
 .A(net5544),
 .Y(net5556)
 );
 
-BUFx3_ASAP7_75t_R c5506(
+BUFx12f_ASAP7_75t_R c5506(
 .A(net4660),
 .Y(net5557)
 );
@@ -44069,7 +44069,7 @@ NAND2x1_ASAP7_75t_R c5509(
 .Y(net5560)
 );
 
-BUFx4_ASAP7_75t_R c5510(
+BUFx16f_ASAP7_75t_R c5510(
 .A(net10252),
 .Y(net5561)
 );
@@ -44080,17 +44080,17 @@ NAND2x1p5_ASAP7_75t_R c5511(
 .Y(net5562)
 );
 
-BUFx4f_ASAP7_75t_R c5512(
+BUFx24_ASAP7_75t_R c5512(
 .A(net9660),
 .Y(net5563)
 );
 
-BUFx5_ASAP7_75t_R c5513(
+BUFx2_ASAP7_75t_R c5513(
 .A(net3746),
 .Y(net5564)
 );
 
-BUFx6f_ASAP7_75t_R c5514(
+BUFx3_ASAP7_75t_R c5514(
 .A(net5558),
 .Y(net5565)
 );
@@ -44108,27 +44108,27 @@ NAND2x2_ASAP7_75t_R c5516(
 .Y(net5567)
 );
 
-BUFx8_ASAP7_75t_R c5517(
+BUFx4_ASAP7_75t_R c5517(
 .A(net5562),
 .Y(net5568)
 );
 
-CKINVDCx10_ASAP7_75t_R c5518(
+BUFx4f_ASAP7_75t_R c5518(
 .A(net5537),
 .Y(net5569)
 );
 
-CKINVDCx11_ASAP7_75t_R c5519(
+BUFx5_ASAP7_75t_R c5519(
 .A(net9310),
 .Y(net5570)
 );
 
-CKINVDCx12_ASAP7_75t_R c5520(
+BUFx6f_ASAP7_75t_R c5520(
 .A(net5564),
 .Y(net5571)
 );
 
-CKINVDCx14_ASAP7_75t_R c5521(
+BUFx8_ASAP7_75t_R c5521(
 .A(net5542),
 .Y(net5572)
 );
@@ -44139,17 +44139,17 @@ NAND2xp33_ASAP7_75t_R c5522(
 .Y(net5573)
 );
 
-CKINVDCx16_ASAP7_75t_R c5523(
+CKINVDCx5p33_ASAP7_75t_R c5523(
 .A(net4629),
 .Y(net5574)
 );
 
-CKINVDCx20_ASAP7_75t_R c5524(
+CKINVDCx6p67_ASAP7_75t_R c5524(
 .A(net5570),
 .Y(net5575)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c5525(
+CKINVDCx8_ASAP7_75t_R c5525(
 .A(net9233),
 .Y(net5576)
 );
@@ -44180,32 +44180,32 @@ ICGx5p33DC_ASAP7_75t_R c5529(
 .GCLK(net5580)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c5530(
+CKINVDCx9p33_ASAP7_75t_R c5530(
 .A(net9247),
 .Y(net5581)
 );
 
-CKINVDCx8_ASAP7_75t_R c5531(
+HB1xp67_ASAP7_75t_R c5531(
 .A(net5559),
 .Y(net5582)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c5532(
+HB2xp67_ASAP7_75t_R c5532(
 .A(net4651),
 .Y(net5583)
 );
 
-HB1xp67_ASAP7_75t_R c5533(
+HB3xp67_ASAP7_75t_R c5533(
 .A(net5555),
 .Y(net5584)
 );
 
-HB2xp67_ASAP7_75t_R c5534(
+HB4xp67_ASAP7_75t_R c5534(
 .A(net5552),
 .Y(net5585)
 );
 
-HB3xp67_ASAP7_75t_R c5535(
+INVx11_ASAP7_75t_R c5535(
 .A(net5580),
 .Y(net5586)
 );
@@ -44223,17 +44223,17 @@ ICGx6p67DC_ASAP7_75t_R c5537(
 .GCLK(net5588)
 );
 
-HB4xp67_ASAP7_75t_R c5538(
+INVx13_ASAP7_75t_R c5538(
 .A(net5547),
 .Y(net5589)
 );
 
-INVx11_ASAP7_75t_R c5539(
+INVx1_ASAP7_75t_R c5539(
 .A(net5579),
 .Y(net5590)
 );
 
-INVx13_ASAP7_75t_R c5540(
+INVx2_ASAP7_75t_R c5540(
 .A(net9282),
 .Y(net5591)
 );
@@ -44385,12 +44385,12 @@ OR4x2_ASAP7_75t_R c5560(
 .Y(net5612)
 );
 
-INVx1_ASAP7_75t_R c5561(
+INVx3_ASAP7_75t_R c5561(
 .A(net4705),
 .Y(net5613)
 );
 
-INVx2_ASAP7_75t_R c5562(
+INVx4_ASAP7_75t_R c5562(
 .A(net9951),
 .Y(net5614)
 );
@@ -44407,7 +44407,7 @@ OR2x2_ASAP7_75t_R c5564(
 .Y(net5616)
 );
 
-INVx3_ASAP7_75t_R c5565(
+INVx5_ASAP7_75t_R c5565(
 .A(net4671),
 .Y(net5617)
 );
@@ -44456,7 +44456,7 @@ XNOR2xp5_ASAP7_75t_R c5572(
 .Y(net5624)
 );
 
-INVx4_ASAP7_75t_R c5573(
+INVx6_ASAP7_75t_R c5573(
 .A(net9113),
 .Y(net5625)
 );
@@ -44473,7 +44473,7 @@ XOR2x2_ASAP7_75t_R c5575(
 .Y(net5627)
 );
 
-INVx5_ASAP7_75t_R c5576(
+INVx8_ASAP7_75t_R c5576(
 .A(net4759),
 .Y(net5628)
 );
@@ -44490,12 +44490,12 @@ AND2x2_ASAP7_75t_R c5578(
 .Y(net5630)
 );
 
-INVx6_ASAP7_75t_R c5579(
+INVxp33_ASAP7_75t_R c5579(
 .A(net9930),
 .Y(net5631)
 );
 
-INVx8_ASAP7_75t_R c5580(
+INVxp67_ASAP7_75t_R c5580(
 .A(net9113),
 .Y(net5632)
 );
@@ -44512,7 +44512,7 @@ AND2x6_ASAP7_75t_R c5582(
 .Y(net5634)
 );
 
-INVxp33_ASAP7_75t_R c5583(
+BUFx10_ASAP7_75t_R c5583(
 .A(net5572),
 .Y(net5635)
 );
@@ -44524,17 +44524,17 @@ NAND3x2_ASAP7_75t_R c5584(
 .Y(net5636)
 );
 
-INVxp67_ASAP7_75t_R c5585(
+BUFx12_ASAP7_75t_R c5585(
 .A(net10527),
 .Y(net5637)
 );
 
-BUFx10_ASAP7_75t_R c5586(
+BUFx12f_ASAP7_75t_R c5586(
 .A(net4711),
 .Y(net5638)
 );
 
-BUFx12_ASAP7_75t_R c5587(
+BUFx16f_ASAP7_75t_R c5587(
 .A(net10575),
 .Y(net5639)
 );
@@ -44546,27 +44546,27 @@ NAND3xp33_ASAP7_75t_R c5588(
 .Y(net5640)
 );
 
-BUFx12f_ASAP7_75t_R c5589(
+BUFx24_ASAP7_75t_R c5589(
 .A(net5596),
 .Y(net5641)
 );
 
-BUFx16f_ASAP7_75t_R c5590(
+BUFx2_ASAP7_75t_R c5590(
 .A(net900),
 .Y(net5642)
 );
 
-BUFx24_ASAP7_75t_R c5591(
+BUFx3_ASAP7_75t_R c5591(
 .A(net9247),
 .Y(net5643)
 );
 
-BUFx2_ASAP7_75t_R c5592(
+BUFx4_ASAP7_75t_R c5592(
 .A(net2891),
 .Y(net5644)
 );
 
-BUFx3_ASAP7_75t_R c5593(
+BUFx4f_ASAP7_75t_R c5593(
 .A(net10446),
 .Y(net5645)
 );
@@ -44602,17 +44602,17 @@ NAND2x2_ASAP7_75t_R c5598(
 .Y(net5650)
 );
 
-BUFx4_ASAP7_75t_R c5599(
+BUFx5_ASAP7_75t_R c5599(
 .A(net5614),
 .Y(net5651)
 );
 
-BUFx4f_ASAP7_75t_R c5600(
+BUFx6f_ASAP7_75t_R c5600(
 .A(net9233),
 .Y(net5652)
 );
 
-BUFx5_ASAP7_75t_R c5601(
+BUFx8_ASAP7_75t_R c5601(
 .A(net10576),
 .Y(net5653)
 );
@@ -44641,12 +44641,12 @@ NOR2x1_ASAP7_75t_R c5605(
 .Y(net5657)
 );
 
-BUFx6f_ASAP7_75t_R c5606(
+CKINVDCx5p33_ASAP7_75t_R c5606(
 .A(net5641),
 .Y(net5658)
 );
 
-BUFx8_ASAP7_75t_R c5607(
+CKINVDCx6p67_ASAP7_75t_R c5607(
 .A(net10406),
 .Y(net5659)
 );
@@ -44671,12 +44671,12 @@ NOR2x2_ASAP7_75t_R c5610(
 .Y(net5662)
 );
 
-CKINVDCx10_ASAP7_75t_R c5611(
+CKINVDCx8_ASAP7_75t_R c5611(
 .A(net5571),
 .Y(net5663)
 );
 
-CKINVDCx11_ASAP7_75t_R c5612(
+CKINVDCx9p33_ASAP7_75t_R c5612(
 .A(net5650),
 .Y(net5664)
 );
@@ -44701,7 +44701,7 @@ NOR2xp33_ASAP7_75t_R c5615(
 .Y(net5667)
 );
 
-CKINVDCx12_ASAP7_75t_R c5616(
+HB1xp67_ASAP7_75t_R c5616(
 .A(net9951),
 .Y(net5668)
 );
@@ -44740,7 +44740,7 @@ NOR3xp33_ASAP7_75t_R c5621(
 .Y(net5673)
 );
 
-CKINVDCx14_ASAP7_75t_R c5622(
+HB2xp67_ASAP7_75t_R c5622(
 .A(net10412),
 .Y(net5674)
 );
@@ -44784,7 +44784,7 @@ XNOR2x2_ASAP7_75t_R c5628(
 .Y(net5680)
 );
 
-CKINVDCx16_ASAP7_75t_R c5629(
+HB3xp67_ASAP7_75t_R c5629(
 .A(net9930),
 .Y(net5681)
 );
@@ -44831,7 +44831,7 @@ SDFHx4_ASAP7_75t_R c5635(
 .QN(net5687)
 );
 
-CKINVDCx20_ASAP7_75t_R c5636(
+HB4xp67_ASAP7_75t_R c5636(
 .A(net10530),
 .Y(net5688)
 );
@@ -44889,12 +44889,12 @@ AOI222xp33_ASAP7_75t_R c5643(
 .Y(net5695)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c5644(
+INVx11_ASAP7_75t_R c5644(
 .A(net4735),
 .Y(net5696)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c5645(
+INVx13_ASAP7_75t_R c5645(
 .A(net3836),
 .Y(net5697)
 );
@@ -44911,27 +44911,27 @@ AND2x2_ASAP7_75t_R c5647(
 .Y(net5699)
 );
 
-CKINVDCx8_ASAP7_75t_R c5648(
+INVx1_ASAP7_75t_R c5648(
 .A(net9235),
 .Y(net5700)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c5649(
+INVx2_ASAP7_75t_R c5649(
 .A(net9162),
 .Y(net5701)
 );
 
-HB1xp67_ASAP7_75t_R c5650(
+INVx3_ASAP7_75t_R c5650(
 .A(net10268),
 .Y(net5702)
 );
 
-HB2xp67_ASAP7_75t_R c5651(
+INVx4_ASAP7_75t_R c5651(
 .A(net4628),
 .Y(net5703)
 );
 
-HB3xp67_ASAP7_75t_R c5652(
+INVx5_ASAP7_75t_R c5652(
 .A(net3813),
 .Y(net5704)
 );
@@ -44963,12 +44963,12 @@ AND2x6_ASAP7_75t_R c5656(
 .Y(net5708)
 );
 
-HB4xp67_ASAP7_75t_R c5657(
+INVx6_ASAP7_75t_R c5657(
 .A(net9162),
 .Y(net5709)
 );
 
-INVx11_ASAP7_75t_R c5658(
+INVx8_ASAP7_75t_R c5658(
 .A(net5699),
 .Y(net5710)
 );
@@ -44979,12 +44979,12 @@ HAxp5_ASAP7_75t_R c5659(
 .CON(net5711)
 );
 
-INVx13_ASAP7_75t_R c5660(
+INVxp33_ASAP7_75t_R c5660(
 .A(net9216),
 .Y(net5712)
 );
 
-INVx1_ASAP7_75t_R c5661(
+INVxp67_ASAP7_75t_R c5661(
 .A(net4761),
 .Y(net5713)
 );
@@ -45001,17 +45001,17 @@ NAND2x1p5_ASAP7_75t_R c5663(
 .Y(net5715)
 );
 
-INVx2_ASAP7_75t_R c5664(
+BUFx10_ASAP7_75t_R c5664(
 .A(net5709),
 .Y(net5716)
 );
 
-INVx3_ASAP7_75t_R c5665(
+BUFx12_ASAP7_75t_R c5665(
 .A(net5624),
 .Y(net5717)
 );
 
-INVx4_ASAP7_75t_R c5666(
+BUFx12f_ASAP7_75t_R c5666(
 .A(net10400),
 .Y(net5718)
 );
@@ -45044,7 +45044,7 @@ NAND2xp33_ASAP7_75t_R c5670(
 .Y(net5722)
 );
 
-INVx5_ASAP7_75t_R c5671(
+BUFx16f_ASAP7_75t_R c5671(
 .A(net10438),
 .Y(net5723)
 );
@@ -45061,12 +45061,12 @@ NAND2xp67_ASAP7_75t_R c5673(
 .Y(net5725)
 );
 
-INVx6_ASAP7_75t_R c5674(
+BUFx24_ASAP7_75t_R c5674(
 .A(net4699),
 .Y(net5726)
 );
 
-INVx8_ASAP7_75t_R c5675(
+BUFx2_ASAP7_75t_R c5675(
 .A(net9926),
 .Y(net5727)
 );
@@ -45090,27 +45090,27 @@ AND3x1_ASAP7_75t_R c5678(
 .Y(net5730)
 );
 
-INVxp33_ASAP7_75t_R c5679(
+BUFx3_ASAP7_75t_R c5679(
 .A(net5719),
 .Y(net5731)
 );
 
-INVxp67_ASAP7_75t_R c5680(
+BUFx4_ASAP7_75t_R c5680(
 .A(net9870),
 .Y(net5732)
 );
 
-BUFx10_ASAP7_75t_R c5681(
+BUFx4f_ASAP7_75t_R c5681(
 .A(net10016),
 .Y(net5733)
 );
 
-BUFx12_ASAP7_75t_R c5682(
+BUFx5_ASAP7_75t_R c5682(
 .A(net10402),
 .Y(net5734)
 );
 
-BUFx12f_ASAP7_75t_R c5683(
+BUFx6f_ASAP7_75t_R c5683(
 .A(net5722),
 .Y(net5735)
 );
@@ -45121,7 +45121,7 @@ NOR2x2_ASAP7_75t_R c5684(
 .Y(net5736)
 );
 
-BUFx16f_ASAP7_75t_R c5685(
+BUFx8_ASAP7_75t_R c5685(
 .A(net5537),
 .Y(net5737)
 );
@@ -45133,12 +45133,12 @@ AND3x2_ASAP7_75t_R c5686(
 .Y(net5738)
 );
 
-BUFx24_ASAP7_75t_R c5687(
+CKINVDCx5p33_ASAP7_75t_R c5687(
 .A(net9275),
 .Y(net5739)
 );
 
-BUFx2_ASAP7_75t_R c5688(
+CKINVDCx6p67_ASAP7_75t_R c5688(
 .A(net10463),
 .Y(net5740)
 );
@@ -45150,7 +45150,7 @@ AND3x4_ASAP7_75t_R c5689(
 .Y(net5741)
 );
 
-BUFx3_ASAP7_75t_R c5690(
+CKINVDCx8_ASAP7_75t_R c5690(
 .A(net5648),
 .Y(net5742)
 );
@@ -45161,7 +45161,7 @@ NOR2xp33_ASAP7_75t_R c5691(
 .Y(net5743)
 );
 
-BUFx4_ASAP7_75t_R c5692(
+CKINVDCx9p33_ASAP7_75t_R c5692(
 .A(net9677),
 .Y(net5744)
 );
@@ -45172,7 +45172,7 @@ NOR2xp67_ASAP7_75t_R c5693(
 .Y(net5745)
 );
 
-BUFx4f_ASAP7_75t_R c5694(
+HB1xp67_ASAP7_75t_R c5694(
 .A(net5737),
 .Y(net5746)
 );
@@ -45209,7 +45209,7 @@ OR2x6_ASAP7_75t_R c5699(
 .Y(net5751)
 );
 
-BUFx5_ASAP7_75t_R c5700(
+HB2xp67_ASAP7_75t_R c5700(
 .A(net5732),
 .Y(net5752)
 );
@@ -45220,7 +45220,7 @@ XNOR2x1_ASAP7_75t_R c5701(
 .Y(net5753)
 );
 
-BUFx6f_ASAP7_75t_R c5702(
+HB3xp67_ASAP7_75t_R c5702(
 .A(net4853),
 .Y(net5754)
 );
@@ -45250,7 +45250,7 @@ AOI21x1_ASAP7_75t_R c5706(
 .Y(net5758)
 );
 
-BUFx8_ASAP7_75t_R c5707(
+HB4xp67_ASAP7_75t_R c5707(
 .A(net9993),
 .Y(net5759)
 );
@@ -45269,17 +45269,17 @@ XOR2x2_ASAP7_75t_R c5709(
 .Y(net5761)
 );
 
-CKINVDCx10_ASAP7_75t_R c5710(
+INVx11_ASAP7_75t_R c5710(
 .A(net10418),
 .Y(net5762)
 );
 
-CKINVDCx11_ASAP7_75t_R c5711(
+INVx13_ASAP7_75t_R c5711(
 .A(net5762),
 .Y(net5763)
 );
 
-CKINVDCx12_ASAP7_75t_R c5712(
+INVx1_ASAP7_75t_R c5712(
 .A(net10404),
 .Y(net5764)
 );
@@ -45296,7 +45296,7 @@ AND2x2_ASAP7_75t_R c5714(
 .Y(net5766)
 );
 
-CKINVDCx14_ASAP7_75t_R c5715(
+INVx2_ASAP7_75t_R c5715(
 .A(net10116),
 .Y(net5767)
 );
@@ -45393,17 +45393,17 @@ AOI211xp5_ASAP7_75t_R c5728(
 .Y(net5781)
 );
 
-CKINVDCx16_ASAP7_75t_R c5729(
+INVx3_ASAP7_75t_R c5729(
 .A(net5723),
 .Y(net5782)
 );
 
-CKINVDCx20_ASAP7_75t_R c5730(
+INVx4_ASAP7_75t_R c5730(
 .A(net10070),
 .Y(net5783)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c5731(
+INVx5_ASAP7_75t_R c5731(
 .A(net5753),
 .Y(net5784)
 );
@@ -45414,12 +45414,12 @@ NAND2x1p5_ASAP7_75t_R c5732(
 .Y(net5785)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c5733(
+INVx6_ASAP7_75t_R c5733(
 .A(net5632),
 .Y(net5786)
 );
 
-CKINVDCx8_ASAP7_75t_R c5734(
+INVx8_ASAP7_75t_R c5734(
 .A(net3086),
 .Y(net5787)
 );
@@ -45430,17 +45430,17 @@ NAND2x2_ASAP7_75t_R c5735(
 .Y(net5788)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c5736(
+INVxp33_ASAP7_75t_R c5736(
 .A(net2095),
 .Y(net5789)
 );
 
-HB1xp67_ASAP7_75t_R c5737(
+INVxp67_ASAP7_75t_R c5737(
 .A(net9160),
 .Y(net5790)
 );
 
-HB2xp67_ASAP7_75t_R c5738(
+BUFx10_ASAP7_75t_R c5738(
 .A(net9160),
 .Y(net5791)
 );
@@ -45458,12 +45458,12 @@ ICGx3_ASAP7_75t_R c5740(
 .GCLK(net5793)
 );
 
-HB3xp67_ASAP7_75t_R c5741(
+BUFx12_ASAP7_75t_R c5741(
 .A(net9275),
 .Y(net5794)
 );
 
-HB4xp67_ASAP7_75t_R c5742(
+BUFx12f_ASAP7_75t_R c5742(
 .A(net4914),
 .Y(net5795)
 );
@@ -45474,7 +45474,7 @@ NAND2xp5_ASAP7_75t_R c5743(
 .Y(net5796)
 );
 
-INVx11_ASAP7_75t_R c5744(
+BUFx16f_ASAP7_75t_R c5744(
 .A(net5782),
 .Y(net5797)
 );
@@ -45491,7 +45491,7 @@ NOR2x1_ASAP7_75t_R c5746(
 .Y(net5799)
 );
 
-INVx13_ASAP7_75t_R c5747(
+BUFx24_ASAP7_75t_R c5747(
 .A(net4923),
 .Y(net5800)
 );
@@ -45505,12 +45505,12 @@ OAI32xp33_ASAP7_75t_R c5748(
 .Y(net5801)
 );
 
-INVx1_ASAP7_75t_R c5749(
+BUFx2_ASAP7_75t_R c5749(
 .A(net4843),
 .Y(net5802)
 );
 
-INVx2_ASAP7_75t_R c5750(
+BUFx3_ASAP7_75t_R c5750(
 .A(net10460),
 .Y(net5803)
 );
@@ -45521,17 +45521,17 @@ NOR2x1p5_ASAP7_75t_R c5751(
 .Y(net5804)
 );
 
-INVx3_ASAP7_75t_R c5752(
+BUFx4_ASAP7_75t_R c5752(
 .A(net5803),
 .Y(net5805)
 );
 
-INVx4_ASAP7_75t_R c5753(
+BUFx4f_ASAP7_75t_R c5753(
 .A(net5785),
 .Y(net5806)
 );
 
-INVx5_ASAP7_75t_R c5754(
+BUFx5_ASAP7_75t_R c5754(
 .A(net2117),
 .Y(net5807)
 );
@@ -45572,7 +45572,7 @@ OR2x6_ASAP7_75t_R c5760(
 .Y(net5813)
 );
 
-INVx6_ASAP7_75t_R c5761(
+BUFx6f_ASAP7_75t_R c5761(
 .A(net10556),
 .Y(net5814)
 );
@@ -45583,12 +45583,12 @@ XNOR2x1_ASAP7_75t_R c5762(
 .Y(net5815)
 );
 
-INVx8_ASAP7_75t_R c5763(
+BUFx8_ASAP7_75t_R c5763(
 .A(net4773),
 .Y(net5816)
 );
 
-INVxp33_ASAP7_75t_R c5764(
+CKINVDCx5p33_ASAP7_75t_R c5764(
 .A(net9218),
 .Y(net5817)
 );
@@ -45606,7 +45606,7 @@ XNOR2x2_ASAP7_75t_R c5766(
 .Y(net5819)
 );
 
-INVxp67_ASAP7_75t_R c5767(
+CKINVDCx6p67_ASAP7_75t_R c5767(
 .A(net5817),
 .Y(net5820)
 );
@@ -45617,12 +45617,12 @@ XNOR2xp5_ASAP7_75t_R c5768(
 .Y(net5821)
 );
 
-BUFx10_ASAP7_75t_R c5769(
+CKINVDCx8_ASAP7_75t_R c5769(
 .A(net5812),
 .Y(net5822)
 );
 
-BUFx12_ASAP7_75t_R c5770(
+CKINVDCx9p33_ASAP7_75t_R c5770(
 .A(net4875),
 .Y(net5823)
 );
@@ -45660,7 +45660,7 @@ XOR2xp5_ASAP7_75t_R c5775(
 .Y(net5828)
 );
 
-BUFx12f_ASAP7_75t_R c5776(
+HB1xp67_ASAP7_75t_R c5776(
 .A(net5828),
 .Y(net5829)
 );
@@ -45671,12 +45671,12 @@ AND2x2_ASAP7_75t_R c5777(
 .Y(net5830)
 );
 
-BUFx16f_ASAP7_75t_R c5778(
+HB2xp67_ASAP7_75t_R c5778(
 .A(net4858),
 .Y(net5831)
 );
 
-BUFx24_ASAP7_75t_R c5779(
+HB3xp67_ASAP7_75t_R c5779(
 .A(net5814),
 .Y(net5832)
 );
@@ -45687,7 +45687,7 @@ AND2x4_ASAP7_75t_R c5780(
 .Y(net5833)
 );
 
-BUFx2_ASAP7_75t_R c5781(
+HB4xp67_ASAP7_75t_R c5781(
 .A(net5811),
 .Y(net5834)
 );
@@ -45698,7 +45698,7 @@ AND2x6_ASAP7_75t_R c5782(
 .Y(net5835)
 );
 
-BUFx3_ASAP7_75t_R c5783(
+INVx11_ASAP7_75t_R c5783(
 .A(net4917),
 .Y(net5836)
 );
@@ -45715,7 +45715,7 @@ NAND2x1_ASAP7_75t_R c5785(
 .Y(net5838)
 );
 
-BUFx4_ASAP7_75t_R c5786(
+INVx13_ASAP7_75t_R c5786(
 .A(net10128),
 .Y(net5839)
 );
@@ -45734,7 +45734,7 @@ NAND2x1p5_ASAP7_75t_R c5788(
 .Y(net5841)
 );
 
-BUFx4f_ASAP7_75t_R c5789(
+INVx1_ASAP7_75t_R c5789(
 .A(net5822),
 .Y(net5842)
 );
@@ -45770,7 +45770,7 @@ NAND2xp67_ASAP7_75t_R c5794(
 .Y(net5847)
 );
 
-BUFx5_ASAP7_75t_R c5795(
+INVx2_ASAP7_75t_R c5795(
 .A(net10487),
 .Y(net5848)
 );
@@ -45832,7 +45832,7 @@ NOR3x2_ASAP7_75t_R c5803(
 .Y(net5856)
 );
 
-BUFx6f_ASAP7_75t_R c5804(
+INVx3_ASAP7_75t_R c5804(
 .A(net10557),
 .Y(net5857)
 );
@@ -45886,7 +45886,7 @@ OR2x2_ASAP7_75t_R c5811(
 .Y(net5864)
 );
 
-BUFx8_ASAP7_75t_R c5812(
+INVx4_ASAP7_75t_R c5812(
 .A(net4732),
 .Y(net5865)
 );
@@ -45910,7 +45910,7 @@ OR2x6_ASAP7_75t_R c5815(
 .Y(net5868)
 );
 
-CKINVDCx10_ASAP7_75t_R c5816(
+INVx5_ASAP7_75t_R c5816(
 .A(net5721),
 .Y(net5869)
 );
@@ -45928,12 +45928,12 @@ XNOR2x1_ASAP7_75t_R c5818(
 .Y(net5871)
 );
 
-CKINVDCx11_ASAP7_75t_R c5819(
+INVx6_ASAP7_75t_R c5819(
 .A(net10120),
 .Y(net5872)
 );
 
-CKINVDCx12_ASAP7_75t_R c5820(
+INVx8_ASAP7_75t_R c5820(
 .A(net10329),
 .Y(net5873)
 );
@@ -45945,12 +45945,12 @@ OAI21xp33_ASAP7_75t_R c5821(
 .Y(net5874)
 );
 
-CKINVDCx14_ASAP7_75t_R c5822(
+INVxp33_ASAP7_75t_R c5822(
 .A(net10329),
 .Y(net5875)
 );
 
-CKINVDCx16_ASAP7_75t_R c5823(
+INVxp67_ASAP7_75t_R c5823(
 .A(net10168),
 .Y(net5876)
 );
@@ -45961,12 +45961,12 @@ XNOR2x2_ASAP7_75t_R c5824(
 .Y(net5877)
 );
 
-CKINVDCx20_ASAP7_75t_R c5825(
+BUFx10_ASAP7_75t_R c5825(
 .A(net5000),
 .Y(net5878)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c5826(
+BUFx12_ASAP7_75t_R c5826(
 .A(net5813),
 .Y(net5879)
 );
@@ -45977,12 +45977,12 @@ XNOR2xp5_ASAP7_75t_R c5827(
 .Y(net5880)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c5828(
+BUFx12f_ASAP7_75t_R c5828(
 .A(net5863),
 .Y(net5881)
 );
 
-CKINVDCx8_ASAP7_75t_R c5829(
+BUFx16f_ASAP7_75t_R c5829(
 .A(net10471),
 .Y(net5882)
 );
@@ -46000,32 +46000,32 @@ ICGx4_ASAP7_75t_R c5831(
 .GCLK(net5884)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c5832(
+BUFx24_ASAP7_75t_R c5832(
 .A(net5790),
 .Y(net5885)
 );
 
-HB1xp67_ASAP7_75t_R c5833(
+BUFx2_ASAP7_75t_R c5833(
 .A(net10531),
 .Y(net5886)
 );
 
-HB2xp67_ASAP7_75t_R c5834(
+BUFx3_ASAP7_75t_R c5834(
 .A(net9977),
 .Y(net5887)
 );
 
-HB3xp67_ASAP7_75t_R c5835(
+BUFx4_ASAP7_75t_R c5835(
 .A(net5818),
 .Y(net5888)
 );
 
-HB4xp67_ASAP7_75t_R c5836(
+BUFx4f_ASAP7_75t_R c5836(
 .A(net4863),
 .Y(net5889)
 );
 
-INVx11_ASAP7_75t_R c5837(
+BUFx5_ASAP7_75t_R c5837(
 .A(net9948),
 .Y(net5890)
 );
@@ -46048,7 +46048,7 @@ AND2x2_ASAP7_75t_R c5840(
 .Y(net5893)
 );
 
-INVx13_ASAP7_75t_R c5841(
+BUFx6f_ASAP7_75t_R c5841(
 .A(net10555),
 .Y(net5894)
 );
@@ -46154,7 +46154,7 @@ NOR2xp33_ASAP7_75t_R c5857(
 .Y(net5911)
 );
 
-INVx1_ASAP7_75t_R c5858(
+BUFx8_ASAP7_75t_R c5858(
 .A(net10499),
 .Y(net5912)
 );
@@ -46165,12 +46165,12 @@ NOR2xp67_ASAP7_75t_R c5859(
 .Y(net5913)
 );
 
-INVx2_ASAP7_75t_R c5860(
+CKINVDCx5p33_ASAP7_75t_R c5860(
 .A(net5703),
 .Y(net5914)
 );
 
-INVx3_ASAP7_75t_R c5861(
+CKINVDCx6p67_ASAP7_75t_R c5861(
 .A(net5885),
 .Y(net5915)
 );
@@ -46288,7 +46288,7 @@ AOI21xp33_ASAP7_75t_R c5878(
 .Y(net5932)
 );
 
-INVx4_ASAP7_75t_R c5879(
+CKINVDCx8_ASAP7_75t_R c5879(
 .A(net10170),
 .Y(net5933)
 );
@@ -46389,7 +46389,7 @@ NOR3x1_ASAP7_75t_R c5892(
 .Y(net5947)
 );
 
-INVx5_ASAP7_75t_R c5893(
+CKINVDCx9p33_ASAP7_75t_R c5893(
 .A(net10070),
 .Y(net5948)
 );
@@ -46400,27 +46400,27 @@ XOR2xp5_ASAP7_75t_R c5894(
 .Y(net5949)
 );
 
-INVx6_ASAP7_75t_R c5895(
+HB1xp67_ASAP7_75t_R c5895(
 .A(net1337),
 .Y(net5950)
 );
 
-INVx8_ASAP7_75t_R c5896(
+HB2xp67_ASAP7_75t_R c5896(
 .A(net9227),
 .Y(net5951)
 );
 
-INVxp33_ASAP7_75t_R c5897(
+HB3xp67_ASAP7_75t_R c5897(
 .A(net9188),
 .Y(net5952)
 );
 
-INVxp67_ASAP7_75t_R c5898(
+HB4xp67_ASAP7_75t_R c5898(
 .A(net5015),
 .Y(net5953)
 );
 
-BUFx10_ASAP7_75t_R c5899(
+INVx11_ASAP7_75t_R c5899(
 .A(net5889),
 .Y(net5954)
 );
@@ -46446,7 +46446,7 @@ SDFHx3_ASAP7_75t_R c5902(
 .QN(net5957)
 );
 
-BUFx12_ASAP7_75t_R c5903(
+INVx13_ASAP7_75t_R c5903(
 .A(net5938),
 .Y(net5958)
 );
@@ -46463,7 +46463,7 @@ AND2x6_ASAP7_75t_R c5905(
 .Y(net5960)
 );
 
-BUFx12f_ASAP7_75t_R c5906(
+INVx1_ASAP7_75t_R c5906(
 .A(net5023),
 .Y(net5961)
 );
@@ -46475,7 +46475,7 @@ NOR3xp33_ASAP7_75t_R c5907(
 .Y(net5962)
 );
 
-BUFx16f_ASAP7_75t_R c5908(
+INVx2_ASAP7_75t_R c5908(
 .A(net9188),
 .Y(net5963)
 );
@@ -46487,12 +46487,12 @@ ICGx5_ASAP7_75t_R c5909(
 .GCLK(net5964)
 );
 
-BUFx24_ASAP7_75t_R c5910(
+INVx3_ASAP7_75t_R c5910(
 .A(net10127),
 .Y(net5965)
 );
 
-BUFx2_ASAP7_75t_R c5911(
+INVx4_ASAP7_75t_R c5911(
 .A(net9208),
 .Y(net5966)
 );
@@ -46503,17 +46503,17 @@ HAxp5_ASAP7_75t_R c5912(
 .CON(net5967)
 );
 
-BUFx3_ASAP7_75t_R c5913(
+INVx5_ASAP7_75t_R c5913(
 .A(net10465),
 .Y(net5968)
 );
 
-BUFx4_ASAP7_75t_R c5914(
+INVx6_ASAP7_75t_R c5914(
 .A(net5033),
 .Y(net5969)
 );
 
-BUFx4f_ASAP7_75t_R c5915(
+INVx8_ASAP7_75t_R c5915(
 .A(net5584),
 .Y(net5970)
 );
@@ -46525,7 +46525,7 @@ ICGx5p33DC_ASAP7_75t_R c5916(
 .GCLK(net5971)
 );
 
-BUFx5_ASAP7_75t_R c5917(
+INVxp33_ASAP7_75t_R c5917(
 .A(net5901),
 .Y(net5972)
 );
@@ -46548,7 +46548,7 @@ NAND2x2_ASAP7_75t_R c5920(
 .Y(net5975)
 );
 
-BUFx6f_ASAP7_75t_R c5921(
+INVxp67_ASAP7_75t_R c5921(
 .A(net9241),
 .Y(net5976)
 );
@@ -46598,7 +46598,7 @@ NOR2x1_ASAP7_75t_R c5928(
 .Y(net5983)
 );
 
-BUFx8_ASAP7_75t_R c5929(
+BUFx10_ASAP7_75t_R c5929(
 .A(net4121),
 .Y(net5984)
 );
@@ -46650,7 +46650,7 @@ NOR2xp67_ASAP7_75t_R c5936(
 .Y(net5991)
 );
 
-CKINVDCx10_ASAP7_75t_R c5937(
+BUFx12_ASAP7_75t_R c5937(
 .A(net10441),
 .Y(net5992)
 );
@@ -46667,7 +46667,7 @@ OR2x4_ASAP7_75t_R c5939(
 .Y(net5994)
 );
 
-CKINVDCx11_ASAP7_75t_R c5940(
+BUFx12f_ASAP7_75t_R c5940(
 .A(net5993),
 .Y(net5995)
 );
@@ -46685,7 +46685,7 @@ OR2x6_ASAP7_75t_R c5942(
 .Y(net5997)
 );
 
-CKINVDCx12_ASAP7_75t_R c5943(
+BUFx16f_ASAP7_75t_R c5943(
 .A(net10166),
 .Y(net5998)
 );
@@ -46702,7 +46702,7 @@ XNOR2x2_ASAP7_75t_R c5945(
 .Y(net6000)
 );
 
-CKINVDCx14_ASAP7_75t_R c5946(
+BUFx24_ASAP7_75t_R c5946(
 .A(net10544),
 .Y(net6001)
 );
@@ -46773,7 +46773,7 @@ NAND4xp25_ASAP7_75t_R c5956(
 .Y(net6011)
 );
 
-CKINVDCx16_ASAP7_75t_R c5957(
+BUFx2_ASAP7_75t_R c5957(
 .A(net6007),
 .Y(net6012)
 );
@@ -46910,17 +46910,17 @@ NOR2x1_ASAP7_75t_R c5976(
 .Y(net6031)
 );
 
-CKINVDCx20_ASAP7_75t_R c5977(
+BUFx3_ASAP7_75t_R c5977(
 .A(net10380),
 .Y(net6032)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c5978(
+BUFx4_ASAP7_75t_R c5978(
 .A(net5979),
 .Y(net6033)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c5979(
+BUFx4f_ASAP7_75t_R c5979(
 .A(net9117),
 .Y(net6034)
 );
@@ -46943,7 +46943,7 @@ NOR2xp33_ASAP7_75t_R c5982(
 .Y(net6037)
 );
 
-CKINVDCx8_ASAP7_75t_R c5983(
+BUFx5_ASAP7_75t_R c5983(
 .A(net5949),
 .Y(net6038)
 );
@@ -46954,17 +46954,17 @@ NOR2xp67_ASAP7_75t_R c5984(
 .Y(net6039)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c5985(
+BUFx6f_ASAP7_75t_R c5985(
 .A(net10450),
 .Y(net6040)
 );
 
-HB1xp67_ASAP7_75t_R c5986(
+BUFx8_ASAP7_75t_R c5986(
 .A(net6037),
 .Y(net6041)
 );
 
-HB2xp67_ASAP7_75t_R c5987(
+CKINVDCx5p33_ASAP7_75t_R c5987(
 .A(net5134),
 .Y(net6042)
 );
@@ -46975,12 +46975,12 @@ OR2x2_ASAP7_75t_R c5988(
 .Y(net6043)
 );
 
-HB3xp67_ASAP7_75t_R c5989(
+CKINVDCx6p67_ASAP7_75t_R c5989(
 .A(net5185),
 .Y(net6044)
 );
 
-HB4xp67_ASAP7_75t_R c5990(
+CKINVDCx8_ASAP7_75t_R c5990(
 .A(net6035),
 .Y(net6045)
 );
@@ -47004,7 +47004,7 @@ OR2x6_ASAP7_75t_R c5993(
 .Y(net6048)
 );
 
-INVx11_ASAP7_75t_R c5994(
+CKINVDCx9p33_ASAP7_75t_R c5994(
 .A(net6034),
 .Y(net6049)
 );
@@ -47027,7 +47027,7 @@ XNOR2xp5_ASAP7_75t_R c5997(
 .Y(net6052)
 );
 
-INVx13_ASAP7_75t_R c5998(
+HB1xp67_ASAP7_75t_R c5998(
 .A(net5929),
 .Y(net6053)
 );
@@ -47039,7 +47039,7 @@ AO21x2_ASAP7_75t_R c5999(
 .Y(net6054)
 );
 
-INVx1_ASAP7_75t_R c6000(
+HB2xp67_ASAP7_75t_R c6000(
 .A(net5191),
 .Y(net6055)
 );
@@ -47058,7 +47058,7 @@ XOR2x1_ASAP7_75t_R c6002(
 .Y(net6057)
 );
 
-INVx2_ASAP7_75t_R c6003(
+HB3xp67_ASAP7_75t_R c6003(
 .A(net10506),
 .Y(net6058)
 );
@@ -47075,7 +47075,7 @@ XOR2xp5_ASAP7_75t_R c6005(
 .Y(net6060)
 );
 
-INVx3_ASAP7_75t_R c6006(
+HB4xp67_ASAP7_75t_R c6006(
 .A(net9117),
 .Y(net6061)
 );
@@ -47098,12 +47098,12 @@ AND2x6_ASAP7_75t_R c6009(
 .Y(net6064)
 );
 
-INVx4_ASAP7_75t_R c6010(
+INVx11_ASAP7_75t_R c6010(
 .A(net9802),
 .Y(net6065)
 );
 
-INVx5_ASAP7_75t_R c6011(
+INVx13_ASAP7_75t_R c6011(
 .A(net10537),
 .Y(net6066)
 );
@@ -47115,7 +47115,7 @@ HAxp5_ASAP7_75t_R c6012(
 .SN(net6067)
 );
 
-INVx6_ASAP7_75t_R c6013(
+INVx1_ASAP7_75t_R c6013(
 .A(net6062),
 .Y(net6069)
 );
@@ -47177,7 +47177,7 @@ AOI21x1_ASAP7_75t_R c6022(
 .Y(net6078)
 );
 
-INVx8_ASAP7_75t_R c6023(
+INVx2_ASAP7_75t_R c6023(
 .A(net10413),
 .Y(net6079)
 );
@@ -47226,7 +47226,7 @@ AOI21xp5_ASAP7_75t_R c6030(
 .Y(net6086)
 );
 
-INVxp33_ASAP7_75t_R c6031(
+INVx3_ASAP7_75t_R c6031(
 .A(net10156),
 .Y(net6087)
 );
@@ -47237,7 +47237,7 @@ OR2x4_ASAP7_75t_R c6032(
 .Y(net6088)
 );
 
-INVxp67_ASAP7_75t_R c6033(
+INVx4_ASAP7_75t_R c6033(
 .A(net10477),
 .Y(net6089)
 );
@@ -47300,7 +47300,7 @@ XOR2xp5_ASAP7_75t_R c6042(
 .Y(net6099)
 );
 
-BUFx10_ASAP7_75t_R c6043(
+INVx5_ASAP7_75t_R c6043(
 .A(net10020),
 .Y(net6100)
 );
@@ -47325,7 +47325,7 @@ MAJx2_ASAP7_75t_R c6046(
 .Y(net6103)
 );
 
-BUFx12_ASAP7_75t_R c6047(
+INVx6_ASAP7_75t_R c6047(
 .A(net10524),
 .Y(net6104)
 );
@@ -47395,7 +47395,7 @@ NAND2x1p5_ASAP7_75t_R c6056(
 .Y(net6113)
 );
 
-BUFx12f_ASAP7_75t_R c6057(
+INVx8_ASAP7_75t_R c6057(
 .A(net10366),
 .Y(net6114)
 );
@@ -47409,17 +47409,17 @@ AOI221xp5_ASAP7_75t_R c6058(
 .Y(net6115)
 );
 
-BUFx16f_ASAP7_75t_R c6059(
+INVxp33_ASAP7_75t_R c6059(
 .A(net10448),
 .Y(net6116)
 );
 
-BUFx24_ASAP7_75t_R c6060(
+INVxp67_ASAP7_75t_R c6060(
 .A(net6107),
 .Y(net6117)
 );
 
-BUFx2_ASAP7_75t_R c6061(
+BUFx10_ASAP7_75t_R c6061(
 .A(net6042),
 .Y(net6118)
 );
@@ -47437,7 +47437,7 @@ MAJx3_ASAP7_75t_R c6063(
 .Y(net6120)
 );
 
-BUFx3_ASAP7_75t_R c6064(
+BUFx12_ASAP7_75t_R c6064(
 .A(net9157),
 .Y(net6121)
 );
@@ -47448,12 +47448,12 @@ NAND2xp33_ASAP7_75t_R c6065(
 .Y(net6122)
 );
 
-BUFx4_ASAP7_75t_R c6066(
+BUFx12f_ASAP7_75t_R c6066(
 .A(net3269),
 .Y(net6123)
 );
 
-BUFx4f_ASAP7_75t_R c6067(
+BUFx16f_ASAP7_75t_R c6067(
 .A(net10502),
 .Y(net6124)
 );
@@ -47477,7 +47477,7 @@ NAND2xp67_ASAP7_75t_R c6070(
 .Y(net6127)
 );
 
-BUFx5_ASAP7_75t_R c6071(
+BUFx24_ASAP7_75t_R c6071(
 .A(net3416),
 .Y(net6128)
 );
@@ -47488,7 +47488,7 @@ NOR2x1_ASAP7_75t_R c6072(
 .Y(net6129)
 );
 
-BUFx6f_ASAP7_75t_R c6073(
+BUFx2_ASAP7_75t_R c6073(
 .A(net6116),
 .Y(net6130)
 );
@@ -47500,17 +47500,17 @@ NAND3x2_ASAP7_75t_R c6074(
 .Y(net6131)
 );
 
-BUFx8_ASAP7_75t_R c6075(
+BUFx3_ASAP7_75t_R c6075(
 .A(net4960),
 .Y(net6132)
 );
 
-CKINVDCx10_ASAP7_75t_R c6076(
+BUFx4_ASAP7_75t_R c6076(
 .A(net10514),
 .Y(net6133)
 );
 
-CKINVDCx11_ASAP7_75t_R c6077(
+BUFx4f_ASAP7_75t_R c6077(
 .A(net10443),
 .Y(net6134)
 );
@@ -47521,7 +47521,7 @@ NOR2x1p5_ASAP7_75t_R c6078(
 .Y(net6135)
 );
 
-CKINVDCx12_ASAP7_75t_R c6079(
+BUFx5_ASAP7_75t_R c6079(
 .A(net6041),
 .Y(net6136)
 );
@@ -47544,22 +47544,22 @@ NOR2xp67_ASAP7_75t_R c6082(
 .Y(net6139)
 );
 
-CKINVDCx14_ASAP7_75t_R c6083(
+BUFx6f_ASAP7_75t_R c6083(
 .A(net10468),
 .Y(net6140)
 );
 
-CKINVDCx16_ASAP7_75t_R c6084(
+BUFx8_ASAP7_75t_R c6084(
 .A(net6133),
 .Y(net6141)
 );
 
-CKINVDCx20_ASAP7_75t_R c6085(
+CKINVDCx5p33_ASAP7_75t_R c6085(
 .A(net10540),
 .Y(net6142)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c6086(
+CKINVDCx6p67_ASAP7_75t_R c6086(
 .A(net9157),
 .Y(net6143)
 );
@@ -47602,7 +47602,7 @@ NOR3x1_ASAP7_75t_R c6092(
 .Y(net6149)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c6093(
+CKINVDCx8_ASAP7_75t_R c6093(
 .A(net10525),
 .Y(net6150)
 );
@@ -47639,7 +47639,7 @@ XOR2x2_ASAP7_75t_R c6098(
 .Y(net6155)
 );
 
-CKINVDCx8_ASAP7_75t_R c6099(
+CKINVDCx9p33_ASAP7_75t_R c6099(
 .A(net10104),
 .Y(net6156)
 );
@@ -47650,7 +47650,7 @@ XOR2xp5_ASAP7_75t_R c6100(
 .Y(net6157)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c6101(
+HB1xp67_ASAP7_75t_R c6101(
 .A(net10442),
 .Y(net6158)
 );
@@ -47731,7 +47731,7 @@ NAND2xp67_ASAP7_75t_R c6113(
 .Y(net6171)
 );
 
-HB1xp67_ASAP7_75t_R c6114(
+HB2xp67_ASAP7_75t_R c6114(
 .A(net10452),
 .Y(net6172)
 );
@@ -47811,7 +47811,7 @@ OAI21x1_ASAP7_75t_R c6124(
 .Y(net6182)
 );
 
-HB2xp67_ASAP7_75t_R c6125(
+HB3xp67_ASAP7_75t_R c6125(
 .A(net10061),
 .Y(net6183)
 );
@@ -47879,12 +47879,12 @@ OR2x2_ASAP7_75t_R c6134(
 .Y(net6192)
 );
 
-HB3xp67_ASAP7_75t_R c6135(
+HB4xp67_ASAP7_75t_R c6135(
 .A(net10566),
 .Y(net6193)
 );
 
-HB4xp67_ASAP7_75t_R c6136(
+INVx11_ASAP7_75t_R c6136(
 .A(net10423),
 .Y(net6194)
 );
@@ -47926,27 +47926,27 @@ SDFHx1_ASAP7_75t_R c6141(
 .QN(net6199)
 );
 
-INVx11_ASAP7_75t_R c6142(
+INVx13_ASAP7_75t_R c6142(
 .A(net10127),
 .Y(net6200)
 );
 
-INVx13_ASAP7_75t_R c6143(
+INVx1_ASAP7_75t_R c6143(
 .A(net5275),
 .Y(net6201)
 );
 
-INVx1_ASAP7_75t_R c6144(
+INVx2_ASAP7_75t_R c6144(
 .A(net10546),
 .Y(net6202)
 );
 
-INVx2_ASAP7_75t_R c6145(
+INVx3_ASAP7_75t_R c6145(
 .A(net10169),
 .Y(net6203)
 );
 
-INVx3_ASAP7_75t_R c6146(
+INVx4_ASAP7_75t_R c6146(
 .A(net10357),
 .Y(net6204)
 );
@@ -47957,7 +47957,7 @@ OR2x4_ASAP7_75t_R c6147(
 .Y(net6205)
 );
 
-INVx4_ASAP7_75t_R c6148(
+INVx5_ASAP7_75t_R c6148(
 .A(net5355),
 .Y(net6206)
 );
@@ -47968,7 +47968,7 @@ OR2x6_ASAP7_75t_R c6149(
 .Y(net6207)
 );
 
-INVx5_ASAP7_75t_R c6150(
+INVx6_ASAP7_75t_R c6150(
 .A(net9914),
 .Y(net6208)
 );
@@ -47979,7 +47979,7 @@ XNOR2x1_ASAP7_75t_R c6151(
 .Y(net6209)
 );
 
-INVx6_ASAP7_75t_R c6152(
+INVx8_ASAP7_75t_R c6152(
 .A(net5225),
 .Y(net6210)
 );
@@ -47997,7 +47997,7 @@ ICGx2_ASAP7_75t_R c6154(
 .GCLK(net6212)
 );
 
-INVx8_ASAP7_75t_R c6155(
+INVxp33_ASAP7_75t_R c6155(
 .A(net9155),
 .Y(net6213)
 );
@@ -48026,7 +48026,7 @@ XOR2xp5_ASAP7_75t_R c6159(
 .Y(net6217)
 );
 
-INVxp33_ASAP7_75t_R c6160(
+INVxp67_ASAP7_75t_R c6160(
 .A(net10386),
 .Y(net6218)
 );
@@ -48049,12 +48049,12 @@ AND2x6_ASAP7_75t_R c6163(
 .Y(net6221)
 );
 
-INVxp67_ASAP7_75t_R c6164(
+BUFx10_ASAP7_75t_R c6164(
 .A(net10420),
 .Y(net6222)
 );
 
-BUFx10_ASAP7_75t_R c6165(
+BUFx12_ASAP7_75t_R c6165(
 .A(net9155),
 .Y(net6223)
 );
@@ -48090,7 +48090,7 @@ NAND2xp33_ASAP7_75t_R c6170(
 .Y(net6229)
 );
 
-BUFx12_ASAP7_75t_R c6171(
+BUFx12f_ASAP7_75t_R c6171(
 .A(net5167),
 .Y(net6230)
 );
@@ -48101,12 +48101,12 @@ NAND2xp5_ASAP7_75t_R c6172(
 .Y(net6231)
 );
 
-BUFx12f_ASAP7_75t_R c6173(
+BUFx16f_ASAP7_75t_R c6173(
 .A(net10118),
 .Y(net6232)
 );
 
-BUFx16f_ASAP7_75t_R c6174(
+BUFx24_ASAP7_75t_R c6174(
 .A(net4214),
 .Y(net6233)
 );
@@ -48157,7 +48157,7 @@ AND3x4_ASAP7_75t_R c6181(
 .Y(net6240)
 );
 
-BUFx24_ASAP7_75t_R c6182(
+BUFx2_ASAP7_75t_R c6182(
 .A(net6207),
 .Y(net6241)
 );
@@ -48174,7 +48174,7 @@ OR2x2_ASAP7_75t_R c6184(
 .Y(net6243)
 );
 
-BUFx2_ASAP7_75t_R c6185(
+BUFx3_ASAP7_75t_R c6185(
 .A(net6124),
 .Y(net6244)
 );
@@ -48235,12 +48235,12 @@ XOR2x2_ASAP7_75t_R c6194(
 .Y(net6253)
 );
 
-BUFx3_ASAP7_75t_R c6195(
+BUFx4_ASAP7_75t_R c6195(
 .A(net6218),
 .Y(net6254)
 );
 
-BUFx4_ASAP7_75t_R c6196(
+BUFx4f_ASAP7_75t_R c6196(
 .A(net10432),
 .Y(net6255)
 );
@@ -48257,7 +48257,7 @@ AND2x2_ASAP7_75t_R c6198(
 .Y(net6257)
 );
 
-BUFx4f_ASAP7_75t_R c6199(
+BUFx5_ASAP7_75t_R c6199(
 .A(net10129),
 .Y(net6258)
 );
@@ -48282,7 +48282,7 @@ AOI21xp33_ASAP7_75t_R c6202(
 .Y(net6261)
 );
 
-BUFx5_ASAP7_75t_R c6203(
+BUFx6f_ASAP7_75t_R c6203(
 .A(net10122),
 .Y(net6262)
 );
@@ -48457,12 +48457,12 @@ NAND2xp67_ASAP7_75t_R c6227(
 .Y(net6287)
 );
 
-BUFx6f_ASAP7_75t_R c6228(
+BUFx8_ASAP7_75t_R c6228(
 .A(net10573),
 .Y(net6288)
 );
 
-BUFx8_ASAP7_75t_R c6229(
+CKINVDCx5p33_ASAP7_75t_R c6229(
 .A(net5407),
 .Y(net6289)
 );
@@ -48473,7 +48473,7 @@ NOR2x1_ASAP7_75t_R c6230(
 .Y(net6290)
 );
 
-CKINVDCx10_ASAP7_75t_R c6231(
+CKINVDCx6p67_ASAP7_75t_R c6231(
 .A(net9167),
 .Y(net6291)
 );
@@ -48484,17 +48484,17 @@ NOR2x1p5_ASAP7_75t_R c6232(
 .Y(net6292)
 );
 
-CKINVDCx11_ASAP7_75t_R c6233(
+CKINVDCx8_ASAP7_75t_R c6233(
 .A(net10042),
 .Y(net6293)
 );
 
-CKINVDCx12_ASAP7_75t_R c6234(
+CKINVDCx9p33_ASAP7_75t_R c6234(
 .A(net10352),
 .Y(net6294)
 );
 
-CKINVDCx14_ASAP7_75t_R c6235(
+HB1xp67_ASAP7_75t_R c6235(
 .A(net5726),
 .Y(net6295)
 );
@@ -48529,12 +48529,12 @@ OR2x4_ASAP7_75t_R c6240(
 .Y(net6300)
 );
 
-CKINVDCx16_ASAP7_75t_R c6241(
+HB2xp67_ASAP7_75t_R c6241(
 .A(net10371),
 .Y(net6301)
 );
 
-CKINVDCx20_ASAP7_75t_R c6242(
+HB3xp67_ASAP7_75t_R c6242(
 .A(net3522),
 .Y(net6302)
 );
@@ -48553,12 +48553,12 @@ SDFHx2_ASAP7_75t_R c6244(
 .QN(net6304)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c6245(
+HB4xp67_ASAP7_75t_R c6245(
 .A(net9167),
 .Y(net6305)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c6246(
+INVx11_ASAP7_75t_R c6246(
 .A(net6230),
 .Y(net6306)
 );
@@ -48575,7 +48575,7 @@ XNOR2x2_ASAP7_75t_R c6248(
 .Y(net6308)
 );
 
-CKINVDCx8_ASAP7_75t_R c6249(
+INVx13_ASAP7_75t_R c6249(
 .A(net10455),
 .Y(net6309)
 );
@@ -48598,7 +48598,7 @@ XOR2x2_ASAP7_75t_R c6252(
 .Y(net6312)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c6253(
+INVx1_ASAP7_75t_R c6253(
 .A(net10397),
 .Y(net6313)
 );
@@ -48629,7 +48629,7 @@ OAI21xp5_ASAP7_75t_R c6257(
 .Y(net6317)
 );
 
-HB1xp67_ASAP7_75t_R c6258(
+INVx2_ASAP7_75t_R c6258(
 .A(net6248),
 .Y(net6318)
 );
@@ -48661,7 +48661,7 @@ HAxp5_ASAP7_75t_R c6262(
 .CON(net6322)
 );
 
-HB2xp67_ASAP7_75t_R c6263(
+INVx3_ASAP7_75t_R c6263(
 .A(net6156),
 .Y(net6323)
 );
@@ -48672,7 +48672,7 @@ NAND2x1_ASAP7_75t_R c6264(
 .Y(net6324)
 );
 
-HB3xp67_ASAP7_75t_R c6265(
+INVx4_ASAP7_75t_R c6265(
 .A(net6296),
 .Y(net6325)
 );
@@ -48704,12 +48704,12 @@ NAND2x2_ASAP7_75t_R c6269(
 .Y(net6329)
 );
 
-HB4xp67_ASAP7_75t_R c6270(
+INVx5_ASAP7_75t_R c6270(
 .A(net10350),
 .Y(net6330)
 );
 
-INVx11_ASAP7_75t_R c6271(
+INVx6_ASAP7_75t_R c6271(
 .A(net6227),
 .Y(net6331)
 );
@@ -48722,7 +48722,7 @@ SDFHx4_ASAP7_75t_R c6272(
 .QN(net6332)
 );
 
-INVx13_ASAP7_75t_R c6273(
+INVx8_ASAP7_75t_R c6273(
 .A(net10155),
 .Y(net6333)
 );
@@ -48733,7 +48733,7 @@ NAND2xp33_ASAP7_75t_R c6274(
 .Y(net6334)
 );
 
-INVx1_ASAP7_75t_R c6275(
+INVxp33_ASAP7_75t_R c6275(
 .A(net10420),
 .Y(net6335)
 );
@@ -48785,7 +48785,7 @@ OR3x4_ASAP7_75t_R c6282(
 .Y(net6342)
 );
 
-INVx2_ASAP7_75t_R c6283(
+INVxp67_ASAP7_75t_R c6283(
 .A(net10467),
 .Y(net6343)
 );
@@ -48837,7 +48837,7 @@ AND3x2_ASAP7_75t_R c6290(
 .Y(net6350)
 );
 
-INVx3_ASAP7_75t_R c6291(
+BUFx10_ASAP7_75t_R c6291(
 .A(net10362),
 .Y(net6351)
 );
@@ -48849,7 +48849,7 @@ AND3x4_ASAP7_75t_R c6292(
 .Y(net6352)
 );
 
-INVx4_ASAP7_75t_R c6293(
+BUFx12_ASAP7_75t_R c6293(
 .A(net10523),
 .Y(net6353)
 );
@@ -48942,7 +48942,7 @@ MAJIxp5_ASAP7_75t_R c6305(
 .Y(net6365)
 );
 
-INVx5_ASAP7_75t_R c6306(
+BUFx12f_ASAP7_75t_R c6306(
 .A(net10485),
 .Y(net6366)
 );
@@ -49012,7 +49012,7 @@ XOR2x2_ASAP7_75t_R c6316(
 .Y(net6376)
 );
 
-INVx6_ASAP7_75t_R c6317(
+BUFx16f_ASAP7_75t_R c6317(
 .A(net10348),
 .Y(out3)
 );
@@ -49058,7 +49058,7 @@ AND2x4_ASAP7_75t_R c6323(
 .Y(net6382)
 );
 
-INVx8_ASAP7_75t_R c6324(
+BUFx24_ASAP7_75t_R c6324(
 .A(net10348),
 .Y(net6383)
 );
@@ -49205,7 +49205,7 @@ OR3x4_ASAP7_75t_R c6344(
 .Y(net6404)
 );
 
-INVxp33_ASAP7_75t_R c6345(
+BUFx2_ASAP7_75t_R c6345(
 .A(net10155),
 .Y(net6405)
 );
@@ -49238,7 +49238,7 @@ AO21x1_ASAP7_75t_R c6349(
 .Y(net6409)
 );
 
-INVxp67_ASAP7_75t_R c6350(
+BUFx3_ASAP7_75t_R c6350(
 .A(net10394),
 .Y(net6410)
 );
@@ -49535,17 +49535,17 @@ OR5x1_ASAP7_75t_R c6390(
 .Y(net6450)
 );
 
-BUFx10_ASAP7_75t_R c6391(
+BUFx4_ASAP7_75t_R c6391(
 .A(net3728),
 .Y(net6451)
 );
 
-BUFx12_ASAP7_75t_R c6392(
+BUFx4f_ASAP7_75t_R c6392(
 .A(net9147),
 .Y(net6452)
 );
 
-BUFx12f_ASAP7_75t_R c6393(
+BUFx5_ASAP7_75t_R c6393(
 .A(net4681),
 .Y(net6453)
 );
@@ -49556,17 +49556,17 @@ NAND2xp67_ASAP7_75t_R c6394(
 .Y(net6454)
 );
 
-BUFx16f_ASAP7_75t_R c6395(
+BUFx6f_ASAP7_75t_R c6395(
 .A(net3759),
 .Y(net6455)
 );
 
-BUFx24_ASAP7_75t_R c6396(
+BUFx8_ASAP7_75t_R c6396(
 .A(net4657),
 .Y(net6456)
 );
 
-BUFx2_ASAP7_75t_R c6397(
+CKINVDCx5p33_ASAP7_75t_R c6397(
 .A(net3710),
 .Y(net6457)
 );
@@ -49584,57 +49584,57 @@ NOR2x1_ASAP7_75t_R c6399(
 .Y(net6459)
 );
 
-BUFx3_ASAP7_75t_R c6400(
+CKINVDCx6p67_ASAP7_75t_R c6400(
 .A(net968),
 .Y(net6460)
 );
 
-BUFx4_ASAP7_75t_R c6401(
+CKINVDCx8_ASAP7_75t_R c6401(
 .A(net4616),
 .Y(net6461)
 );
 
-BUFx4f_ASAP7_75t_R c6402(
+CKINVDCx9p33_ASAP7_75t_R c6402(
 .A(net1861),
 .Y(net6462)
 );
 
-BUFx5_ASAP7_75t_R c6403(
+HB1xp67_ASAP7_75t_R c6403(
 .A(net5549),
 .Y(net6463)
 );
 
-BUFx6f_ASAP7_75t_R c6404(
+HB2xp67_ASAP7_75t_R c6404(
 .A(net6461),
 .Y(net6464)
 );
 
-BUFx8_ASAP7_75t_R c6405(
+HB3xp67_ASAP7_75t_R c6405(
 .A(net4642),
 .Y(net6465)
 );
 
-CKINVDCx10_ASAP7_75t_R c6406(
+HB4xp67_ASAP7_75t_R c6406(
 .A(net5533),
 .Y(net6466)
 );
 
-CKINVDCx11_ASAP7_75t_R c6407(
+INVx11_ASAP7_75t_R c6407(
 .A(net3747),
 .Y(net6467)
 );
 
-CKINVDCx12_ASAP7_75t_R c6408(
+INVx13_ASAP7_75t_R c6408(
 .A(net6457),
 .Y(net6468)
 );
 
-CKINVDCx14_ASAP7_75t_R c6409(
+INVx1_ASAP7_75t_R c6409(
 .A(net5539),
 .Y(net6469)
 );
 
-CKINVDCx16_ASAP7_75t_R c6410(
+INVx2_ASAP7_75t_R c6410(
 .A(net4610),
 .Y(net6470)
 );
@@ -49645,12 +49645,12 @@ NOR2x1p5_ASAP7_75t_R c6411(
 .Y(net6471)
 );
 
-CKINVDCx20_ASAP7_75t_R c6412(
+INVx3_ASAP7_75t_R c6412(
 .A(net6462),
 .Y(net6472)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c6413(
+INVx4_ASAP7_75t_R c6413(
 .A(net2811),
 .Y(net6473)
 );
@@ -49661,17 +49661,17 @@ NOR2x2_ASAP7_75t_R c6414(
 .Y(net6474)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c6415(
+INVx5_ASAP7_75t_R c6415(
 .A(net6469),
 .Y(net6475)
 );
 
-CKINVDCx8_ASAP7_75t_R c6416(
+INVx6_ASAP7_75t_R c6416(
 .A(net9147),
 .Y(net6476)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c6417(
+INVx8_ASAP7_75t_R c6417(
 .A(net9211),
 .Y(net6477)
 );
@@ -49682,12 +49682,12 @@ NOR2xp33_ASAP7_75t_R c6418(
 .Y(net6478)
 );
 
-HB1xp67_ASAP7_75t_R c6419(
+INVxp33_ASAP7_75t_R c6419(
 .A(net9226),
 .Y(net6479)
 );
 
-HB2xp67_ASAP7_75t_R c6420(
+INVxp67_ASAP7_75t_R c6420(
 .A(net6478),
 .Y(net6480)
 );
@@ -49722,12 +49722,12 @@ XNOR2x1_ASAP7_75t_R c6425(
 .Y(net6485)
 );
 
-HB3xp67_ASAP7_75t_R c6426(
+BUFx10_ASAP7_75t_R c6426(
 .A(net6484),
 .Y(net6486)
 );
 
-HB4xp67_ASAP7_75t_R c6427(
+BUFx12_ASAP7_75t_R c6427(
 .A(net6460),
 .Y(net6487)
 );
@@ -49750,7 +49750,7 @@ XOR2x1_ASAP7_75t_R c6430(
 .Y(net6490)
 );
 
-INVx11_ASAP7_75t_R c6431(
+BUFx12f_ASAP7_75t_R c6431(
 .A(net9226),
 .Y(net6491)
 );
@@ -49768,17 +49768,17 @@ ICGx3_ASAP7_75t_R c6433(
 .GCLK(net6493)
 );
 
-INVx13_ASAP7_75t_R c6434(
+BUFx16f_ASAP7_75t_R c6434(
 .A(net4660),
 .Y(net6494)
 );
 
-INVx1_ASAP7_75t_R c6435(
+BUFx24_ASAP7_75t_R c6435(
 .A(net9282),
 .Y(net6495)
 );
 
-INVx2_ASAP7_75t_R c6436(
+BUFx2_ASAP7_75t_R c6436(
 .A(net9207),
 .Y(net6496)
 );
@@ -49791,12 +49791,12 @@ SDFLx2_ASAP7_75t_R c6437(
 .QN(net6497)
 );
 
-INVx3_ASAP7_75t_R c6438(
+BUFx3_ASAP7_75t_R c6438(
 .A(net9660),
 .Y(net6498)
 );
 
-INVx4_ASAP7_75t_R c6439(
+BUFx4_ASAP7_75t_R c6439(
 .A(net6496),
 .Y(net6499)
 );
@@ -49815,7 +49815,7 @@ ICGx4_ASAP7_75t_R c6441(
 .GCLK(net6501)
 );
 
-INVx5_ASAP7_75t_R c6442(
+BUFx4f_ASAP7_75t_R c6442(
 .A(net6498),
 .Y(net6502)
 );
@@ -50038,22 +50038,22 @@ AND4x2_ASAP7_75t_R c6473(
 .Y(net6534)
 );
 
-INVx6_ASAP7_75t_R c6474(
+BUFx5_ASAP7_75t_R c6474(
 .A(net6525),
 .Y(net6535)
 );
 
-INVx8_ASAP7_75t_R c6475(
+BUFx6f_ASAP7_75t_R c6475(
 .A(net9114),
 .Y(net6536)
 );
 
-INVxp33_ASAP7_75t_R c6476(
+BUFx8_ASAP7_75t_R c6476(
 .A(net4756),
 .Y(net6537)
 );
 
-INVxp67_ASAP7_75t_R c6477(
+CKINVDCx5p33_ASAP7_75t_R c6477(
 .A(net5668),
 .Y(net6538)
 );
@@ -50065,22 +50065,22 @@ NAND3x2_ASAP7_75t_R c6478(
 .Y(net6539)
 );
 
-BUFx10_ASAP7_75t_R c6479(
+CKINVDCx6p67_ASAP7_75t_R c6479(
 .A(net4661),
 .Y(net6540)
 );
 
-BUFx12_ASAP7_75t_R c6480(
+CKINVDCx8_ASAP7_75t_R c6480(
 .A(net5691),
 .Y(net6541)
 );
 
-BUFx12f_ASAP7_75t_R c6481(
+CKINVDCx9p33_ASAP7_75t_R c6481(
 .A(net4697),
 .Y(net6542)
 );
 
-BUFx16f_ASAP7_75t_R c6482(
+HB1xp67_ASAP7_75t_R c6482(
 .A(net9114),
 .Y(net6543)
 );
@@ -50093,17 +50093,17 @@ AO211x2_ASAP7_75t_R c6483(
 .Y(net6544)
 );
 
-BUFx24_ASAP7_75t_R c6484(
+HB2xp67_ASAP7_75t_R c6484(
 .A(net6485),
 .Y(net6545)
 );
 
-BUFx2_ASAP7_75t_R c6485(
+HB3xp67_ASAP7_75t_R c6485(
 .A(net10576),
 .Y(net6546)
 );
 
-BUFx3_ASAP7_75t_R c6486(
+HB4xp67_ASAP7_75t_R c6486(
 .A(net6537),
 .Y(net6547)
 );
@@ -50120,42 +50120,42 @@ NOR2x2_ASAP7_75t_R c6488(
 .Y(net6549)
 );
 
-BUFx4_ASAP7_75t_R c6489(
+INVx11_ASAP7_75t_R c6489(
 .A(net5681),
 .Y(net6550)
 );
 
-BUFx4f_ASAP7_75t_R c6490(
+INVx13_ASAP7_75t_R c6490(
 .A(net6455),
 .Y(net6551)
 );
 
-BUFx5_ASAP7_75t_R c6491(
+INVx1_ASAP7_75t_R c6491(
 .A(net5670),
 .Y(net6552)
 );
 
-BUFx6f_ASAP7_75t_R c6492(
+INVx2_ASAP7_75t_R c6492(
 .A(net6541),
 .Y(net6553)
 );
 
-BUFx8_ASAP7_75t_R c6493(
+INVx3_ASAP7_75t_R c6493(
 .A(net6548),
 .Y(net6554)
 );
 
-CKINVDCx10_ASAP7_75t_R c6494(
+INVx4_ASAP7_75t_R c6494(
 .A(net6536),
 .Y(net6555)
 );
 
-CKINVDCx11_ASAP7_75t_R c6495(
+INVx5_ASAP7_75t_R c6495(
 .A(net6540),
 .Y(net6556)
 );
 
-CKINVDCx12_ASAP7_75t_R c6496(
+INVx6_ASAP7_75t_R c6496(
 .A(net6546),
 .Y(net6557)
 );
@@ -50166,12 +50166,12 @@ NOR2xp33_ASAP7_75t_R c6497(
 .Y(net6558)
 );
 
-CKINVDCx14_ASAP7_75t_R c6498(
+INVx8_ASAP7_75t_R c6498(
 .A(net6538),
 .Y(net6559)
 );
 
-CKINVDCx16_ASAP7_75t_R c6499(
+INVxp33_ASAP7_75t_R c6499(
 .A(net6491),
 .Y(net6560)
 );
@@ -50195,17 +50195,17 @@ NAND3xp33_ASAP7_75t_R c6502(
 .Y(net6563)
 );
 
-CKINVDCx20_ASAP7_75t_R c6503(
+INVxp67_ASAP7_75t_R c6503(
 .A(net6553),
 .Y(net6564)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c6504(
+BUFx10_ASAP7_75t_R c6504(
 .A(net6543),
 .Y(net6565)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c6505(
+BUFx12_ASAP7_75t_R c6505(
 .A(net6534),
 .Y(net6566)
 );
@@ -50223,7 +50223,7 @@ OR2x4_ASAP7_75t_R c6507(
 .Y(net6568)
 );
 
-CKINVDCx8_ASAP7_75t_R c6508(
+BUFx12f_ASAP7_75t_R c6508(
 .A(net6497),
 .Y(net6569)
 );
@@ -50235,7 +50235,7 @@ NOR3x2_ASAP7_75t_R c6509(
 .Y(net6570)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c6510(
+BUFx16f_ASAP7_75t_R c6510(
 .A(net6556),
 .Y(net6571)
 );
@@ -50246,7 +50246,7 @@ OR2x6_ASAP7_75t_R c6511(
 .Y(net6572)
 );
 
-HB1xp67_ASAP7_75t_R c6512(
+BUFx24_ASAP7_75t_R c6512(
 .A(net9253),
 .Y(net6573)
 );
@@ -50266,7 +50266,7 @@ AO22x1_ASAP7_75t_R c6514(
 .Y(net6575)
 );
 
-HB2xp67_ASAP7_75t_R c6515(
+BUFx2_ASAP7_75t_R c6515(
 .A(net6552),
 .Y(net6576)
 );
@@ -50277,7 +50277,7 @@ XNOR2x1_ASAP7_75t_R c6516(
 .Y(net6577)
 );
 
-HB3xp67_ASAP7_75t_R c6517(
+BUFx3_ASAP7_75t_R c6517(
 .A(net6539),
 .Y(net6578)
 );
@@ -50288,7 +50288,7 @@ XNOR2x2_ASAP7_75t_R c6518(
 .Y(net6579)
 );
 
-HB4xp67_ASAP7_75t_R c6519(
+BUFx4_ASAP7_75t_R c6519(
 .A(net6551),
 .Y(net6580)
 );
@@ -50305,12 +50305,12 @@ XOR2x1_ASAP7_75t_R c6521(
 .Y(net6582)
 );
 
-INVx11_ASAP7_75t_R c6522(
+BUFx4f_ASAP7_75t_R c6522(
 .A(net9963),
 .Y(net6583)
 );
 
-INVx13_ASAP7_75t_R c6523(
+BUFx5_ASAP7_75t_R c6523(
 .A(net10557),
 .Y(net6584)
 );
@@ -50322,7 +50322,7 @@ OA21x2_ASAP7_75t_R c6524(
 .Y(net6585)
 );
 
-INVx1_ASAP7_75t_R c6525(
+BUFx6f_ASAP7_75t_R c6525(
 .A(net6573),
 .Y(net6586)
 );
@@ -50352,7 +50352,7 @@ AND2x2_ASAP7_75t_R c6529(
 .Y(net6590)
 );
 
-INVx2_ASAP7_75t_R c6530(
+BUFx8_ASAP7_75t_R c6530(
 .A(net10501),
 .Y(net6591)
 );
@@ -50377,7 +50377,7 @@ AND2x6_ASAP7_75t_R c6533(
 .Y(net6594)
 );
 
-INVx3_ASAP7_75t_R c6534(
+CKINVDCx5p33_ASAP7_75t_R c6534(
 .A(net10278),
 .Y(net6595)
 );
@@ -50389,7 +50389,7 @@ HAxp5_ASAP7_75t_R c6535(
 .SN(net6596)
 );
 
-INVx4_ASAP7_75t_R c6536(
+CKINVDCx6p67_ASAP7_75t_R c6536(
 .A(net6583),
 .Y(net6598)
 );
@@ -50436,7 +50436,7 @@ OAI21xp33_ASAP7_75t_R c6542(
 .Y(net6604)
 );
 
-INVx5_ASAP7_75t_R c6543(
+CKINVDCx8_ASAP7_75t_R c6543(
 .A(net10405),
 .Y(net6605)
 );
@@ -50472,7 +50472,7 @@ OR3x1_ASAP7_75t_R c6547(
 .Y(net6609)
 );
 
-INVx6_ASAP7_75t_R c6548(
+CKINVDCx9p33_ASAP7_75t_R c6548(
 .A(net10412),
 .Y(net6610)
 );
@@ -50534,27 +50534,27 @@ AO33x2_ASAP7_75t_R c6556(
 .Y(net6618)
 );
 
-INVx8_ASAP7_75t_R c6557(
+HB1xp67_ASAP7_75t_R c6557(
 .A(net5735),
 .Y(net6619)
 );
 
-INVxp33_ASAP7_75t_R c6558(
+HB2xp67_ASAP7_75t_R c6558(
 .A(net4650),
 .Y(net6620)
 );
 
-INVxp67_ASAP7_75t_R c6559(
+HB3xp67_ASAP7_75t_R c6559(
 .A(net10096),
 .Y(net6621)
 );
 
-BUFx10_ASAP7_75t_R c6560(
+HB4xp67_ASAP7_75t_R c6560(
 .A(net6555),
 .Y(net6622)
 );
 
-BUFx12_ASAP7_75t_R c6561(
+INVx11_ASAP7_75t_R c6561(
 .A(net9719),
 .Y(net6623)
 );
@@ -50583,12 +50583,12 @@ NOR2xp67_ASAP7_75t_R c6565(
 .Y(net6627)
 );
 
-BUFx12f_ASAP7_75t_R c6566(
+INVx13_ASAP7_75t_R c6566(
 .A(net5751),
 .Y(net6628)
 );
 
-BUFx16f_ASAP7_75t_R c6567(
+INVx1_ASAP7_75t_R c6567(
 .A(net9186),
 .Y(net6629)
 );
@@ -50599,12 +50599,12 @@ OR2x2_ASAP7_75t_R c6568(
 .Y(net6630)
 );
 
-BUFx24_ASAP7_75t_R c6569(
+INVx2_ASAP7_75t_R c6569(
 .A(net10093),
 .Y(net6631)
 );
 
-BUFx2_ASAP7_75t_R c6570(
+INVx3_ASAP7_75t_R c6570(
 .A(net6628),
 .Y(net6632)
 );
@@ -50615,7 +50615,7 @@ OR2x4_ASAP7_75t_R c6571(
 .Y(net6633)
 );
 
-BUFx3_ASAP7_75t_R c6572(
+INVx4_ASAP7_75t_R c6572(
 .A(net5638),
 .Y(net6634)
 );
@@ -50645,7 +50645,7 @@ XNOR2x2_ASAP7_75t_R c6576(
 .Y(net6638)
 );
 
-BUFx4_ASAP7_75t_R c6577(
+INVx5_ASAP7_75t_R c6577(
 .A(net4856),
 .Y(net6639)
 );
@@ -50657,7 +50657,7 @@ AND3x1_ASAP7_75t_R c6578(
 .Y(net6640)
 );
 
-BUFx4f_ASAP7_75t_R c6579(
+INVx6_ASAP7_75t_R c6579(
 .A(net9186),
 .Y(net6641)
 );
@@ -50683,7 +50683,7 @@ AND3x4_ASAP7_75t_R c6582(
 .Y(net6644)
 );
 
-BUFx5_ASAP7_75t_R c6583(
+INVx8_ASAP7_75t_R c6583(
 .A(net5742),
 .Y(net6645)
 );
@@ -50700,7 +50700,7 @@ XOR2x1_ASAP7_75t_R c6585(
 .Y(net6647)
 );
 
-BUFx6f_ASAP7_75t_R c6586(
+INVxp33_ASAP7_75t_R c6586(
 .A(net10449),
 .Y(net6648)
 );
@@ -50717,12 +50717,12 @@ XOR2xp5_ASAP7_75t_R c6588(
 .Y(net6650)
 );
 
-BUFx8_ASAP7_75t_R c6589(
+INVxp67_ASAP7_75t_R c6589(
 .A(net9207),
 .Y(net6651)
 );
 
-CKINVDCx10_ASAP7_75t_R c6590(
+BUFx10_ASAP7_75t_R c6590(
 .A(net6632),
 .Y(net6652)
 );
@@ -50760,7 +50760,7 @@ AO21x1_ASAP7_75t_R c6595(
 .Y(net6657)
 );
 
-CKINVDCx11_ASAP7_75t_R c6596(
+BUFx12_ASAP7_75t_R c6596(
 .A(net10165),
 .Y(net6658)
 );
@@ -50771,7 +50771,7 @@ HAxp5_ASAP7_75t_R c6597(
 .CON(net6659)
 );
 
-CKINVDCx12_ASAP7_75t_R c6598(
+BUFx12f_ASAP7_75t_R c6598(
 .A(net6581),
 .Y(net6660)
 );
@@ -50790,7 +50790,7 @@ AOI21x1_ASAP7_75t_R c6600(
 .Y(net6662)
 );
 
-CKINVDCx14_ASAP7_75t_R c6601(
+BUFx16f_ASAP7_75t_R c6601(
 .A(net10404),
 .Y(net6663)
 );
@@ -50822,17 +50822,17 @@ SDFHx3_ASAP7_75t_R c6605(
 .QN(net6667)
 );
 
-CKINVDCx16_ASAP7_75t_R c6606(
+BUFx24_ASAP7_75t_R c6606(
 .A(net6634),
 .Y(net6668)
 );
 
-CKINVDCx20_ASAP7_75t_R c6607(
+BUFx2_ASAP7_75t_R c6607(
 .A(net10116),
 .Y(net6669)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c6608(
+BUFx3_ASAP7_75t_R c6608(
 .A(net9193),
 .Y(net6670)
 );
@@ -50849,7 +50849,7 @@ NAND2xp33_ASAP7_75t_R c6610(
 .Y(net6672)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c6611(
+BUFx4_ASAP7_75t_R c6611(
 .A(net6655),
 .Y(net6673)
 );
@@ -50861,7 +50861,7 @@ AOI21xp5_ASAP7_75t_R c6612(
 .Y(net6674)
 );
 
-CKINVDCx8_ASAP7_75t_R c6613(
+BUFx4f_ASAP7_75t_R c6613(
 .A(net6664),
 .Y(net6675)
 );
@@ -50886,7 +50886,7 @@ FAx1_ASAP7_75t_R c6616(
 .CON(net6678)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c6617(
+BUFx5_ASAP7_75t_R c6617(
 .A(net10093),
 .Y(net6680)
 );
@@ -50937,12 +50937,12 @@ AOI211x1_ASAP7_75t_R c6624(
 .Y(net6687)
 );
 
-HB1xp67_ASAP7_75t_R c6625(
+BUFx6f_ASAP7_75t_R c6625(
 .A(net10458),
 .Y(net6688)
 );
 
-HB2xp67_ASAP7_75t_R c6626(
+BUFx8_ASAP7_75t_R c6626(
 .A(net10464),
 .Y(net6689)
 );
@@ -50954,7 +50954,7 @@ MAJx3_ASAP7_75t_R c6627(
 .Y(net6690)
 );
 
-HB3xp67_ASAP7_75t_R c6628(
+CKINVDCx5p33_ASAP7_75t_R c6628(
 .A(net10449),
 .Y(net6691)
 );
@@ -50966,7 +50966,7 @@ ICGx1_ASAP7_75t_R c6629(
 .GCLK(net6692)
 );
 
-HB4xp67_ASAP7_75t_R c6630(
+CKINVDCx6p67_ASAP7_75t_R c6630(
 .A(net10507),
 .Y(net6693)
 );
@@ -50991,7 +50991,7 @@ NOR2xp67_ASAP7_75t_R c6633(
 .Y(net6696)
 );
 
-INVx11_ASAP7_75t_R c6634(
+CKINVDCx8_ASAP7_75t_R c6634(
 .A(net10434),
 .Y(net6697)
 );
@@ -51033,7 +51033,7 @@ AOI222xp33_ASAP7_75t_R c6639(
 .Y(net6702)
 );
 
-INVx13_ASAP7_75t_R c6640(
+CKINVDCx9p33_ASAP7_75t_R c6640(
 .A(net10474),
 .Y(net6703)
 );
@@ -51080,7 +51080,7 @@ XOR2xp5_ASAP7_75t_R c6647(
 .Y(net6710)
 );
 
-INVx1_ASAP7_75t_R c6648(
+HB1xp67_ASAP7_75t_R c6648(
 .A(net10164),
 .Y(net6711)
 );
@@ -51091,7 +51091,7 @@ AND2x2_ASAP7_75t_R c6649(
 .Y(net6712)
 );
 
-INVx2_ASAP7_75t_R c6650(
+HB2xp67_ASAP7_75t_R c6650(
 .A(net6623),
 .Y(net6713)
 );
@@ -51103,7 +51103,7 @@ ICGx2_ASAP7_75t_R c6651(
 .GCLK(net6714)
 );
 
-INVx3_ASAP7_75t_R c6652(
+HB3xp67_ASAP7_75t_R c6652(
 .A(net3054),
 .Y(net6715)
 );
@@ -51114,7 +51114,7 @@ AND2x4_ASAP7_75t_R c6653(
 .Y(net6716)
 );
 
-INVx4_ASAP7_75t_R c6654(
+HB4xp67_ASAP7_75t_R c6654(
 .A(net10379),
 .Y(net6717)
 );
@@ -51176,12 +51176,12 @@ NAND2xp5_ASAP7_75t_R c6663(
 .Y(net6726)
 );
 
-INVx5_ASAP7_75t_R c6664(
+INVx11_ASAP7_75t_R c6664(
 .A(net10164),
 .Y(net6727)
 );
 
-INVx6_ASAP7_75t_R c6665(
+INVx13_ASAP7_75t_R c6665(
 .A(net10431),
 .Y(net6728)
 );
@@ -51193,12 +51193,12 @@ NOR3x2_ASAP7_75t_R c6666(
 .Y(net6729)
 );
 
-INVx8_ASAP7_75t_R c6667(
+INVx1_ASAP7_75t_R c6667(
 .A(net10020),
 .Y(net6730)
 );
 
-INVxp33_ASAP7_75t_R c6668(
+INVx2_ASAP7_75t_R c6668(
 .A(net5810),
 .Y(net6731)
 );
@@ -51209,7 +51209,7 @@ NAND2xp67_ASAP7_75t_R c6669(
 .Y(net6732)
 );
 
-INVxp67_ASAP7_75t_R c6670(
+INVx3_ASAP7_75t_R c6670(
 .A(net10128),
 .Y(net6733)
 );
@@ -51276,7 +51276,7 @@ OA21x2_ASAP7_75t_R c6680(
 .Y(net6743)
 );
 
-BUFx10_ASAP7_75t_R c6681(
+INVx4_ASAP7_75t_R c6681(
 .A(net10410),
 .Y(net6744)
 );
@@ -51307,7 +51307,7 @@ OAI21xp33_ASAP7_75t_R c6685(
 .Y(net6748)
 );
 
-BUFx12_ASAP7_75t_R c6686(
+INVx5_ASAP7_75t_R c6686(
 .A(net10474),
 .Y(net6749)
 );
@@ -51325,7 +51325,7 @@ ICGx2p67DC_ASAP7_75t_R c6688(
 .GCLK(net6751)
 );
 
-BUFx12f_ASAP7_75t_R c6689(
+INVx6_ASAP7_75t_R c6689(
 .A(net10379),
 .Y(net6752)
 );
@@ -51547,12 +51547,12 @@ XNOR2x1_ASAP7_75t_R c6722(
 .Y(net6786)
 );
 
-BUFx16f_ASAP7_75t_R c6723(
+INVx8_ASAP7_75t_R c6723(
 .A(net6736),
 .Y(net6787)
 );
 
-BUFx24_ASAP7_75t_R c6724(
+INVxp33_ASAP7_75t_R c6724(
 .A(net6786),
 .Y(net6788)
 );
@@ -51577,7 +51577,7 @@ XNOR2xp5_ASAP7_75t_R c6727(
 .Y(net6791)
 );
 
-BUFx2_ASAP7_75t_R c6728(
+INVxp67_ASAP7_75t_R c6728(
 .A(net6692),
 .Y(net6792)
 );
@@ -51610,12 +51610,12 @@ XOR2x2_ASAP7_75t_R c6732(
 .Y(net6796)
 );
 
-BUFx3_ASAP7_75t_R c6733(
+BUFx10_ASAP7_75t_R c6733(
 .A(net4971),
 .Y(net6797)
 );
 
-BUFx4_ASAP7_75t_R c6734(
+BUFx12_ASAP7_75t_R c6734(
 .A(net10475),
 .Y(net6798)
 );
@@ -51626,7 +51626,7 @@ XOR2xp5_ASAP7_75t_R c6735(
 .Y(net6799)
 );
 
-BUFx4f_ASAP7_75t_R c6736(
+BUFx12f_ASAP7_75t_R c6736(
 .A(net10280),
 .Y(net6800)
 );
@@ -51637,17 +51637,17 @@ AND2x2_ASAP7_75t_R c6737(
 .Y(net6801)
 );
 
-BUFx5_ASAP7_75t_R c6738(
+BUFx16f_ASAP7_75t_R c6738(
 .A(net6763),
 .Y(net6802)
 );
 
-BUFx6f_ASAP7_75t_R c6739(
+BUFx24_ASAP7_75t_R c6739(
 .A(net9097),
 .Y(net6803)
 );
 
-BUFx8_ASAP7_75t_R c6740(
+BUFx2_ASAP7_75t_R c6740(
 .A(net10574),
 .Y(net6804)
 );
@@ -51684,12 +51684,12 @@ HAxp5_ASAP7_75t_R c6745(
 .CON(net6809)
 );
 
-CKINVDCx10_ASAP7_75t_R c6746(
+BUFx3_ASAP7_75t_R c6746(
 .A(net10145),
 .Y(net6810)
 );
 
-CKINVDCx11_ASAP7_75t_R c6747(
+BUFx4_ASAP7_75t_R c6747(
 .A(net10391),
 .Y(net6811)
 );
@@ -51713,7 +51713,7 @@ AO21x1_ASAP7_75t_R c6750(
 .Y(net6814)
 );
 
-CKINVDCx12_ASAP7_75t_R c6751(
+BUFx4f_ASAP7_75t_R c6751(
 .A(net6767),
 .Y(net6815)
 );
@@ -51724,17 +51724,17 @@ NAND2x2_ASAP7_75t_R c6752(
 .Y(net6816)
 );
 
-CKINVDCx14_ASAP7_75t_R c6753(
+BUFx5_ASAP7_75t_R c6753(
 .A(net10531),
 .Y(net6817)
 );
 
-CKINVDCx16_ASAP7_75t_R c6754(
+BUFx6f_ASAP7_75t_R c6754(
 .A(net10555),
 .Y(net6818)
 );
 
-CKINVDCx20_ASAP7_75t_R c6755(
+BUFx8_ASAP7_75t_R c6755(
 .A(net6807),
 .Y(net6819)
 );
@@ -52164,7 +52164,7 @@ BUFx8_ASAP7_75t_R c6826(
 .Y(net6892)
 );
 
-CKINVDCx10_ASAP7_75t_R c6827(
+CKINVDCx5p33_ASAP7_75t_R c6827(
 .A(net10282),
 .Y(net6893)
 );
@@ -52175,7 +52175,7 @@ NAND2x2_ASAP7_75t_R c6828(
 .Y(net6894)
 );
 
-CKINVDCx11_ASAP7_75t_R c6829(
+CKINVDCx6p67_ASAP7_75t_R c6829(
 .A(net4174),
 .Y(net6895)
 );
@@ -52187,7 +52187,7 @@ NOR3x1_ASAP7_75t_R c6830(
 .Y(net6896)
 );
 
-CKINVDCx12_ASAP7_75t_R c6831(
+CKINVDCx8_ASAP7_75t_R c6831(
 .A(net10548),
 .Y(net6897)
 );
@@ -52198,7 +52198,7 @@ NAND2xp33_ASAP7_75t_R c6832(
 .Y(net6898)
 );
 
-CKINVDCx14_ASAP7_75t_R c6833(
+CKINVDCx9p33_ASAP7_75t_R c6833(
 .A(net6008),
 .Y(net6899)
 );
@@ -52215,7 +52215,7 @@ NAND2xp67_ASAP7_75t_R c6835(
 .Y(net6901)
 );
 
-CKINVDCx16_ASAP7_75t_R c6836(
+HB1xp67_ASAP7_75t_R c6836(
 .A(net6893),
 .Y(net6902)
 );
@@ -52226,17 +52226,17 @@ NOR2x1_ASAP7_75t_R c6837(
 .Y(net6903)
 );
 
-CKINVDCx20_ASAP7_75t_R c6838(
+HB2xp67_ASAP7_75t_R c6838(
 .A(net3872),
 .Y(net6904)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c6839(
+HB3xp67_ASAP7_75t_R c6839(
 .A(net5982),
 .Y(net6905)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c6840(
+HB4xp67_ASAP7_75t_R c6840(
 .A(net5977),
 .Y(net6906)
 );
@@ -52253,12 +52253,12 @@ NOR2x2_ASAP7_75t_R c6842(
 .Y(net6908)
 );
 
-CKINVDCx8_ASAP7_75t_R c6843(
+INVx11_ASAP7_75t_R c6843(
 .A(net6872),
 .Y(net6909)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c6844(
+INVx13_ASAP7_75t_R c6844(
 .A(net3253),
 .Y(net6910)
 );
@@ -52269,7 +52269,7 @@ NOR2xp33_ASAP7_75t_R c6845(
 .Y(net6911)
 );
 
-HB1xp67_ASAP7_75t_R c6846(
+INVx1_ASAP7_75t_R c6846(
 .A(net10372),
 .Y(net6912)
 );
@@ -52336,7 +52336,7 @@ NOR3x2_ASAP7_75t_R c6855(
 .Y(net6921)
 );
 
-HB2xp67_ASAP7_75t_R c6856(
+INVx2_ASAP7_75t_R c6856(
 .A(net9731),
 .Y(net6922)
 );
@@ -52348,7 +52348,7 @@ NOR3xp33_ASAP7_75t_R c6857(
 .Y(net6923)
 );
 
-HB3xp67_ASAP7_75t_R c6858(
+INVx3_ASAP7_75t_R c6858(
 .A(net6889),
 .Y(net6924)
 );
@@ -52393,7 +52393,7 @@ OA21x2_ASAP7_75t_R c6864(
 .Y(net6930)
 );
 
-HB4xp67_ASAP7_75t_R c6865(
+INVx4_ASAP7_75t_R c6865(
 .A(net9241),
 .Y(net6931)
 );
@@ -52454,7 +52454,7 @@ NAND2x1p5_ASAP7_75t_R c6874(
 .Y(net6940)
 );
 
-INVx11_ASAP7_75t_R c6875(
+INVx5_ASAP7_75t_R c6875(
 .A(net10036),
 .Y(net6941)
 );
@@ -52479,7 +52479,7 @@ NAND2x2_ASAP7_75t_R c6878(
 .Y(net6944)
 );
 
-INVx13_ASAP7_75t_R c6879(
+INVx6_ASAP7_75t_R c6879(
 .A(net9970),
 .Y(net6945)
 );
@@ -52577,7 +52577,7 @@ NOR2x1p5_ASAP7_75t_R c6892(
 .Y(net6958)
 );
 
-INVx1_ASAP7_75t_R c6893(
+INVx8_ASAP7_75t_R c6893(
 .A(net5747),
 .Y(net6959)
 );
@@ -52588,7 +52588,7 @@ NOR2x2_ASAP7_75t_R c6894(
 .Y(net6960)
 );
 
-INVx2_ASAP7_75t_R c6895(
+INVxp33_ASAP7_75t_R c6895(
 .A(net6102),
 .Y(net6961)
 );
@@ -52654,12 +52654,12 @@ XOR2x1_ASAP7_75t_R c6905(
 .Y(net6971)
 );
 
-INVx3_ASAP7_75t_R c6906(
+INVxp67_ASAP7_75t_R c6906(
 .A(net6963),
 .Y(net6972)
 );
 
-INVx4_ASAP7_75t_R c6907(
+BUFx10_ASAP7_75t_R c6907(
 .A(net10523),
 .Y(net6973)
 );
@@ -52676,7 +52676,7 @@ XOR2xp5_ASAP7_75t_R c6909(
 .Y(net6975)
 );
 
-INVx5_ASAP7_75t_R c6910(
+BUFx12_ASAP7_75t_R c6910(
 .A(net10346),
 .Y(net6976)
 );
@@ -52687,7 +52687,7 @@ AND2x2_ASAP7_75t_R c6911(
 .Y(net6977)
 );
 
-INVx6_ASAP7_75t_R c6912(
+BUFx12f_ASAP7_75t_R c6912(
 .A(net10128),
 .Y(net6978)
 );
@@ -52717,7 +52717,7 @@ AND3x4_ASAP7_75t_R c6916(
 .Y(net6982)
 );
 
-INVx8_ASAP7_75t_R c6917(
+BUFx16f_ASAP7_75t_R c6917(
 .A(net10416),
 .Y(net6983)
 );
@@ -52740,7 +52740,7 @@ NAND2x2_ASAP7_75t_R c6920(
 .Y(net6986)
 );
 
-INVxp33_ASAP7_75t_R c6921(
+BUFx24_ASAP7_75t_R c6921(
 .A(net10366),
 .Y(net6987)
 );
@@ -52757,7 +52757,7 @@ NAND2xp5_ASAP7_75t_R c6923(
 .Y(net6989)
 );
 
-INVxp67_ASAP7_75t_R c6924(
+BUFx2_ASAP7_75t_R c6924(
 .A(net10488),
 .Y(net6990)
 );
@@ -52819,7 +52819,7 @@ OR2x2_ASAP7_75t_R c6933(
 .Y(net6999)
 );
 
-BUFx10_ASAP7_75t_R c6934(
+BUFx3_ASAP7_75t_R c6934(
 .A(net10370),
 .Y(net7000)
 );
@@ -52830,7 +52830,7 @@ OR2x4_ASAP7_75t_R c6935(
 .Y(net7001)
 );
 
-BUFx12_ASAP7_75t_R c6936(
+BUFx4_ASAP7_75t_R c6936(
 .A(net10156),
 .Y(net7002)
 );
@@ -52847,7 +52847,7 @@ XNOR2x1_ASAP7_75t_R c6938(
 .Y(net7004)
 );
 
-BUFx12f_ASAP7_75t_R c6939(
+BUFx4f_ASAP7_75t_R c6939(
 .A(net10551),
 .Y(net7005)
 );
@@ -52868,7 +52868,7 @@ XNOR2x2_ASAP7_75t_R c6941(
 .Y(net7007)
 );
 
-BUFx16f_ASAP7_75t_R c6942(
+BUFx5_ASAP7_75t_R c6942(
 .A(net10384),
 .Y(net7008)
 );
@@ -52904,7 +52904,7 @@ XOR2xp5_ASAP7_75t_R c6947(
 .Y(net7013)
 );
 
-BUFx24_ASAP7_75t_R c6948(
+BUFx6f_ASAP7_75t_R c6948(
 .A(net9973),
 .Y(net7014)
 );
@@ -52936,7 +52936,7 @@ SDFHx4_ASAP7_75t_R c6952(
 .QN(net7018)
 );
 
-BUFx2_ASAP7_75t_R c6953(
+BUFx8_ASAP7_75t_R c6953(
 .A(net10346),
 .Y(net7019)
 );
@@ -53099,27 +53099,27 @@ NAND2x1_ASAP7_75t_R c6974(
 .Y(net7040)
 );
 
-BUFx3_ASAP7_75t_R c6975(
+CKINVDCx5p33_ASAP7_75t_R c6975(
 .A(net6178),
 .Y(net7041)
 );
 
-BUFx4_ASAP7_75t_R c6976(
+CKINVDCx6p67_ASAP7_75t_R c6976(
 .A(net6878),
 .Y(net7042)
 );
 
-BUFx4f_ASAP7_75t_R c6977(
+CKINVDCx8_ASAP7_75t_R c6977(
 .A(net9122),
 .Y(net7043)
 );
 
-BUFx5_ASAP7_75t_R c6978(
+CKINVDCx9p33_ASAP7_75t_R c6978(
 .A(net9122),
 .Y(net7044)
 );
 
-BUFx6f_ASAP7_75t_R c6979(
+HB1xp67_ASAP7_75t_R c6979(
 .A(net10467),
 .Y(net7045)
 );
@@ -53130,7 +53130,7 @@ NAND2x1p5_ASAP7_75t_R c6980(
 .Y(net7046)
 );
 
-BUFx8_ASAP7_75t_R c6981(
+HB2xp67_ASAP7_75t_R c6981(
 .A(net6758),
 .Y(net7047)
 );
@@ -53141,7 +53141,7 @@ NAND2x2_ASAP7_75t_R c6982(
 .Y(net7048)
 );
 
-CKINVDCx10_ASAP7_75t_R c6983(
+HB3xp67_ASAP7_75t_R c6983(
 .A(net10135),
 .Y(net7049)
 );
@@ -53154,12 +53154,12 @@ SDFLx4_ASAP7_75t_R c6984(
 .QN(net7050)
 );
 
-CKINVDCx11_ASAP7_75t_R c6985(
+HB4xp67_ASAP7_75t_R c6985(
 .A(net10368),
 .Y(net7051)
 );
 
-CKINVDCx12_ASAP7_75t_R c6986(
+INVx11_ASAP7_75t_R c6986(
 .A(net10382),
 .Y(net7052)
 );
@@ -53172,12 +53172,12 @@ DFFASRHQNx1_ASAP7_75t_R c6987(
 .QN(net7053)
 );
 
-CKINVDCx14_ASAP7_75t_R c6988(
+INVx13_ASAP7_75t_R c6988(
 .A(net10493),
 .Y(net7054)
 );
 
-CKINVDCx16_ASAP7_75t_R c6989(
+INVx1_ASAP7_75t_R c6989(
 .A(net10094),
 .Y(net7055)
 );
@@ -53194,17 +53194,17 @@ NAND2xp5_ASAP7_75t_R c6991(
 .Y(net7057)
 );
 
-CKINVDCx20_ASAP7_75t_R c6992(
+INVx2_ASAP7_75t_R c6992(
 .A(net6931),
 .Y(net7058)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c6993(
+INVx3_ASAP7_75t_R c6993(
 .A(net10148),
 .Y(net7059)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c6994(
+INVx4_ASAP7_75t_R c6994(
 .A(net6158),
 .Y(net7060)
 );
@@ -53221,7 +53221,7 @@ NOR2x1_ASAP7_75t_R c6996(
 .Y(net7062)
 );
 
-CKINVDCx8_ASAP7_75t_R c6997(
+INVx5_ASAP7_75t_R c6997(
 .A(net7007),
 .Y(net7063)
 );
@@ -53269,12 +53269,12 @@ OR2x4_ASAP7_75t_R c7004(
 .Y(net7070)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c7005(
+INVx6_ASAP7_75t_R c7005(
 .A(net9204),
 .Y(net7071)
 );
 
-HB1xp67_ASAP7_75t_R c7006(
+INVx8_ASAP7_75t_R c7006(
 .A(net10423),
 .Y(net7072)
 );
@@ -53298,7 +53298,7 @@ NOR3x2_ASAP7_75t_R c7009(
 .Y(net7075)
 );
 
-HB2xp67_ASAP7_75t_R c7010(
+INVxp33_ASAP7_75t_R c7010(
 .A(net6097),
 .Y(net7076)
 );
@@ -53348,7 +53348,7 @@ OA21x2_ASAP7_75t_R c7017(
 .Y(net7083)
 );
 
-HB3xp67_ASAP7_75t_R c7018(
+INVxp67_ASAP7_75t_R c7018(
 .A(net10375),
 .Y(net7084)
 );
@@ -53372,7 +53372,7 @@ AND2x2_ASAP7_75t_R c7021(
 .Y(net7087)
 );
 
-HB4xp67_ASAP7_75t_R c7022(
+BUFx10_ASAP7_75t_R c7022(
 .A(net10368),
 .Y(net7088)
 );
@@ -53424,7 +53424,7 @@ SDFHx1_ASAP7_75t_R c7029(
 .QN(net7096)
 );
 
-INVx11_ASAP7_75t_R c7030(
+BUFx12_ASAP7_75t_R c7030(
 .A(net10003),
 .Y(net7097)
 );
@@ -53435,7 +53435,7 @@ NAND2x1p5_ASAP7_75t_R c7031(
 .Y(net7098)
 );
 
-INVx13_ASAP7_75t_R c7032(
+BUFx12f_ASAP7_75t_R c7032(
 .A(net7044),
 .Y(net7099)
 );
@@ -53532,7 +53532,7 @@ NOR2xp67_ASAP7_75t_R c7046(
 .Y(net7113)
 );
 
-INVx1_ASAP7_75t_R c7047(
+BUFx16f_ASAP7_75t_R c7047(
 .A(net10452),
 .Y(net7114)
 );
@@ -53543,12 +53543,12 @@ OR2x2_ASAP7_75t_R c7048(
 .Y(net7115)
 );
 
-INVx2_ASAP7_75t_R c7049(
+BUFx24_ASAP7_75t_R c7049(
 .A(net10442),
 .Y(net7116)
 );
 
-INVx3_ASAP7_75t_R c7050(
+BUFx2_ASAP7_75t_R c7050(
 .A(net10142),
 .Y(net7117)
 );
@@ -53583,7 +53583,7 @@ AND3x2_ASAP7_75t_R c7054(
 .Y(net7121)
 );
 
-INVx4_ASAP7_75t_R c7055(
+BUFx3_ASAP7_75t_R c7055(
 .A(net10398),
 .Y(net7122)
 );
@@ -53600,7 +53600,7 @@ OR2x6_ASAP7_75t_R c7057(
 .Y(net7124)
 );
 
-INVx5_ASAP7_75t_R c7058(
+BUFx4_ASAP7_75t_R c7058(
 .A(net10331),
 .Y(net7125)
 );
@@ -53611,12 +53611,12 @@ XNOR2x1_ASAP7_75t_R c7059(
 .Y(net7126)
 );
 
-INVx6_ASAP7_75t_R c7060(
+BUFx4f_ASAP7_75t_R c7060(
 .A(net10374),
 .Y(net7127)
 );
 
-INVx8_ASAP7_75t_R c7061(
+BUFx5_ASAP7_75t_R c7061(
 .A(net10396),
 .Y(net7128)
 );
@@ -53669,12 +53669,12 @@ SDFLx1_ASAP7_75t_R c7068(
 .QN(net7135)
 );
 
-INVxp33_ASAP7_75t_R c7069(
+BUFx6f_ASAP7_75t_R c7069(
 .A(net10394),
 .Y(net7136)
 );
 
-INVxp67_ASAP7_75t_R c7070(
+BUFx8_ASAP7_75t_R c7070(
 .A(out0),
 .Y(net7137)
 );
@@ -53691,7 +53691,7 @@ AND2x2_ASAP7_75t_R c7072(
 .Y(net7139)
 );
 
-BUFx10_ASAP7_75t_R c7073(
+CKINVDCx5p33_ASAP7_75t_R c7073(
 .A(net10118),
 .Y(net7140)
 );
@@ -53739,7 +53739,7 @@ AND3x4_ASAP7_75t_R c7079(
 .Y(net7147)
 );
 
-BUFx12_ASAP7_75t_R c7080(
+CKINVDCx6p67_ASAP7_75t_R c7080(
 .A(net10375),
 .Y(net7148)
 );
@@ -53768,7 +53768,7 @@ NAND2xp33_ASAP7_75t_R c7084(
 .Y(net7152)
 );
 
-BUFx12f_ASAP7_75t_R c7085(
+CKINVDCx8_ASAP7_75t_R c7085(
 .A(net10447),
 .Y(net7153)
 );
@@ -53794,7 +53794,7 @@ OA31x2_ASAP7_75t_R c7088(
 .Y(net7156)
 );
 
-BUFx16f_ASAP7_75t_R c7089(
+CKINVDCx9p33_ASAP7_75t_R c7089(
 .A(net10570),
 .Y(net7157)
 );
@@ -53834,7 +53834,7 @@ NOR2x1p5_ASAP7_75t_R c7094(
 .Y(net7162)
 );
 
-BUFx24_ASAP7_75t_R c7095(
+HB1xp67_ASAP7_75t_R c7095(
 .A(net10558),
 .Y(net7163)
 );
@@ -53851,7 +53851,7 @@ NOR2xp33_ASAP7_75t_R c7097(
 .Y(net7165)
 );
 
-BUFx2_ASAP7_75t_R c7098(
+HB2xp67_ASAP7_75t_R c7098(
 .A(net10447),
 .Y(net7166)
 );
@@ -53862,7 +53862,7 @@ NOR2xp67_ASAP7_75t_R c7099(
 .Y(net7167)
 );
 
-BUFx3_ASAP7_75t_R c7100(
+HB3xp67_ASAP7_75t_R c7100(
 .A(net10119),
 .Y(net7168)
 );
@@ -54111,7 +54111,7 @@ NOR3x1_ASAP7_75t_R c7136(
 .Y(net7205)
 );
 
-BUFx4_ASAP7_75t_R c7137(
+HB4xp67_ASAP7_75t_R c7137(
 .A(net10331),
 .Y(net7206)
 );
@@ -54152,7 +54152,7 @@ NOR2xp67_ASAP7_75t_R c7143(
 .Y(net7212)
 );
 
-BUFx4f_ASAP7_75t_R c7144(
+INVx11_ASAP7_75t_R c7144(
 .A(net10353),
 .Y(net7213)
 );
@@ -54169,7 +54169,7 @@ OR2x4_ASAP7_75t_R c7146(
 .Y(net7215)
 );
 
-BUFx5_ASAP7_75t_R c7147(
+INVx13_ASAP7_75t_R c7147(
 .A(net10332),
 .Y(net7216)
 );
@@ -54257,7 +54257,7 @@ AND2x6_ASAP7_75t_R c7160(
 .Y(net7229)
 );
 
-BUFx6f_ASAP7_75t_R c7161(
+INVx1_ASAP7_75t_R c7161(
 .A(net10332),
 .Y(net7230)
 );
@@ -54298,7 +54298,7 @@ NAND2xp5_ASAP7_75t_R c7167(
 .Y(net7236)
 );
 
-BUFx8_ASAP7_75t_R c7168(
+INVx2_ASAP7_75t_R c7168(
 .A(net10382),
 .Y(net7237)
 );
@@ -54406,7 +54406,7 @@ OR3x4_ASAP7_75t_R c7183(
 .Y(net7252)
 );
 
-CKINVDCx10_ASAP7_75t_R c7184(
+INVx3_ASAP7_75t_R c7184(
 .A(net10500),
 .Y(net7253)
 );
@@ -54525,7 +54525,7 @@ XOR2x1_ASAP7_75t_R c7201(
 .Y(net7270)
 );
 
-CKINVDCx11_ASAP7_75t_R c7202(
+INVx4_ASAP7_75t_R c7202(
 .A(net10371),
 .Y(net7271)
 );
@@ -54567,7 +54567,7 @@ MAJIxp5_ASAP7_75t_R c7207(
 .Y(net7276)
 );
 
-CKINVDCx12_ASAP7_75t_R c7208(
+INVx5_ASAP7_75t_R c7208(
 .A(net10042),
 .Y(net7277)
 );
@@ -54722,7 +54722,7 @@ SDFLx2_ASAP7_75t_R c7229(
 .QN(net7297)
 );
 
-CKINVDCx14_ASAP7_75t_R c7230(
+INVx6_ASAP7_75t_R c7230(
 .A(net10339),
 .Y(net7298)
 );
@@ -55022,7 +55022,7 @@ AO21x2_ASAP7_75t_R c7271(
 .Y(net7337)
 );
 
-CKINVDCx16_ASAP7_75t_R c7272(
+INVx8_ASAP7_75t_R c7272(
 .A(net10339),
 .Y(net7338)
 );
@@ -55263,17 +55263,17 @@ NAND2xp33_ASAP7_75t_R c7304(
 .Y(net7370)
 );
 
-CKINVDCx20_ASAP7_75t_R c7305(
+INVxp33_ASAP7_75t_R c7305(
 .A(net4621),
 .Y(net7371)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c7306(
+INVxp67_ASAP7_75t_R c7306(
 .A(net6493),
 .Y(net7372)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c7307(
+BUFx10_ASAP7_75t_R c7307(
 .A(net6477),
 .Y(net7373)
 );
@@ -55284,7 +55284,7 @@ NAND2xp5_ASAP7_75t_R c7308(
 .Y(net7374)
 );
 
-CKINVDCx8_ASAP7_75t_R c7309(
+BUFx12_ASAP7_75t_R c7309(
 .A(net6513),
 .Y(net7375)
 );
@@ -55307,12 +55307,12 @@ NOR2x1p5_ASAP7_75t_R c7312(
 .Y(net7378)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c7313(
+BUFx12f_ASAP7_75t_R c7313(
 .A(net7375),
 .Y(net7379)
 );
 
-HB1xp67_ASAP7_75t_R c7314(
+BUFx16f_ASAP7_75t_R c7314(
 .A(net6486),
 .Y(net7380)
 );
@@ -55324,32 +55324,32 @@ OR3x4_ASAP7_75t_R c7315(
 .Y(net7381)
 );
 
-HB2xp67_ASAP7_75t_R c7316(
+BUFx24_ASAP7_75t_R c7316(
 .A(net9148),
 .Y(net7382)
 );
 
-HB3xp67_ASAP7_75t_R c7317(
+BUFx2_ASAP7_75t_R c7317(
 .A(net6478),
 .Y(net7383)
 );
 
-HB4xp67_ASAP7_75t_R c7318(
+BUFx3_ASAP7_75t_R c7318(
 .A(net6453),
 .Y(net7384)
 );
 
-INVx11_ASAP7_75t_R c7319(
+BUFx4_ASAP7_75t_R c7319(
 .A(net5593),
 .Y(net7385)
 );
 
-INVx13_ASAP7_75t_R c7320(
+BUFx4f_ASAP7_75t_R c7320(
 .A(net4650),
 .Y(net7386)
 );
 
-INVx1_ASAP7_75t_R c7321(
+BUFx5_ASAP7_75t_R c7321(
 .A(net6523),
 .Y(net7387)
 );
@@ -55372,7 +55372,7 @@ NOR2xp67_ASAP7_75t_R c7324(
 .Y(net7390)
 );
 
-INVx2_ASAP7_75t_R c7325(
+BUFx6f_ASAP7_75t_R c7325(
 .A(net9203),
 .Y(net7391)
 );
@@ -55391,7 +55391,7 @@ OR2x2_ASAP7_75t_R c7327(
 .Y(net7393)
 );
 
-INVx3_ASAP7_75t_R c7328(
+BUFx8_ASAP7_75t_R c7328(
 .A(net9658),
 .Y(net7394)
 );
@@ -55402,7 +55402,7 @@ OR2x4_ASAP7_75t_R c7329(
 .Y(net7395)
 );
 
-INVx4_ASAP7_75t_R c7330(
+CKINVDCx5p33_ASAP7_75t_R c7330(
 .A(net7373),
 .Y(net7396)
 );
@@ -55414,7 +55414,7 @@ ICGx5_ASAP7_75t_R c7331(
 .GCLK(net7397)
 );
 
-INVx5_ASAP7_75t_R c7332(
+CKINVDCx6p67_ASAP7_75t_R c7332(
 .A(net7394),
 .Y(net7398)
 );
@@ -55439,12 +55439,12 @@ XNOR2x1_ASAP7_75t_R c7335(
 .Y(net7401)
 );
 
-INVx6_ASAP7_75t_R c7336(
+CKINVDCx8_ASAP7_75t_R c7336(
 .A(net9217),
 .Y(net7402)
 );
 
-INVx8_ASAP7_75t_R c7337(
+CKINVDCx9p33_ASAP7_75t_R c7337(
 .A(net9288),
 .Y(net7403)
 );
@@ -55455,22 +55455,22 @@ XNOR2x2_ASAP7_75t_R c7338(
 .Y(net7404)
 );
 
-INVxp33_ASAP7_75t_R c7339(
+HB1xp67_ASAP7_75t_R c7339(
 .A(net9658),
 .Y(net7405)
 );
 
-INVxp67_ASAP7_75t_R c7340(
+HB2xp67_ASAP7_75t_R c7340(
 .A(net7376),
 .Y(net7406)
 );
 
-BUFx10_ASAP7_75t_R c7341(
+HB3xp67_ASAP7_75t_R c7341(
 .A(net5561),
 .Y(net7407)
 );
 
-BUFx12_ASAP7_75t_R c7342(
+HB4xp67_ASAP7_75t_R c7342(
 .A(net7405),
 .Y(net7408)
 );
@@ -55482,17 +55482,17 @@ AND3x1_ASAP7_75t_R c7343(
 .Y(net7409)
 );
 
-BUFx12f_ASAP7_75t_R c7344(
+INVx11_ASAP7_75t_R c7344(
 .A(net7402),
 .Y(net7410)
 );
 
-BUFx16f_ASAP7_75t_R c7345(
+INVx13_ASAP7_75t_R c7345(
 .A(net7376),
 .Y(net7411)
 );
 
-BUFx24_ASAP7_75t_R c7346(
+INVx1_ASAP7_75t_R c7346(
 .A(net9288),
 .Y(net7412)
 );
@@ -55509,7 +55509,7 @@ XOR2x1_ASAP7_75t_R c7348(
 .Y(net7414)
 );
 
-BUFx2_ASAP7_75t_R c7349(
+INVx2_ASAP7_75t_R c7349(
 .A(net7391),
 .Y(net7415)
 );
@@ -55549,12 +55549,12 @@ AND3x2_ASAP7_75t_R c7354(
 .Y(net7420)
 );
 
-BUFx3_ASAP7_75t_R c7355(
+INVx3_ASAP7_75t_R c7355(
 .A(net7392),
 .Y(net7421)
 );
 
-BUFx4_ASAP7_75t_R c7356(
+INVx4_ASAP7_75t_R c7356(
 .A(net7421),
 .Y(net7422)
 );
@@ -55566,17 +55566,17 @@ ICGx8DC_ASAP7_75t_R c7357(
 .GCLK(net7423)
 );
 
-BUFx4f_ASAP7_75t_R c7358(
+INVx5_ASAP7_75t_R c7358(
 .A(net7409),
 .Y(net7424)
 );
 
-BUFx5_ASAP7_75t_R c7359(
+INVx6_ASAP7_75t_R c7359(
 .A(net9325),
 .Y(net7425)
 );
 
-BUFx6f_ASAP7_75t_R c7360(
+INVx8_ASAP7_75t_R c7360(
 .A(net7384),
 .Y(net7426)
 );
@@ -55595,7 +55595,7 @@ ICGx1_ASAP7_75t_R c7362(
 .GCLK(net7428)
 );
 
-BUFx8_ASAP7_75t_R c7363(
+INVxp33_ASAP7_75t_R c7363(
 .A(net9148),
 .Y(net7429)
 );
@@ -55770,17 +55770,17 @@ MAJx3_ASAP7_75t_R c7386(
 .Y(net7452)
 );
 
-CKINVDCx10_ASAP7_75t_R c7387(
+INVxp67_ASAP7_75t_R c7387(
 .A(net4724),
 .Y(net7453)
 );
 
-CKINVDCx11_ASAP7_75t_R c7388(
+BUFx10_ASAP7_75t_R c7388(
 .A(net6591),
 .Y(net7454)
 );
 
-CKINVDCx12_ASAP7_75t_R c7389(
+BUFx12_ASAP7_75t_R c7389(
 .A(net6535),
 .Y(net7455)
 );
@@ -55791,12 +55791,12 @@ AND2x6_ASAP7_75t_R c7390(
 .Y(net7456)
 );
 
-CKINVDCx14_ASAP7_75t_R c7391(
+BUFx12f_ASAP7_75t_R c7391(
 .A(net9211),
 .Y(net7457)
 );
 
-CKINVDCx16_ASAP7_75t_R c7392(
+BUFx16f_ASAP7_75t_R c7392(
 .A(net6471),
 .Y(net7458)
 );
@@ -55814,17 +55814,17 @@ NAND3x1_ASAP7_75t_R c7394(
 .Y(net7460)
 );
 
-CKINVDCx20_ASAP7_75t_R c7395(
+BUFx24_ASAP7_75t_R c7395(
 .A(net6477),
 .Y(net7461)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c7396(
+BUFx2_ASAP7_75t_R c7396(
 .A(net9091),
 .Y(net7462)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c7397(
+BUFx3_ASAP7_75t_R c7397(
 .A(net5620),
 .Y(net7463)
 );
@@ -55837,7 +55837,7 @@ SDFHx1_ASAP7_75t_R c7398(
 .QN(net7464)
 );
 
-CKINVDCx8_ASAP7_75t_R c7399(
+BUFx4_ASAP7_75t_R c7399(
 .A(net9091),
 .Y(net7465)
 );
@@ -55848,7 +55848,7 @@ NAND2x1_ASAP7_75t_R c7400(
 .Y(net7466)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c7401(
+BUFx4f_ASAP7_75t_R c7401(
 .A(net10267),
 .Y(net7467)
 );
@@ -55859,12 +55859,12 @@ NAND2x1p5_ASAP7_75t_R c7402(
 .Y(net7468)
 );
 
-HB1xp67_ASAP7_75t_R c7403(
+BUFx5_ASAP7_75t_R c7403(
 .A(net907),
 .Y(net7469)
 );
 
-HB2xp67_ASAP7_75t_R c7404(
+BUFx6f_ASAP7_75t_R c7404(
 .A(net7455),
 .Y(net7470)
 );
@@ -55881,17 +55881,17 @@ NAND2xp33_ASAP7_75t_R c7406(
 .Y(net7472)
 );
 
-HB3xp67_ASAP7_75t_R c7407(
+BUFx8_ASAP7_75t_R c7407(
 .A(net9253),
 .Y(net7473)
 );
 
-HB4xp67_ASAP7_75t_R c7408(
+CKINVDCx5p33_ASAP7_75t_R c7408(
 .A(net3705),
 .Y(net7474)
 );
 
-INVx11_ASAP7_75t_R c7409(
+CKINVDCx6p67_ASAP7_75t_R c7409(
 .A(net7474),
 .Y(net7475)
 );
@@ -55903,12 +55903,12 @@ NAND3x2_ASAP7_75t_R c7410(
 .Y(net7476)
 );
 
-INVx13_ASAP7_75t_R c7411(
+CKINVDCx8_ASAP7_75t_R c7411(
 .A(net10550),
 .Y(net7477)
 );
 
-INVx1_ASAP7_75t_R c7412(
+CKINVDCx9p33_ASAP7_75t_R c7412(
 .A(net6557),
 .Y(net7478)
 );
@@ -55925,12 +55925,12 @@ NAND2xp67_ASAP7_75t_R c7414(
 .Y(net7480)
 );
 
-INVx2_ASAP7_75t_R c7415(
+HB1xp67_ASAP7_75t_R c7415(
 .A(net10437),
 .Y(net7481)
 );
 
-INVx3_ASAP7_75t_R c7416(
+HB2xp67_ASAP7_75t_R c7416(
 .A(net10400),
 .Y(net7482)
 );
@@ -55955,17 +55955,17 @@ NOR2x1_ASAP7_75t_R c7419(
 .Y(net7485)
 );
 
-INVx4_ASAP7_75t_R c7420(
+HB3xp67_ASAP7_75t_R c7420(
 .A(net10559),
 .Y(net7486)
 );
 
-INVx5_ASAP7_75t_R c7421(
+HB4xp67_ASAP7_75t_R c7421(
 .A(net7462),
 .Y(net7487)
 );
 
-INVx6_ASAP7_75t_R c7422(
+INVx11_ASAP7_75t_R c7422(
 .A(net7478),
 .Y(net7488)
 );
@@ -55976,7 +55976,7 @@ NOR2x1p5_ASAP7_75t_R c7423(
 .Y(net7489)
 );
 
-INVx8_ASAP7_75t_R c7424(
+INVx13_ASAP7_75t_R c7424(
 .A(net7372),
 .Y(net7490)
 );
@@ -55994,17 +55994,17 @@ NOR3x2_ASAP7_75t_R c7426(
 .Y(net7492)
 );
 
-INVxp33_ASAP7_75t_R c7427(
+INVx1_ASAP7_75t_R c7427(
 .A(net6461),
 .Y(net7493)
 );
 
-INVxp67_ASAP7_75t_R c7428(
+INVx2_ASAP7_75t_R c7428(
 .A(net6535),
 .Y(net7494)
 );
 
-BUFx10_ASAP7_75t_R c7429(
+INVx3_ASAP7_75t_R c7429(
 .A(net7480),
 .Y(net7495)
 );
@@ -56016,7 +56016,7 @@ NOR3xp33_ASAP7_75t_R c7430(
 .Y(net7496)
 );
 
-BUFx12_ASAP7_75t_R c7431(
+INVx4_ASAP7_75t_R c7431(
 .A(net7468),
 .Y(net7497)
 );
@@ -56033,7 +56033,7 @@ NOR2xp67_ASAP7_75t_R c7433(
 .Y(net7499)
 );
 
-BUFx12f_ASAP7_75t_R c7434(
+INVx5_ASAP7_75t_R c7434(
 .A(net7495),
 .Y(net7500)
 );
@@ -56057,7 +56057,7 @@ OA21x2_ASAP7_75t_R c7437(
 .Y(net7503)
 );
 
-BUFx16f_ASAP7_75t_R c7438(
+INVx6_ASAP7_75t_R c7438(
 .A(net7446),
 .Y(net7504)
 );
@@ -56080,7 +56080,7 @@ XNOR2x2_ASAP7_75t_R c7441(
 .Y(net7507)
 );
 
-BUFx24_ASAP7_75t_R c7442(
+INVx8_ASAP7_75t_R c7442(
 .A(net7500),
 .Y(net7508)
 );
@@ -56116,7 +56116,7 @@ XOR2xp5_ASAP7_75t_R c7447(
 .Y(net7513)
 );
 
-BUFx2_ASAP7_75t_R c7448(
+INVxp33_ASAP7_75t_R c7448(
 .A(net7482),
 .Y(net7514)
 );
@@ -56127,7 +56127,7 @@ AND2x2_ASAP7_75t_R c7449(
 .Y(net7515)
 );
 
-BUFx3_ASAP7_75t_R c7450(
+INVxp67_ASAP7_75t_R c7450(
 .A(net7497),
 .Y(net7516)
 );
@@ -56151,7 +56151,7 @@ OAI21x1_ASAP7_75t_R c7453(
 .Y(net7519)
 );
 
-BUFx4_ASAP7_75t_R c7454(
+BUFx10_ASAP7_75t_R c7454(
 .A(net10487),
 .Y(net7520)
 );
@@ -56264,17 +56264,17 @@ AND5x1_ASAP7_75t_R c7469(
 .Y(net7536)
 );
 
-BUFx4f_ASAP7_75t_R c7470(
+BUFx12_ASAP7_75t_R c7470(
 .A(net9235),
 .Y(net7537)
 );
 
-BUFx5_ASAP7_75t_R c7471(
+BUFx12f_ASAP7_75t_R c7471(
 .A(net10123),
 .Y(net7538)
 );
 
-BUFx6f_ASAP7_75t_R c7472(
+BUFx16f_ASAP7_75t_R c7472(
 .A(net10509),
 .Y(net7539)
 );
@@ -56293,12 +56293,12 @@ NAND2xp5_ASAP7_75t_R c7474(
 .Y(net7541)
 );
 
-BUFx8_ASAP7_75t_R c7475(
+BUFx24_ASAP7_75t_R c7475(
 .A(net6635),
 .Y(net7542)
 );
 
-CKINVDCx10_ASAP7_75t_R c7476(
+BUFx2_ASAP7_75t_R c7476(
 .A(net7435),
 .Y(net7543)
 );
@@ -56309,17 +56309,17 @@ NAND2xp67_ASAP7_75t_R c7477(
 .Y(net7544)
 );
 
-CKINVDCx11_ASAP7_75t_R c7478(
+BUFx3_ASAP7_75t_R c7478(
 .A(net5718),
 .Y(net7545)
 );
 
-CKINVDCx12_ASAP7_75t_R c7479(
+BUFx4_ASAP7_75t_R c7479(
 .A(net7491),
 .Y(net7546)
 );
 
-CKINVDCx14_ASAP7_75t_R c7480(
+BUFx4f_ASAP7_75t_R c7480(
 .A(net9993),
 .Y(net7547)
 );
@@ -56336,17 +56336,17 @@ NOR2x1p5_ASAP7_75t_R c7482(
 .Y(net7549)
 );
 
-CKINVDCx16_ASAP7_75t_R c7483(
+BUFx5_ASAP7_75t_R c7483(
 .A(net9177),
 .Y(net7550)
 );
 
-CKINVDCx20_ASAP7_75t_R c7484(
+BUFx6f_ASAP7_75t_R c7484(
 .A(net7450),
 .Y(net7551)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c7485(
+BUFx8_ASAP7_75t_R c7485(
 .A(net10486),
 .Y(net7552)
 );
@@ -56394,7 +56394,7 @@ OR2x6_ASAP7_75t_R c7492(
 .Y(net7559)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c7493(
+CKINVDCx5p33_ASAP7_75t_R c7493(
 .A(net7545),
 .Y(net7560)
 );
@@ -56412,7 +56412,7 @@ AND3x2_ASAP7_75t_R c7495(
 .Y(net7562)
 );
 
-CKINVDCx8_ASAP7_75t_R c7496(
+CKINVDCx6p67_ASAP7_75t_R c7496(
 .A(net9325),
 .Y(net7563)
 );
@@ -56423,17 +56423,17 @@ XNOR2x2_ASAP7_75t_R c7497(
 .Y(net7564)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c7498(
+CKINVDCx8_ASAP7_75t_R c7498(
 .A(net9216),
 .Y(net7565)
 );
 
-HB1xp67_ASAP7_75t_R c7499(
+CKINVDCx9p33_ASAP7_75t_R c7499(
 .A(net7530),
 .Y(net7566)
 );
 
-HB2xp67_ASAP7_75t_R c7500(
+HB1xp67_ASAP7_75t_R c7500(
 .A(net10513),
 .Y(net7567)
 );
@@ -56450,12 +56450,12 @@ XOR2x1_ASAP7_75t_R c7502(
 .Y(net7569)
 );
 
-HB3xp67_ASAP7_75t_R c7503(
+HB2xp67_ASAP7_75t_R c7503(
 .A(net10458),
 .Y(net7570)
 );
 
-HB4xp67_ASAP7_75t_R c7504(
+HB3xp67_ASAP7_75t_R c7504(
 .A(net9667),
 .Y(net7571)
 );
@@ -56492,7 +56492,7 @@ AND2x2_ASAP7_75t_R c7509(
 .Y(net7576)
 );
 
-INVx11_ASAP7_75t_R c7510(
+HB4xp67_ASAP7_75t_R c7510(
 .A(net9667),
 .Y(net7577)
 );
@@ -56504,7 +56504,7 @@ AO21x2_ASAP7_75t_R c7511(
 .Y(net7578)
 );
 
-INVx13_ASAP7_75t_R c7512(
+INVx11_ASAP7_75t_R c7512(
 .A(net7551),
 .Y(net7579)
 );
@@ -56516,17 +56516,17 @@ AOI21x1_ASAP7_75t_R c7513(
 .Y(net7580)
 );
 
-INVx1_ASAP7_75t_R c7514(
+INVx13_ASAP7_75t_R c7514(
 .A(net10503),
 .Y(net7581)
 );
 
-INVx2_ASAP7_75t_R c7515(
+INVx1_ASAP7_75t_R c7515(
 .A(net6676),
 .Y(net7582)
 );
 
-INVx3_ASAP7_75t_R c7516(
+INVx2_ASAP7_75t_R c7516(
 .A(net10093),
 .Y(net7583)
 );
@@ -56543,7 +56543,7 @@ AND2x6_ASAP7_75t_R c7518(
 .Y(net7585)
 );
 
-INVx4_ASAP7_75t_R c7519(
+INVx3_ASAP7_75t_R c7519(
 .A(net7565),
 .Y(net7586)
 );
@@ -56561,7 +56561,7 @@ HAxp5_ASAP7_75t_R c7521(
 .CON(net7588)
 );
 
-INVx5_ASAP7_75t_R c7522(
+INVx4_ASAP7_75t_R c7522(
 .A(net9177),
 .Y(net7589)
 );
@@ -56591,7 +56591,7 @@ NAND2x2_ASAP7_75t_R c7526(
 .Y(net7593)
 );
 
-INVx6_ASAP7_75t_R c7527(
+INVx5_ASAP7_75t_R c7527(
 .A(net7569),
 .Y(net7594)
 );
@@ -56643,7 +56643,7 @@ NAND2xp67_ASAP7_75t_R c7534(
 .Y(net7601)
 );
 
-INVx8_ASAP7_75t_R c7535(
+INVx6_ASAP7_75t_R c7535(
 .A(net7595),
 .Y(net7602)
 );
@@ -56690,7 +56690,7 @@ AND5x2_ASAP7_75t_R c7541(
 .Y(net7608)
 );
 
-INVxp33_ASAP7_75t_R c7542(
+INVx8_ASAP7_75t_R c7542(
 .A(net10509),
 .Y(net7609)
 );
@@ -56724,7 +56724,7 @@ NAND3xp33_ASAP7_75t_R c7546(
 .Y(net7613)
 );
 
-INVxp67_ASAP7_75t_R c7547(
+INVxp33_ASAP7_75t_R c7547(
 .A(net10123),
 .Y(net7614)
 );
@@ -56834,7 +56834,7 @@ AND2x2_ASAP7_75t_R c7563(
 .Y(net7630)
 );
 
-BUFx10_ASAP7_75t_R c7564(
+INVxp67_ASAP7_75t_R c7564(
 .A(net10431),
 .Y(net7631)
 );
@@ -56851,7 +56851,7 @@ AND2x6_ASAP7_75t_R c7566(
 .Y(net7633)
 );
 
-BUFx12_ASAP7_75t_R c7567(
+BUFx10_ASAP7_75t_R c7567(
 .A(net6738),
 .Y(net7634)
 );
@@ -56870,7 +56870,7 @@ HAxp5_ASAP7_75t_R c7569(
 .SN(net7636)
 );
 
-BUFx12f_ASAP7_75t_R c7570(
+BUFx12_ASAP7_75t_R c7570(
 .A(net10053),
 .Y(net7638)
 );
@@ -56906,12 +56906,12 @@ ICGx5_ASAP7_75t_R c7575(
 .GCLK(net7643)
 );
 
-BUFx16f_ASAP7_75t_R c7576(
+BUFx12f_ASAP7_75t_R c7576(
 .A(net7635),
 .Y(net7644)
 );
 
-BUFx24_ASAP7_75t_R c7577(
+BUFx16f_ASAP7_75t_R c7577(
 .A(net7539),
 .Y(net7645)
 );
@@ -56972,7 +56972,7 @@ OR2x2_ASAP7_75t_R c7586(
 .Y(net7654)
 );
 
-BUFx2_ASAP7_75t_R c7587(
+BUFx24_ASAP7_75t_R c7587(
 .A(net7654),
 .Y(net7655)
 );
@@ -56997,7 +56997,7 @@ OA21x2_ASAP7_75t_R c7590(
 .Y(net7658)
 );
 
-BUFx3_ASAP7_75t_R c7591(
+BUFx2_ASAP7_75t_R c7591(
 .A(net10410),
 .Y(net7659)
 );
@@ -57008,7 +57008,7 @@ OR2x6_ASAP7_75t_R c7592(
 .Y(net7660)
 );
 
-BUFx4_ASAP7_75t_R c7593(
+BUFx3_ASAP7_75t_R c7593(
 .A(net10501),
 .Y(net7661)
 );
@@ -57080,7 +57080,7 @@ XOR2xp5_ASAP7_75t_R c7603(
 .Y(net7671)
 );
 
-BUFx4f_ASAP7_75t_R c7604(
+BUFx4_ASAP7_75t_R c7604(
 .A(net10360),
 .Y(net7672)
 );
@@ -57117,7 +57117,7 @@ HAxp5_ASAP7_75t_R c7609(
 .CON(net7677)
 );
 
-BUFx5_ASAP7_75t_R c7610(
+BUFx4f_ASAP7_75t_R c7610(
 .A(net10463),
 .Y(net7678)
 );
@@ -57164,7 +57164,7 @@ AO32x1_ASAP7_75t_R c7616(
 .Y(net7684)
 );
 
-BUFx6f_ASAP7_75t_R c7617(
+BUFx5_ASAP7_75t_R c7617(
 .A(net10128),
 .Y(net7685)
 );
@@ -57241,7 +57241,7 @@ OR3x2_ASAP7_75t_R c7627(
 .Y(net7695)
 );
 
-BUFx8_ASAP7_75t_R c7628(
+BUFx6f_ASAP7_75t_R c7628(
 .A(net10053),
 .Y(net7696)
 );
@@ -57331,7 +57331,7 @@ AOI22xp33_ASAP7_75t_R c7640(
 .Y(net7708)
 );
 
-CKINVDCx10_ASAP7_75t_R c7641(
+BUFx8_ASAP7_75t_R c7641(
 .A(net7673),
 .Y(net7709)
 );
@@ -57342,7 +57342,7 @@ NOR2xp67_ASAP7_75t_R c7642(
 .Y(net7710)
 );
 
-CKINVDCx11_ASAP7_75t_R c7643(
+CKINVDCx5p33_ASAP7_75t_R c7643(
 .A(net10157),
 .Y(net7711)
 );
@@ -57353,7 +57353,7 @@ OR2x2_ASAP7_75t_R c7644(
 .Y(net7712)
 );
 
-CKINVDCx12_ASAP7_75t_R c7645(
+CKINVDCx6p67_ASAP7_75t_R c7645(
 .A(net10333),
 .Y(net7713)
 );
@@ -57401,7 +57401,7 @@ XOR2x1_ASAP7_75t_R c7652(
 .Y(net7720)
 );
 
-CKINVDCx14_ASAP7_75t_R c7653(
+CKINVDCx8_ASAP7_75t_R c7653(
 .A(net7719),
 .Y(net7721)
 );
@@ -57412,7 +57412,7 @@ XOR2x2_ASAP7_75t_R c7654(
 .Y(net7722)
 );
 
-CKINVDCx16_ASAP7_75t_R c7655(
+CKINVDCx9p33_ASAP7_75t_R c7655(
 .A(net10471),
 .Y(net7723)
 );
@@ -57430,17 +57430,17 @@ AOI21x1_ASAP7_75t_R c7657(
 .Y(net7725)
 );
 
-CKINVDCx20_ASAP7_75t_R c7658(
+HB1xp67_ASAP7_75t_R c7658(
 .A(net4870),
 .Y(net7726)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c7659(
+HB2xp67_ASAP7_75t_R c7659(
 .A(net10369),
 .Y(net7727)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c7660(
+HB3xp67_ASAP7_75t_R c7660(
 .A(net10117),
 .Y(net7728)
 );
@@ -57457,7 +57457,7 @@ AND2x4_ASAP7_75t_R c7662(
 .Y(net7730)
 );
 
-CKINVDCx8_ASAP7_75t_R c7663(
+HB4xp67_ASAP7_75t_R c7663(
 .A(net10543),
 .Y(net7731)
 );
@@ -57526,12 +57526,12 @@ NAND2xp5_ASAP7_75t_R c7673(
 .Y(net7742)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c7674(
+INVx11_ASAP7_75t_R c7674(
 .A(net10533),
 .Y(net7743)
 );
 
-HB1xp67_ASAP7_75t_R c7675(
+INVx13_ASAP7_75t_R c7675(
 .A(net10103),
 .Y(net7744)
 );
@@ -57592,7 +57592,7 @@ OR2x2_ASAP7_75t_R c7684(
 .Y(net7752)
 );
 
-HB2xp67_ASAP7_75t_R c7685(
+INVx1_ASAP7_75t_R c7685(
 .A(net10401),
 .Y(net7753)
 );
@@ -57604,7 +57604,7 @@ ICGx1_ASAP7_75t_R c7686(
 .GCLK(net7754)
 );
 
-HB3xp67_ASAP7_75t_R c7687(
+INVx2_ASAP7_75t_R c7687(
 .A(net10534),
 .Y(net7755)
 );
@@ -57642,7 +57642,7 @@ AOI221x1_ASAP7_75t_R c7691(
 .Y(net7759)
 );
 
-HB4xp67_ASAP7_75t_R c7692(
+INVx3_ASAP7_75t_R c7692(
 .A(net10359),
 .Y(net7760)
 );
@@ -57659,7 +57659,7 @@ OR2x6_ASAP7_75t_R c7694(
 .Y(net7762)
 );
 
-INVx11_ASAP7_75t_R c7695(
+INVx4_ASAP7_75t_R c7695(
 .A(net10439),
 .Y(net7763)
 );
@@ -57696,12 +57696,12 @@ MAJx3_ASAP7_75t_R c7700(
 .Y(net7768)
 );
 
-INVx13_ASAP7_75t_R c7701(
+INVx5_ASAP7_75t_R c7701(
 .A(net10360),
 .Y(net7769)
 );
 
-INVx1_ASAP7_75t_R c7702(
+INVx6_ASAP7_75t_R c7702(
 .A(net10333),
 .Y(net7770)
 );
@@ -57823,7 +57823,7 @@ AO222x2_ASAP7_75t_R c7718(
 .Y(net7786)
 );
 
-INVx2_ASAP7_75t_R c7719(
+INVx8_ASAP7_75t_R c7719(
 .A(net4963),
 .Y(net7787)
 );
@@ -57846,12 +57846,12 @@ AND2x4_ASAP7_75t_R c7722(
 .Y(net7790)
 );
 
-INVx3_ASAP7_75t_R c7723(
+INVxp33_ASAP7_75t_R c7723(
 .A(net5957),
 .Y(net7791)
 );
 
-INVx4_ASAP7_75t_R c7724(
+INVxp67_ASAP7_75t_R c7724(
 .A(net9152),
 .Y(net7792)
 );
@@ -57876,7 +57876,7 @@ AOI22xp5_ASAP7_75t_R c7727(
 .Y(net7795)
 );
 
-INVx5_ASAP7_75t_R c7728(
+BUFx10_ASAP7_75t_R c7728(
 .A(net10417),
 .Y(net7796)
 );
@@ -57887,7 +57887,7 @@ NAND2x1_ASAP7_75t_R c7729(
 .Y(net7797)
 );
 
-INVx6_ASAP7_75t_R c7730(
+BUFx12_ASAP7_75t_R c7730(
 .A(net7777),
 .Y(net7798)
 );
@@ -57909,7 +57909,7 @@ AO33x2_ASAP7_75t_R c7732(
 .Y(net7800)
 );
 
-INVx8_ASAP7_75t_R c7733(
+BUFx12f_ASAP7_75t_R c7733(
 .A(net7593),
 .Y(net7801)
 );
@@ -57933,12 +57933,12 @@ NAND2x2_ASAP7_75t_R c7736(
 .Y(net7804)
 );
 
-INVxp33_ASAP7_75t_R c7737(
+BUFx16f_ASAP7_75t_R c7737(
 .A(net10372),
 .Y(net7805)
 );
 
-INVxp67_ASAP7_75t_R c7738(
+BUFx24_ASAP7_75t_R c7738(
 .A(net6900),
 .Y(net7806)
 );
@@ -57949,7 +57949,7 @@ NAND2xp33_ASAP7_75t_R c7739(
 .Y(net7807)
 );
 
-BUFx10_ASAP7_75t_R c7740(
+BUFx2_ASAP7_75t_R c7740(
 .A(net10365),
 .Y(net7808)
 );
@@ -57990,12 +57990,12 @@ NOR2xp33_ASAP7_75t_R c7746(
 .Y(net7814)
 );
 
-BUFx12_ASAP7_75t_R c7747(
+BUFx3_ASAP7_75t_R c7747(
 .A(net10491),
 .Y(net7815)
 );
 
-BUFx12f_ASAP7_75t_R c7748(
+BUFx4_ASAP7_75t_R c7748(
 .A(net10380),
 .Y(net7816)
 );
@@ -58022,12 +58022,12 @@ AOI31xp33_ASAP7_75t_R c7751(
 .Y(net7819)
 );
 
-BUFx16f_ASAP7_75t_R c7752(
+BUFx4f_ASAP7_75t_R c7752(
 .A(net10146),
 .Y(net7820)
 );
 
-BUFx24_ASAP7_75t_R c7753(
+BUFx5_ASAP7_75t_R c7753(
 .A(net10365),
 .Y(net7821)
 );
@@ -58051,22 +58051,22 @@ OR2x4_ASAP7_75t_R c7756(
 .Y(net7824)
 );
 
-BUFx2_ASAP7_75t_R c7757(
+BUFx6f_ASAP7_75t_R c7757(
 .A(net10119),
 .Y(net7825)
 );
 
-BUFx3_ASAP7_75t_R c7758(
+BUFx8_ASAP7_75t_R c7758(
 .A(net6832),
 .Y(net7826)
 );
 
-BUFx4_ASAP7_75t_R c7759(
+CKINVDCx5p33_ASAP7_75t_R c7759(
 .A(net10119),
 .Y(net7827)
 );
 
-BUFx4f_ASAP7_75t_R c7760(
+CKINVDCx6p67_ASAP7_75t_R c7760(
 .A(net7728),
 .Y(net7828)
 );
@@ -58101,7 +58101,7 @@ XOR2x1_ASAP7_75t_R c7765(
 .Y(net7833)
 );
 
-BUFx5_ASAP7_75t_R c7766(
+CKINVDCx8_ASAP7_75t_R c7766(
 .A(net6937),
 .Y(net7834)
 );
@@ -58138,7 +58138,7 @@ AND2x4_ASAP7_75t_R c7771(
 .Y(net7839)
 );
 
-BUFx6f_ASAP7_75t_R c7772(
+CKINVDCx9p33_ASAP7_75t_R c7772(
 .A(net10450),
 .Y(net7840)
 );
@@ -58180,12 +58180,12 @@ NAND4xp25_ASAP7_75t_R c7777(
 .Y(net7845)
 );
 
-BUFx8_ASAP7_75t_R c7778(
+HB1xp67_ASAP7_75t_R c7778(
 .A(net10354),
 .Y(net7846)
 );
 
-CKINVDCx10_ASAP7_75t_R c7779(
+HB2xp67_ASAP7_75t_R c7779(
 .A(net10036),
 .Y(net7847)
 );
@@ -58231,7 +58231,7 @@ NAND2x1p5_ASAP7_75t_R c7785(
 .Y(net7854)
 );
 
-CKINVDCx11_ASAP7_75t_R c7786(
+HB3xp67_ASAP7_75t_R c7786(
 .A(net10455),
 .Y(net7855)
 );
@@ -58249,7 +58249,7 @@ AO21x1_ASAP7_75t_R c7788(
 .Y(net7857)
 );
 
-CKINVDCx12_ASAP7_75t_R c7789(
+HB4xp67_ASAP7_75t_R c7789(
 .A(net9152),
 .Y(net7858)
 );
@@ -58357,7 +58357,7 @@ NOR2x1_ASAP7_75t_R c7803(
 .Y(net7872)
 );
 
-CKINVDCx14_ASAP7_75t_R c7804(
+INVx11_ASAP7_75t_R c7804(
 .A(net10337),
 .Y(net7873)
 );
@@ -58395,12 +58395,12 @@ NOR2xp33_ASAP7_75t_R c7809(
 .Y(net7879)
 );
 
-CKINVDCx16_ASAP7_75t_R c7810(
+INVx13_ASAP7_75t_R c7810(
 .A(net10566),
 .Y(net7880)
 );
 
-CKINVDCx20_ASAP7_75t_R c7811(
+INVx1_ASAP7_75t_R c7811(
 .A(net10537),
 .Y(net7881)
 );
@@ -58456,12 +58456,12 @@ XNOR2x1_ASAP7_75t_R c7819(
 .Y(net7889)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c7820(
+INVx2_ASAP7_75t_R c7820(
 .A(net10477),
 .Y(net7890)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c7821(
+INVx3_ASAP7_75t_R c7821(
 .A(net10129),
 .Y(net7891)
 );
@@ -58511,12 +58511,12 @@ XOR2x2_ASAP7_75t_R c7828(
 .Y(net7898)
 );
 
-CKINVDCx8_ASAP7_75t_R c7829(
+INVx4_ASAP7_75t_R c7829(
 .A(net10118),
 .Y(net7899)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c7830(
+INVx5_ASAP7_75t_R c7830(
 .A(net10377),
 .Y(net7900)
 );
@@ -58527,7 +58527,7 @@ XOR2xp5_ASAP7_75t_R c7831(
 .Y(net7901)
 );
 
-HB1xp67_ASAP7_75t_R c7832(
+INVx6_ASAP7_75t_R c7832(
 .A(net10356),
 .Y(net7902)
 );
@@ -58558,7 +58558,7 @@ AND2x4_ASAP7_75t_R c7836(
 .Y(net7906)
 );
 
-HB2xp67_ASAP7_75t_R c7837(
+INVx8_ASAP7_75t_R c7837(
 .A(net10085),
 .Y(net7907)
 );
@@ -58705,7 +58705,7 @@ NOR2x1p5_ASAP7_75t_R c7858(
 .Y(net7928)
 );
 
-HB3xp67_ASAP7_75t_R c7859(
+INVxp33_ASAP7_75t_R c7859(
 .A(net10384),
 .Y(net7929)
 );
@@ -58746,7 +58746,7 @@ AND3x2_ASAP7_75t_R c7864(
 .Y(net7934)
 );
 
-HB4xp67_ASAP7_75t_R c7865(
+INVxp67_ASAP7_75t_R c7865(
 .A(net10448),
 .Y(net7935)
 );
@@ -58835,7 +58835,7 @@ MAJIxp5_ASAP7_75t_R c7877(
 .Y(net7947)
 );
 
-INVx11_ASAP7_75t_R c7878(
+BUFx10_ASAP7_75t_R c7878(
 .A(net10337),
 .Y(net7948)
 );
@@ -58883,7 +58883,7 @@ SDFLx2_ASAP7_75t_R c7884(
 .QN(net7954)
 );
 
-INVx13_ASAP7_75t_R c7885(
+BUFx12_ASAP7_75t_R c7885(
 .A(net10121),
 .Y(net7955)
 );
@@ -58894,12 +58894,12 @@ XNOR2x1_ASAP7_75t_R c7886(
 .Y(net7956)
 );
 
-INVx1_ASAP7_75t_R c7887(
+BUFx12f_ASAP7_75t_R c7887(
 .A(net6869),
 .Y(net7957)
 );
 
-INVx2_ASAP7_75t_R c7888(
+BUFx16f_ASAP7_75t_R c7888(
 .A(net10551),
 .Y(net7958)
 );
@@ -58916,7 +58916,7 @@ XNOR2xp5_ASAP7_75t_R c7890(
 .Y(net7960)
 );
 
-INVx3_ASAP7_75t_R c7891(
+BUFx24_ASAP7_75t_R c7891(
 .A(net9280),
 .Y(net7961)
 );
@@ -58927,27 +58927,27 @@ XOR2x1_ASAP7_75t_R c7892(
 .Y(net7962)
 );
 
-INVx4_ASAP7_75t_R c7893(
+BUFx2_ASAP7_75t_R c7893(
 .A(net9939),
 .Y(net7963)
 );
 
-INVx5_ASAP7_75t_R c7894(
+BUFx3_ASAP7_75t_R c7894(
 .A(net10094),
 .Y(net7964)
 );
 
-INVx6_ASAP7_75t_R c7895(
+BUFx4_ASAP7_75t_R c7895(
 .A(net6979),
 .Y(net7965)
 );
 
-INVx8_ASAP7_75t_R c7896(
+BUFx4f_ASAP7_75t_R c7896(
 .A(net10285),
 .Y(net7966)
 );
 
-INVxp33_ASAP7_75t_R c7897(
+BUFx5_ASAP7_75t_R c7897(
 .A(net10355),
 .Y(net7967)
 );
@@ -58958,12 +58958,12 @@ XOR2x2_ASAP7_75t_R c7898(
 .Y(net7968)
 );
 
-INVxp67_ASAP7_75t_R c7899(
+BUFx6f_ASAP7_75t_R c7899(
 .A(net10417),
 .Y(net7969)
 );
 
-BUFx10_ASAP7_75t_R c7900(
+BUFx8_ASAP7_75t_R c7900(
 .A(net10170),
 .Y(net7970)
 );
@@ -58980,7 +58980,7 @@ AND2x2_ASAP7_75t_R c7902(
 .Y(net7972)
 );
 
-BUFx12_ASAP7_75t_R c7903(
+CKINVDCx5p33_ASAP7_75t_R c7903(
 .A(net10170),
 .Y(net7973)
 );
@@ -58997,7 +58997,7 @@ AND2x6_ASAP7_75t_R c7905(
 .Y(net7975)
 );
 
-BUFx12f_ASAP7_75t_R c7906(
+CKINVDCx6p67_ASAP7_75t_R c7906(
 .A(net10571),
 .Y(net7976)
 );
@@ -59065,12 +59065,12 @@ NOR2x1p5_ASAP7_75t_R c7916(
 .Y(net7987)
 );
 
-BUFx16f_ASAP7_75t_R c7917(
+CKINVDCx8_ASAP7_75t_R c7917(
 .A(net10494),
 .Y(net7988)
 );
 
-BUFx24_ASAP7_75t_R c7918(
+CKINVDCx9p33_ASAP7_75t_R c7918(
 .A(net10362),
 .Y(net7989)
 );
@@ -59145,7 +59145,7 @@ XNOR2x2_ASAP7_75t_R c7929(
 .Y(net8000)
 );
 
-BUFx2_ASAP7_75t_R c7930(
+HB1xp67_ASAP7_75t_R c7930(
 .A(net7992),
 .Y(net8001)
 );
@@ -59168,7 +59168,7 @@ XOR2x2_ASAP7_75t_R c7933(
 .Y(net8004)
 );
 
-BUFx3_ASAP7_75t_R c7934(
+HB2xp67_ASAP7_75t_R c7934(
 .A(net8004),
 .Y(net8005)
 );
@@ -59179,7 +59179,7 @@ XOR2xp5_ASAP7_75t_R c7935(
 .Y(net8006)
 );
 
-BUFx4_ASAP7_75t_R c7936(
+HB3xp67_ASAP7_75t_R c7936(
 .A(net8003),
 .Y(net8007)
 );
@@ -59211,7 +59211,7 @@ AND2x4_ASAP7_75t_R c7940(
 .Y(net8011)
 );
 
-BUFx4f_ASAP7_75t_R c7941(
+HB4xp67_ASAP7_75t_R c7941(
 .A(net10381),
 .Y(net8012)
 );
@@ -59302,7 +59302,7 @@ OA21x2_ASAP7_75t_R c7954(
 .Y(net8025)
 );
 
-BUFx5_ASAP7_75t_R c7955(
+INVx11_ASAP7_75t_R c7955(
 .A(net10142),
 .Y(net8026)
 );
@@ -59401,7 +59401,7 @@ OR3x2_ASAP7_75t_R c7967(
 .Y(net8038)
 );
 
-BUFx6f_ASAP7_75t_R c7968(
+INVx13_ASAP7_75t_R c7968(
 .A(net10114),
 .Y(net8039)
 );
@@ -59421,7 +59421,7 @@ OR3x4_ASAP7_75t_R c7970(
 .Y(net8041)
 );
 
-BUFx8_ASAP7_75t_R c7971(
+INVx1_ASAP7_75t_R c7971(
 .A(net10141),
 .Y(net8042)
 );
@@ -59496,12 +59496,12 @@ AO21x1_ASAP7_75t_R c7982(
 .Y(net8053)
 );
 
-CKINVDCx10_ASAP7_75t_R c7983(
+INVx2_ASAP7_75t_R c7983(
 .A(net10397),
 .Y(net8054)
 );
 
-CKINVDCx11_ASAP7_75t_R c7984(
+INVx3_ASAP7_75t_R c7984(
 .A(net10403),
 .Y(net8055)
 );
@@ -59547,12 +59547,12 @@ AOI21xp33_ASAP7_75t_R c7990(
 .Y(net8061)
 );
 
-CKINVDCx12_ASAP7_75t_R c7991(
+INVx4_ASAP7_75t_R c7991(
 .A(net9280),
 .Y(net8062)
 );
 
-CKINVDCx14_ASAP7_75t_R c7992(
+INVx5_ASAP7_75t_R c7992(
 .A(net10355),
 .Y(net8063)
 );
@@ -59570,7 +59570,7 @@ AOI21xp5_ASAP7_75t_R c7994(
 .Y(net8065)
 );
 
-CKINVDCx16_ASAP7_75t_R c7995(
+INVx6_ASAP7_75t_R c7995(
 .A(net10396),
 .Y(net8066)
 );
@@ -59603,7 +59603,7 @@ SDFHx3_ASAP7_75t_R c7999(
 .QN(net8070)
 );
 
-CKINVDCx20_ASAP7_75t_R c8000(
+INVx8_ASAP7_75t_R c8000(
 .A(net10350),
 .Y(net8071)
 );
@@ -59683,7 +59683,7 @@ OAI22xp5_ASAP7_75t_R c8011(
 .Y(net8082)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c8012(
+INVxp33_ASAP7_75t_R c8012(
 .A(net10159),
 .Y(net8083)
 );
@@ -59872,7 +59872,7 @@ OR4x1_ASAP7_75t_R c8037(
 .Y(net8108)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c8038(
+INVxp67_ASAP7_75t_R c8038(
 .A(net10141),
 .Y(net8109)
 );
@@ -60082,7 +60082,7 @@ NAND3xp33_ASAP7_75t_R c8067(
 .Y(net8138)
 );
 
-CKINVDCx8_ASAP7_75t_R c8068(
+BUFx10_ASAP7_75t_R c8068(
 .A(net10114),
 .Y(net8139)
 );
@@ -60225,7 +60225,7 @@ AND3x1_ASAP7_75t_R c8087(
 .Y(net8158)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c8088(
+BUFx12_ASAP7_75t_R c8088(
 .A(net10342),
 .Y(net8159)
 );
@@ -60244,7 +60244,7 @@ AND3x4_ASAP7_75t_R c8090(
 .Y(net8161)
 );
 
-HB1xp67_ASAP7_75t_R c8091(
+BUFx12f_ASAP7_75t_R c8091(
 .A(net10353),
 .Y(net8162)
 );
@@ -60501,7 +60501,7 @@ AND3x4_ASAP7_75t_R c8126(
 .Y(net8197)
 );
 
-HB2xp67_ASAP7_75t_R c8127(
+BUFx16f_ASAP7_75t_R c8127(
 .A(net10342),
 .Y(net8198)
 );
@@ -60579,7 +60579,7 @@ MAJIxp5_ASAP7_75t_R c8163(
 .Y(net8208)
 );
 
-HB3xp67_ASAP7_75t_R c8164(
+BUFx24_ASAP7_75t_R c8164(
 .A(net10341),
 .Y(out6)
 );
@@ -60968,17 +60968,17 @@ NOR3x2_ASAP7_75t_R c8215(
 .Y(out12)
 );
 
-HB4xp67_ASAP7_75t_R c8216(
+BUFx2_ASAP7_75t_R c8216(
 .A(net10341),
 .Y(net8251)
 );
 
-INVx11_ASAP7_75t_R c8217(
+BUFx3_ASAP7_75t_R c8217(
 .A(net7444),
 .Y(net8252)
 );
 
-INVx13_ASAP7_75t_R c8218(
+BUFx4_ASAP7_75t_R c8218(
 .A(net9173),
 .Y(net8253)
 );
@@ -60989,27 +60989,27 @@ OR2x6_ASAP7_75t_R c8219(
 .Y(net8254)
 );
 
-INVx1_ASAP7_75t_R c8220(
+BUFx4f_ASAP7_75t_R c8220(
 .A(net8252),
 .Y(net8255)
 );
 
-INVx2_ASAP7_75t_R c8221(
+BUFx5_ASAP7_75t_R c8221(
 .A(net7427),
 .Y(net8256)
 );
 
-INVx3_ASAP7_75t_R c8222(
+BUFx6f_ASAP7_75t_R c8222(
 .A(net8253),
 .Y(net8257)
 );
 
-INVx4_ASAP7_75t_R c8223(
+BUFx8_ASAP7_75t_R c8223(
 .A(net6533),
 .Y(net8258)
 );
 
-INVx5_ASAP7_75t_R c8224(
+CKINVDCx5p33_ASAP7_75t_R c8224(
 .A(net7444),
 .Y(net8259)
 );
@@ -61020,17 +61020,17 @@ XNOR2x1_ASAP7_75t_R c8225(
 .Y(net8260)
 );
 
-INVx6_ASAP7_75t_R c8226(
+CKINVDCx6p67_ASAP7_75t_R c8226(
 .A(net6480),
 .Y(net8261)
 );
 
-INVx8_ASAP7_75t_R c8227(
+CKINVDCx8_ASAP7_75t_R c8227(
 .A(net7423),
 .Y(net8262)
 );
 
-INVxp33_ASAP7_75t_R c8228(
+CKINVDCx9p33_ASAP7_75t_R c8228(
 .A(net8253),
 .Y(net8263)
 );
@@ -61048,47 +61048,47 @@ XNOR2x2_ASAP7_75t_R c8230(
 .Y(net8265)
 );
 
-INVxp67_ASAP7_75t_R c8231(
+HB1xp67_ASAP7_75t_R c8231(
 .A(net5599),
 .Y(net8266)
 );
 
-BUFx10_ASAP7_75t_R c8232(
+HB2xp67_ASAP7_75t_R c8232(
 .A(net8266),
 .Y(net8267)
 );
 
-BUFx12_ASAP7_75t_R c8233(
+HB3xp67_ASAP7_75t_R c8233(
 .A(net8259),
 .Y(net8268)
 );
 
-BUFx12f_ASAP7_75t_R c8234(
+HB4xp67_ASAP7_75t_R c8234(
 .A(net9173),
 .Y(net8269)
 );
 
-BUFx16f_ASAP7_75t_R c8235(
+INVx11_ASAP7_75t_R c8235(
 .A(net7408),
 .Y(net8270)
 );
 
-BUFx24_ASAP7_75t_R c8236(
+INVx13_ASAP7_75t_R c8236(
 .A(net8259),
 .Y(net8271)
 );
 
-BUFx2_ASAP7_75t_R c8237(
+INVx1_ASAP7_75t_R c8237(
 .A(net8257),
 .Y(net8272)
 );
 
-BUFx3_ASAP7_75t_R c8238(
+INVx2_ASAP7_75t_R c8238(
 .A(net7415),
 .Y(net8273)
 );
 
-BUFx4_ASAP7_75t_R c8239(
+INVx3_ASAP7_75t_R c8239(
 .A(net7452),
 .Y(net8274)
 );
@@ -61105,22 +61105,22 @@ XOR2x1_ASAP7_75t_R c8241(
 .Y(net8276)
 );
 
-BUFx4f_ASAP7_75t_R c8242(
+INVx4_ASAP7_75t_R c8242(
 .A(net8276),
 .Y(net8277)
 );
 
-BUFx5_ASAP7_75t_R c8243(
+INVx5_ASAP7_75t_R c8243(
 .A(net8275),
 .Y(net8278)
 );
 
-BUFx6f_ASAP7_75t_R c8244(
+INVx6_ASAP7_75t_R c8244(
 .A(net8256),
 .Y(net8279)
 );
 
-BUFx8_ASAP7_75t_R c8245(
+INVx8_ASAP7_75t_R c8245(
 .A(net7428),
 .Y(net8280)
 );
@@ -61132,47 +61132,47 @@ ICGx4_ASAP7_75t_R c8246(
 .GCLK(net8281)
 );
 
-CKINVDCx10_ASAP7_75t_R c8247(
+INVxp33_ASAP7_75t_R c8247(
 .A(net5532),
 .Y(net8282)
 );
 
-CKINVDCx11_ASAP7_75t_R c8248(
+INVxp67_ASAP7_75t_R c8248(
 .A(net8268),
 .Y(net8283)
 );
 
-CKINVDCx12_ASAP7_75t_R c8249(
+BUFx10_ASAP7_75t_R c8249(
 .A(net6528),
 .Y(net8284)
 );
 
-CKINVDCx14_ASAP7_75t_R c8250(
+BUFx12_ASAP7_75t_R c8250(
 .A(net8255),
 .Y(net8285)
 );
 
-CKINVDCx16_ASAP7_75t_R c8251(
+BUFx12f_ASAP7_75t_R c8251(
 .A(net7407),
 .Y(net8286)
 );
 
-CKINVDCx20_ASAP7_75t_R c8252(
+BUFx16f_ASAP7_75t_R c8252(
 .A(net9217),
 .Y(net8287)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c8253(
+BUFx24_ASAP7_75t_R c8253(
 .A(net8281),
 .Y(net8288)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c8254(
+BUFx2_ASAP7_75t_R c8254(
 .A(net8278),
 .Y(net8289)
 );
 
-CKINVDCx8_ASAP7_75t_R c8255(
+BUFx3_ASAP7_75t_R c8255(
 .A(net8287),
 .Y(net8290)
 );
@@ -61207,7 +61207,7 @@ AND2x6_ASAP7_75t_R c8260(
 .Y(net8295)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c8261(
+BUFx4_ASAP7_75t_R c8261(
 .A(net8291),
 .Y(net8296)
 );
@@ -61219,7 +61219,7 @@ HAxp5_ASAP7_75t_R c8262(
 .SN(net8297)
 );
 
-HB1xp67_ASAP7_75t_R c8263(
+BUFx4f_ASAP7_75t_R c8263(
 .A(net7445),
 .Y(net8299)
 );
@@ -61230,7 +61230,7 @@ NAND2x1_ASAP7_75t_R c8264(
 .Y(net8300)
 );
 
-HB2xp67_ASAP7_75t_R c8265(
+BUFx5_ASAP7_75t_R c8265(
 .A(net8290),
 .Y(net8301)
 );
@@ -61241,7 +61241,7 @@ NAND2x1p5_ASAP7_75t_R c8266(
 .Y(net8302)
 );
 
-HB3xp67_ASAP7_75t_R c8267(
+BUFx6f_ASAP7_75t_R c8267(
 .A(net8301),
 .Y(net8303)
 );
@@ -61258,7 +61258,7 @@ NAND2xp33_ASAP7_75t_R c8269(
 .Y(net8305)
 );
 
-HB4xp67_ASAP7_75t_R c8270(
+BUFx8_ASAP7_75t_R c8270(
 .A(net8272),
 .Y(net8306)
 );
@@ -61482,7 +61482,7 @@ AND2x2_ASAP7_75t_R c8302(
 .Y(net8338)
 );
 
-INVx11_ASAP7_75t_R c8303(
+CKINVDCx5p33_ASAP7_75t_R c8303(
 .A(net9187),
 .Y(net8339)
 );
@@ -61505,7 +61505,7 @@ HAxp5_ASAP7_75t_R c8306(
 .CON(net8342)
 );
 
-INVx13_ASAP7_75t_R c8307(
+CKINVDCx6p67_ASAP7_75t_R c8307(
 .A(net3767),
 .Y(net8343)
 );
@@ -61528,7 +61528,7 @@ NAND2x2_ASAP7_75t_R c8310(
 .Y(net8346)
 );
 
-INVx1_ASAP7_75t_R c8311(
+CKINVDCx8_ASAP7_75t_R c8311(
 .A(net8261),
 .Y(net8347)
 );
@@ -61539,7 +61539,7 @@ NAND2xp33_ASAP7_75t_R c8312(
 .Y(net8348)
 );
 
-INVx2_ASAP7_75t_R c8313(
+CKINVDCx9p33_ASAP7_75t_R c8313(
 .A(net10294),
 .Y(net8349)
 );
@@ -61550,7 +61550,7 @@ NAND2xp5_ASAP7_75t_R c8314(
 .Y(net8350)
 );
 
-INVx3_ASAP7_75t_R c8315(
+HB1xp67_ASAP7_75t_R c8315(
 .A(net8273),
 .Y(net8351)
 );
@@ -61567,7 +61567,7 @@ NOR2x1_ASAP7_75t_R c8317(
 .Y(net8353)
 );
 
-INVx4_ASAP7_75t_R c8318(
+HB2xp67_ASAP7_75t_R c8318(
 .A(net10297),
 .Y(net8354)
 );
@@ -61596,7 +61596,7 @@ NOR2xp67_ASAP7_75t_R c8322(
 .Y(net8358)
 );
 
-INVx5_ASAP7_75t_R c8323(
+HB3xp67_ASAP7_75t_R c8323(
 .A(net8353),
 .Y(net8359)
 );
@@ -61607,7 +61607,7 @@ OR2x2_ASAP7_75t_R c8324(
 .Y(net8360)
 );
 
-INVx6_ASAP7_75t_R c8325(
+HB4xp67_ASAP7_75t_R c8325(
 .A(net8348),
 .Y(net8361)
 );
@@ -61625,7 +61625,7 @@ OR2x4_ASAP7_75t_R c8327(
 .Y(net8363)
 );
 
-INVx8_ASAP7_75t_R c8328(
+INVx11_ASAP7_75t_R c8328(
 .A(net8289),
 .Y(net8364)
 );
@@ -61636,12 +61636,12 @@ OR2x6_ASAP7_75t_R c8329(
 .Y(net8365)
 );
 
-INVxp33_ASAP7_75t_R c8330(
+INVx13_ASAP7_75t_R c8330(
 .A(net8299),
 .Y(net8366)
 );
 
-INVxp67_ASAP7_75t_R c8331(
+INVx1_ASAP7_75t_R c8331(
 .A(net9187),
 .Y(net8367)
 );
@@ -61698,7 +61698,7 @@ OR3x4_ASAP7_75t_R c8339(
 .Y(net8375)
 );
 
-BUFx10_ASAP7_75t_R c8340(
+INVx2_ASAP7_75t_R c8340(
 .A(net10405),
 .Y(net8376)
 );
@@ -61709,7 +61709,7 @@ XOR2xp5_ASAP7_75t_R c8341(
 .Y(net8377)
 );
 
-BUFx12_ASAP7_75t_R c8342(
+INVx3_ASAP7_75t_R c8342(
 .A(net8363),
 .Y(net8378)
 );
@@ -61727,7 +61727,7 @@ AND2x2_ASAP7_75t_R c8344(
 .Y(net8380)
 );
 
-BUFx12f_ASAP7_75t_R c8345(
+INVx4_ASAP7_75t_R c8345(
 .A(net8351),
 .Y(net8381)
 );
@@ -61751,7 +61751,7 @@ AND2x6_ASAP7_75t_R c8348(
 .Y(net8384)
 );
 
-BUFx16f_ASAP7_75t_R c8349(
+INVx5_ASAP7_75t_R c8349(
 .A(net10559),
 .Y(net8385)
 );
@@ -62028,17 +62028,17 @@ OR2x2_ASAP7_75t_R c8388(
 .Y(net8425)
 );
 
-BUFx24_ASAP7_75t_R c8389(
+INVx6_ASAP7_75t_R c8389(
 .A(net10115),
 .Y(net8426)
 );
 
-BUFx2_ASAP7_75t_R c8390(
+INVx8_ASAP7_75t_R c8390(
 .A(net8325),
 .Y(net8427)
 );
 
-BUFx3_ASAP7_75t_R c8391(
+INVxp33_ASAP7_75t_R c8391(
 .A(net10433),
 .Y(net8428)
 );
@@ -62112,7 +62112,7 @@ AND2x4_ASAP7_75t_R c8402(
 .Y(net8439)
 );
 
-BUFx4_ASAP7_75t_R c8403(
+INVxp67_ASAP7_75t_R c8403(
 .A(net10513),
 .Y(net8440)
 );
@@ -62150,12 +62150,12 @@ NAND2x1_ASAP7_75t_R c8408(
 .Y(net8445)
 );
 
-BUFx4f_ASAP7_75t_R c8409(
+BUFx10_ASAP7_75t_R c8409(
 .A(net10486),
 .Y(net8446)
 );
 
-BUFx5_ASAP7_75t_R c8410(
+BUFx12_ASAP7_75t_R c8410(
 .A(net10492),
 .Y(net8447)
 );
@@ -62217,7 +62217,7 @@ NOR2x1_ASAP7_75t_R c8419(
 .Y(net8456)
 );
 
-BUFx6f_ASAP7_75t_R c8420(
+BUFx12f_ASAP7_75t_R c8420(
 .A(net10433),
 .Y(net8457)
 );
@@ -62228,7 +62228,7 @@ NOR2x1p5_ASAP7_75t_R c8421(
 .Y(net8458)
 );
 
-BUFx8_ASAP7_75t_R c8422(
+BUFx16f_ASAP7_75t_R c8422(
 .A(net10338),
 .Y(net8459)
 );
@@ -62349,7 +62349,7 @@ OR2x6_ASAP7_75t_R c8438(
 .Y(net8475)
 );
 
-CKINVDCx10_ASAP7_75t_R c8439(
+BUFx24_ASAP7_75t_R c8439(
 .A(net10115),
 .Y(net8476)
 );
@@ -62366,7 +62366,7 @@ XNOR2x2_ASAP7_75t_R c8441(
 .Y(net8478)
 );
 
-CKINVDCx11_ASAP7_75t_R c8442(
+BUFx2_ASAP7_75t_R c8442(
 .A(net10553),
 .Y(net8479)
 );
@@ -62427,7 +62427,7 @@ HAxp5_ASAP7_75t_R c8451(
 .SN(net8488)
 );
 
-CKINVDCx12_ASAP7_75t_R c8452(
+BUFx3_ASAP7_75t_R c8452(
 .A(net10338),
 .Y(net8490)
 );
@@ -62446,7 +62446,7 @@ AND3x4_ASAP7_75t_R c8454(
 .Y(net8492)
 );
 
-CKINVDCx14_ASAP7_75t_R c8455(
+BUFx4_ASAP7_75t_R c8455(
 .A(net10459),
 .Y(net8493)
 );
@@ -62519,7 +62519,7 @@ NAND2xp5_ASAP7_75t_R c8465(
 .Y(net8503)
 );
 
-CKINVDCx16_ASAP7_75t_R c8466(
+BUFx4f_ASAP7_75t_R c8466(
 .A(net10093),
 .Y(net8504)
 );
@@ -62530,7 +62530,7 @@ NAND2xp67_ASAP7_75t_R c8467(
 .Y(net8505)
 );
 
-CKINVDCx20_ASAP7_75t_R c8468(
+BUFx5_ASAP7_75t_R c8468(
 .A(net10053),
 .Y(net8506)
 );
@@ -62555,7 +62555,7 @@ AOI21xp5_ASAP7_75t_R c8471(
 .Y(net8509)
 );
 
-CKINVDCx5p33_ASAP7_75t_R c8472(
+BUFx6f_ASAP7_75t_R c8472(
 .A(net10121),
 .Y(net8510)
 );
@@ -62566,7 +62566,7 @@ NOR2x1p5_ASAP7_75t_R c8473(
 .Y(net8511)
 );
 
-CKINVDCx6p67_ASAP7_75t_R c8474(
+BUFx8_ASAP7_75t_R c8474(
 .A(net10521),
 .Y(net8512)
 );
@@ -62752,7 +62752,7 @@ XOR2xp5_ASAP7_75t_R c8501(
 .Y(net8540)
 );
 
-CKINVDCx8_ASAP7_75t_R c8502(
+CKINVDCx5p33_ASAP7_75t_R c8502(
 .A(net10521),
 .Y(net8541)
 );
@@ -62815,7 +62815,7 @@ NAND2x2_ASAP7_75t_R c8511(
 .Y(net8551)
 );
 
-CKINVDCx9p33_ASAP7_75t_R c8512(
+CKINVDCx6p67_ASAP7_75t_R c8512(
 .A(net10539),
 .Y(net8552)
 );
@@ -62891,7 +62891,7 @@ OR3x1_ASAP7_75t_R c8523(
 .Y(net8563)
 );
 
-HB1xp67_ASAP7_75t_R c8524(
+CKINVDCx8_ASAP7_75t_R c8524(
 .A(net10053),
 .Y(net8564)
 );
@@ -63081,7 +63081,7 @@ MAJx3_ASAP7_75t_R c8550(
 .Y(net8590)
 );
 
-HB2xp67_ASAP7_75t_R c8551(
+CKINVDCx9p33_ASAP7_75t_R c8551(
 .A(net10092),
 .Y(net8591)
 );
@@ -63175,7 +63175,7 @@ NOR3xp33_ASAP7_75t_R c8564(
 .Y(net8604)
 );
 
-HB3xp67_ASAP7_75t_R c8565(
+HB1xp67_ASAP7_75t_R c8565(
 .A(net10552),
 .Y(net8605)
 );
@@ -63200,7 +63200,7 @@ OAI21x1_ASAP7_75t_R c8568(
 .Y(net8608)
 );
 
-HB4xp67_ASAP7_75t_R c8569(
+HB2xp67_ASAP7_75t_R c8569(
 .A(net10574),
 .Y(net8609)
 );
@@ -63456,12 +63456,12 @@ SDFHx3_ASAP7_75t_R c8604(
 .QN(net8646)
 );
 
-INVx11_ASAP7_75t_R c8605(
+HB3xp67_ASAP7_75t_R c8605(
 .A(net10092),
 .Y(net8647)
 );
 
-INVx13_ASAP7_75t_R c8606(
+HB4xp67_ASAP7_75t_R c8606(
 .A(net10439),
 .Y(net8648)
 );
@@ -63500,7 +63500,7 @@ SDFHx4_ASAP7_75t_R c8610(
 .QN(net8652)
 );
 
-INVx1_ASAP7_75t_R c8611(
+INVx11_ASAP7_75t_R c8611(
 .A(net10354),
 .Y(net8653)
 );
@@ -63537,7 +63537,7 @@ OA33x2_ASAP7_75t_R c8615(
 .Y(net8657)
 );
 
-INVx2_ASAP7_75t_R c8616(
+INVx13_ASAP7_75t_R c8616(
 .A(net10383),
 .Y(net8658)
 );
@@ -63670,12 +63670,12 @@ AOI21xp33_ASAP7_75t_R c8634(
 .Y(net8676)
 );
 
-INVx3_ASAP7_75t_R c8635(
+INVx1_ASAP7_75t_R c8635(
 .A(net10154),
 .Y(net8677)
 );
 
-INVx4_ASAP7_75t_R c8636(
+INVx2_ASAP7_75t_R c8636(
 .A(net10154),
 .Y(net8678)
 );
@@ -63727,7 +63727,7 @@ NAND2xp67_ASAP7_75t_R c8643(
 .Y(net8685)
 );
 
-INVx5_ASAP7_75t_R c8644(
+INVx3_ASAP7_75t_R c8644(
 .A(net10518),
 .Y(net8686)
 );
@@ -64248,7 +64248,7 @@ SDFHx4_ASAP7_75t_R c8718(
 .QN(net8761)
 );
 
-INVx6_ASAP7_75t_R c8719(
+INVx4_ASAP7_75t_R c8719(
 .A(net10104),
 .Y(net8762)
 );
@@ -64281,7 +64281,7 @@ AND3x2_ASAP7_75t_R c8723(
 .Y(net8766)
 );
 
-INVx8_ASAP7_75t_R c8724(
+INVx5_ASAP7_75t_R c8724(
 .A(net10492),
 .Y(net8767)
 );
@@ -64313,7 +64313,7 @@ NAND2xp67_ASAP7_75t_R c8728(
 .Y(net8771)
 );
 
-INVxp33_ASAP7_75t_R c8729(
+INVx6_ASAP7_75t_R c8729(
 .A(net10356),
 .Y(net8772)
 );
@@ -64325,7 +64325,7 @@ AO21x1_ASAP7_75t_R c8730(
 .Y(net8773)
 );
 
-INVxp67_ASAP7_75t_R c8731(
+INVx8_ASAP7_75t_R c8731(
 .A(net10370),
 .Y(net8774)
 );
@@ -64349,7 +64349,7 @@ AO21x2_ASAP7_75t_R c8734(
 .Y(net8777)
 );
 
-BUFx10_ASAP7_75t_R c8735(
+INVxp33_ASAP7_75t_R c8735(
 .A(net10347),
 .Y(net8778)
 );
@@ -64484,7 +64484,7 @@ NOR3x1_ASAP7_75t_R c8753(
 .Y(net8797)
 );
 
-BUFx12_ASAP7_75t_R c8754(
+INVxp67_ASAP7_75t_R c8754(
 .A(net10377),
 .Y(net8798)
 );
@@ -64524,7 +64524,7 @@ OA21x2_ASAP7_75t_R c8759(
 .Y(net8803)
 );
 
-BUFx12f_ASAP7_75t_R c8760(
+BUFx10_ASAP7_75t_R c8760(
 .A(net10347),
 .Y(net8804)
 );
@@ -64834,7 +64834,7 @@ MAJIxp5_ASAP7_75t_R c8802(
 .Y(net8847)
 );
 
-BUFx16f_ASAP7_75t_R c8803(
+BUFx12_ASAP7_75t_R c8803(
 .A(net10424),
 .Y(net8848)
 );
@@ -64851,7 +64851,7 @@ HAxp5_ASAP7_75t_R c8805(
 .CON(net8850)
 );
 
-BUFx24_ASAP7_75t_R c8806(
+BUFx12f_ASAP7_75t_R c8806(
 .A(net10334),
 .Y(net8851)
 );
@@ -64905,7 +64905,7 @@ ICGx4DC_ASAP7_75t_R c8813(
 .GCLK(net8858)
 );
 
-BUFx2_ASAP7_75t_R c8814(
+BUFx16f_ASAP7_75t_R c8814(
 .A(net10094),
 .Y(net8859)
 );
@@ -65057,7 +65057,7 @@ OR3x2_ASAP7_75t_R c8835(
 .Y(net8880)
 );
 
-BUFx3_ASAP7_75t_R c8836(
+BUFx24_ASAP7_75t_R c8836(
 .A(net10424),
 .Y(net8881)
 );
@@ -65110,7 +65110,7 @@ NOR2x2_ASAP7_75t_R c8843(
 .Y(net8888)
 );
 
-BUFx4_ASAP7_75t_R c8844(
+BUFx2_ASAP7_75t_R c8844(
 .A(net10451),
 .Y(net8889)
 );
@@ -65129,7 +65129,7 @@ AO21x1_ASAP7_75t_R c8846(
 .Y(net8891)
 );
 
-BUFx4f_ASAP7_75t_R c8847(
+BUFx3_ASAP7_75t_R c8847(
 .A(net10351),
 .Y(net8892)
 );
@@ -65238,7 +65238,7 @@ NAND3xp33_ASAP7_75t_R c8862(
 .Y(net8908)
 );
 
-BUFx5_ASAP7_75t_R c8863(
+BUFx4_ASAP7_75t_R c8863(
 .A(net10334),
 .Y(net8909)
 );
@@ -65445,7 +65445,7 @@ AOI21x1_ASAP7_75t_R c8891(
 .Y(net8937)
 );
 
-BUFx6f_ASAP7_75t_R c8892(
+BUFx4f_ASAP7_75t_R c8892(
 .A(net10335),
 .Y(net8938)
 );
@@ -65499,7 +65499,7 @@ FAx1_ASAP7_75t_R c8899(
 .SN(net8945)
 );
 
-BUFx8_ASAP7_75t_R c8900(
+BUFx5_ASAP7_75t_R c8900(
 .A(net10374),
 .Y(net8946)
 );
@@ -65536,7 +65536,7 @@ MAJx2_ASAP7_75t_R c8905(
 .Y(net8951)
 );
 
-CKINVDCx10_ASAP7_75t_R c8906(
+BUFx6f_ASAP7_75t_R c8906(
 .A(net10335),
 .Y(net8952)
 );
@@ -65823,7 +65823,7 @@ NOR3xp33_ASAP7_75t_R c8946(
 .Y(net8992)
 );
 
-CKINVDCx11_ASAP7_75t_R c8947(
+BUFx8_ASAP7_75t_R c8947(
 .A(net10351),
 .Y(net8993)
 );
@@ -65983,7 +65983,7 @@ NAND2xp33_ASAP7_75t_R c8968(
 .Y(net9014)
 );
 
-CKINVDCx12_ASAP7_75t_R c8969(
+CKINVDCx5p33_ASAP7_75t_R c8969(
 .A(net10336),
 .Y(net9015)
 );
@@ -66056,7 +66056,7 @@ NAND3x2_ASAP7_75t_R c8979(
 .Y(net9025)
 );
 
-CKINVDCx14_ASAP7_75t_R c8980(
+CKINVDCx6p67_ASAP7_75t_R c8980(
 .A(net10336),
 .Y(net9026)
 );
@@ -66223,12 +66223,12 @@ AOI21xp33_ASAP7_75t_R c9003(
 .Y(net9049)
 );
 
-CKINVDCx16_ASAP7_75t_R c9004(
+CKINVDCx8_ASAP7_75t_R c9004(
 .A(net10358),
 .Y(net9050)
 );
 
-CKINVDCx20_ASAP7_75t_R c9005(
+CKINVDCx9p33_ASAP7_75t_R c9005(
 .A(net10358),
 .Y(net9051)
 );
@@ -66488,7 +66488,7 @@ O2A1O1Ixp5_ASAP7_75t_R merge9040(
 .Y(net9085)
 );
 
-CKINVDCx5p33_ASAP7_75t_R merge9041(
+HB1xp67_ASAP7_75t_R merge9041(
 .A(net10414),
 .Y(net9086)
 );
@@ -66567,7 +66567,7 @@ ICGx1_ASAP7_75t_R merge9051(
 .GCLK(net9096)
 );
 
-CKINVDCx6p67_ASAP7_75t_R merge9052(
+HB2xp67_ASAP7_75t_R merge9052(
 .A(net10391),
 .Y(net9097)
 );
@@ -66603,17 +66603,17 @@ OAI22x1_ASAP7_75t_R merge9056(
 .Y(net9101)
 );
 
-CKINVDCx8_ASAP7_75t_R merge9057(
+HB3xp67_ASAP7_75t_R merge9057(
 .A(net10363),
 .Y(net9102)
 );
 
-CKINVDCx9p33_ASAP7_75t_R merge9058(
+HB4xp67_ASAP7_75t_R merge9058(
 .A(net10526),
 .Y(net9103)
 );
 
-HB1xp67_ASAP7_75t_R merge9059(
+INVx11_ASAP7_75t_R merge9059(
 .A(net10015),
 .Y(net9104)
 );
@@ -66678,7 +66678,7 @@ OR4x1_ASAP7_75t_R merge9067(
 .Y(net9112)
 );
 
-HB2xp67_ASAP7_75t_R merge9068(
+INVx13_ASAP7_75t_R merge9068(
 .A(net10437),
 .Y(net9113)
 );
@@ -66705,7 +66705,7 @@ MAJx2_ASAP7_75t_R merge9071(
 .Y(net9116)
 );
 
-HB3xp67_ASAP7_75t_R merge9072(
+INVx1_ASAP7_75t_R merge9072(
 .A(net10493),
 .Y(net9117)
 );
@@ -66724,7 +66724,7 @@ NAND3x1_ASAP7_75t_R merge9074(
 .Y(net9119)
 );
 
-HB4xp67_ASAP7_75t_R merge9075(
+INVx2_ASAP7_75t_R merge9075(
 .A(net10426),
 .Y(net9120)
 );
@@ -66736,7 +66736,7 @@ ICGx4_ASAP7_75t_R merge9076(
 .GCLK(net9121)
 );
 
-INVx11_ASAP7_75t_R merge9077(
+INVx3_ASAP7_75t_R merge9077(
 .A(net10398),
 .Y(net9122)
 );
@@ -66794,12 +66794,12 @@ AND4x2_ASAP7_75t_R merge9084(
 .Y(net9129)
 );
 
-INVx13_ASAP7_75t_R merge9085(
+INVx4_ASAP7_75t_R merge9085(
 .A(net10385),
 .Y(net9130)
 );
 
-INVx1_ASAP7_75t_R merge9086(
+INVx5_ASAP7_75t_R merge9086(
 .A(net10080),
 .Y(net9131)
 );
@@ -66819,7 +66819,7 @@ ICGx5p33DC_ASAP7_75t_R merge9088(
 .GCLK(net9133)
 );
 
-INVx2_ASAP7_75t_R merge9089(
+INVx6_ASAP7_75t_R merge9089(
 .A(net10389),
 .Y(net9134)
 );
@@ -66837,7 +66837,7 @@ ICGx6p67DC_ASAP7_75t_R merge9091(
 .GCLK(net9136)
 );
 
-INVx3_ASAP7_75t_R merge9092(
+INVx8_ASAP7_75t_R merge9092(
 .A(net10162),
 .Y(net9137)
 );
@@ -66881,7 +66881,7 @@ ICGx8DC_ASAP7_75t_R merge9097(
 .GCLK(net9142)
 );
 
-INVx4_ASAP7_75t_R merge9098(
+INVxp33_ASAP7_75t_R merge9098(
 .A(net9197),
 .Y(net9143)
 );
@@ -66893,7 +66893,7 @@ ICGx1_ASAP7_75t_R merge9099(
 .GCLK(net9144)
 );
 
-INVx5_ASAP7_75t_R merge9100(
+INVxp67_ASAP7_75t_R merge9100(
 .A(net10516),
 .Y(net9145)
 );
@@ -66918,17 +66918,17 @@ ICGx2p67DC_ASAP7_75t_R merge9103(
 .GCLK(net9148)
 );
 
-INVx6_ASAP7_75t_R merge9104(
+BUFx10_ASAP7_75t_R merge9104(
 .A(net9980),
 .Y(net9149)
 );
 
-INVx8_ASAP7_75t_R merge9105(
+BUFx12_ASAP7_75t_R merge9105(
 .A(net10454),
 .Y(net9150)
 );
 
-INVxp33_ASAP7_75t_R merge9106(
+BUFx12f_ASAP7_75t_R merge9106(
 .A(net10462),
 .Y(net9151)
 );
@@ -66941,7 +66941,7 @@ SDFHx3_ASAP7_75t_R merge9107(
 .QN(net9152)
 );
 
-INVxp67_ASAP7_75t_R merge9108(
+BUFx16f_ASAP7_75t_R merge9108(
 .A(net10429),
 .Y(net9153)
 );
@@ -66954,7 +66954,7 @@ AO22x2_ASAP7_75t_R merge9109(
 .Y(net9154)
 );
 
-BUFx10_ASAP7_75t_R merge9110(
+BUFx24_ASAP7_75t_R merge9110(
 .A(net10534),
 .Y(net9155)
 );
@@ -66989,7 +66989,7 @@ AO31x2_ASAP7_75t_R merge9114(
 .Y(net9159)
 );
 
-BUFx12_ASAP7_75t_R merge9115(
+BUFx2_ASAP7_75t_R merge9115(
 .A(net10460),
 .Y(net9160)
 );
@@ -67054,17 +67054,17 @@ XOR2x1_ASAP7_75t_R merge9123(
 .Y(net9168)
 );
 
-BUFx12f_ASAP7_75t_R merge9124(
+BUFx3_ASAP7_75t_R merge9124(
 .A(net10504),
 .Y(net9169)
 );
 
-BUFx16f_ASAP7_75t_R merge9125(
+BUFx4_ASAP7_75t_R merge9125(
 .A(net10408),
 .Y(net9170)
 );
 
-BUFx24_ASAP7_75t_R merge9126(
+BUFx4f_ASAP7_75t_R merge9126(
 .A(net9199),
 .Y(net9171)
 );
@@ -67083,7 +67083,7 @@ ICGx5_ASAP7_75t_R merge9128(
 .GCLK(net9173)
 );
 
-BUFx2_ASAP7_75t_R merge9129(
+BUFx5_ASAP7_75t_R merge9129(
 .A(net10526),
 .Y(net9174)
 );
@@ -67096,12 +67096,12 @@ AOI22xp5_ASAP7_75t_R merge9130(
 .Y(net9175)
 );
 
-BUFx3_ASAP7_75t_R merge9131(
+BUFx6f_ASAP7_75t_R merge9131(
 .A(net10472),
 .Y(net9176)
 );
 
-BUFx4_ASAP7_75t_R merge9132(
+BUFx8_ASAP7_75t_R merge9132(
 .A(net10459),
 .Y(net9177)
 );
@@ -67129,7 +67129,7 @@ NAND3xp33_ASAP7_75t_R merge9135(
 .Y(net9180)
 );
 
-BUFx4f_ASAP7_75t_R merge9136(
+CKINVDCx5p33_ASAP7_75t_R merge9136(
 .A(net9199),
 .Y(net9181)
 );
@@ -67156,7 +67156,7 @@ ICGx5p33DC_ASAP7_75t_R merge9139(
 .GCLK(net9184)
 );
 
-BUFx5_ASAP7_75t_R merge9140(
+CKINVDCx6p67_ASAP7_75t_R merge9140(
 .A(net10457),
 .Y(net9185)
 );
@@ -67183,7 +67183,7 @@ ICGx8DC_ASAP7_75t_R merge9143(
 .GCLK(net9188)
 );
 
-BUFx6f_ASAP7_75t_R merge9144(
+CKINVDCx8_ASAP7_75t_R merge9144(
 .A(net10367),
 .Y(net9189)
 );
@@ -67195,7 +67195,7 @@ ICGx1_ASAP7_75t_R merge9145(
 .GCLK(net9190)
 );
 
-BUFx8_ASAP7_75t_R merge9146(
+CKINVDCx9p33_ASAP7_75t_R merge9146(
 .A(net9970),
 .Y(net9191)
 );
@@ -67208,7 +67208,7 @@ NAND4xp75_ASAP7_75t_R merge9147(
 .Y(net9192)
 );
 
-CKINVDCx10_ASAP7_75t_R merge9148(
+HB1xp67_ASAP7_75t_R merge9148(
 .A(net10503),
 .Y(net9193)
 );
@@ -67221,7 +67221,7 @@ NOR4xp25_ASAP7_75t_R merge9149(
 .Y(net9194)
 );
 
-CKINVDCx11_ASAP7_75t_R merge9150(
+HB2xp67_ASAP7_75t_R merge9150(
 .A(net10473),
 .Y(net9195)
 );
@@ -67234,7 +67234,7 @@ NOR4xp75_ASAP7_75t_R merge9151(
 .Y(net9196)
 );
 
-CKINVDCx12_ASAP7_75t_R merge9152(
+HB3xp67_ASAP7_75t_R merge9152(
 .A(net9746),
 .Y(net9197)
 );
@@ -67262,12 +67262,12 @@ ICGx2_ASAP7_75t_R merge9155(
 .GCLK(net9200)
 );
 
-CKINVDCx14_ASAP7_75t_R merge9156(
+HB4xp67_ASAP7_75t_R merge9156(
 .A(net10446),
 .Y(net9201)
 );
 
-CKINVDCx16_ASAP7_75t_R merge9157(
+INVx11_ASAP7_75t_R merge9157(
 .A(net10519),
 .Y(net9202)
 );
@@ -67279,7 +67279,7 @@ ICGx2p67DC_ASAP7_75t_R merge9158(
 .GCLK(net9203)
 );
 
-CKINVDCx20_ASAP7_75t_R merge9159(
+INVx13_ASAP7_75t_R merge9159(
 .A(net10157),
 .Y(net9204)
 );
@@ -67320,7 +67320,7 @@ XOR2x2_ASAP7_75t_R merge9164(
 .Y(net9209)
 );
 
-CKINVDCx5p33_ASAP7_75t_R merge9165(
+INVx1_ASAP7_75t_R merge9165(
 .A(net10395),
 .Y(net9210)
 );
@@ -67332,12 +67332,12 @@ ICGx4_ASAP7_75t_R merge9166(
 .GCLK(net9211)
 );
 
-CKINVDCx6p67_ASAP7_75t_R merge9167(
+INVx2_ASAP7_75t_R merge9167(
 .A(net10430),
 .Y(net9212)
 );
 
-CKINVDCx8_ASAP7_75t_R merge9168(
+INVx3_ASAP7_75t_R merge9168(
 .A(net10498),
 .Y(net9213)
 );
@@ -67379,7 +67379,7 @@ ICGx6p67DC_ASAP7_75t_R merge9173(
 .GCLK(net9218)
 );
 
-CKINVDCx9p33_ASAP7_75t_R merge9174(
+INVx4_ASAP7_75t_R merge9174(
 .A(net10441),
 .Y(net9219)
 );
@@ -67390,7 +67390,7 @@ XOR2xp5_ASAP7_75t_R merge9175(
 .Y(net9220)
 );
 
-HB1xp67_ASAP7_75t_R merge9176(
+INVx5_ASAP7_75t_R merge9176(
 .A(net10163),
 .Y(net9221)
 );
@@ -67403,17 +67403,17 @@ OAI211xp5_ASAP7_75t_R merge9177(
 .Y(net9222)
 );
 
-HB2xp67_ASAP7_75t_R merge9178(
+INVx6_ASAP7_75t_R merge9178(
 .A(net10160),
 .Y(net9223)
 );
 
-HB3xp67_ASAP7_75t_R merge9179(
+INVx8_ASAP7_75t_R merge9179(
 .A(net10148),
 .Y(net9224)
 );
 
-HB4xp67_ASAP7_75t_R merge9180(
+INVxp33_ASAP7_75t_R merge9180(
 .A(net10541),
 .Y(net9225)
 );
@@ -67425,7 +67425,7 @@ ICGx8DC_ASAP7_75t_R merge9181(
 .GCLK(net9226)
 );
 
-INVx11_ASAP7_75t_R merge9182(
+INVxp67_ASAP7_75t_R merge9182(
 .A(net10462),
 .Y(net9227)
 );
@@ -67437,7 +67437,7 @@ ICGx1_ASAP7_75t_R merge9183(
 .GCLK(net9228)
 );
 
-INVx13_ASAP7_75t_R merge9184(
+BUFx10_ASAP7_75t_R merge9184(
 .A(net10476),
 .Y(net9229)
 );
@@ -67449,7 +67449,7 @@ ICGx2_ASAP7_75t_R merge9185(
 .GCLK(net9230)
 );
 
-INVx1_ASAP7_75t_R merge9186(
+BUFx12_ASAP7_75t_R merge9186(
 .A(net10532),
 .Y(net9231)
 );
@@ -67474,7 +67474,7 @@ AND2x2_ASAP7_75t_R merge9189(
 .Y(net9234)
 );
 
-INVx2_ASAP7_75t_R merge9190(
+BUFx12f_ASAP7_75t_R merge9190(
 .A(net10402),
 .Y(net9235)
 );
@@ -67493,12 +67493,12 @@ OAI22x1_ASAP7_75t_R merge9192(
 .Y(net9237)
 );
 
-INVx3_ASAP7_75t_R merge9193(
+BUFx16f_ASAP7_75t_R merge9193(
 .A(net10515),
 .Y(net9238)
 );
 
-INVx4_ASAP7_75t_R merge9194(
+BUFx24_ASAP7_75t_R merge9194(
 .A(net9746),
 .Y(net9239)
 );
@@ -67548,7 +67548,7 @@ OAI22xp5_ASAP7_75t_R merge9200(
 .Y(net9245)
 );
 
-INVx5_ASAP7_75t_R merge9201(
+BUFx2_ASAP7_75t_R merge9201(
 .A(net10549),
 .Y(net9246)
 );
@@ -67560,7 +67560,7 @@ ICGx5_ASAP7_75t_R merge9202(
 .GCLK(net9247)
 );
 
-INVx6_ASAP7_75t_R merge9203(
+BUFx3_ASAP7_75t_R merge9203(
 .A(net10024),
 .Y(net9248)
 );
@@ -67573,22 +67573,22 @@ OAI31xp33_ASAP7_75t_R merge9204(
 .Y(net9249)
 );
 
-INVx8_ASAP7_75t_R merge9205(
+BUFx4_ASAP7_75t_R merge9205(
 .A(net10473),
 .Y(net9250)
 );
 
-INVxp33_ASAP7_75t_R merge9206(
+BUFx4f_ASAP7_75t_R merge9206(
 .A(net10505),
 .Y(net9251)
 );
 
-INVxp67_ASAP7_75t_R merge9207(
+BUFx5_ASAP7_75t_R merge9207(
 .A(net10461),
 .Y(net9252)
 );
 
-BUFx10_ASAP7_75t_R merge9208(
+BUFx6f_ASAP7_75t_R merge9208(
 .A(net10434),
 .Y(net9253)
 );
@@ -67616,7 +67616,7 @@ OR4x1_ASAP7_75t_R merge9211(
 .Y(net9256)
 );
 
-BUFx12_ASAP7_75t_R merge9212(
+BUFx8_ASAP7_75t_R merge9212(
 .A(net9969),
 .Y(net9257)
 );
@@ -67644,7 +67644,7 @@ A2O1A1Ixp33_ASAP7_75t_R merge9215(
 .Y(net9260)
 );
 
-BUFx12f_ASAP7_75t_R merge9216(
+CKINVDCx5p33_ASAP7_75t_R merge9216(
 .A(net10426),
 .Y(net9261)
 );
@@ -67665,12 +67665,12 @@ AND4x2_ASAP7_75t_R merge9218(
 .Y(net9263)
 );
 
-BUFx16f_ASAP7_75t_R merge9219(
+CKINVDCx6p67_ASAP7_75t_R merge9219(
 .A(net10466),
 .Y(net9264)
 );
 
-BUFx24_ASAP7_75t_R merge9220(
+CKINVDCx8_ASAP7_75t_R merge9220(
 .A(net10054),
 .Y(net9265)
 );
@@ -67683,7 +67683,7 @@ AO211x2_ASAP7_75t_R merge9221(
 .Y(net9266)
 );
 
-BUFx2_ASAP7_75t_R merge9222(
+CKINVDCx9p33_ASAP7_75t_R merge9222(
 .A(net10039),
 .Y(net9267)
 );
@@ -67695,12 +67695,12 @@ OA21x2_ASAP7_75t_R merge9223(
 .Y(net9268)
 );
 
-BUFx3_ASAP7_75t_R merge9224(
+HB1xp67_ASAP7_75t_R merge9224(
 .A(net10444),
 .Y(net9269)
 );
 
-BUFx4_ASAP7_75t_R merge9225(
+HB2xp67_ASAP7_75t_R merge9225(
 .A(net10392),
 .Y(net9270)
 );
@@ -67720,7 +67720,7 @@ AO22x1_ASAP7_75t_R merge9227(
 .Y(net9272)
 );
 
-BUFx4f_ASAP7_75t_R merge9228(
+HB3xp67_ASAP7_75t_R merge9228(
 .A(net10440),
 .Y(net9273)
 );
@@ -67854,7 +67854,7 @@ AOI31xp33_ASAP7_75t_R merge9245(
 .Y(net9290)
 );
 
-BUFx5_ASAP7_75t_R merge9246(
+HB4xp67_ASAP7_75t_R merge9246(
 .A(net10436),
 .Y(net9291)
 );

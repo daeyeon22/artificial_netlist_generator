@@ -24,11 +24,6 @@ class Gain {
         value_(value), n1_(n1), n2_(n2) {}
     ~Gain(){}
     Gain(const Gain& g) : value_(g.value_), n1_(g.n1_), n2_(g.n2_) {}
-    //    value_ = g.value();
-    //    n1_ = g.n1();
-    //    n2_ = g.n2();
-    //}
-
     double value() const { return value_; }
     Node* n1() { return n1_; }
     Node* n2() { return n2_; }

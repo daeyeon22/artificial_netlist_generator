@@ -19,8 +19,6 @@ read_lef ./lef/asap7sc7p5t_28_R_1x_220121a.lef
 #                       just give an estimated value 
 
 
-# optional (default : 0.1 [ns])
-# artnetgen_set_parameter -avg_gate_delay __AVG_GATE_DELAY__
 
 artnetgen_create_spec \
     -num_insts 11591 \
@@ -32,12 +30,29 @@ artnetgen_create_spec \
     -cell_list ./onlyUseCell.list \
     -out_file ./test_circuit.spec
 
-generate_artificial_netlist -top_module test_circuit \
-                            -spec_file  test_circuit.spec \
-                            -verbose 6 
 
-artnetgen_write_verilog -out_file test_circuit.v 
+artnetgen_init  -top_module test_circuit \
+                -spec_file  test_circuit.spec \
+                -verbose 6 
+
 # optional (default : 0.1 [ns])
 # artnetgen_set_parameter -avg_gate_delay __AVG_GATE_DELAY__
+
+# set_dont_use clock interter types (example)
+artnetgen_set_parameter -dont_use CKINVDCx10_ASAP7_75t_R
+artnetgen_set_parameter -dont_use CKINVDCx11_ASAP7_75t_R
+artnetgen_set_parameter -dont_use CKINVDCx12_ASAP7_75t_R
+artnetgen_set_parameter -dont_use CKINVDCx14_ASAP7_75t_R
+artnetgen_set_parameter -dont_use CKINVDCx16_ASAP7_75t_R
+artnetgen_set_parameter -dont_use CKINVDCx20_ASAP7_75t_R
+
+# check the list of available masters
+artnetgen_print_masters
+
+# if you finished setting parameters, run
+artnetgen_run
+
+
+artnetgen_write_verilog -out_file test_circuit.v 
 artnetgen_write_sdc -out_file test_circuit.sdc
 exit

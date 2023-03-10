@@ -41,72 +41,22 @@ Netlist::initOnlyUseMasters() {
         float ratio = info.ratio();
 
         master2ratio_[master] = ratio;
+        unordered_map<string, int> ioCount = getPortInfo(master);
 
-        dbSet<dbMTerm> terms = master->getMTerms();
-        
-        int inSigCnt = 0;
-        int inClkCnt = 0;
-        int inRstCnt = 0;
-        int inScanCnt = 0;
-        int outSigCnt = 0;
-        int outClkCnt = 0;
-        int outRstCnt = 0;
-        int outScanCnt = 0;
-
-        for(auto it = terms.begin(); it != terms.end(); it++) {
-            string termName = it->getName();
-            if(termName == "si" || termName == "ssb") {
-                inScanCnt++;
-            } else {
-                dbSigType sigType = it->getSigType();
-                dbIoType ioType = it->getIoType();
-                if(sigType.getValue() == dbSigType::SIGNAL) {
-                    if(ioType.getValue() == dbIoType::INPUT) {
-                        inSigCnt++;
-                    } else if(ioType.getValue() == dbIoType::OUTPUT) {
-                        outSigCnt++;
-                    }
-                } else if(sigType.getValue() == dbSigType::CLOCK) {
-                    if(ioType.getValue() == dbIoType::INPUT) {
-                        inClkCnt++;
-                    } else if(ioType.getValue() == dbIoType::OUTPUT) {
-                        outClkCnt++;
-                    }
-                } else if(sigType.getValue() == dbSigType::RESET) {
-                    if(ioType.getValue() == dbIoType::INPUT) {
-                        inRstCnt++;
-                    } else if(ioType.getValue() == dbIoType::OUTPUT) {
-                        outRstCnt++;
-                    }
-                } else if(sigType.getValue() == dbSigType::SCAN) {
-                    if(ioType.getValue() == dbIoType::INPUT) {
-                        inScanCnt++;
-                    } else if(ioType.getValue() == dbIoType::OUTPUT) {
-                        outScanCnt++;
-                    }               
-                } else {
-
-                }
-            }
-        }
-        cout << master->getName() << " inSig " 
-             << inSigCnt << " outSig " << outSigCnt << " inClk " << inClkCnt << " outClk " << outClkCnt << " inRst " 
-             << inRstCnt << " outRst " << outRstCnt << " inScn " << inScanCnt << " outScn " << outScanCnt << endl;
-
-        if(outSigCnt == 0)
+        if(ioCount["output_signal"] == 0)
             continue;
-        
-        if(inScanCnt > 0) {
+
+        if(ioCount["input_scan"] > 0) {
             cout << "current version does not support scan-chain cell... (" << master->getName() << ")" <<  endl;
             continue;
         }
 
-        if(inClkCnt > 0) {
+        if(ioCount["input_clock"] > 0) {
             // sequential cell
-            fi2SequMasters_[inSigCnt].push_back(master);       
+            fi2SequMasters_[ioCount["input_signal"]].push_back(master);       
         } else {
             // combinational cell
-            fi2CombMasters_[inSigCnt].push_back(master);
+            fi2CombMasters_[ioCount["input_signal"]].push_back(master);
         }
     }
 
@@ -679,9 +629,10 @@ Netlist::timingPathConstruction_v1() {
             }
         }
   
-     
-        cout << numIter++ << "-iteration target " << avgTopoOrder << " cur_avg " << getAvgTopologicalOrder() << " cur_max " << getMaxTopologicalOrder() << endl;
-
+    
+        if(numIter++ % 5 == 0) {
+            cout << numIter++ << "-iteration target " << avgTopoOrder << " cur_avg " << getAvgTopologicalOrder() << " cur_max " << getMaxTopologicalOrder() << endl;
+        }
 
         if(!updated)
             break;

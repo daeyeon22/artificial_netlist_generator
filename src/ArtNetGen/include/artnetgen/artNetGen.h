@@ -4,6 +4,8 @@
 #include <iostream>
 #include <memory>
 #include <vector>
+#include <unordered_map>
+#include <string>
 
 namespace odb {
 class dbDatabase;
@@ -17,12 +19,17 @@ class dbSta;
 
 namespace artnetgen {
 
+
+
+
 class MasterInfo {
   private:
     odb::dbMaster* master_;
     double ratio_;
+
   public:
     MasterInfo(odb::dbMaster* master, double ratio);
+    //MasterInfo(odb::dbMaster* master, double ratio, int inCnt, int outCnt, bool hasClock);
     ~MasterInfo();
     odb::dbMaster* master() const { return master_; }
     double ratio() const { return ratio_; }
@@ -85,6 +92,7 @@ class Distribution {
     double errorRatio(int x) const;
     void clear();
     void print();
+    void print(int maxRows);
     std::string description() { return description_; }
     std::vector<int> getSamplingVector(); 
     std::vector<DistributionInfo>::iterator end() { return info_.end(); }
@@ -134,6 +142,8 @@ class ArtNetGen {
     void setSpecFile(const char* specFile) { specFile_ = specFile; }
     void setOutFile(const char* outFile) { outFile_ = outFile; }
     void setTopModule(const char* topModule) { topModule_ = topModule; }
+    void setDontUse(const char* macroName);
+
 
     int getInstanceCnt() const { return instanceCnt_; }
     int getInputPinCnt() const { return inputPinCnt_; }
@@ -145,7 +155,8 @@ class ArtNetGen {
     int getMaxFanin() const { return maxFanin_; }
     int getMaxFanout() const { return maxFanout_; }
 
-    
+   
+    void printMasters();
     void writeVerilog(const char* fileName);
     void writeSdc(const char* fileName);
     // synClkPeriod, avgGateDelay will be disappeared later
@@ -223,16 +234,11 @@ class ArtNetGen {
     std::vector<DistributionInfo> fanOuts_;
     std::vector<DistributionInfo> netBboxes_;
     std::vector<DistributionInfo> edges_;
-
-    
-    /*
-    std::vector<DistributionInfo> fanIns_;
-    std::vector<DistributionInfo> fanOuts_;
-    std::vector<DistributionInfo> windows_;
-    std::vector<DistributionInfo> netBBoxes_;
-    */
     
 };
+
+// helper function
+std::unordered_map<std::string, int> getPortInfo(odb::dbMaster* master);
 
 }
 

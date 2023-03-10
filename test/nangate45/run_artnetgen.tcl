@@ -31,9 +31,23 @@ artnetgen_create_spec \
     -cell_list ./onlyUseCell.list \
     -out_file ./test_circuit.spec
 
-generate_artificial_netlist -top_module test_circuit \
-                            -spec_file  test_circuit.spec \
-                            -verbose 6 
+artnetgen_init  -top_module test_circuit \
+                -spec_file  test_circuit.spec \
+                -verbose 6 
+# optional (default : 0.1 [ns])
+# artnetgen_set_parameter -avg_gate_delay __AVG_GATE_DELAY__
+
+# set_dont_use clock gate cells (example)
+artnetgen_set_parameter -dont_use CLKGATETST_X1
+artnetgen_set_parameter -dont_use CLKGATETST_X2
+artnetgen_set_parameter -dont_use CLKGATETST_X4
+artnetgen_set_parameter -dont_use CLKGATETST_X8
+# check the list of available masters
+artnetgen_print_masters
+
+# if you finished setting parameters, run
+artnetgen_run
+
 
 artnetgen_write_verilog -out_file test_circuit.v 
 # optional (default : 0.1 [ns])
