@@ -10,7 +10,7 @@ Research communities have tried to publish open-source benchmarks to support CAD
 Researchers somtimes create several new versions of circuits by combining multiple modules or modifying functionality at the RTL level, but these modifications cannot provide a large variation in circuit characteristics compared to the original circuit and consume a lot of human resources for data scalability.
 
 One of the solutions to mitigate the lack of circuit benchmarks is to generate artificial circuits that represent realistic circuit characteristics. Artificial circuits can be generated using specific rules and programs so that it is cost-less compared to real-world data in terms of data scalability. 
-This is a strong motivartion why we developed this program called 'artificla netlist generator' (ANG).
+This is a strong motivartion why we developed this program called 'artificial netlist generator' (ANG).
 
 ANG can create any artificial gate-level netlist from user-specified parameters representing the topological characteristics of the circuit. ANG takes six topological parameters as inputs (see following table)
 
