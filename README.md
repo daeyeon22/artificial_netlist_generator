@@ -54,7 +54,7 @@ ANG can be used to perform (a) data augmentation by modifying topolgical paramet
                           -num_primary_ios <number of primary input and output>
                           -comb_ratio <ratio of combinational gates>
                           -avg_bbox <average size of net bounding box>
-                          -avg_net_degrere <average net degree>
+                          -avg_net_degree <average net degree>
                           -avg_topo_order <average depth of timing paths>
                           -cell_list <cell list to use>
                           -out_file <spec path>
